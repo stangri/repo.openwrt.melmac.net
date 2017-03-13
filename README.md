@@ -15,19 +15,19 @@ This package installs Web UI for quickly updating your router firmware if you au
 This service can be used to enable policy-based routing for OpenVPN tunnel and WAN interface.
 Supports accessing domains, IP ranges outside of your VPN tunnel.
 Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
-Please see the [README](https://github.com/stangri/openwrt-packages/blob/openvpn-policy-routing/net/openvpn-policy-routing/files/) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/openvpn-policy-based-routing-web-ui-testers-needed/1422/1) for further information.
+Please see the [README](https://github.com/stangri/openwrt-packages/blob/openvpn-policy-routing/net/openvpn-policy-routing/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/openvpn-policy-based-routing-web-ui-testers-needed/1422/1) for further information.
 
 
 #### simple-adblock & luci-app-simple-adblock
 This service provides dnsmasq-based ad blocking.
-Please see the [README](https://github.com/stangri/openwrt-packages/blob/simple-adblock/net/simple-adblock/files/) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/simple-adblock-fast-lightweight-and-fully-uci-luci-configurable-ad-blocking/1327) for further information.
+Please see the [README](https://github.com/stangri/openwrt-packages/blob/simple-adblock/net/simple-adblock/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/simple-adblock-fast-lightweight-and-fully-uci-luci-configurable-ad-blocking/1327) for further information.
 
 
 #### vpnbypass & luci-app-vpnbypass
 This service can be used to enable simple VPN split tunnelling.
 Supports accessing domains, IP ranges outside of your VPN tunnel.
 Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
-Please see the [README](https://github.com/stangri/openwrt-packages/blob/vpnbypass/net/vpnbypass/files/) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/vpn-bypass-split-tunneling-service-luci-ui/1106/12) for further information.
+Please see the [README](https://github.com/stangri/openwrt-packages/blob/vpnbypass/net/vpnbypass/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/vpn-bypass-split-tunneling-service-luci-ui/1106/12) for further information.
 
 ## How to use
 
