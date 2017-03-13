@@ -31,6 +31,9 @@ Please see the [README](https://github.com/stangri/openwrt-packages/blob/vpnbypa
 
 ## How to use
 
+### On your router
+To add this repo to your OpenWrt/LEDE Project router run commands below.
+
 #### OpenWrt
 ```sh
 opkg update; opkg install wget libopenssl
