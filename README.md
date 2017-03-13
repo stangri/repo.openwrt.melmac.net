@@ -31,10 +31,7 @@ Please see the [README](https://github.com/stangri/openwrt-packages/blob/vpnbypa
 
 ## How to use
 
-### On your router
-To add this repo to your OpenWrt/LEDE Project router run commands below.
-
-- OpenWrt
+#### OpenWrt
 ```sh
 opkg update; opkg install wget libopenssl
 wget --no-check-certificate https://raw.githubusercontent.com/stangri/openwrt-repo/master/stangri-repo.pub -O /tmp/stangri-repo.pub
@@ -43,7 +40,7 @@ echo 'src/gz stangri_repo https://raw.githubusercontent.com/stangri/openwrt-repo
 opkg update
 ```
 
-- LEDE Project
+#### LEDE Project
 ```sh
 opkg update; opkg install uclient-fetch libustream-mbedtls
 wget --no-check-certificate https://raw.githubusercontent.com/stangri/openwrt-repo/master/stangri-repo.pub -O /tmp/stangri-repo.pub
@@ -53,4 +50,12 @@ opkg update
 ```
 
 ### In your Image Builder/SDK
+#### Image Builder
+Add the line ```src/gz stangri_repo https://raw.githubusercontent.com/stangri/openwrt-repo/master``` to the ```repositories.conf``` insider your Image Bulder directory. You can use the following code:
+```
+sed -i '2 i\src/gz stangri_repo https://raw.githubusercontent.com/stangri/openwrt-repo/master' repositories.conf
+```
+
+#### SDK
+The packages are in various branches at [my  packages source](https://github.com/stangri/openwrt-packages) and [my  luci source](https://github.com/stangri/openwrt-luci) repositories. Check out the code you want and add it to your SDK by adding ```src-link``` to ```feeds.conf``` (OpenWrt) or ```feeds.conf.default``` (LEDE Project).
 
