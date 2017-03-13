@@ -6,10 +6,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1752
+Installed-Size: 1751
 Filename: fakeinternet_0.0.1-5_all.ipk
 Size: 2565
-SHA256sum: df993b2260ae00c84bb921dfde84328b33b7fe1c4c755a4f50d7d0fdfc463b08
+SHA256sum: 02eb0d8ceef831e7881394370e09d0d4d7cb5ceea37b8bd2cc75e26c6f733b37
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity.
 
@@ -21,10 +21,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 956
+Installed-Size: 955
 Filename: luci-app-easyflash_git-17.072.30062-9779d5395-2_all.ipk
 Size: 1792
-SHA256sum: f0e568f5b4150b31557420b365f7d5ea7144fe0c5281a88f9d4daf5a0073bdd1
+SHA256sum: c6dce15235412ef3ae307440ba60e3a6275eb1ca9bdd571d8749c80c7a9728c8
 Description:  Easy Flash Web UI
 
 Package: luci-app-openvpn-policy-routing
@@ -35,10 +35,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3635
+Installed-Size: 3634
 Filename: luci-app-openvpn-policy-routing_git-17.072.30062-9779d5395-4_all.ipk
-Size: 4460
-SHA256sum: 8c6e4ec8de625b68471437aebc90c992945e3f432de87118358be91b5dd14b93
+Size: 4459
+SHA256sum: b5af2d02fef368b970bdcc00464900274ee62ab18748518ecebed3e70b47bea6
 Description:  OpenVPN Policy-Based Routing Service Web UI
 
 Package: luci-app-simple-adblock
@@ -49,10 +49,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1584
+Installed-Size: 1582
 Filename: luci-app-simple-adblock_git-17.072.30062-9779d5395-2_all.ipk
-Size: 2410
-SHA256sum: 935f9629f1ba1cfcdd638ae29db6961d304fd5309313c23d1c5ac18e77f27993
+Size: 2396
+SHA256sum: 6d4f897d02c311f1c6b95b0c39135616df6aa066dc9a3d21a3bb88285c941ab5
 Description:  Simple Adblock Web UI
 
 Package: luci-app-vpnbypass
@@ -63,10 +63,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1457
+Installed-Size: 1456
 Filename: luci-app-vpnbypass_git-17.072.30062-9779d5395-1_all.ipk
 Size: 2264
-SHA256sum: dad82c6cb3655956e5bb78a79a1298af4a0b21e718360f97191c7eb18dae2781
+SHA256sum: cace6add6642b4ce1bc544847f12ed8261621ea6d0d9cdf96e702d1499565b9a
 Description:  VPN Bypass Web UI
 
 Package: openvpn-policy-routing
@@ -78,10 +78,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6079
+Installed-Size: 6081
 Filename: openvpn-policy-routing_4.1.4-11_all.ipk
 Size: 6995
-SHA256sum: 8b83602b499bcb30b6c005fe023ba3f7ce1bf2ef7158126d820f9597e105b64f
+SHA256sum: 2b62fd99b3bfb745e3681fe0e08a33c75a50bfd26027e5f9a19ef1cdac56bffe
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
@@ -93,10 +93,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3491
+Installed-Size: 3557
 Filename: simple-adblock_1.5.6-4_all.ipk
-Size: 4344
-SHA256sum: b09c7e687a4de30eb1fc5fbbe3a7ea9258d3ebdcc767dfde81bae5fe063e7353
+Size: 4396
+SHA256sum: cd4ccd4b54cf2bd81b1e383fe430d4c332d77f27ea6fffde945e03784a69119c
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -110,10 +110,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2004
+Installed-Size: 2020
 Filename: vpnbypass_1.3.0-4_all.ipk
-Size: 2938
-SHA256sum: dfb4e780e0d4dce5e629e3ae65c02c67ea1680198851b1c45a8a8fcc53d4d773
+Size: 2957
+SHA256sum: 103a554a1b9e6dda6fed923632933ecdb20d7a4993cda58ff536aa58c5792657
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
