@@ -6,10 +6,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1751
+Installed-Size: 1752
 Filename: fakeinternet_0.0.1-5_all.ipk
-Size: 2564
-SHA256sum: 7cbed8f5d2700702003e1a6af45002be87616367f02c37085dcb29daa9a9a373
+Size: 2567
+SHA256sum: a6593e6c0053947657f5d22ead2d9c29a2c9487d65b5f84d0140ef30c3d57a65
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity.
 
@@ -21,10 +21,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 954
+Installed-Size: 956
 Filename: luci-app-easyflash_git-17.072.30062-9779d5395-2_all.ipk
-Size: 1788
-SHA256sum: b6075bab68a2c6be9b719e6681939c93d5c508f3829375c4eb17aa2cd7e8b01c
+Size: 1794
+SHA256sum: 764aabfb98448fc8bb663f1841fb209559dcbf46b7a9f97a69e60607f47f6a0b
 Description:  Easy Flash Web UI
 
 Package: luci-app-openvpn-policy-routing
@@ -35,10 +35,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3634
+Installed-Size: 3633
 Filename: luci-app-openvpn-policy-routing_git-17.072.30062-9779d5395-4_all.ipk
-Size: 4464
-SHA256sum: 4e0e99092b643115f0d40951ad78195951f3280930a794c2fd75df9b9992b6a4
+Size: 4456
+SHA256sum: c1023cf07c119243f0fb7dd8f0904c4327b66e76eabe26bdda0e9109ec64b6d1
 Description:  OpenVPN Policy-Based Routing Service Web UI
 
 Package: luci-app-simple-adblock
@@ -51,8 +51,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1584
 Filename: luci-app-simple-adblock_git-17.072.30062-9779d5395-2_all.ipk
-Size: 2409
-SHA256sum: 1fb576882e087c61563a4e3875e2117df7508ba83f954d28248aef5f792d109b
+Size: 2406
+SHA256sum: ce7d5d7d88f79fe2ea839d3fb31d7ce51939ee0cf1ac3050fdf216f704651486
 Description:  Simple Adblock Web UI
 
 Package: luci-app-vpnbypass
@@ -65,8 +65,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1455
 Filename: luci-app-vpnbypass_git-17.072.30062-9779d5395-1_all.ipk
-Size: 2263
-SHA256sum: 0715c6168a89f4db3789ca4ecb6c285094f03600f77e4af0dbab9ad81201c2f2
+Size: 2270
+SHA256sum: a125d9336eda1717faf110764b2e6ba8a29bdb5596660ffb95f7c0c062652a32
 Description:  VPN Bypass Web UI
 
 Package: openvpn-policy-routing
@@ -78,10 +78,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6088
+Installed-Size: 6094
 Filename: openvpn-policy-routing_4.1.4-11_all.ipk
-Size: 7009
-SHA256sum: a78f7eb8d506993f6942caf864315259b3c1e97cc942cface873c775ebe49da7
+Size: 7012
+SHA256sum: 25bad5e7c0685fe70c7ca5ac949be4a8e690d08df6ed8abb99fedd815f147be8
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
@@ -95,8 +95,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 3546
 Filename: simple-adblock_1.5.6-4_all.ipk
-Size: 4389
-SHA256sum: 79c4d68f07913cba9bd4c88b6a421faba483fd66c42c871ffec83fd44ed135e1
+Size: 4392
+SHA256sum: 76e0f34cb4cbc18a9d112f643a9c5407c965a405d974477dc039fde780d08bf0
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -110,10 +110,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2018
+Installed-Size: 2019
 Filename: vpnbypass_1.3.0-4_all.ipk
-Size: 2956
-SHA256sum: 88dd2d032f90c854bf04588ec715419ef302a605b8c5dd44a41f07a2d6c5b5ce
+Size: 2961
+SHA256sum: 3f010f41e816aae881bb1032e935fe7315efd684df2560692ebbc32f2a071333
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
