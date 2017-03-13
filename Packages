@@ -4,10 +4,10 @@ Depends: libc, uhttpd, dnsmasq
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 1706
+Installed-Size: 1707
 Filename: fakeinternet_0.0.1-3_all.ipk
 Size: 2520
-SHA256sum: cd79184a5d58e1e1780fff5d29659351272216d912b902fa84668a4545f80f6f
+SHA256sum: 09a3b0612fff486c61d1a0079a5b63f12afdef3933fd45da103bf95270d6a92b
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity.
 
@@ -17,10 +17,10 @@ Depends: libc
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 954
+Installed-Size: 955
 Filename: luci-app-easyflash_git-17.066.56404-0ec9636be-2_all.ipk
-Size: 1792
-SHA256sum: 02bd56621276124d7cb859c8014f2a0d1f0313c9baf287fc017ec58a384b6b7b
+Size: 1786
+SHA256sum: 529e187a953b5e32f6ebef2390ace17109056d0b8a9d22b2679e0c065720d952
 Description:  Easy Flash Web UI
 
 Package: luci-app-openvpn-policy-routing
@@ -29,10 +29,10 @@ Depends: libc, openvpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3634
+Installed-Size: 3633
 Filename: luci-app-openvpn-policy-routing_git-17.066.56404-0ec9636be-4_all.ipk
-Size: 4465
-SHA256sum: e064ebbb90ad2955fb0aa43109696da98b2908540901decf4e7fbbe593687740
+Size: 4464
+SHA256sum: b2301a4b7f21f171d69a65f71c2d37fdcb259e3a936f73f1a4cfb8e9e308987a
 Description:  OpenVPN Policy-Based Routing Service Web UI
 
 Package: luci-app-simple-adblock
@@ -41,10 +41,10 @@ Depends: libc, simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1581
+Installed-Size: 1583
 Filename: luci-app-simple-adblock_git-17.066.56404-0ec9636be-2_all.ipk
-Size: 2399
-SHA256sum: 21db3f9e107924a935d63abe5f48b4e69df8c2accca3ebf328f6494375e0e431
+Size: 2401
+SHA256sum: 4a5da3719814bd32e2732d9c703b75f122704f3739b9a63a5911863686a3ba7e
 Description:  Simple Adblock Web UI
 
 Package: luci-app-vpnbypass
@@ -53,10 +53,10 @@ Depends: libc, vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1455
+Installed-Size: 1457
 Filename: luci-app-vpnbypass_git-17.066.56404-0ec9636be-1_all.ipk
-Size: 2258
-SHA256sum: 32837cc567fa2441ea36ea69b3281361b305fe2d890b310615c0d7cc5290b92f
+Size: 2269
+SHA256sum: 18d53fab852374068d472ae715b81d3bbf105522aefde0a272e9199b880f138b
 Description:  VPN Bypass Web UI
 
 Package: openvpn-policy-routing
@@ -66,10 +66,10 @@ Conflicts: ip, vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 6028
+Installed-Size: 6027
 Filename: openvpn-policy-routing_4.1.4-10_all.ipk
-Size: 6938
-SHA256sum: 7b38b688ad423fe9275bd0611a847f98edfca80236bb1dc10e9f32c72f69beb0
+Size: 6945
+SHA256sum: a855070f84a0b8fb4d0d71f07f4b0f1e38fe64516517d1b01b03eddff81590be
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
@@ -79,10 +79,10 @@ Depends: libc, uclient-fetch, libustream-mbedtls, ubox, ip
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 3475
+Installed-Size: 3473
 Filename: simple-adblock_1.5.6-3_all.ipk
-Size: 4329
-SHA256sum: 76b9dbe92195b6c8e652c004a8547720770c984e5f7e3638565bdf286cc37efc
+Size: 4325
+SHA256sum: bb1bcc8282af1346589cfec553f39ecf14122f16b8dddddb3694be2112aaf6f2
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -94,10 +94,10 @@ Conflicts: ip, dnsmasq
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 1941
+Installed-Size: 1938
 Filename: vpnbypass_1.3.0-3_all.ipk
-Size: 2881
-SHA256sum: e848355636b0caaa311db0d213ad5426c951be2250103aa69d92c7aa572b5eb2
+Size: 2877
+SHA256sum: 7f1509f59e32b028c92ff6f945a53755a2528882e940fd4aba8af89c8ef79d4d
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
