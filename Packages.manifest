@@ -8,8 +8,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1751
 Filename: fakeinternet_0.0.1-5_all.ipk
-Size: 2565
-SHA256sum: 02eb0d8ceef831e7881394370e09d0d4d7cb5ceea37b8bd2cc75e26c6f733b37
+Size: 2564
+SHA256sum: 7cbed8f5d2700702003e1a6af45002be87616367f02c37085dcb29daa9a9a373
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity.
 
@@ -21,10 +21,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 955
+Installed-Size: 954
 Filename: luci-app-easyflash_git-17.072.30062-9779d5395-2_all.ipk
-Size: 1792
-SHA256sum: c6dce15235412ef3ae307440ba60e3a6275eb1ca9bdd571d8749c80c7a9728c8
+Size: 1788
+SHA256sum: b6075bab68a2c6be9b719e6681939c93d5c508f3829375c4eb17aa2cd7e8b01c
 Description:  Easy Flash Web UI
 
 Package: luci-app-openvpn-policy-routing
@@ -37,8 +37,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 3634
 Filename: luci-app-openvpn-policy-routing_git-17.072.30062-9779d5395-4_all.ipk
-Size: 4459
-SHA256sum: b5af2d02fef368b970bdcc00464900274ee62ab18748518ecebed3e70b47bea6
+Size: 4464
+SHA256sum: 4e0e99092b643115f0d40951ad78195951f3280930a794c2fd75df9b9992b6a4
 Description:  OpenVPN Policy-Based Routing Service Web UI
 
 Package: luci-app-simple-adblock
@@ -49,10 +49,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1582
+Installed-Size: 1584
 Filename: luci-app-simple-adblock_git-17.072.30062-9779d5395-2_all.ipk
-Size: 2396
-SHA256sum: 6d4f897d02c311f1c6b95b0c39135616df6aa066dc9a3d21a3bb88285c941ab5
+Size: 2409
+SHA256sum: 1fb576882e087c61563a4e3875e2117df7508ba83f954d28248aef5f792d109b
 Description:  Simple Adblock Web UI
 
 Package: luci-app-vpnbypass
@@ -63,10 +63,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1456
+Installed-Size: 1455
 Filename: luci-app-vpnbypass_git-17.072.30062-9779d5395-1_all.ipk
-Size: 2264
-SHA256sum: cace6add6642b4ce1bc544847f12ed8261621ea6d0d9cdf96e702d1499565b9a
+Size: 2263
+SHA256sum: 0715c6168a89f4db3789ca4ecb6c285094f03600f77e4af0dbab9ad81201c2f2
 Description:  VPN Bypass Web UI
 
 Package: openvpn-policy-routing
@@ -78,10 +78,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6081
+Installed-Size: 6088
 Filename: openvpn-policy-routing_4.1.4-11_all.ipk
-Size: 6995
-SHA256sum: 2b62fd99b3bfb745e3681fe0e08a33c75a50bfd26027e5f9a19ef1cdac56bffe
+Size: 7009
+SHA256sum: a78f7eb8d506993f6942caf864315259b3c1e97cc942cface873c775ebe49da7
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
@@ -93,10 +93,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3557
+Installed-Size: 3546
 Filename: simple-adblock_1.5.6-4_all.ipk
-Size: 4396
-SHA256sum: cd4ccd4b54cf2bd81b1e383fe430d4c332d77f27ea6fffde945e03784a69119c
+Size: 4389
+SHA256sum: 79c4d68f07913cba9bd4c88b6a421faba483fd66c42c871ffec83fd44ed135e1
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -110,10 +110,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2020
+Installed-Size: 2018
 Filename: vpnbypass_1.3.0-4_all.ipk
-Size: 2957
-SHA256sum: 103a554a1b9e6dda6fed923632933ecdb20d7a4993cda58ff536aa58c5792657
+Size: 2956
+SHA256sum: 88dd2d032f90c854bf04588ec715419ef302a605b8c5dd44a41f07a2d6c5b5ce
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
