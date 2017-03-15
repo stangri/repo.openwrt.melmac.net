@@ -24,7 +24,7 @@ Please see the [README](https://github.com/stangri/openwrt-packages/blob/simple-
 
 
 #### vpnbypass & luci-app-vpnbypass
-This service can be used to enable simple VPN split tunnelling.
+This service can be used to enable simple VPN split tunneling.
 Supports accessing domains, IP ranges outside of your VPN tunnel.
 Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
 Please see the [README](https://github.com/stangri/openwrt-packages/blob/vpnbypass/net/vpnbypass/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/vpn-bypass-split-tunneling-service-luci-ui/1106/12) for further information.
@@ -32,16 +32,7 @@ Please see the [README](https://github.com/stangri/openwrt-packages/blob/vpnbypa
 ## How to use
 
 ### On your router
-To add this repo to your OpenWrt/LEDE Project router run commands below.
-
-#### OpenWrt
-```sh
-echo -e -n 'untrusted comment: public key 7ffc7517c4cc0c56\nRWR//HUXxMwMVnx7fESOKO7x8XoW4/dRidJPjt91hAAU2L59mYvHy0Fa\n' > /tmp/stangri-repo.pub && opkg-key add /tmp/stangri-repo.pub
-! grep -q 'stangri_repo' /etc/opkg/customfeeds.conf && echo 'src/gz stangri_repo https://raw.githubusercontent.com/stangri/openwrt-repo/master' >> /etc/opkg/customfeeds.conf
-opkg update
-```
-
-#### LEDE Project
+To add this repo to your OpenWrt/LEDE Project router run the following commands:
 ```sh
 echo -e -n 'untrusted comment: public key 7ffc7517c4cc0c56\nRWR//HUXxMwMVnx7fESOKO7x8XoW4/dRidJPjt91hAAU2L59mYvHy0Fa\n' > /tmp/stangri-repo.pub && opkg-key add /tmp/stangri-repo.pub
 ! grep -q 'stangri_repo' /etc/opkg/customfeeds.conf && echo 'src/gz stangri_repo https://raw.githubusercontent.com/stangri/openwrt-repo/master' >> /etc/opkg/customfeeds.conf
