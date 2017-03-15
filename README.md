@@ -36,18 +36,14 @@ To add this repo to your OpenWrt/LEDE Project router run commands below.
 
 #### OpenWrt
 ```sh
-opkg update; opkg install wget libopenssl
-wget --no-check-certificate https://raw.githubusercontent.com/stangri/openwrt-repo/master/stangri-repo.pub -O /tmp/stangri-repo.pub
-opkg-key add /tmp/stangri-repo.pub
+echo -e -n 'untrusted comment: public key 7ffc7517c4cc0c56\nRWR//HUXxMwMVnx7fESOKO7x8XoW4/dRidJPjt91hAAU2L59mYvHy0Fa\n' > /tmp/stangri-repo.pub && opkg-key add /tmp/stangri-repo.pub
 ! grep -q 'stangri_repo' /etc/opkg/customfeeds.conf && echo 'src/gz stangri_repo https://raw.githubusercontent.com/stangri/openwrt-repo/master' >> /etc/opkg/customfeeds.conf
 opkg update
 ```
 
 #### LEDE Project
 ```sh
-opkg update; opkg install uclient-fetch libustream-mbedtls
-wget --no-check-certificate https://raw.githubusercontent.com/stangri/openwrt-repo/master/stangri-repo.pub -O /tmp/stangri-repo.pub
-opkg-key add /tmp/stangri-repo.pub
+echo -e -n 'untrusted comment: public key 7ffc7517c4cc0c56\nRWR//HUXxMwMVnx7fESOKO7x8XoW4/dRidJPjt91hAAU2L59mYvHy0Fa\n' > /tmp/stangri-repo.pub && opkg-key add /tmp/stangri-repo.pub
 ! grep -q 'stangri_repo' /etc/opkg/customfeeds.conf && echo 'src/gz stangri_repo https://raw.githubusercontent.com/stangri/openwrt-repo/master' >> /etc/opkg/customfeeds.conf
 opkg update
 ```
@@ -61,4 +57,3 @@ Add the line ```src/gz stangri_repo https://raw.githubusercontent.com/stangri/op
 
 #### SDK
 The packages are in various branches at [my  packages source](https://github.com/stangri/openwrt-packages) and [my  luci source](https://github.com/stangri/openwrt-luci) repositories. Check out the code you want and add it to your SDK by adding ```src-link``` to ```feeds.conf``` (OpenWrt) or ```feeds.conf.default``` (LEDE Project).
-
