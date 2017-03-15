@@ -42,17 +42,17 @@ SHA256sum: f2a293c8f67ee41214d62a200e7e6efe68ee749bbf6f5576c2bd6641f14df9a5
 Description:  OpenVPN Policy-Based Routing Service Web UI
 
 Package: luci-app-simple-adblock
-Version: git-17.072.30062-9779d5395-2
+Version: git-17.073.42745-55ed62eab-2
 Depends: libc, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1582
-Filename: luci-app-simple-adblock_git-17.072.30062-9779d5395-2_all.ipk
-Size: 2402
-SHA256sum: 86792931380557fc1a4528a6410c71b910479d0901096dedad5ce7b9a547bdf1
+Installed-Size: 1584
+Filename: luci-app-simple-adblock_git-17.073.42745-55ed62eab-2_all.ipk
+Size: 2406
+SHA256sum: 337d8d31580ec39112ac1b6c971e511ae4facf39cb923d8ee4e49d70fbc4ec71
 Description:  Simple Adblock Web UI
 
 Package: luci-app-vpnbypass
@@ -86,17 +86,17 @@ Description:  This service allows policy-based routing for OpenVPN tunnels and W
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
 Package: simple-adblock
-Version: 1.5.6-4
-Depends: libc, uclient-fetch, libustream-mbedtls, ubox, ip
+Version: 1.5.6-6
+Depends: libc
 Source: /mnt/NAS/Users/stangri/lede/Config/simple-adblock/net/simple-adblock
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3548
-Filename: simple-adblock_1.5.6-4_all.ipk
-Size: 4388
-SHA256sum: 5ec6bbccebcea84b1063d8b2510592e23a16061df6bfcc30ce8a3a2eb1b4f6a3
+Installed-Size: 3547
+Filename: simple-adblock_1.5.6-6_all.ipk
+Size: 4372
+SHA256sum: 4ec086716b3af9d30334db8155399d4ea57301a641f91ffaf0bb2ba6a4cda74c
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
