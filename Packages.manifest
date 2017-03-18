@@ -42,17 +42,17 @@ SHA256sum: 63e1d51d8d8553a904aa25cc3df18074da56e849f2152c4270214f5d6865a6c0
 Description:  OpenVPN Policy-Based Routing Service Web UI
 
 Package: luci-app-simple-adblock
-Version: git-17.077.53801-c69622e5a-3
+Version: git-17.077.53801-c69622e5a-2
 Depends: libc, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1581
-Filename: luci-app-simple-adblock_git-17.077.53801-c69622e5a-3_all.ipk
-Size: 2401
-SHA256sum: 6d379f0258dd9824fa1a113f73cff3a969c9e10f7aec748a40d05c49be321a67
+Installed-Size: 1582
+Filename: luci-app-simple-adblock_git-17.077.53801-c69622e5a-2_all.ipk
+Size: 2405
+SHA256sum: 4d2baa3d1f15b2fd1ef3c88c5eb4657d520ea0fccc6ca712c85f12db79ab874d
 Description:  Simple Adblock Web UI
 
 Package: luci-app-vpnbypass
@@ -68,6 +68,20 @@ Filename: luci-app-vpnbypass_git-17.072.30062-9779d5395-1_all.ipk
 Size: 2266
 SHA256sum: 8d8872d08b9d54bcf850ae017580e7ac984912690ffa477321496315eabeeead
 Description:  VPN Bypass Web UI
+
+Package: luci-i18n-simple-adblock-pt
+Version: git-17.077.53801-c69622e5a-2
+Depends: libc, luci-app-simple-adblock
+Source: package/luci/applications/luci-app-simple-adblock
+License: GPL-3.0+
+Section: luci
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 1176
+Filename: luci-i18n-simple-adblock-pt_git-17.077.53801-c69622e5a-2_all.ipk
+Size: 2048
+SHA256sum: dd089ff2f47cb5d73930c92395fdff53776c8911a032c13fe2ce1d42954905c3
+Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: openvpn-policy-routing
 Version: 4.1.4-13
@@ -95,8 +109,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 3546
 Filename: simple-adblock_1.5.6-6_all.ipk
-Size: 4354
-SHA256sum: cc5b0f0b6d62dfd034ef1c16d93539de7f876fd4fa4f3d6e8b4d33dc4faa82c4
+Size: 4370
+SHA256sum: e55643980a1523822557d13835358f74d6f35781cbcad3fd10c75531c5744f8d
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
