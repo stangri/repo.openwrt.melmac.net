@@ -31,20 +31,31 @@ Please see the [README](https://github.com/stangri/openwrt-packages/blob/vpnbypa
 
 ## How to use
 
-### On your router
+#### On your router
 To add this repo to your OpenWrt/LEDE Project router run the following commands:
+
+###### OpenWrt CC 15.05.1
 ```sh
+opkg update; opkg install wget libopenssl
 echo -e -n 'untrusted comment: public key 7ffc7517c4cc0c56\nRWR//HUXxMwMVnx7fESOKO7x8XoW4/dRidJPjt91hAAU2L59mYvHy0Fa\n' > /tmp/stangri-repo.pub && opkg-key add /tmp/stangri-repo.pub
 ! grep -q 'stangri_repo' /etc/opkg/customfeeds.conf && echo 'src/gz stangri_repo https://raw.githubusercontent.com/stangri/openwrt-repo/master' >> /etc/opkg/customfeeds.conf
 opkg update
 ```
 
-### In your Image Builder/SDK
-#### Image Builder
+###### LEDE Project and OpenWrt DD trunk
+```sh
+opkg update; opkg install uclient-fetch libustream-mbedtls
+echo -e -n 'untrusted comment: public key 7ffc7517c4cc0c56\nRWR//HUXxMwMVnx7fESOKO7x8XoW4/dRidJPjt91hAAU2L59mYvHy0Fa\n' > /tmp/stangri-repo.pub && opkg-key add /tmp/stangri-repo.pub
+! grep -q 'stangri_repo' /etc/opkg/customfeeds.conf && echo 'src/gz stangri_repo https://raw.githubusercontent.com/stangri/openwrt-repo/master' >> /etc/opkg/customfeeds.conf
+opkg update
+```
+
+#### In your Image Builder/SDK
+###### Image Builder
 Add the line ```src/gz stangri_repo https://raw.githubusercontent.com/stangri/openwrt-repo/master``` to the ```repositories.conf``` file inside your Image Bulder directory. You can use the following code:
 ```
 ! grep -q 'stangri_repo' repositories.conf && sed -i '2 i\src/gz stangri_repo https://raw.githubusercontent.com/stangri/openwrt-repo/master' repositories.conf
 ```
 
-#### SDK
+###### SDK
 The packages are in various branches at [my  packages source](https://github.com/stangri/openwrt-packages) and [my  luci source](https://github.com/stangri/openwrt-luci) repositories. Check out the code you want and add it to your SDK by adding ```src-link``` to ```feeds.conf``` (OpenWrt) or ```feeds.conf.default``` (LEDE Project).
