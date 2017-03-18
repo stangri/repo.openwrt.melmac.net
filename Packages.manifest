@@ -42,17 +42,17 @@ SHA256sum: 63e1d51d8d8553a904aa25cc3df18074da56e849f2152c4270214f5d6865a6c0
 Description:  OpenVPN Policy-Based Routing Service Web UI
 
 Package: luci-app-simple-adblock
-Version: git-17.073.42745-55ed62eab-2
+Version: git-17.077.53801-c69622e5a-3
 Depends: libc, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1584
-Filename: luci-app-simple-adblock_git-17.073.42745-55ed62eab-2_all.ipk
-Size: 2406
-SHA256sum: c29ca5adc7d0d7c2aad85b765c6b8b6bb48355a99858d491844d33bcafde0d9f
+Installed-Size: 1581
+Filename: luci-app-simple-adblock_git-17.077.53801-c69622e5a-3_all.ipk
+Size: 2405
+SHA256sum: 83ad72fad519e916e033353b2656839bcfbf344beeb8f7b5ee89cfb1b10531e4
 Description:  Simple Adblock Web UI
 
 Package: luci-app-vpnbypass
@@ -95,8 +95,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 3547
 Filename: simple-adblock_1.5.6-6_all.ipk
-Size: 4364
-SHA256sum: 65fe89b13b2590dd97d88f0cbbb0d283835930b0b451aa326710abe8afb35e5d
+Size: 4372
+SHA256sum: 5ced18807ad5c06b9bd1a3773d6869594a29cb09895dd222dc34c5bcc232230c
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
