@@ -51,8 +51,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1582
 Filename: luci-app-simple-adblock_git-17.077.53801-c69622e5a-2_all.ipk
-Size: 2405
-SHA256sum: 4d2baa3d1f15b2fd1ef3c88c5eb4657d520ea0fccc6ca712c85f12db79ab874d
+Size: 2404
+SHA256sum: 1c6510ba4b46b599cf5ed05833b5345c948b22dd8a451cc1a16c971e67531783
 Description:  Simple Adblock Web UI
 
 Package: luci-app-vpnbypass
@@ -69,6 +69,20 @@ Size: 2266
 SHA256sum: 8d8872d08b9d54bcf850ae017580e7ac984912690ffa477321496315eabeeead
 Description:  VPN Bypass Web UI
 
+Package: luci-i18n-simple-adblock-pt-br
+Version: git-17.077.53801-c69622e5a-2
+Depends: libc, luci-app-simple-adblock
+Source: package/luci/applications/luci-app-simple-adblock
+License: GPL-3.0+
+Section: luci
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 1203
+Filename: luci-i18n-simple-adblock-pt-br_git-17.077.53801-c69622e5a-2_all.ipk
+Size: 2087
+SHA256sum: ae7b779abaa64c06e55ff6570334ed7b2ff9a0b3a1156b18edc3fabab0b76b36
+Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
+
 Package: luci-i18n-simple-adblock-pt
 Version: git-17.077.53801-c69622e5a-2
 Depends: libc, luci-app-simple-adblock
@@ -79,8 +93,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1176
 Filename: luci-i18n-simple-adblock-pt_git-17.077.53801-c69622e5a-2_all.ipk
-Size: 2048
-SHA256sum: dd089ff2f47cb5d73930c92395fdff53776c8911a032c13fe2ce1d42954905c3
+Size: 2041
+SHA256sum: d65e552e87036f49e00155cacb305cc45d6a99fb5c9545454fdf163e78437870
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: openvpn-policy-routing
@@ -107,10 +121,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3546
+Installed-Size: 3548
 Filename: simple-adblock_1.5.6-6_all.ipk
-Size: 4370
-SHA256sum: e55643980a1523822557d13835358f74d6f35781cbcad3fd10c75531c5744f8d
+Size: 4373
+SHA256sum: 675ab333e515bc7c5e8412308c4dedf5ed43a2a43ba818dd86a62685c5466eb7
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
