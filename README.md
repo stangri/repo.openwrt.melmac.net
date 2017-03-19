@@ -1,5 +1,5 @@
 # stangri's OpenWrt/LEDE Project packages repo
-This repo contains some packages I've created which haven't been accepted (or submitted) to the official OpenWrt/LEDE Project repo/feeds.
+This repo contains some packages I've created which haven't been accepted yet (or submitted) to the official OpenWrt/LEDE Project repo/feeds.
 
 
 ## Description of packages
@@ -9,25 +9,18 @@ This service can be used to fake internet connectivity for local devices.
 Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity. Please see the [README](https://github.com/stangri/openwrt-packages/blob/fakeinternet/net/fakeinternet/files/) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/fakeinternet-service-package-wip/924) for further information.
 
 #### luci-app-easyflash
-This package installs Web UI for quickly updating your router firmware if you automated snapshots build process. Requires sysupgrade-compatible upgrade file ```/tmp/firmware.img``` and a one-line description (target/version info) in ```/tmp/firmware.tag```. WARNING: does not keep your router settings.
+This package installs Web UI for quickly updating your router firmware if you use automated snapshots build process which produces fully customized images and uploads them to your router. Requires sysupgrade-compatible upgrade file ```/tmp/firmware.img``` and a one-line description (target/version/filename info) in ```/tmp/firmware.tag```. WARNING: does not keep your router settings.
 
 #### openvpn-policy-routing & luci-app-openvpn-policy-routing
-This service can be used to enable policy-based routing for OpenVPN tunnel and WAN interface.
-Supports accessing domains, IP ranges outside of your VPN tunnel.
-Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
-Please see the [README](https://github.com/stangri/openwrt-packages/blob/openvpn-policy-routing/net/openvpn-policy-routing/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/openvpn-policy-based-routing-web-ui-testers-needed/1422/1) for further information.
+This service can be used to enable policy-based routing for OpenVPN tunnel(s) and WAN/WAN6 interface(s). Supports policies based on domain names, IP addresses and/or ports. Compatible with legacy (IPv4) and modern (IPv6) protocols. Please see the [README](https://github.com/stangri/openwrt-packages/blob/openvpn-policy-routing/net/openvpn-policy-routing/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/openvpn-policy-based-routing-web-ui-testers-needed/1422/1) for further information.
 
 
 #### simple-adblock & luci-app-simple-adblock
-This service provides dnsmasq-based ad blocking.
-Please see the [README](https://github.com/stangri/openwrt-packages/blob/simple-adblock/net/simple-adblock/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/simple-adblock-fast-lightweight-and-fully-uci-luci-configurable-ad-blocking/1327) for further information.
+This service provides lightweight and very fast dnsmasq-based ad blocking. Please see the [README](https://github.com/stangri/openwrt-packages/blob/simple-adblock/net/simple-adblock/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/simple-adblock-fast-lightweight-and-fully-uci-luci-configurable-ad-blocking/1327) for further information.
 
 
 #### vpnbypass & luci-app-vpnbypass
-This service can be used to enable simple VPN split tunneling.
-Supports accessing domains, IP ranges outside of your VPN tunnel.
-Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
-Please see the [README](https://github.com/stangri/openwrt-packages/blob/vpnbypass/net/vpnbypass/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/vpn-bypass-split-tunneling-service-luci-ui/1106/12) for further information.
+This service can be used to enable simple VPN split tunneling. Supports accessing domains, IP ranges outside of your VPN tunnel. Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel). Please see the [README](https://github.com/stangri/openwrt-packages/blob/vpnbypass/net/vpnbypass/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/vpn-bypass-split-tunneling-service-luci-ui/1106/12) for further information.
 
 ## How to use
 
