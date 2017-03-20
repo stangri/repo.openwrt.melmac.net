@@ -63,10 +63,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1454
+Installed-Size: 1455
 Filename: luci-app-vpnbypass_git-17.078.53745-180f2d670-1_all.ipk
-Size: 2260
-SHA256sum: 22d32271b6c024cbbd6dc2cbe733189367b0e4a79ce1db91286c2a86e082ad0a
+Size: 2264
+SHA256sum: 9d5e79b33ff303212219528a9de563ffd96b0d9d0a0a95a1a9fece1330cae3a5
 Description:  VPN Bypass Web UI
 
 Package: luci-i18n-simple-adblock-pt-br
@@ -138,10 +138,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2044
+Installed-Size: 2040
 Filename: vpnbypass_1.3.0-5_all.ipk
-Size: 2979
-SHA256sum: 1c585d0a0ba56555ddb21d8dbb9a4857c6319281ccc106735424ff672c819e8e
+Size: 2978
+SHA256sum: c49046e57b5892fc27dd186c7a224e320bd4c34c0187de4856d7184d4c90c888
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
