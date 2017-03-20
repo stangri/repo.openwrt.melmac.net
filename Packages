@@ -48,15 +48,15 @@ SHA256sum: 133e0c3f78ede2198c83623f8da485e452dcb3998b4863aa2a890fbfff765b42
 Description:  Simple Adblock Web UI
 
 Package: luci-app-vpnbypass
-Version: git-17.072.30062-9779d5395-1
+Version: git-17.078.53745-180f2d670-1
 Depends: libc, vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 1457
-Filename: luci-app-vpnbypass_git-17.072.30062-9779d5395-1_all.ipk
-Size: 2266
-SHA256sum: 8d8872d08b9d54bcf850ae017580e7ac984912690ffa477321496315eabeeead
+Filename: luci-app-vpnbypass_git-17.078.53745-180f2d670-1_all.ipk
+Size: 2268
+SHA256sum: 6cfa7006d72dc3e9717ec83b3fbe3bce7e78c4ceb01c15ca05b63e46d6f48ce4
 Description:  VPN Bypass Web UI
 
 Package: luci-i18n-simple-adblock-pt-br
@@ -113,15 +113,15 @@ Description:  This service provides dnsmasq-based ad blocking.
 
 Package: vpnbypass
 Version: 1.3.0-5
-Depends: libc, ipset, iptables, ubox
+Depends: libc, ipset, iptables
 Conflicts: openvpn-policy-routing
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2018
+Installed-Size: 2017
 Filename: vpnbypass_1.3.0-5_all.ipk
-Size: 2952
-SHA256sum: c4a02da571408b23f04db8f63ee4f434eb2dd281d3eaf58f7b20fc4d66b395ee
+Size: 2943
+SHA256sum: de32ef9a44970786be11fc3f9935bcc8b32f570bbd5753806e0c0f6629001fb5
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
