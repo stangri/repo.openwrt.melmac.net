@@ -63,10 +63,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1455
+Installed-Size: 1457
 Filename: luci-app-vpnbypass_git-17.078.53745-180f2d670-1_all.ipk
-Size: 2264
-SHA256sum: 77795033f64bbc83a7671d344e3f200655ccb95a3d9d8b6f7988614f0e479124
+Size: 2267
+SHA256sum: 87ff10806fc92fd0d671691d01c0e6ee3db08203e116829ecbd9dceac3481795
 Description:  VPN Bypass Web UI
 
 Package: luci-i18n-simple-adblock-pt-br
@@ -130,7 +130,7 @@ Description:  This service provides dnsmasq-based ad blocking.
  
 
 Package: vpnbypass
-Version: 1.3.0-5
+Version: 1.3.0-4
 Depends: libc, ipset, iptables
 Conflicts: openvpn-policy-routing
 Source: /mnt/NAS/Users/stangri/lede/Config/vpnbypass/net/vpnbypass
@@ -138,10 +138,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2037
-Filename: vpnbypass_1.3.0-5_all.ipk
-Size: 2968
-SHA256sum: c755e63424f2eb2c712c9f10496a7e970b60713938a9d60e390c6e4869658935
+Installed-Size: 2036
+Filename: vpnbypass_1.3.0-4_all.ipk
+Size: 2964
+SHA256sum: 387680a0f71cd975fd2a0f336fd932e3521eda7e5c76046f3a18f465446c9094
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
