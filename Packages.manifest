@@ -49,10 +49,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1583
+Installed-Size: 1584
 Filename: luci-app-simple-adblock_git-17.080.69173-773734e27-2_all.ipk
-Size: 2405
-SHA256sum: c53c2c12d075455303c86b81ff824be5efc01c33be40befc5249a56ea33976fb
+Size: 2408
+SHA256sum: 0feeaf359a7ccff30b3722907dcaa6d190ae679ee0d33689e81cf1a661499dfc
 Description:  Simple Adblock Web UI
 
 Package: luci-app-vpnbypass
@@ -105,10 +105,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1204
+Installed-Size: 1205
 Filename: luci-i18n-simple-adblock-pt-br_git-17.080.69173-773734e27-2_all.ipk
-Size: 2086
-SHA256sum: 899c66e877280a7e69d575e42db4f960bf927ecd78530766b27816b0cab5c491
+Size: 2093
+SHA256sum: 5c2f0cb0d63b0ec7167d3927dec62c62cd823ffe499eed360face6b5704c894c
 Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-simple-adblock-pt
@@ -147,10 +147,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1178
+Installed-Size: 1177
 Filename: luci-i18n-simple-adblock-pt_git-17.080.69173-773734e27-2_all.ipk
-Size: 2053
-SHA256sum: 772a02d022fc64ee003465f6b362c15a035e77adaced5341cedf8a2d51c48918
+Size: 2049
+SHA256sum: 6e59758c9a94b2fe98fdfadacd034a69626f9bc21883ffc29fee4e2fbf6ea27e
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: openvpn-policy-routing
@@ -170,17 +170,17 @@ Description:  This service allows policy-based routing for OpenVPN tunnels and W
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
 Package: simple-adblock
-Version: 1.5.6-6
+Version: 1.5.6-7
 Depends: libc
 Source: /mnt/NAS/Users/stangri/lede/Config/simple-adblock/net/simple-adblock
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3546
-Filename: simple-adblock_1.5.6-6_all.ipk
-Size: 4372
-SHA256sum: d806b15f6ebcb59bf2dfa408ddb776e0b7b72ec1cdc38c4ab3a3cd7eff1e94ed
+Installed-Size: 3545
+Filename: simple-adblock_1.5.6-7_all.ipk
+Size: 4357
+SHA256sum: 6a91fba120c988165f5f9a1c3893b863de77fd06bf64f095753934204ec31499
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
