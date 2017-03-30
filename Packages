@@ -36,15 +36,15 @@ SHA256sum: 3fb84c7373a543d885beb699bc80ccce69d0d78de397c0d7fbff905c67d29986
 Description:  OpenVPN Policy-Based Routing Service Web UI
 
 Package: luci-app-simple-adblock
-Version: git-17.078.53745-180f2d670-2
+Version: git-17.080.69173-773734e27-2
 Depends: libc, simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1582
-Filename: luci-app-simple-adblock_git-17.078.53745-180f2d670-2_all.ipk
-Size: 2404
-SHA256sum: ce27d70608d30d27121eb82742965d011e230c25798970dfbc8356134b88e18d
+Installed-Size: 1583
+Filename: luci-app-simple-adblock_git-17.080.69173-773734e27-2_all.ipk
+Size: 2405
+SHA256sum: c53c2c12d075455303c86b81ff824be5efc01c33be40befc5249a56ea33976fb
 Description:  Simple Adblock Web UI
 
 Package: luci-app-vpnbypass
@@ -83,6 +83,18 @@ Size: 2092
 SHA256sum: 15b470fab3d02d3f310184744566b469c6cbb959a18920b19db5971e8c02c7d8
 Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
 
+Package: luci-i18n-simple-adblock-pt-br
+Version: git-17.080.69173-773734e27-2
+Depends: libc, luci-app-simple-adblock
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 1204
+Filename: luci-i18n-simple-adblock-pt-br_git-17.080.69173-773734e27-2_all.ipk
+Size: 2086
+SHA256sum: 899c66e877280a7e69d575e42db4f960bf927ecd78530766b27816b0cab5c491
+Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
+
 Package: luci-i18n-simple-adblock-pt
 Version: git-17.077.53801-c69622e5a-2
 Depends: libc, luci-app-simple-adblock
@@ -107,6 +119,18 @@ Size: 2049
 SHA256sum: 9346af48f88c5738cae6cbc8657baab05eb13c5851ee9d2233af312b6940974e
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
+Package: luci-i18n-simple-adblock-pt
+Version: git-17.080.69173-773734e27-2
+Depends: libc, luci-app-simple-adblock
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 1178
+Filename: luci-i18n-simple-adblock-pt_git-17.080.69173-773734e27-2_all.ipk
+Size: 2053
+SHA256sum: 772a02d022fc64ee003465f6b362c15a035e77adaced5341cedf8a2d51c48918
+Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
+
 Package: openvpn-policy-routing
 Version: 4.1.4-21
 Depends: libc, ipset, iptables, resolveip
@@ -127,10 +151,10 @@ Depends: libc
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 3548
+Installed-Size: 3546
 Filename: simple-adblock_1.5.6-6_all.ipk
-Size: 4371
-SHA256sum: a49c61f59e17c044fb5d2407944d96d3cbab566aa2358ed0b5183b287f5ecd19
+Size: 4372
+SHA256sum: d806b15f6ebcb59bf2dfa408ddb776e0b7b72ec1cdc38c4ab3a3cd7eff1e94ed
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
