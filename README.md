@@ -32,6 +32,7 @@ To add this repo to your OpenWrt/LEDE Project router run the following commands:
 opkg update; opkg install wget libopenssl
 echo -e -n 'untrusted comment: public key 7ffc7517c4cc0c56\nRWR//HUXxMwMVnx7fESOKO7x8XoW4/dRidJPjt91hAAU2L59mYvHy0Fa\n' > /tmp/stangri-repo.pub && opkg-key add /tmp/stangri-repo.pub
 ! grep -q 'stangri_repo' /etc/opkg/customfeeds.conf && echo 'src/gz stangri_repo https://raw.githubusercontent.com/stangri/openwrt-repo/master' >> /etc/opkg/customfeeds.conf
+sed -i 's/option check_signature 1/option check_signature 0/' /etc/opkg.conf
 opkg update
 ```
 
