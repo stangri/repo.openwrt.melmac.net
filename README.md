@@ -1,5 +1,5 @@
 # stangri's OpenWrt/LEDE Project packages repo
-This repo contains some packages I've created which haven't been accepted yet (or submitted) to the official OpenWrt/LEDE Project repo/feeds.
+This repo contains packages I've created for OpenWrt/LEDE Project routers. While some of these are packages are already available from official OpenWrt trunk and LEDE Project snapshots repositories/feeds, this repo usually contains newer versions.
 
 
 ## Description of packages
