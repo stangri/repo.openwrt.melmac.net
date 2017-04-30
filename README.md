@@ -4,15 +4,15 @@ This repo contains packages I've created for OpenWrt/LEDE Project routers. While
 
 ## Description of packages
 
-#### alt-reboot
-This package enables Web UI for reboot to another partition functionality on supported routers.
-
 #### fakeinternet
 This service can be used to fake internet connectivity for local devices.
 Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity. Please see the [README](https://github.com/stangri/openwrt-packages/blob/fakeinternet/net/fakeinternet/files/) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/fakeinternet-service-package-wip/924) for further information.
 
 #### luci-app-easyflash
 This package installs Web UI for quickly updating your router firmware if you use automated snapshots build process which produces fully customized images and uploads them to your router. Requires sysupgrade-compatible upgrade file ```/tmp/firmware.img``` and a one-line description (target/version/filename info) in ```/tmp/firmware.tag```. WARNING: does not keep your router settings.
+
+#### luci-mod-alt-reboot
+This package enables Web UI for reboot to another partition functionality on supported routers.
 
 #### openvpn-policy-routing & luci-app-openvpn-policy-routing
 This service can be used to enable policy-based routing for OpenVPN tunnel(s) and WAN/WAN6 interface(s). Supports policies based on domain names, IP addresses and/or ports. Compatible with legacy (IPv4) and modern (IPv6) protocols. Please see the [README](https://github.com/stangri/openwrt-packages/blob/openvpn-policy-routing/net/openvpn-policy-routing/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/openvpn-policy-based-routing-web-ui-testers-needed/1422/1) for further information.
