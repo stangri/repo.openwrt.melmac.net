@@ -4,6 +4,9 @@ This repo contains packages I've created for OpenWrt/LEDE Project routers. While
 
 ## Description of packages
 
+#### alt-reboot
+This package enables Web UI for reboot to another partition functionality on supported routers.
+
 #### fakeinternet
 This service can be used to fake internet connectivity for local devices.
 Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity. Please see the [README](https://github.com/stangri/openwrt-packages/blob/fakeinternet/net/fakeinternet/files/) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/fakeinternet-service-package-wip/924) for further information.
