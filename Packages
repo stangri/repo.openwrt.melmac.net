@@ -89,10 +89,10 @@ Depends: libc
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 5506
+Installed-Size: 5516
 Filename: luci-mod-alt-reboot_git-17.080.69173-773734e27-2_all.ipk
-Size: 6237
-SHA256sum: c37b537d6133d2f2a0e72654af0d9ee84d9b4f5b792ccf13543b8c61a8527faf
+Size: 6244
+SHA256sum: bac5da85ee4a2262af0a3549f5e9fc39953711407709217a21a5756e47dca76a
 Description:  Alternative Partition Reboot Web UI
 
 Package: openvpn-policy-routing
