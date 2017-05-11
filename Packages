@@ -96,15 +96,15 @@ SHA256sum: 6cc26407664b61bb3b0244c19ea053d0348f9d7df5ac2715b190c7fa1857671f
 Description:  Advanced Reboot Web UI
 
 Package: luci-mod-alt-reboot
-Version: git-17.080.69173-773734e27-9
+Version: git-17.080.69173-773734e27-10
 Depends: libc
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 5812
-Filename: luci-mod-alt-reboot_git-17.080.69173-773734e27-9_all.ipk
-Size: 6562
-SHA256sum: f60ee37f7cb3758d68d76558eaf1f22f9ca70dfd62b45fc41d179b4cc4ff0b84
+Installed-Size: 5891
+Filename: luci-mod-alt-reboot_git-17.080.69173-773734e27-10_all.ipk
+Size: 6596
+SHA256sum: 6747dfac66de70b1b1c38c5441287881209305114ab88d8bb22703aac5744982
 Description:  Alternative Partition Reboot Web UI
 
 Package: openvpn-policy-routing
