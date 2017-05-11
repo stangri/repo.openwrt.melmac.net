@@ -98,17 +98,17 @@ SHA256sum: 8ec1bba07ccfdd855c6d54340eaa0c8e9660afb511776308703b1294c7847934
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: luci-mod-alt-reboot
-Version: git-17.080.69173-773734e27-6
+Version: git-17.080.69173-773734e27-7
 Depends: libc
 Source: package/luci/modules/luci-mod-alt-reboot
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 5700
-Filename: luci-mod-alt-reboot_git-17.080.69173-773734e27-6_all.ipk
-Size: 6441
-SHA256sum: c95b99286fbd41b9090d39acbe42a71059da39573579dfebed34f58f7e75bd2b
+Installed-Size: 5780
+Filename: luci-mod-alt-reboot_git-17.080.69173-773734e27-7_all.ipk
+Size: 6520
+SHA256sum: f55489b4becba071b4c6531cb73950db62cc6624dfc554fcaf1914728ec18a90
 Description:  Alternative Partition Reboot Web UI
 
 Package: openvpn-policy-routing
