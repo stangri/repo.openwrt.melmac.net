@@ -11,8 +11,11 @@ Can be used on routers with no internet access to suppress warnings on local dev
 #### luci-app-easyflash
 This package installs Web UI for quickly updating your router firmware if you use automated snapshots build process which produces fully customized images and uploads them to your router. Requires sysupgrade-compatible upgrade file ```/tmp/firmware.img``` and a one-line description (target/version/filename info) in ```/tmp/firmware.tag```. WARNING: does not keep your router settings.
 
+#### luci-mod-advanced-reboot
+This package enables Web UI for reboot to another partition functionality on supported (dual-partition) routers and to power off (power down) your OpenWrt/LEDE Project router. Please see the [README](https://github.com/stangri/openwrt-luci/blob/luci-mod-advanced-reboot/modules/luci-mod-advanced-reboot/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/web-ui-to-reboot-to-another-partition-for-dual-partition-routers/3423) for further information.
+
 #### luci-mod-alt-reboot
-This package enables Web UI for reboot to another partition functionality on supported (dual-partition) routers. Please see the [README](https://github.com/stangri/openwrt-luci/blob/luci-mod-alt-reboot/modules/luci-mod-alt-reboot/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/web-ui-to-reboot-to-another-partition-for-dual-partition-routers/3423) for further information.
+This package enables Web UI for reboot to another partition functionality on supported (dual-partition) routers and to power off (power down) your OpenWrt/LEDE Project router by overwriting default System --> Reboot page. Please see the [README](https://github.com/stangri/openwrt-luci/blob/luci-mod-alt-reboot/modules/luci-mod-alt-reboot/README.md) for further information. This package has been superseded by ```luci-mod-advanced-reboot```.
 
 #### openvpn-policy-routing & luci-app-openvpn-policy-routing
 This service can be used to enable policy-based routing for OpenVPN tunnel(s) and WAN/WAN6 interface(s). Supports policies based on domain names, IP addresses and/or ports. Compatible with legacy (IPv4) and modern (IPv6) protocols. Please see the [README](https://github.com/stangri/openwrt-packages/blob/openvpn-policy-routing/net/openvpn-policy-routing/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/openvpn-policy-based-routing-web-ui-testers-needed/1422/1) for further information.
