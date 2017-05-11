@@ -105,10 +105,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2617
+Installed-Size: 2614
 Filename: luci-mod-advanced-reboot_git-17.080.69173-773734e27-1_all.ipk
-Size: 3374
-SHA256sum: ed7cc722bad238afb30a4caf3e19aa354e4cc080e7124ff28695442163bea420
+Size: 3369
+SHA256sum: 2eb045216a233aae52edc95cdfcb36adc41074649da379b481bfdc7b6933e3de
 Description:  Advanced Reboot Web UI
 
 Package: luci-mod-alt-reboot
