@@ -107,8 +107,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 2637
 Filename: luci-mod-advanced-reboot_git-17.080.69173-773734e27-1_all.ipk
-Size: 3390
-SHA256sum: 66812aa77a3568c6ac16f5a99bc6c437bc0dda1f5a14e979fb3a9f8fec94737e
+Size: 3397
+SHA256sum: afd1b6d57babd25fed118c49494c53b2f32c01f88e5e3fb692991b0452084e73
 Description:  Advanced Reboot Web UI
 
 Package: luci-mod-alt-reboot
