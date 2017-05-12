@@ -89,10 +89,10 @@ Depends: libc
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 2639
+Installed-Size: 2636
 Filename: luci-mod-advanced-reboot_git-17.080.69173-773734e27-5_all.ipk
-Size: 3402
-SHA256sum: 9615cace5a73acd7f8c616346a0d1b5bb6e937ebf0ecc85d111638b76d8db7fa
+Size: 3394
+SHA256sum: 3847f21b64a6e73d3c1633bb329299f81bbd033c64b6fbdf86c1cc5471886eb5
 Description:  Advanced Reboot Web UI
 
 Package: luci-mod-alt-reboot
