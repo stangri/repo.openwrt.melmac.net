@@ -98,17 +98,17 @@ SHA256sum: 8ec1bba07ccfdd855c6d54340eaa0c8e9660afb511776308703b1294c7847934
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: luci-mod-advanced-reboot
-Version: git-17.080.69173-773734e27-5
+Version: git-17.080.69173-773734e27-6
 Depends: libc
 Source: package/luci/modules/luci-mod-advanced-reboot
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2688
-Filename: luci-mod-advanced-reboot_git-17.080.69173-773734e27-5_all.ipk
-Size: 3443
-SHA256sum: 247ab029e20d31e424f140e5de75f6f4f726dc1bddace6892d7360779820d8c5
+Installed-Size: 2685
+Filename: luci-mod-advanced-reboot_git-17.080.69173-773734e27-6_all.ipk
+Size: 3436
+SHA256sum: e74b9ff7c3a836351136d82f9e018bf5f44a27db15fe8e7124f3a32f25070941
 Description:  Advanced Reboot Web UI
 
 Package: luci-mod-alt-reboot
