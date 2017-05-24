@@ -114,10 +114,10 @@ Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 6280
+Installed-Size: 6279
 Filename: openvpn-policy-routing_4.1.5-4_all.ipk
-Size: 7220
-SHA256sum: df86aba7504919cfef7ff6e36699fd017100471afccdc86dc9c414c8d99bd4a0
+Size: 7224
+SHA256sum: 5e4b265e897ffb47499eec9168a3408c51a4943685b3328e400828c1f47ab47b
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
