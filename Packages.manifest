@@ -28,17 +28,17 @@ SHA256sum: 7c67b4cbd0893f6bcb246ddd82a8c3548f7aece6ca0a1c5d303084f5b16805db
 Description:  Easy Flash Web UI
 
 Package: luci-app-openvpn-policy-routing
-Version: git-17.080.69173-773734e27-6
+Version: git-17.080.69173-773734e27-7
 Depends: libc, openvpn-policy-routing
 Source: package/luci/applications/luci-app-openvpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3670
-Filename: luci-app-openvpn-policy-routing_git-17.080.69173-773734e27-6_all.ipk
-Size: 4501
-SHA256sum: c45e9c937bccacef1aaf35a080a833c9dcaa729c4a31c4a51d35a7ee61d6f42f
+Installed-Size: 3685
+Filename: luci-app-openvpn-policy-routing_git-17.080.69173-773734e27-7_all.ipk
+Size: 4516
+SHA256sum: 85e25af285c29722f5df9c9ab3534bbb0a56411d894b1a59d9b8c437ece885db
 Description:  OpenVPN Policy-Based Routing Service Web UI
 
 Package: luci-app-simple-adblock
@@ -134,10 +134,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6282
+Installed-Size: 6281
 Filename: openvpn-policy-routing_4.1.5-4_all.ipk
-Size: 7225
-SHA256sum: 203ba377bdd975d8a1c267b98f3e404177b3bf0e35906da46233e9884f856f44
+Size: 7232
+SHA256sum: 77149a7d4ffddfe54395a96947fd04cc1b104497637111a74b2a0cc81f99a362
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
