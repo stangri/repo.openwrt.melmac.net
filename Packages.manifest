@@ -134,10 +134,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6413
+Installed-Size: 6414
 Filename: openvpn-policy-routing_4.1.5-5_all.ipk
-Size: 7351
-SHA256sum: 099c00759d517bf85a5b9e84cff37f716098ec589ca3ca05df38a77d3e99b86e
+Size: 7352
+SHA256sum: 1f2e885da6191ecc897f80defc1ed4dfea4b60306aaa828387845566535ad823
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
