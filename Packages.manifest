@@ -28,17 +28,17 @@ SHA256sum: 7c67b4cbd0893f6bcb246ddd82a8c3548f7aece6ca0a1c5d303084f5b16805db
 Description:  Easy Flash Web UI
 
 Package: luci-app-openvpn-policy-routing
-Version: git-17.044.61851-298f838d3-7
+Version: git-17.044.61851-298f838d3-8
 Depends: libc, openvpn-policy-routing
 Source: package/luci/applications/luci-app-openvpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3684
-Filename: luci-app-openvpn-policy-routing_git-17.044.61851-298f838d3-7_all.ipk
-Size: 4513
-SHA256sum: b307de9d2a21ab12f5f755acb9112e070b575608f34ef05e973de61da6dc0c99
+Installed-Size: 3726
+Filename: luci-app-openvpn-policy-routing_git-17.044.61851-298f838d3-8_all.ipk
+Size: 4558
+SHA256sum: fb8ecf6dbb47836503616f9fc959da94d3e6babb12768b59415dd7d063269360
 Description:  OpenVPN Policy-Based Routing Service Web UI
 
 Package: luci-app-simple-adblock
@@ -126,7 +126,7 @@ SHA256sum: 730fa926e1ed5d6d876f654d3544f8bf5f7f7da955f29afa7acb246a80fae447
 Description:  Alternative Partition Reboot Web UI
 
 Package: openvpn-policy-routing
-Version: 4.1.5-4
+Version: 4.1.5-5
 Depends: libc, ipset, iptables, resolveip
 Conflicts: vpnbypass
 Source: /mnt/NAS/Users/stangri/lede/Config/openvpn-policy-routing/net/openvpn-policy-routing
@@ -134,10 +134,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6281
-Filename: openvpn-policy-routing_4.1.5-4_all.ipk
-Size: 7219
-SHA256sum: 770fde98a3623b42be96c76d42f603ac3519a35395e481615b7dad19d5f1435d
+Installed-Size: 6413
+Filename: openvpn-policy-routing_4.1.5-5_all.ipk
+Size: 7351
+SHA256sum: 099c00759d517bf85a5b9e84cff37f716098ec589ca3ca05df38a77d3e99b86e
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
