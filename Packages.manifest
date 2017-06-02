@@ -23,8 +23,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 2710
 Filename: luci-app-advanced-reboot_git-17.152.82962-a9e8376-11_all.ipk
-Size: 3474
-SHA256sum: 15dc03038a8ef7ed5508683dc50d65ff19bb7dba7e33e30ee4479961dce397e2
+Size: 3472
+SHA256sum: 9bc80d14ba696f0bd3dbe9117dbd667567b76c661866ab6eecd66e4ec392c049
 Description:  Advanced Reboot Web UI
 
 Package: luci-app-easyflash
@@ -110,20 +110,6 @@ Filename: luci-i18n-simple-adblock-pt_git-17.080.69173-773734e27-2_all.ipk
 Size: 2048
 SHA256sum: 8ec1bba07ccfdd855c6d54340eaa0c8e9660afb511776308703b1294c7847934
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
-
-Package: luci-mod-advanced-reboot
-Version: git-17.150.76278-0e9eed5-11
-Depends: libc
-Source: package/luci/modules/luci-mod-advanced-reboot
-License: GPL-3.0+
-Section: luci
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 2709
-Filename: luci-mod-advanced-reboot_git-17.150.76278-0e9eed5-11_all.ipk
-Size: 3468
-SHA256sum: 135aba9c7c3ccb09c5506995fc293bccee12f164ac2a729751e37a6ec10a0eb9
-Description:  Advanced Reboot Web UI
 
 Package: luci-mod-alt-reboot
 Version: git-17.080.69173-773734e27-10
