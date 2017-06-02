@@ -11,8 +11,8 @@ Can be used on routers with no internet access to suppress warnings on local dev
 #### luci-app-easyflash
 This package installs Web UI for quickly updating your router firmware if you use automated snapshots build process which produces fully customized images and uploads them to your router. Requires sysupgrade-compatible upgrade file ```/tmp/firmware.img``` and a one-line description (target/version/filename info) in ```/tmp/firmware.tag```. WARNING: does not keep your router settings.
 
-#### luci-mod-advanced-reboot
-This package enables Web UI for reboot to another partition functionality on supported (dual-partition) routers and to power off (power down) your OpenWrt/LEDE Project router. Please see the [README](https://github.com/stangri/openwrt-luci/blob/luci-mod-advanced-reboot/modules/luci-mod-advanced-reboot/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/web-ui-to-reboot-to-another-partition-for-dual-partition-routers/3423) for further information.
+#### luci-app-advanced-reboot
+This package enables Web UI for reboot to another partition functionality on supported (dual-partition) routers and to power off (power down) your OpenWrt/LEDE Project router. Please see the [README](https://github.com/stangri/openwrt-luci/blob/luci-app-advanced-reboot/applications/luci-app-advanced-reboot/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/web-ui-to-reboot-to-another-partition-for-dual-partition-routers/3423) for further information.
 
 #### luci-mod-alt-reboot
 This package enables Web UI for reboot to another partition functionality on supported (dual-partition) routers and to power off (power down) your OpenWrt/LEDE Project router by overwriting default System --> Reboot page. Please see the [README](https://github.com/stangri/openwrt-luci/blob/luci-mod-alt-reboot/modules/luci-mod-alt-reboot/README.md) for further information. This package has been superseded by ```luci-mod-advanced-reboot``` and is no longer developed/supported.
