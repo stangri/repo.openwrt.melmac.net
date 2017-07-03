@@ -60,15 +60,15 @@ SHA256sum: a2f622af5ab3ece0ad05640533aa9fa685928c25d1acb4f7a0dc2322bdac580b
 Description:  Simple Adblock Web UI
 
 Package: luci-app-vpnbypass
-Version: git-17.080.69173-773734e27-1
+Version: git-17.183.73346-afa7a14-1
 Depends: libc, vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1454
-Filename: luci-app-vpnbypass_git-17.080.69173-773734e27-1_all.ipk
-Size: 2253
-SHA256sum: cfca909ad876e3955f74d9c74456edc4b3c57eab4ad6bd8ff3c8bda90972ef32
+Installed-Size: 1457
+Filename: luci-app-vpnbypass_git-17.183.73346-afa7a14-1_all.ipk
+Size: 2265
+SHA256sum: 08f8b32ef9046fc7d3033e62bd321da0c9d2e4d68d3d1dd3104d61cb69da0f9f
 Description:  VPN Bypass Web UI
 
 Package: luci-mod-alt-reboot
@@ -118,10 +118,10 @@ Conflicts: openvpn-policy-routing
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 1990
+Installed-Size: 1994
 Filename: vpnbypass_1.3.0-6_all.ipk
-Size: 2920
-SHA256sum: 9527afe95d90aee8b804f360342cc0ab7e80bc3e6499aafa614af5f10339f426
+Size: 2923
+SHA256sum: b887963575806d27a22db1545433e4a086a85e0495c41807377033d902e93faf
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
