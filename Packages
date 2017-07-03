@@ -17,10 +17,10 @@ Depends: libc
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 2718
+Installed-Size: 2709
 Filename: luci-app-advanced-reboot_git-17.183.73346-afa7a14-12_all.ipk
-Size: 3472
-SHA256sum: f676cac859d7643a4c8fb422922981bd5dfd62e2f1b1dbb987b55534cb288170
+Size: 3471
+SHA256sum: 0e64ad3b3e2b4e22f70587d2bb65d213859f63be012767aecc7c4d5212658693
 Description:  Advanced Reboot Web UI
 
 Package: luci-app-easyflash
