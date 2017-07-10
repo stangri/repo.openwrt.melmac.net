@@ -14,17 +14,17 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity.
 
 Package: luci-app-advanced-reboot
-Version: git-17.190.70526-d6360bf-16
+Version: git-17.190.70526-d6360bf-17
 Depends: libc
 Source: package/luci/applications/luci-app-advanced-reboot
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2983
-Filename: luci-app-advanced-reboot_git-17.190.70526-d6360bf-16_all.ipk
-Size: 3747
-SHA256sum: 63dbd68f787db49306ddfda0340f4f65e27ae93e1ba22e9ac81f20d5a8248380
+Installed-Size: 2985
+Filename: luci-app-advanced-reboot_git-17.190.70526-d6360bf-17_all.ipk
+Size: 3753
+SHA256sum: 8edbc5f70c4e8b5d4bb43aaa4dea6e7c22dcb6bb413e47a9c158bdb0d5c93a4a
 Description:  Advanced Reboot Web UI
 
 Package: luci-app-easyflash
