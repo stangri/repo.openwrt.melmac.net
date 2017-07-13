@@ -17,11 +17,11 @@ Depends: libc
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3254
+Installed-Size: 3252
 Filename: luci-app-advanced-reboot_git-17.192.44320-00ae501-22_all.ipk
-Size: 3980
-SHA256sum: 929eff7451d47e8c483b27ddbd31e3a5e0be4e446dd453aa413e6231c03a4edc
-Description:  Advanced Linksys Reboot Web UI
+Size: 4136
+SHA256sum: 852a82df06a3ace5eb6679ed03139e05eb4835a0226000c4be85edaeef7e994a
+Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys routers to an altnerative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers include: - Linksys WRT1200AC - Linksys WRT1900AC - Linksys WRT1900ACv2 - Linksys WRT1900ACS - Linksys WRT3200ACM - Linksys E4200v2 - Linksys EA4500 - Linksys EA8500
 
 Package: luci-app-easyflash
 Version: git-17.186.70712-4f127c3-2
