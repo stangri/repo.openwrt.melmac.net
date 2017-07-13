@@ -21,10 +21,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3245
+Installed-Size: 3250
 Filename: luci-app-advanced-reboot_git-17.192.44320-00ae501-22_all.ipk
-Size: 3970
-SHA256sum: 5916461367f11d839b96071629277a3d2886fc020aa4246ec58a72e0166798b8
+Size: 3976
+SHA256sum: 00732b6eacfd327ef702a41e00dd100279331cf4c00c72430f15252bb341f369
 Description:  Advanced Reboot Web UI
 
 Package: luci-app-easyflash
