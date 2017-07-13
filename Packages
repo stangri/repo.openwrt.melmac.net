@@ -17,11 +17,11 @@ Depends: libc, luci
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3249
+Installed-Size: 3233
 Filename: luci-app-advanced-reboot_git-17.192.44320-00ae501-23_all.ipk
-Size: 4133
-SHA256sum: 06756b9562f69456fcb34131dbc79af5b8d61e584ede56c8f5c9d2d77b242d88
-Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys routers to an altnerative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/stangri/openwrt-luci/blob/luci-app-advanced-reboot/applications/luci-app-advanced-reboot/README.md.
+Size: 4113
+SHA256sum: bdba0cd061d42721cec91b5d87323ba61580c4f3987e7e4cd7c263517fe7477e
+Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys routers to an altnerative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/openwrt/luci/applications/luci-app-advanced-reboot/README.md.
 
 Package: luci-app-easyflash
 Version: git-17.192.44320-00ae501-3
