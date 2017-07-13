@@ -24,15 +24,15 @@ SHA256sum: 5607b2358e3b31cd9bfdf4cf78b2dc0da9fa550a776ab004d65c614b9779f428
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys routers to an altnerative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers include: - Linksys WRT1200AC - Linksys WRT1900AC - Linksys WRT1900ACv2 - Linksys WRT1900ACS - Linksys WRT3200ACM - Linksys E4200v2 - Linksys EA4500 - Linksys EA8500
 
 Package: luci-app-easyflash
-Version: git-17.186.70712-4f127c3-2
-Depends: libc
+Version: git-17.192.44320-00ae501-3
+Depends: libc, luci
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 955
-Filename: luci-app-easyflash_git-17.186.70712-4f127c3-2_all.ipk
-Size: 1791
-SHA256sum: 7ed6cad3abeb9ac3d0f51c24f485df13d92052f4cfa5e82eb067a694b969161a
+Installed-Size: 956
+Filename: luci-app-easyflash_git-17.192.44320-00ae501-3_all.ipk
+Size: 1789
+SHA256sum: 9840026f94b91c667dc257c7f0c20148f9fd0a4962990f71b05ef9c38ca44447
 Description:  Easy Flash Web UI
 
 Package: luci-app-openvpn-policy-routing
