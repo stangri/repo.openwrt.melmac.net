@@ -17,11 +17,11 @@ Depends: libc
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3250
+Installed-Size: 3254
 Filename: luci-app-advanced-reboot_git-17.192.44320-00ae501-22_all.ipk
-Size: 3976
-SHA256sum: 00732b6eacfd327ef702a41e00dd100279331cf4c00c72430f15252bb341f369
-Description:  Advanced Reboot Web UI
+Size: 3980
+SHA256sum: 929eff7451d47e8c483b27ddbd31e3a5e0be4e446dd453aa413e6231c03a4edc
+Description:  Advanced Linksys Reboot Web UI
 
 Package: luci-app-easyflash
 Version: git-17.186.70712-4f127c3-2
