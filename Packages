@@ -41,10 +41,10 @@ Depends: libc, luci, openvpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3740
+Installed-Size: 3718
 Filename: luci-app-openvpn-policy-routing_git-17.209.51293-4c9ae3f-10_all.ipk
-Size: 4570
-SHA256sum: 71001100a1278c582a84c7c6ce533a031e6e0e14cce68d9243581ed0d66b303f
+Size: 4548
+SHA256sum: a8cb1d46ac50a5eecfb6db5e379f49a9c6edfcb979d114fc6cdb58802a62347c
 Description:  Provides Web UI for openvpn-policy-routing service.
 
 Package: luci-app-simple-adblock
@@ -90,10 +90,10 @@ Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 6568
+Installed-Size: 6567
 Filename: openvpn-policy-routing_4.1.5-10_all.ipk
 Size: 7528
-SHA256sum: bd4105c58d5172a36c6ade0184c17a74053e5401ce4ffe7452fe460ae56848a7
+SHA256sum: 5d84a9f3482fb2a67d985dc86289add9eda7280bc58debef36593c79019f02bb
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
