@@ -41,10 +41,10 @@ Depends: libc, luci, openvpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3214
+Installed-Size: 3216
 Filename: luci-app-openvpn-policy-routing_git-17.220.63907-bbcf73f-15_all.ipk
-Size: 4076
-SHA256sum: c79f98a9770ee8c6218e06f1f17468ae861dd833303174f75cb25b2a443a310a
+Size: 4074
+SHA256sum: ce974b75a0a32585389fc70cd86ea3759b99f9f0bca17f4214e191c6aed92b5b
 Description:  Provides Web UI for openvpn-policy-routing service.
 
 Package: luci-app-simple-adblock
@@ -84,16 +84,44 @@ SHA256sum: ea33c2e0770470d6fbfe2b283462c8d3c9fa65140d06bbdb8435b7eb662b3e07
 Description:  Alternative Partition Reboot Web UI
 
 Package: openvpn-policy-routing
+Version: 5.0.0-8
+Depends: libc, iptables, resolveip, kmod-ipt-ipset
+Conflicts: vpnbypass
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 5877
+Filename: openvpn-policy-routing_5.0.0-8_all.ipk
+Size: 6785
+SHA256sum: 41e9f3b6758f6c7abdf8299c8f20d1a28cf44698f4eec7fb5a42498f59aac32a
+Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
+ Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
+
+Package: openvpn-policy-routing
+Version: 5.0.0-9
+Depends: libc, iptables, resolveip, kmod-ipt-ipset
+Conflicts: vpnbypass
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 5892
+Filename: openvpn-policy-routing_5.0.0-9_all.ipk
+Size: 6787
+SHA256sum: c0eb66af7e87f088ce0c81297628a9adae7753b62e2bfa58473f98f1980bf2b8
+Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
+ Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
+
+Package: openvpn-policy-routing
 Version: 5.0-7
 Depends: libc, iptables, resolveip, kmod-ipt-ipset
 Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 5923
+Installed-Size: 5907
 Filename: openvpn-policy-routing_5.0-7_all.ipk
-Size: 6826
-SHA256sum: 4dbeae00a9ac40cc46b1046a40839da1eb42e03165a9d0b4c353a1b900f52b4f
+Size: 6806
+SHA256sum: a1eecf4e09be9106ae3cf188b2f264011a9036fe6ac236ad5f1ec3859b588ec9
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
