@@ -41,10 +41,22 @@ Depends: libc, luci, openvpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3216
+Installed-Size: 3217
 Filename: luci-app-openvpn-policy-routing_git-17.220.63907-bbcf73f-15_all.ipk
 Size: 4074
-SHA256sum: dce34faf53cf8f77f419e831f775ac7e4191e73bf7313e0f0c3ed21585410b5b
+SHA256sum: 51c72af08277b34cb17409535331ffd61c81647e9f74d4b4d625dac4afad63a0
+Description:  Provides Web UI for openvpn-policy-routing service.
+
+Package: luci-app-openvpn-policy-routing
+Version: git-17.220.63907-bbcf73f-16
+Depends: libc, luci, openvpn-policy-routing
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 3217
+Filename: luci-app-openvpn-policy-routing_git-17.220.63907-bbcf73f-16_all.ipk
+Size: 4081
+SHA256sum: 4a7a627ca6480a9fab66815e4304ac57bbddda5f097fe0031d8540a2b10b3e15
 Description:  Provides Web UI for openvpn-policy-routing service.
 
 Package: luci-app-simple-adblock
@@ -90,10 +102,38 @@ Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 5942
+Installed-Size: 6151
 Filename: openvpn-policy-routing_5.0.0-8_all.ipk
-Size: 6848
-SHA256sum: 624c37f2ef3f58150e6fe9320d0cd0a4d9251a433253c73b7fa76f0c08ac1161
+Size: 7111
+SHA256sum: b905644e270420c23cbc39d30e533bd096c8ed9c83883fafa09546ed2bbbc7ac
+Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
+ Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
+
+Package: openvpn-policy-routing
+Version: 5.0.0-9
+Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
+Conflicts: vpnbypass
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 6236
+Filename: openvpn-policy-routing_5.0.0-9_all.ipk
+Size: 7194
+SHA256sum: d4ef9a900251b093c91a477925bae3e007e2c8876ba4f646229fde5db4f37803
+Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
+ Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
+
+Package: openvpn-policy-routing
+Version: 5.0.1-1
+Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
+Conflicts: vpnbypass
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 6230
+Filename: openvpn-policy-routing_5.0.1-1_all.ipk
+Size: 7189
+SHA256sum: 8b4ed00f02ae184172d16e049cf97fd6f2ee2a097422f3f80ddf88ab1313454e
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
