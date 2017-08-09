@@ -41,10 +41,10 @@ Depends: libc, luci, openvpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3216
+Installed-Size: 3215
 Filename: luci-app-openvpn-policy-routing_git-17.220.63907-bbcf73f-15_all.ipk
-Size: 4074
-SHA256sum: ce974b75a0a32585389fc70cd86ea3759b99f9f0bca17f4214e191c6aed92b5b
+Size: 4075
+SHA256sum: e9d3ae7d44fb2fc01c56c156f3823eb2726ad752a037bea63bac462c111aa0b9
 Description:  Provides Web UI for openvpn-policy-routing service.
 
 Package: luci-app-simple-adblock
@@ -90,38 +90,10 @@ Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 5877
+Installed-Size: 5883
 Filename: openvpn-policy-routing_5.0.0-8_all.ipk
-Size: 6785
-SHA256sum: 41e9f3b6758f6c7abdf8299c8f20d1a28cf44698f4eec7fb5a42498f59aac32a
-Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
- Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
-
-Package: openvpn-policy-routing
-Version: 5.0.0-9
-Depends: libc, iptables, resolveip, kmod-ipt-ipset
-Conflicts: vpnbypass
-License: GPL-3.0+
-Section: net
-Architecture: all
-Installed-Size: 5892
-Filename: openvpn-policy-routing_5.0.0-9_all.ipk
-Size: 6787
-SHA256sum: c0eb66af7e87f088ce0c81297628a9adae7753b62e2bfa58473f98f1980bf2b8
-Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
- Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
-
-Package: openvpn-policy-routing
-Version: 5.0-7
-Depends: libc, iptables, resolveip, kmod-ipt-ipset
-Conflicts: vpnbypass
-License: GPL-3.0+
-Section: net
-Architecture: all
-Installed-Size: 5907
-Filename: openvpn-policy-routing_5.0-7_all.ipk
-Size: 6806
-SHA256sum: a1eecf4e09be9106ae3cf188b2f264011a9036fe6ac236ad5f1ec3859b588ec9
+Size: 6789
+SHA256sum: 0fdbb87fa72ec0a0f9721af89c4896838cde352b71aa29820994a931ca6c1d03
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
