@@ -35,6 +35,18 @@ Size: 1790
 SHA256sum: 1dc8728ddfbc65f55c749c3698687d9d572d3eb638aeb2af0864eea52fcda987
 Description:  Easy Flash Web UI
 
+Package: luci-app-noddos
+Version: git-17.220.63907-bbcf73f-1
+Depends: libc, luci, noddos
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 9483
+Filename: luci-app-noddos_git-17.220.63907-bbcf73f-1_all.ipk
+Size: 10319
+SHA256sum: 0ad2ac3d3ec85826ddd47fbd96c33eaaf9c7dc24fa616d5bad23a0045dd0a3b5
+Description:  Provides Web UI for NoDDoS service.
+
 Package: luci-app-openvpn-policy-routing
 Version: git-17.220.63907-bbcf73f-16
 Depends: libc, luci, openvpn-policy-routing
@@ -90,10 +102,10 @@ Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 6232
+Installed-Size: 6235
 Filename: openvpn-policy-routing_5.0.1-1_all.ipk
-Size: 7488
-SHA256sum: d8910aacd74b8aac672c6bb6c67a665091f461baf764b49205c2a35fe2f15fa5
+Size: 7491
+SHA256sum: 61eb3cf35bb049877766ee508985d94e647e19cc8583f80daa1a79013a2d7ab0
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
