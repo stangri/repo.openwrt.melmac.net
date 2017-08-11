@@ -41,10 +41,10 @@ Depends: libc, luci, noddos
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 9540
+Installed-Size: 9541
 Filename: luci-app-noddos_git-17.222.49750-afe2d2c-2_all.ipk
-Size: 10389
-SHA256sum: 75daa9edcd5ac13925883d5af7196d72a4e31ce8d4c4f4ad11dc331c6a450d5f
+Size: 10393
+SHA256sum: 0f9500859eee9342e0856adf35c3697bfdf86fea57d77d304f1625b724cd7488
 Description:  Provides Web UI for NoDDoS service.
 
 Package: luci-app-openvpn-policy-routing
