@@ -13,6 +13,21 @@ SHA256sum: a7e0504a4605129f25c6631d2dc5537a2757bb3310cf2547e77179192fba6176
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity.
 
+Package: libtins
+Version: v3.5-1
+Depends: libc, libstdcpp, libpcap
+Source: noddosbuild/package/libtins
+License: BSD-2-Clause
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Steven Hessing <steven.hessing@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 162541
+Filename: libtins_v3.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 163286
+SHA256sum: 3c30dcb8f5b92b8b842aa72f860f3afb8e166b1a217b0fa9483a76ad315f71b0
+Description:  libtins is a high-level, multiplatform C++ network packet sniffing and crafting library.
+
 Package: luci-app-advanced-reboot
 Version: git-17.192.44320-00ae501-23
 Depends: libc, luci
@@ -51,8 +66,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 9541
 Filename: luci-app-noddos_git-17.222.49750-afe2d2c-2_all.ipk
-Size: 10393
-SHA256sum: 0f9500859eee9342e0856adf35c3697bfdf86fea57d77d304f1625b724cd7488
+Size: 10384
+SHA256sum: ef65d0ba4b2dfa1918cc379d4be73510c7a7aabf4d09b8346d33e793288acd60
 Description:  Provides Web UI for NoDDoS service.
 
 Package: luci-app-openvpn-policy-routing
@@ -110,6 +125,19 @@ Filename: luci-mod-alt-reboot_git-17.192.44320-00ae501-10_all.ipk
 Size: 6584
 SHA256sum: ea33c2e0770470d6fbfe2b283462c8d3c9fa65140d06bbdb8435b7eb662b3e07
 Description:  Alternative Partition Reboot Web UI
+
+Package: noddos
+Version: 0.3.1-1
+Depends: libc, libstdcpp, libnetfilter-conntrack, libcurl, libopenssl, openssl-util, ca-bundle, ca-certificates, wget, bzip2, libtins
+Source: noddosbuild/package/noddos
+License: GPLv3
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 137315
+Filename: noddos_0.3.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 138352
+SHA256sum: d8a2fd2adc2fa0815136e9d86e9c2fb666a444669e9cf06266753826eb5eee70
+Description:  Noddos discovers what devices you have in your network and tailors the firewall rules based on whitelisted flows for that device. Noddos downloads the firewall rules periodically from the cloud. In order to support creating these firewall rules, noddos can optionally upload anonimized traffic statistics for each device to the cloud.
 
 Package: openvpn-policy-routing
 Version: 5.0.1-1
