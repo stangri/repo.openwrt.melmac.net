@@ -36,15 +36,27 @@ SHA256sum: 1dc8728ddfbc65f55c749c3698687d9d572d3eb638aeb2af0864eea52fcda987
 Description:  Easy Flash Web UI
 
 Package: luci-app-noddos
-Version: git-17.220.63907-bbcf73f-1
+Version: git-17.222.49750-afe2d2c-1
 Depends: libc, luci, noddos
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 9482
-Filename: luci-app-noddos_git-17.220.63907-bbcf73f-1_all.ipk
-Size: 10320
-SHA256sum: 840cc952e240e1735822270a54614a1be644acdfd30adc04883f93d7fc7b16a8
+Filename: luci-app-noddos_git-17.222.49750-afe2d2c-1_all.ipk
+Size: 10316
+SHA256sum: d41f9a5122191e5bb64fb4e3e75c11b62692819e391396e2525d6c983f65a326
+Description:  Provides Web UI for NoDDoS service.
+
+Package: luci-app-noddos
+Version: git-17.222.49750-afe2d2c-2
+Depends: libc, luci, noddos
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 9483
+Filename: luci-app-noddos_git-17.222.49750-afe2d2c-2_all.ipk
+Size: 10324
+SHA256sum: b626fa69fecd01ddca61eff50c32c72e4f4a3cfe194f354b40046f508d9e3f5a
 Description:  Provides Web UI for NoDDoS service.
 
 Package: luci-app-openvpn-policy-routing
