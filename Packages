@@ -17,10 +17,10 @@ Depends: libc, libstdcpp, libpcap
 License: BSD-2-Clause
 Section: net
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 162539
+Installed-Size: 162540
 Filename: libtins_v3.5-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 163278
-SHA256sum: c14db59c1c7be4aae1828f1afa7f2d167694ace0149c9d868da3db9f9d5d29ce
+Size: 163291
+SHA256sum: dc28f8c5b5fbecfa3b29ac6263a996540748d73ae9f9911b047a6996819289c1
 Description:  libtins is a high-level, multiplatform C++ network packet sniffing and crafting library.
 
 Package: luci-app-advanced-reboot
@@ -48,27 +48,27 @@ SHA256sum: 1dc8728ddfbc65f55c749c3698687d9d572d3eb638aeb2af0864eea52fcda987
 Description:  Easy Flash Web UI
 
 Package: luci-app-noddos
-Version: git-17.222.49750-afe2d2c-2
+Version: git-17.223.47793-8bc1971-3
 Depends: libc, luci, noddos
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 9542
-Filename: luci-app-noddos_git-17.222.49750-afe2d2c-2_all.ipk
-Size: 10390
-SHA256sum: bc71913f5cc73c061eed0730b448d3e507b063d85ccb27df7c25f2e1a70b5979
+Installed-Size: 9539
+Filename: luci-app-noddos_git-17.223.47793-8bc1971-3_all.ipk
+Size: 10388
+SHA256sum: a85921b532ba2707191d3e64cb80440e6812136a01fbeb0027051fc434088dba
 Description:  Provides Web UI for NoDDoS service.
 
 Package: luci-app-noddos
-Version: git-17.222.49750-afe2d2c-3
+Version: git-17.224.23009-2697ef8-3
 Depends: libc, luci, noddos
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 9540
-Filename: luci-app-noddos_git-17.222.49750-afe2d2c-3_all.ipk
-Size: 10387
-SHA256sum: 4af8ca681bcf61b8f89f831199eee3e0338896aaf07025028614f1b490030dce
+Installed-Size: 9539
+Filename: luci-app-noddos_git-17.224.23009-2697ef8-3_all.ipk
+Size: 10386
+SHA256sum: 77d4888060b9e2f030cba21a31e92a005575108fe4a868ecee7bce11d3295d73
 Description:  Provides Web UI for NoDDoS service.
 
 Package: luci-app-openvpn-policy-routing
@@ -96,15 +96,15 @@ SHA256sum: 4681c5b24e62d68841e32ba9053edda4e4f294d378355de10fe0915653209514
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
-Version: git-17.220.63907-bbcf73f-2
+Version: git-17.225.68218-09e0519-2
 Depends: libc, luci, vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1459
-Filename: luci-app-vpnbypass_git-17.220.63907-bbcf73f-2_all.ipk
-Size: 2283
-SHA256sum: c899452282bf11aa8264cec58dbb68db4227f611486dc4356d1099277b26f777
+Installed-Size: 1457
+Filename: luci-app-vpnbypass_git-17.225.68218-09e0519-2_all.ipk
+Size: 2288
+SHA256sum: 15e008e7bb7e1589a0f9399d8660cd51b6d23ed6bda2c695170d137d34753e96
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-mod-alt-reboot
@@ -125,10 +125,22 @@ Depends: libc, libstdcpp, libnetfilter-conntrack, libcurl, libopenssl, openssl-u
 License: GPLv3
 Section: net
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 137310
+Installed-Size: 137313
 Filename: noddos_0.3.1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 138345
-SHA256sum: 25dbe694bf22231f4f20c1197721a16141681b53797d5d7c1fcfbc79ca7065fd
+Size: 138321
+SHA256sum: da6f5bc650db91c87d5eded81f4d28ba5cac3bf0cd80aae220b2f46552816c69
+Description:  Noddos discovers what devices you have in your network and tailors the firewall rules based on whitelisted flows for that device. Noddos downloads the firewall rules periodically from the cloud. In order to support creating these firewall rules, noddos can optionally upload anonimized traffic statistics for each device to the cloud.
+
+Package: noddos
+Version: master-1
+Depends: libc, libstdcpp, libnetfilter-conntrack, libcurl, libopenssl, openssl-util, ca-bundle, ca-certificates, wget, bzip2, libtins, ipset
+License: GPLv3
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 140804
+Filename: noddos_master-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 141803
+SHA256sum: 3d4ff8bc0f8375f880379d0d0b013cf66ab7028113f1d1b09982150d144f1008
 Description:  Noddos discovers what devices you have in your network and tailors the firewall rules based on whitelisted flows for that device. Noddos downloads the firewall rules periodically from the cloud. In order to support creating these firewall rules, noddos can optionally upload anonimized traffic statistics for each device to the cloud.
 
 Package: openvpn-policy-routing
@@ -160,16 +172,16 @@ Description:  This service provides dnsmasq-based ad blocking.
  
 
 Package: vpnbypass
-Version: 1.3.0-7
+Version: 1.3.0-8
 Depends: libc, ipset, iptables, kmod-ipt-ipset
-Conflicts: openvpn-policy-routing
+Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2186
-Filename: vpnbypass_1.3.0-7_all.ipk
-Size: 3145
-SHA256sum: c10eb7f56c097f6a20d876901e8fbb7b250b9eaa2584c871a0a97219433f0e4e
+Installed-Size: 2192
+Filename: vpnbypass_1.3.0-8_all.ipk
+Size: 3429
+SHA256sum: d424bf77fd0ce1f483502e99bf8029bd7d22e81f09dc2b3abd1782063aeebcba
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
