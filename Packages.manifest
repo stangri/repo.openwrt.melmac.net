@@ -95,7 +95,7 @@ Architecture: all
 Installed-Size: 3218
 Filename: luci-app-openvpn-policy-routing_git-17.227.62661-3d338ee-16_all.ipk
 Size: 4079
-SHA256sum: 64cce5f5d63e20c563818f45f3092cc0fccd0eb89a350434957addecff7ac8eb
+SHA256sum: af6c2ae22c3ebc81197ce72cf9327097cbdd620570ac6ebab21c532328341b20
 Description:  Provides Web UI for openvpn-policy-routing service.
 
 Package: luci-app-simple-adblock
@@ -167,7 +167,7 @@ SHA256sum: 3d4ff8bc0f8375f880379d0d0b013cf66ab7028113f1d1b09982150d144f1008
 Description:  Noddos discovers what devices you have in your network and tailors the firewall rules based on whitelisted flows for that device. Noddos downloads the firewall rules periodically from the cloud. In order to support creating these firewall rules, noddos can optionally upload anonimized traffic statistics for each device to the cloud.
 
 Package: openvpn-policy-routing
-Version: 5.0.1-3
+Version: 5.0.1-5
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
 Conflicts: vpnbypass
 Source: /mnt/NAS/Users/stangri/lede/Config/openvpn-policy-routing/net/openvpn-policy-routing
@@ -175,26 +175,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6493
-Filename: openvpn-policy-routing_5.0.1-3_all.ipk
-Size: 7750
-SHA256sum: e6e33981d402c76c709d75bebd4a987285bff22d5399e63d72e482a0d85dced3
-Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
- Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
-
-Package: openvpn-policy-routing
-Version: 5.0.1-4
-Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
-Conflicts: vpnbypass
-Source: /mnt/NAS/Users/stangri/lede/Config/openvpn-policy-routing/net/openvpn-policy-routing
-License: GPL-3.0+
-Section: net
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 6523
-Filename: openvpn-policy-routing_5.0.1-4_all.ipk
-Size: 7777
-SHA256sum: 73f8cf62de41944a2c55165330ecfa13db9f044b60cb1f87f7c77e0660aeee0f
+Installed-Size: 6535
+Filename: openvpn-policy-routing_5.0.1-5_all.ipk
+Size: 7788
+SHA256sum: da73b664c59cd7ca4828974729334a28337c66d0b9913d1e5e807dcc1a3b6b31
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
