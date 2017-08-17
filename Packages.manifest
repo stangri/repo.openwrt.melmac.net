@@ -85,34 +85,6 @@ SHA256sum: 77d4888060b9e2f030cba21a31e92a005575108fe4a868ecee7bce11d3295d73
 Description:  Provides Web UI for NoDDoS service.
 
 Package: luci-app-openvpn-policy-routing
-Version: git-17.227.62661-3d338ee-16
-Depends: libc, luci, openvpn-policy-routing
-Source: package/luci/applications/luci-app-openvpn-policy-routing
-License: GPL-3.0+
-Section: luci
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 3220
-Filename: luci-app-openvpn-policy-routing_git-17.227.62661-3d338ee-16_all.ipk
-Size: 4084
-SHA256sum: 218286ba2ceba74c749a843c6bc6e22c39d1bb7bcc50517515bcc6153dc3b6b4
-Description:  Provides Web UI for openvpn-policy-routing service.
-
-Package: luci-app-openvpn-policy-routing
-Version: git-17.227.62661-3d338ee-17
-Depends: libc, luci, openvpn-policy-routing
-Source: package/luci/applications/luci-app-openvpn-policy-routing
-License: GPL-3.0+
-Section: luci
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 3219
-Filename: luci-app-openvpn-policy-routing_git-17.227.62661-3d338ee-17_all.ipk
-Size: 4082
-SHA256sum: d6030c76513f5270c5cd9cad6c411e4469d1739a2b4d816efe5d3a1848e60f8c
-Description:  Provides Web UI for openvpn-policy-routing service.
-
-Package: luci-app-openvpn-policy-routing
 Version: git-17.228.56579-209deb5-17
 Depends: libc, luci, openvpn-policy-routing
 Source: package/luci/applications/luci-app-openvpn-policy-routing
@@ -120,10 +92,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3219
+Installed-Size: 3218
 Filename: luci-app-openvpn-policy-routing_git-17.228.56579-209deb5-17_all.ipk
-Size: 4078
-SHA256sum: 89704a793d1f432b30d6a85f909194f92109407dcb3cd2f10d458ecf1dfe8deb
+Size: 4080
+SHA256sum: 5824a3175e9f6d01d1632e61cd151729b711852446fd7f555305975eaa0e1d16
 Description:  Provides Web UI for openvpn-policy-routing service.
 
 Package: luci-app-simple-adblock
@@ -195,22 +167,6 @@ SHA256sum: 3d4ff8bc0f8375f880379d0d0b013cf66ab7028113f1d1b09982150d144f1008
 Description:  Noddos discovers what devices you have in your network and tailors the firewall rules based on whitelisted flows for that device. Noddos downloads the firewall rules periodically from the cloud. In order to support creating these firewall rules, noddos can optionally upload anonimized traffic statistics for each device to the cloud.
 
 Package: openvpn-policy-routing
-Version: 5.0.1-6
-Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
-Conflicts: vpnbypass
-Source: /mnt/NAS/Users/stangri/lede/Config/openvpn-policy-routing/net/openvpn-policy-routing
-License: GPL-3.0+
-Section: net
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 6539
-Filename: openvpn-policy-routing_5.0.1-6_all.ipk
-Size: 7794
-SHA256sum: 3f7371a627cdedd85876ebcdf0577078a220c6721063c6de1b50e1837f85435b
-Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
- Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
-
-Package: openvpn-policy-routing
 Version: 5.0.1-7
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
 Conflicts: vpnbypass
@@ -219,10 +175,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6546
+Installed-Size: 6545
 Filename: openvpn-policy-routing_5.0.1-7_all.ipk
-Size: 7807
-SHA256sum: 948ee2f2ab28c8fcb2fc4f0f3d97fe9e9b6892178fa9b08a218fe202eb13e82d
+Size: 7806
+SHA256sum: 3fb3ac9b1fd96257768df5fb2e98ed396a8734539a43a1455351763dde0a356d
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
