@@ -77,10 +77,34 @@ Depends: libc, luci, openvpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3218
+Installed-Size: 3220
 Filename: luci-app-openvpn-policy-routing_git-17.227.62661-3d338ee-16_all.ipk
-Size: 4079
-SHA256sum: af6c2ae22c3ebc81197ce72cf9327097cbdd620570ac6ebab21c532328341b20
+Size: 4084
+SHA256sum: 218286ba2ceba74c749a843c6bc6e22c39d1bb7bcc50517515bcc6153dc3b6b4
+Description:  Provides Web UI for openvpn-policy-routing service.
+
+Package: luci-app-openvpn-policy-routing
+Version: git-17.227.62661-3d338ee-17
+Depends: libc, luci, openvpn-policy-routing
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 3219
+Filename: luci-app-openvpn-policy-routing_git-17.227.62661-3d338ee-17_all.ipk
+Size: 4082
+SHA256sum: d6030c76513f5270c5cd9cad6c411e4469d1739a2b4d816efe5d3a1848e60f8c
+Description:  Provides Web UI for openvpn-policy-routing service.
+
+Package: luci-app-openvpn-policy-routing
+Version: git-17.228.56579-209deb5-17
+Depends: libc, luci, openvpn-policy-routing
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 3219
+Filename: luci-app-openvpn-policy-routing_git-17.228.56579-209deb5-17_all.ipk
+Size: 4078
+SHA256sum: 89704a793d1f432b30d6a85f909194f92109407dcb3cd2f10d458ecf1dfe8deb
 Description:  Provides Web UI for openvpn-policy-routing service.
 
 Package: luci-app-simple-adblock
@@ -96,15 +120,15 @@ SHA256sum: 20d14e985f56abaf88d1b8df2029893d704ac292cc4f12aaa32afbad9d792edd
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
-Version: git-17.225.68218-09e0519-2
+Version: git-17.228.56579-209deb5-2
 Depends: libc, luci, vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 1457
-Filename: luci-app-vpnbypass_git-17.225.68218-09e0519-2_all.ipk
-Size: 2288
-SHA256sum: 15e008e7bb7e1589a0f9399d8660cd51b6d23ed6bda2c695170d137d34753e96
+Filename: luci-app-vpnbypass_git-17.228.56579-209deb5-2_all.ipk
+Size: 2282
+SHA256sum: 3a8795f8efd6d56e9e7d29a3196091eb8c89b78f23816fdc8b61e83fe5eb745c
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-mod-alt-reboot
@@ -144,16 +168,30 @@ SHA256sum: 3d4ff8bc0f8375f880379d0d0b013cf66ab7028113f1d1b09982150d144f1008
 Description:  Noddos discovers what devices you have in your network and tailors the firewall rules based on whitelisted flows for that device. Noddos downloads the firewall rules periodically from the cloud. In order to support creating these firewall rules, noddos can optionally upload anonimized traffic statistics for each device to the cloud.
 
 Package: openvpn-policy-routing
-Version: 5.0.1-5
+Version: 5.0.1-6
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
 Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 6535
-Filename: openvpn-policy-routing_5.0.1-5_all.ipk
-Size: 7788
-SHA256sum: da73b664c59cd7ca4828974729334a28337c66d0b9913d1e5e807dcc1a3b6b31
+Installed-Size: 6539
+Filename: openvpn-policy-routing_5.0.1-6_all.ipk
+Size: 7794
+SHA256sum: 3f7371a627cdedd85876ebcdf0577078a220c6721063c6de1b50e1837f85435b
+Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
+ Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
+
+Package: openvpn-policy-routing
+Version: 5.0.1-7
+Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
+Conflicts: vpnbypass
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 6546
+Filename: openvpn-policy-routing_5.0.1-7_all.ipk
+Size: 7807
+SHA256sum: 948ee2f2ab28c8fcb2fc4f0f3d97fe9e9b6892178fa9b08a218fe202eb13e82d
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
@@ -172,16 +210,16 @@ Description:  This service provides dnsmasq-based ad blocking.
  
 
 Package: vpnbypass
-Version: 1.3.0-8
+Version: 1.3.0-9
 Depends: libc, ipset, iptables, kmod-ipt-ipset
 Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2192
-Filename: vpnbypass_1.3.0-8_all.ipk
-Size: 3429
-SHA256sum: d424bf77fd0ce1f483502e99bf8029bd7d22e81f09dc2b3abd1782063aeebcba
+Installed-Size: 2193
+Filename: vpnbypass_1.3.0-9_all.ipk
+Size: 3439
+SHA256sum: a2783fb9c745b7a847e34abe64be8411d8d3ac7fadeba93e367c05c277afe23a
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
