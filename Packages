@@ -17,10 +17,10 @@ Depends: libc, libstdcpp, libpcap
 License: BSD-2-Clause
 Section: net
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 162540
+Installed-Size: 162542
 Filename: libtins_v3.5-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 163291
-SHA256sum: dc28f8c5b5fbecfa3b29ac6263a996540748d73ae9f9911b047a6996819289c1
+Size: 163276
+SHA256sum: febce9fbfad19eaf6099d4b88ac303ee118e808ff9a1ff7d7e3a5513043008fa
 Description:  libtins is a high-level, multiplatform C++ network packet sniffing and crafting library.
 
 Package: luci-app-advanced-reboot
@@ -48,123 +48,39 @@ SHA256sum: 1dc8728ddfbc65f55c749c3698687d9d572d3eb638aeb2af0864eea52fcda987
 Description:  Easy Flash Web UI
 
 Package: luci-app-noddos
-Version: git-17.223.47793-8bc1971-3
+Version: git-17.233.63334-520d5bb-4
 Depends: libc, luci, noddos
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 9539
-Filename: luci-app-noddos_git-17.223.47793-8bc1971-3_all.ipk
-Size: 10388
-SHA256sum: a85921b532ba2707191d3e64cb80440e6812136a01fbeb0027051fc434088dba
-Description:  Provides Web UI for NoDDoS service.
-
-Package: luci-app-noddos
-Version: git-17.224.23009-2697ef8-3
-Depends: libc, luci, noddos
-License: GPL-3.0+
-Section: luci
-Architecture: all
-Installed-Size: 9539
-Filename: luci-app-noddos_git-17.224.23009-2697ef8-3_all.ipk
-Size: 10386
-SHA256sum: 77d4888060b9e2f030cba21a31e92a005575108fe4a868ecee7bce11d3295d73
+Installed-Size: 9756
+Filename: luci-app-noddos_git-17.233.63334-520d5bb-4_all.ipk
+Size: 10613
+SHA256sum: 0f6c038a02cc30477631619c7f7a301442c00c46c7aa8ae04fc7183eff09c289
 Description:  Provides Web UI for NoDDoS service.
 
 Package: luci-app-openvpn-policy-routing
-Version: git-17.228.56579-209deb5-17
+Version: git-17.233.63334-520d5bb-19
 Depends: libc, luci, openvpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3220
-Filename: luci-app-openvpn-policy-routing_git-17.228.56579-209deb5-17_all.ipk
-Size: 4086
-SHA256sum: a1e01bbb74a17003ab1ace5ce524228c31aa7e2f1414ddebeac8efa7a99b59c8
-Description:  Provides Web UI for openvpn-policy-routing service.
-
-Package: luci-app-openvpn-policy-routing
-Version: git-17.229.61318-5d35777-17
-Depends: libc, luci, openvpn-policy-routing
-License: GPL-3.0+
-Section: luci
-Architecture: all
-Installed-Size: 3218
-Filename: luci-app-openvpn-policy-routing_git-17.229.61318-5d35777-17_all.ipk
-Size: 4076
-SHA256sum: b0f92ebcd6c7d8cbb4248f3a19ca248186b41daeb783751dc26025c16fb00ea5
-Description:  Provides Web UI for openvpn-policy-routing service.
-
-Package: luci-app-openvpn-policy-routing
-Version: git-17.231.35495-ad81dc1-17
-Depends: libc, luci, openvpn-policy-routing
-License: GPL-3.0+
-Section: luci
-Architecture: all
-Installed-Size: 3220
-Filename: luci-app-openvpn-policy-routing_git-17.231.35495-ad81dc1-17_all.ipk
-Size: 4077
-SHA256sum: f3f6afcc4e611b1544eb4bf2cf35802ea8a312f8ea91dab62c4427f0267552e4
-Description:  Provides Web UI for openvpn-policy-routing service.
-
-Package: luci-app-openvpn-policy-routing
-Version: git-17.232.20470-ac8a957-17
-Depends: libc, luci, openvpn-policy-routing
-License: GPL-3.0+
-Section: luci
-Architecture: all
-Installed-Size: 3220
-Filename: luci-app-openvpn-policy-routing_git-17.232.20470-ac8a957-17_all.ipk
-Size: 4077
-SHA256sum: 83edd2c9da06d0ec23a6d060f6b957b37496756c2525dec8024d76f7f489d4d0
-Description:  Provides Web UI for openvpn-policy-routing service.
-
-Package: luci-app-openvpn-policy-routing
-Version: git-17.232.20470-ac8a957-18
-Depends: libc, luci, openvpn-policy-routing
-License: GPL-3.0+
-Section: luci
-Architecture: all
-Installed-Size: 3169
-Filename: luci-app-openvpn-policy-routing_git-17.232.20470-ac8a957-18_all.ipk
-Size: 4035
-SHA256sum: bc736dbd1d620b553b392bd183234e37286c7722a9fbc1ec63ec4771316bd23e
-Description:  Provides Web UI for openvpn-policy-routing service.
-
-Package: luci-app-openvpn-policy-routing
-Version: git-17.232.55289-a17772e-18
-Depends: libc, luci, openvpn-policy-routing
-License: GPL-3.0+
-Section: luci
-Architecture: all
-Installed-Size: 3218
-Filename: luci-app-openvpn-policy-routing_git-17.232.55289-a17772e-18_all.ipk
-Size: 4078
-SHA256sum: f4895bc628deda30a72aab530c88ad4c414dcdf76156184eb5a49e2fb4ffa0bc
-Description:  Provides Web UI for openvpn-policy-routing service.
-
-Package: luci-app-openvpn-policy-routing
-Version: git-17.232.55289-a17772e-19
-Depends: libc, luci, openvpn-policy-routing
-License: GPL-3.0+
-Section: luci
-Architecture: all
-Installed-Size: 3365
-Filename: luci-app-openvpn-policy-routing_git-17.232.55289-a17772e-19_all.ipk
+Installed-Size: 3364
+Filename: luci-app-openvpn-policy-routing_git-17.233.63334-520d5bb-19_all.ipk
 Size: 4197
-SHA256sum: f2880c0a3327ae9ce2103a0b0a45f1347146fe9732ff14dbfdb1451981d744bf
+SHA256sum: d55e1a1651443b5b90b2f1fe315c480d129d4cf26afe429bbc8bd6959aaf0e36
 Description:  Provides Web UI for openvpn-policy-routing service.
 
 Package: luci-app-simple-adblock
-Version: git-17.225.68218-09e0519-4
+Version: git-17.234.69785-72b90c0-4
 Depends: libc, luci, simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1584
-Filename: luci-app-simple-adblock_git-17.225.68218-09e0519-4_all.ipk
-Size: 2415
-SHA256sum: 20d14e985f56abaf88d1b8df2029893d704ac292cc4f12aaa32afbad9d792edd
+Installed-Size: 1583
+Filename: luci-app-simple-adblock_git-17.234.69785-72b90c0-4_all.ipk
+Size: 2410
+SHA256sum: 73228153313f01eb8739eedaa26edc520966d03417866ff52a4568a450855e7c
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -192,81 +108,55 @@ SHA256sum: ea33c2e0770470d6fbfe2b283462c8d3c9fa65140d06bbdb8435b7eb662b3e07
 Description:  Alternative Partition Reboot Web UI
 
 Package: noddos
-Version: 0.3.1-1
-Depends: libc, libstdcpp, libnetfilter-conntrack, libcurl, libopenssl, openssl-util, ca-bundle, ca-certificates, wget, bzip2, libtins
-License: GPLv3
-Section: net
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 137313
-Filename: noddos_0.3.1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 138321
-SHA256sum: da6f5bc650db91c87d5eded81f4d28ba5cac3bf0cd80aae220b2f46552816c69
-Description:  Noddos discovers what devices you have in your network and tailors the firewall rules based on whitelisted flows for that device. Noddos downloads the firewall rules periodically from the cloud. In order to support creating these firewall rules, noddos can optionally upload anonimized traffic statistics for each device to the cloud.
-
-Package: noddos
 Version: master-1
 Depends: libc, libstdcpp, libnetfilter-conntrack, libcurl, libopenssl, openssl-util, ca-bundle, ca-certificates, wget, bzip2, libtins, ipset
 License: GPLv3
 Section: net
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 140804
+Installed-Size: 140798
 Filename: noddos_master-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 141803
-SHA256sum: 3d4ff8bc0f8375f880379d0d0b013cf66ab7028113f1d1b09982150d144f1008
+Size: 141796
+SHA256sum: baad3d066729fd9fce2247545be568f4c80235e3d149d9be16a1b31673034ced
 Description:  Noddos discovers what devices you have in your network and tailors the firewall rules based on whitelisted flows for that device. Noddos downloads the firewall rules periodically from the cloud. In order to support creating these firewall rules, noddos can optionally upload anonimized traffic statistics for each device to the cloud.
 
 Package: openvpn-policy-routing
-Version: 5.0.1-10
+Version: 5.0.1-11
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
 Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 6838
-Filename: openvpn-policy-routing_5.0.1-10_all.ipk
-Size: 8103
-SHA256sum: 23692dd6cf4080ad92c2d7711c877bec3f703dd06d4cfa5a2657486842644dda
+Installed-Size: 6960
+Filename: openvpn-policy-routing_5.0.1-11_all.ipk
+Size: 8197
+SHA256sum: 4b810d0383f386e3f81a33fc90ff73569afdbbde5b78919dccaeb4e13f7bad0c
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
 Package: openvpn-policy-routing
-Version: 5.0.1-8
+Version: 5.0.1-master
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
 Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 6385
-Filename: openvpn-policy-routing_5.0.1-8_all.ipk
-Size: 7643
-SHA256sum: dbd2351e9660727c3f1fc28d85cf65ab577a205c2a1da3ded8d7fda329f57aae
-Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
- Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
-
-Package: openvpn-policy-routing
-Version: 5.0.1-9
-Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
-Conflicts: vpnbypass
-License: GPL-3.0+
-Section: net
-Architecture: all
-Installed-Size: 6427
-Filename: openvpn-policy-routing_5.0.1-9_all.ipk
-Size: 7695
-SHA256sum: b86fe98748f0834dbc2976f5153d85d925c12d6ded16892941c52c98a74f4db6
+Installed-Size: 6855
+Filename: openvpn-policy-routing_5.0.1-master_all.ipk
+Size: 8120
+SHA256sum: 053d4339052f0d63867409f68bbf7d3111a43cb450101afdb5d0016f393caa21
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
 Package: simple-adblock
-Version: 1.5.7-6
+Version: 1.5.7-7
 Depends: libc
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 3667
-Filename: simple-adblock_1.5.7-6_all.ipk
-Size: 4482
-SHA256sum: 2f36390da279e0f04798ead75bc6519d6f072004a9c3be3bb35ad4dc041c6c2f
+Installed-Size: 3742
+Filename: simple-adblock_1.5.7-7_all.ipk
+Size: 4558
+SHA256sum: 173067caaa348e8ee3d1fe5e298c9b36120875a533bd523ed874f0d22c05c7a8
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
