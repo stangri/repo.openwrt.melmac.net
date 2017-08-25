@@ -24,16 +24,16 @@ SHA256sum: febce9fbfad19eaf6099d4b88ac303ee118e808ff9a1ff7d7e3a5513043008fa
 Description:  libtins is a high-level, multiplatform C++ network packet sniffing and crafting library.
 
 Package: luci-app-advanced-reboot
-Version: git-17.192.44320-00ae501-23
+Version: git-17.234.69785-72b90c0-24
 Depends: libc, luci
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3233
-Filename: luci-app-advanced-reboot_git-17.192.44320-00ae501-23_all.ipk
-Size: 4113
-SHA256sum: bdba0cd061d42721cec91b5d87323ba61580c4f3987e7e4cd7c263517fe7477e
-Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys routers to an altnerative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/openwrt/luci/applications/luci-app-advanced-reboot/README.md.
+Installed-Size: 3245
+Filename: luci-app-advanced-reboot_git-17.234.69785-72b90c0-24_all.ipk
+Size: 4137
+SHA256sum: a11d298e33d194c7c83f2a8858b8225da712778a225a134e6a9321f181dfb918
+Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys routers to an altnerative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/stangri/openwrt-luci/blob/luci-app-advanced-reboot/applications/luci-app-advanced-reboot/README.md
 
 Package: luci-app-easyflash
 Version: git-17.220.63907-bbcf73f-3
