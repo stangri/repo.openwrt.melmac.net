@@ -65,10 +65,10 @@ Depends: libc, luci, openvpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3366
+Installed-Size: 3363
 Filename: luci-app-openvpn-policy-routing_git-17.234.69785-72b90c0-19_all.ipk
-Size: 4193
-SHA256sum: edac25629701d9f5d17a9cacbf796333c4dddf8f8e6ad2418934adfeb5b9b51d
+Size: 4190
+SHA256sum: 81b4d54513ceb3e3002bd4720fd6dea00ccffc164bae7d1b8dcbb33e58fd3d36
 Description:  Provides Web UI for openvpn-policy-routing service.
 
 Package: luci-app-simple-adblock
@@ -77,10 +77,10 @@ Depends: libc, luci, simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1582
+Installed-Size: 1583
 Filename: luci-app-simple-adblock_git-17.234.69785-72b90c0-4_all.ipk
-Size: 2414
-SHA256sum: 2df978400fd53d37b37101dc48b4f8ae92fe2612bc86f9f20050e60ef4b997e9
+Size: 2412
+SHA256sum: fc10c7be475369f7f29aa4c056426d7e9ee04db945b542e309deec9a246587a1
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -126,10 +126,10 @@ Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 7013
+Installed-Size: 7090
 Filename: openvpn-policy-routing_5.0.1-12_all.ipk
-Size: 8245
-SHA256sum: c4cc70d724f90ae8d5284f7f7e57a011db6bcc27dca3e6e7f7d2e4afe2e3e708
+Size: 8326
+SHA256sum: ae6b4d308796e1a1cf72dcb329bb9debe6fd959c6dcd067538e4621b6bb293cd
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
@@ -139,10 +139,10 @@ Depends: libc
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 3719
+Installed-Size: 3718
 Filename: simple-adblock_1.5.7-7_all.ipk
-Size: 4535
-SHA256sum: 262561a23c321a3d35e1bc59a052a292cb350db42bf08097ac097a3ea69de19f
+Size: 4532
+SHA256sum: 784bd28736fa9182a74e74b8b1d5cd35e7d549ceb46c05963833314897c8f0df
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
