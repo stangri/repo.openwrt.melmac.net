@@ -60,15 +60,15 @@ SHA256sum: 0f6c038a02cc30477631619c7f7a301442c00c46c7aa8ae04fc7183eff09c289
 Description:  Provides Web UI for NoDDoS service.
 
 Package: luci-app-openvpn-policy-routing
-Version: git-17.234.69785-72b90c0-19
+Version: git-17.246.24307-3e1ae70-20
 Depends: libc, luci, openvpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3363
-Filename: luci-app-openvpn-policy-routing_git-17.234.69785-72b90c0-19_all.ipk
-Size: 4190
-SHA256sum: 81b4d54513ceb3e3002bd4720fd6dea00ccffc164bae7d1b8dcbb33e58fd3d36
+Installed-Size: 3390
+Filename: luci-app-openvpn-policy-routing_git-17.246.24307-3e1ae70-20_all.ipk
+Size: 4209
+SHA256sum: 54790073a5473c5000ac94cd5081b69b7a69535df41a8e1395520158ef06344f
 Description:  Provides Web UI for openvpn-policy-routing service.
 
 Package: luci-app-simple-adblock
@@ -120,16 +120,16 @@ SHA256sum: baad3d066729fd9fce2247545be568f4c80235e3d149d9be16a1b31673034ced
 Description:  Noddos discovers what devices you have in your network and tailors the firewall rules based on whitelisted flows for that device. Noddos downloads the firewall rules periodically from the cloud. In order to support creating these firewall rules, noddos can optionally upload anonimized traffic statistics for each device to the cloud.
 
 Package: openvpn-policy-routing
-Version: 5.0.1-12
+Version: 5.0.1-13
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
 Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 7090
-Filename: openvpn-policy-routing_5.0.1-12_all.ipk
-Size: 8326
-SHA256sum: ae6b4d308796e1a1cf72dcb329bb9debe6fd959c6dcd067538e4621b6bb293cd
+Installed-Size: 7037
+Filename: openvpn-policy-routing_5.0.1-13_all.ipk
+Size: 8274
+SHA256sum: 7385d479e698ee685f1af36d12038e48cec323609fe711b773f6a15141faa52f
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
