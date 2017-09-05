@@ -71,17 +71,17 @@ SHA256sum: 0f6c038a02cc30477631619c7f7a301442c00c46c7aa8ae04fc7183eff09c289
 Description:  Provides Web UI for NoDDoS service.
 
 Package: luci-app-openvpn-policy-routing
-Version: git-17.246.24307-3e1ae70-20
+Version: git-17.248.63230-2545566-21
 Depends: libc, luci, openvpn-policy-routing
 Source: package/luci/applications/luci-app-openvpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3390
-Filename: luci-app-openvpn-policy-routing_git-17.246.24307-3e1ae70-20_all.ipk
-Size: 4209
-SHA256sum: 54790073a5473c5000ac94cd5081b69b7a69535df41a8e1395520158ef06344f
+Installed-Size: 3387
+Filename: luci-app-openvpn-policy-routing_git-17.248.63230-2545566-21_all.ipk
+Size: 4214
+SHA256sum: 44b3bc268826a3f2d994c20c2124229aedd53e39e24ade55f0b8db08f595d861
 Description:  Provides Web UI for openvpn-policy-routing service.
 
 Package: luci-app-simple-adblock
@@ -148,10 +148,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 7037
+Installed-Size: 7039
 Filename: openvpn-policy-routing_5.0.1-13_all.ipk
-Size: 8274
-SHA256sum: 7385d479e698ee685f1af36d12038e48cec323609fe711b773f6a15141faa52f
+Size: 8277
+SHA256sum: 361ec1b62efa19469c95aa21f03ddebfa24a92b0cf3426a466823bf08707b796
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
