@@ -4,10 +4,10 @@ Depends: libc, uhttpd, dnsmasq
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 1751
+Installed-Size: 1753
 Filename: fakeinternet_0.0.1-5_all.ipk
-Size: 2567
-SHA256sum: a7e0504a4605129f25c6631d2dc5537a2757bb3310cf2547e77179192fba6176
+Size: 2569
+SHA256sum: 81652f929f1537f49e029f645737f5aa86b32259200bd4ca8bca9b66cf7ea6ce
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity.
 
@@ -24,27 +24,27 @@ SHA256sum: febce9fbfad19eaf6099d4b88ac303ee118e808ff9a1ff7d7e3a5513043008fa
 Description:  libtins is a high-level, multiplatform C++ network packet sniffing and crafting library.
 
 Package: luci-app-advanced-reboot
-Version: git-17.234.69785-72b90c0-24
+Version: git-17.253.57293-b86ed10-24
 Depends: libc, luci
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3245
-Filename: luci-app-advanced-reboot_git-17.234.69785-72b90c0-24_all.ipk
-Size: 4137
-SHA256sum: a11d298e33d194c7c83f2a8858b8225da712778a225a134e6a9321f181dfb918
+Installed-Size: 3243
+Filename: luci-app-advanced-reboot_git-17.253.57293-b86ed10-24_all.ipk
+Size: 4132
+SHA256sum: 13f44a23420b773fa249adc97f452ccd32581e157053f6009820cc29eb93da6d
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys routers to an altnerative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/stangri/openwrt-luci/blob/luci-app-advanced-reboot/applications/luci-app-advanced-reboot/README.md
 
 Package: luci-app-easyflash
-Version: git-17.220.63907-bbcf73f-3
+Version: git-17.253.57293-b86ed10-3
 Depends: libc, luci
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 955
-Filename: luci-app-easyflash_git-17.220.63907-bbcf73f-3_all.ipk
-Size: 1790
-SHA256sum: 1dc8728ddfbc65f55c749c3698687d9d572d3eb638aeb2af0864eea52fcda987
+Filename: luci-app-easyflash_git-17.253.57293-b86ed10-3_all.ipk
+Size: 1793
+SHA256sum: 3e7784b91309931835457c964e021c5d1f5672d1f378c686299c424731ec4f1d
 Description:  Easy Flash Web UI
 
 Package: luci-app-noddos
@@ -60,39 +60,39 @@ SHA256sum: 0f6c038a02cc30477631619c7f7a301442c00c46c7aa8ae04fc7183eff09c289
 Description:  Provides Web UI for NoDDoS service.
 
 Package: luci-app-openvpn-policy-routing
-Version: git-17.249.21998-0c99b64-21
+Version: git-17.253.57293-b86ed10-21
 Depends: libc, luci, openvpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3382
-Filename: luci-app-openvpn-policy-routing_git-17.249.21998-0c99b64-21_all.ipk
-Size: 4211
-SHA256sum: 9e45cdb373a70d24c5d3262780c8b2cbafd463c3406f1a1efe7fb25734f00b56
+Installed-Size: 3383
+Filename: luci-app-openvpn-policy-routing_git-17.253.57293-b86ed10-21_all.ipk
+Size: 4209
+SHA256sum: da84fb4b4c1c3cf1480d0afd3f1c1078441857d918b843884f1a5e895103985a
 Description:  Provides Web UI for openvpn-policy-routing service.
 
 Package: luci-app-simple-adblock
-Version: git-17.234.69785-72b90c0-4
+Version: git-17.253.57293-b86ed10-4
 Depends: libc, luci, simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 1583
-Filename: luci-app-simple-adblock_git-17.234.69785-72b90c0-4_all.ipk
-Size: 2412
-SHA256sum: fc10c7be475369f7f29aa4c056426d7e9ee04db945b542e309deec9a246587a1
+Filename: luci-app-simple-adblock_git-17.253.57293-b86ed10-4_all.ipk
+Size: 2419
+SHA256sum: 02c4a4c421bc187c7b0481109d32a007ae058be02b06e48c3b825711388a76a6
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
-Version: git-17.234.69785-72b90c0-2
+Version: git-17.253.57293-b86ed10-2
 Depends: libc, luci, vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 1457
-Filename: luci-app-vpnbypass_git-17.234.69785-72b90c0-2_all.ipk
-Size: 2283
-SHA256sum: 47b05db884f72743f31e8ece8e1ad0d33f51007e21d3221c1af7662b4b64753f
+Filename: luci-app-vpnbypass_git-17.253.57293-b86ed10-2_all.ipk
+Size: 2286
+SHA256sum: a7ddb7b79ea746221a2918f37d6c1cf4a45b7b8da3647819d302312f1fca1c9e
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-mod-alt-reboot
@@ -120,44 +120,16 @@ SHA256sum: baad3d066729fd9fce2247545be568f4c80235e3d149d9be16a1b31673034ced
 Description:  Noddos discovers what devices you have in your network and tailors the firewall rules based on whitelisted flows for that device. Noddos downloads the firewall rules periodically from the cloud. In order to support creating these firewall rules, noddos can optionally upload anonimized traffic statistics for each device to the cloud.
 
 Package: openvpn-policy-routing
-Version: 5.0.1-13
-Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
-Conflicts: vpnbypass
-License: GPL-3.0+
-Section: net
-Architecture: all
-Installed-Size: 7088
-Filename: openvpn-policy-routing_5.0.1-13_all.ipk
-Size: 8326
-SHA256sum: ac35f4046844614d072f56652c4c19a226858681cbe6ead327a74f1417a29605
-Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
- Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
-
-Package: openvpn-policy-routing
-Version: 5.0.1-14
-Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
-Conflicts: vpnbypass
-License: GPL-3.0+
-Section: net
-Architecture: all
-Installed-Size: 7103
-Filename: openvpn-policy-routing_5.0.1-14_all.ipk
-Size: 8345
-SHA256sum: 8939a10ff4d67d1b21a742b0cede43cbcee94567462171839bbcaeb8b30cc24f
-Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
- Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
-
-Package: openvpn-policy-routing
 Version: 5.0.1-15
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
 Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 7212
+Installed-Size: 7209
 Filename: openvpn-policy-routing_5.0.1-15_all.ipk
 Size: 8452
-SHA256sum: 68482600057c8d8324036528c0f8e8a033f9c0b435453f51c80b59d2b8bc341b
+SHA256sum: 909f51531677329a80ac96475fe8c7b960fbd83be3262a6e582820b880d4880a
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
@@ -167,10 +139,10 @@ Depends: libc
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 3718
+Installed-Size: 3721
 Filename: simple-adblock_1.5.7-7_all.ipk
-Size: 4532
-SHA256sum: 784bd28736fa9182a74e74b8b1d5cd35e7d549ceb46c05963833314897c8f0df
+Size: 4538
+SHA256sum: 6bbd13e7e6bfb4c07a51e98a08bcf7850aae753820d2cdf492f14a9002d11ae4
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -184,8 +156,8 @@ Section: net
 Architecture: all
 Installed-Size: 2194
 Filename: vpnbypass_1.3.0-10_all.ipk
-Size: 3455
-SHA256sum: ba8dbf3182550558972c8649afb9ba0c0984e77fac036bf61c16307645820c64
+Size: 3457
+SHA256sum: 8136766f66b9dc0459db7dcbad777c0bed05d59784f3f06c997d68461526ad97
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
