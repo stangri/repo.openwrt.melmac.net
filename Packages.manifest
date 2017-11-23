@@ -13,21 +13,6 @@ SHA256sum: 1daf8c56152ed36dbd2584315944d556c0f0ba112f20d523b8660c0c4df15321
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity.
 
-Package: libtins
-Version: v3.5-1
-Depends: libc, libstdcpp, libpcap
-Source: noddosbuild/package/libtins
-License: BSD-2-Clause
-LicenseFiles: LICENSE
-Section: net
-Maintainer: Steven Hessing <steven.hessing@gmail.com>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 162542
-Filename: libtins_v3.5-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 163276
-SHA256sum: febce9fbfad19eaf6099d4b88ac303ee118e808ff9a1ff7d7e3a5513043008fa
-Description:  libtins is a high-level, multiplatform C++ network packet sniffing and crafting library.
-
 Package: luci-app-advanced-reboot
 Version: git-17.291.51172-a98548e-24
 Depends: libc, luci
@@ -78,10 +63,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3393
+Installed-Size: 3394
 Filename: luci-app-openvpn-policy-routing_git-17.325.13877-c647121-22_all.ipk
-Size: 4222
-SHA256sum: d19cf779fd734d4cf8de601b6a790a26adabe39e0aa8332b2afcfe4110f9c092
+Size: 4219
+SHA256sum: 92fb5a1ccd960b858051a1252caf06bb41f6fe6dfa53998096170c01e7e167d5
 Description:  Provides Web UI for openvpn-policy-routing service.
 
 Package: luci-app-simple-adblock
@@ -126,19 +111,6 @@ Size: 6584
 SHA256sum: ea33c2e0770470d6fbfe2b283462c8d3c9fa65140d06bbdb8435b7eb662b3e07
 Description:  Alternative Partition Reboot Web UI
 
-Package: noddos
-Version: master-1
-Depends: libc, libstdcpp, libnetfilter-conntrack, libcurl, libopenssl, openssl-util, ca-bundle, ca-certificates, wget, bzip2, libtins, ipset
-Source: noddosbuild/package/noddos
-License: GPLv3
-Section: net
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 140798
-Filename: noddos_master-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 141796
-SHA256sum: baad3d066729fd9fce2247545be568f4c80235e3d149d9be16a1b31673034ced
-Description:  Noddos discovers what devices you have in your network and tailors the firewall rules based on whitelisted flows for that device. Noddos downloads the firewall rules periodically from the cloud. In order to support creating these firewall rules, noddos can optionally upload anonimized traffic statistics for each device to the cloud.
-
 Package: openvpn-policy-routing
 Version: 5.0.1-18
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
@@ -148,10 +120,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 7286
+Installed-Size: 7284
 Filename: openvpn-policy-routing_5.0.1-18_all.ipk
-Size: 8544
-SHA256sum: b9eb9e0a2c496b47080812139f78dbc0ec272b0738b94db25db8468dbae049c2
+Size: 8540
+SHA256sum: b6d6a1986f7c3f33669c5ecbe059771d74a20d8b939abec3870522aee79b34f8
 Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
