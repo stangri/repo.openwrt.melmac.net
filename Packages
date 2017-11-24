@@ -83,6 +83,18 @@ Size: 2282
 SHA256sum: df5fc29514d63607e3426ba3aed4d858cc646dbd46e00e73e0196213b6550d5a
 Description:  Provides Web UI for VPNBypass service.
 
+Package: luci-app-vpn-policy-routing
+Version: git-17.328.04231-802d5b6-1
+Depends: libc, luci, vpn-policy-routing
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 3119
+Filename: luci-app-vpn-policy-routing_git-17.328.04231-802d5b6-1_all.ipk
+Size: 3973
+SHA256sum: 3e13157bfbc9f61b6616fd98353270e9f959957f0bae24f7cad81ea05ee46e03
+Description:  Provides Web UI for vpn-policy-routing service.
+
 Package: luci-mod-alt-reboot
 Version: git-17.192.44320-00ae501-10
 Depends: libc
@@ -138,4 +150,18 @@ Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
  Please see the README for further information.
+
+Package: vpn-policy-routing
+Version: 0.0.1-1
+Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
+Conflicts: vpnbypass, openvpn-policy-routing
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 7279
+Filename: vpn-policy-routing_0.0.1-1_all.ipk
+Size: 8576
+SHA256sum: 4853456853202628bb50457df6d5dd6cb6016a3bb35f4e862c258f2f24909a2d
+Description:  This service allows policy-based routing for OpenVPN tunnels and WAN interface.
+ Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
