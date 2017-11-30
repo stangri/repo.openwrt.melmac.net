@@ -52,7 +52,7 @@ This package enables Web UI for reboot to another partition functionality on sup
 This package enables Web UI for reboot to another partition functionality on supported (dual-partition) routers and to power off (power down) your OpenWrt/LEDE Project router by overwriting default System --> Reboot page. Please see the [README](https://github.com/stangri/openwrt-luci/blob/luci-mod-alt-reboot/modules/luci-mod-alt-reboot/README.md) for further information. This package has been superseded by ```luci-app-advanced-reboot``` and is no longer developed/supported.
 
 #### vpn-policy-routing & luci-app-vpn-policy-routing
-This service can be used to enable policy-based routing for OpenVPN and/or Wireguard tunnel(s) and WAN/WAN6 interface(s). Supports policies based on domain names, IP addresses and/or ports. Compatible with legacy (IPv4) and modern (IPv6) protocols. Please see the [README](https://github.com/stangri/openwrt-packages/blob/vpn-policy-routing/net/vpn-policy-routing/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/openvpn-policy-based-routing-web-ui-testers-needed/1422/1) for further information.
+This service can be used to enable policy-based routing for OpenVPN and/or Wireguard tunnel(s) and WAN/WAN6 interface(s). Supports policies based on domain names, IP addresses and/or ports. Compatible with legacy (IPv4) and modern (IPv6) protocols. Please see the [README](https://github.com/stangri/openwrt-packages/blob/vpn-policy-routing/net/vpn-policy-routing/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/openvpn-wireguard-policy-based-routing-web-ui/1422) for further information.
 
 
 #### simple-adblock & luci-app-simple-adblock
