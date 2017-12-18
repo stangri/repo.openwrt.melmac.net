@@ -60,15 +60,15 @@ SHA256sum: 92fb5a1ccd960b858051a1252caf06bb41f6fe6dfa53998096170c01e7e167d5
 Description:  Provides Web UI for openvpn-policy-routing service.
 
 Package: luci-app-simple-adblock
-Version: git-17.291.51172-a98548e-4
+Version: git-17.351.54937-a2a1c35-4
 Depends: libc, luci, simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 1583
-Filename: luci-app-simple-adblock_git-17.291.51172-a98548e-4_all.ipk
-Size: 2417
-SHA256sum: bc1a780eacc7818a57b377a58300201c4b94e4aea8812cbb0c12fb58c43ee494
+Filename: luci-app-simple-adblock_git-17.351.54937-a2a1c35-4_all.ipk
+Size: 2411
+SHA256sum: ab06010ea734fd4066358feb4a0883b2073af82d7299d1aef9577fa60b65076b
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -84,15 +84,15 @@ SHA256sum: df5fc29514d63607e3426ba3aed4d858cc646dbd46e00e73e0196213b6550d5a
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-17.343.27587-8e6b1a6-1
+Version: git-17.349.78794-68cfa21-1
 Depends: libc, luci, vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3109
-Filename: luci-app-vpn-policy-routing_git-17.343.27587-8e6b1a6-1_all.ipk
-Size: 3962
-SHA256sum: 7b9b19fac20a4cb1f8d26969d428088abd25581055fd3d1e192f7e7616c91034
+Installed-Size: 3111
+Filename: luci-app-vpn-policy-routing_git-17.349.78794-68cfa21-1_all.ipk
+Size: 3964
+SHA256sum: 8c6d81134f2783ce68e835eaf175e605a6bb3e0b504d42b394e99e7502a7b678
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-mod-alt-reboot
@@ -122,15 +122,15 @@ Description:  This service allows policy-based routing for OpenVPN tunnels and W
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
 Package: simple-adblock
-Version: 1.5.7-7
+Version: 1.5.7-8
 Depends: libc
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 3718
-Filename: simple-adblock_1.5.7-7_all.ipk
-Size: 4530
-SHA256sum: bb23a41a3c93e6607e608805727c95337bcee1412f30bdbaba0840cdeb3feced
+Installed-Size: 3684
+Filename: simple-adblock_1.5.7-8_all.ipk
+Size: 4496
+SHA256sum: b0c460b403da0dfc83c0606b8bc33f8e4ae4665f409d96b0ae2aae2f53eb40fe
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -152,16 +152,16 @@ Description:  This service can be used to enable simple VPN split tunnelling.
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.0.1-5
+Version: 0.0.1-6
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset
 Conflicts: vpnbypass, openvpn-policy-routing
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 7211
-Filename: vpn-policy-routing_0.0.1-5_all.ipk
-Size: 8502
-SHA256sum: 84e0f883e9134da0639e6fc0488bd4f06e7a6db88cce89f527379ab14234e029
+Installed-Size: 7138
+Filename: vpn-policy-routing_0.0.1-6_all.ipk
+Size: 8438
+SHA256sum: c8df51fa5a59caa2084aa0dd234df9c5501a241d8a3ad3bdccae1dcebad44db4
 Description:  This service allows policy-based routing for OpenVPN/Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
