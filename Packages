@@ -67,8 +67,8 @@ Section: luci
 Architecture: all
 Installed-Size: 1583
 Filename: luci-app-simple-adblock_git-17.351.54937-a2a1c35-4_all.ipk
-Size: 2411
-SHA256sum: ab06010ea734fd4066358feb4a0883b2073af82d7299d1aef9577fa60b65076b
+Size: 2414
+SHA256sum: 4dc1be71d44d1f228b6705e9c54df7b4640bbdefd9776d6cf03dd8ad0b277533
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -122,15 +122,15 @@ Description:  This service allows policy-based routing for OpenVPN tunnels and W
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
 Package: simple-adblock
-Version: 1.5.7-8
+Version: 1.5.7-9
 Depends: libc
 License: GPL-3.0+
 Section: net
 Architecture: all
 Installed-Size: 3684
-Filename: simple-adblock_1.5.7-8_all.ipk
-Size: 4496
-SHA256sum: b0c460b403da0dfc83c0606b8bc33f8e4ae4665f409d96b0ae2aae2f53eb40fe
+Filename: simple-adblock_1.5.7-9_all.ipk
+Size: 4502
+SHA256sum: 8bda1a2fff11d28e61ab81f42f2bb4d460d76f66ca3502f015b7290790f7a3e4
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
