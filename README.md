@@ -24,7 +24,11 @@ opkg update
 
 #### In your Image Builder/SDK
 ###### Image Builder
-Add the line ```src/gz stangri_repo https://raw.githubusercontent.com/stangri/openwrt-repo/master``` to the ```repositories.conf``` file inside your Image Builder directory. You can use the following code:
+Add the following line
+```
+src/gz stangri_repo https://raw.githubusercontent.com/stangri/openwrt-repo/master
+```
+to the ```repositories.conf``` file inside your Image Builder directory. You can use the following shell script code to achieve that:
 ```
 ! grep -q 'stangri_repo' repositories.conf && sed -i '2 i\src/gz stangri_repo https://raw.githubusercontent.com/stangri/openwrt-repo/master' repositories.conf
 ```
