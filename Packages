@@ -67,8 +67,8 @@ Section: luci
 Architecture: all
 Installed-Size: 3186
 Filename: luci-app-vpn-policy-routing_git-18.001.84653-c8b48f9-4_all.ipk
-Size: 4044
-SHA256sum: 842fffad7d0619ca81128888c0371b2fb8e260fe479ed3747094ec46f76fc96b
+Size: 4047
+SHA256sum: 1c0427b4bb842ce9822db622ff1cbadca4d36c3e51cbf76b397cdd1cd3a2a888
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-mod-alt-reboot
@@ -120,10 +120,10 @@ Conflicts: vpnbypass, openvpn-policy-routing
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 7535
+Installed-Size: 7534
 Filename: vpn-policy-routing_0.0.1-7b14_all.ipk
-Size: 8881
-SHA256sum: 6d142804147576db4dae8adbbea5bf4137df95b83cda7c1205baed39d4f4d038
+Size: 8868
+SHA256sum: bacabdfbe27409a1d43c23e52f68302048c7ff33801fb359e244ae6df84220ba
 Description:  This service allows policy-based routing for Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
