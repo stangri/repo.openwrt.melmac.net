@@ -49,10 +49,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1583
+Installed-Size: 1584
 Filename: luci-app-simple-adblock_git-18.021.64448-4dddecf-4_all.ipk
-Size: 2415
-SHA256sum: 592927f71c4f782eab91261fd53fcaed597c5480630ca3b9618c6d77ce1cf1b9
+Size: 2416
+SHA256sum: e0a7f8b5ddea1f74d76f4a79fa987950a5471af4ff5c1cd5a04575304766c701
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -77,10 +77,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4250
+Installed-Size: 4249
 Filename: luci-app-vpn-policy-routing_git-18.021.64448-4dddecf-11_all.ipk
-Size: 5077
-SHA256sum: d3e207179fae9cc663187823e4a8b493e4631d119891b9dc09e0e939b36248d2
+Size: 5072
+SHA256sum: 925572c5aea1320b53433766ef8015ca353c26df323e4004862d16c5ed8334db
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-mod-alt-reboot
@@ -105,10 +105,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3690
+Installed-Size: 3688
 Filename: simple-adblock_1.5.7-10_all.ipk
-Size: 4507
-SHA256sum: 963de193b89e2a22e471a4a7c5b743787642778f063ef1a58797799dc63f8423
+Size: 4504
+SHA256sum: e9d1a5819a6a9822d11199dceadc45f9ac52f2e8a6afdc301c7edbd856e19d9b
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -142,8 +142,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 7673
 Filename: vpn-policy-routing_0.0.1-14b00_all.ipk
-Size: 9017
-SHA256sum: 19deb278c52530a4528fc9ae377a5ee8e436efd334f963c5adbf33fd10bfa037
+Size: 9015
+SHA256sum: c632ed55a72f7289872ca09c788e245d5a48ddc0f67d9c27b4ed6e4f8481bd2d
 Description:  This service allows policy-based routing for Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
