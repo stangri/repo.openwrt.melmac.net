@@ -8,8 +8,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1752
 Filename: fakeinternet_0.0.1-5_all.ipk
-Size: 2562
-SHA256sum: 075dad667fabf2706ac0d661901f8b7b089d8ee854e251c7fbe09f0989c051ee
+Size: 2565
+SHA256sum: 96c7ebd5dac2d3f5d521c67aadbe38e79b444c146d6949e0d270b843236a96be
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity.
 
@@ -21,10 +21,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4001
+Installed-Size: 4002
 Filename: luci-app-advanced-reboot_git-18.021.64448-4dddecf-26_all.ipk
-Size: 4924
-SHA256sum: 015e0d3159ea3cee8d421e71746e33fdfb31f7d46c29ffc8f356d6607bc69748
+Size: 4925
+SHA256sum: 72c9ae522cc1607ed71b5b7c8879ae616676b702f1c2a91fa1ad1a1a53596ae9
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an altnerative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/stangri/openwrt-luci/blob/luci-app-advanced-reboot/applications/luci-app-advanced-reboot/README.md
 
 Package: luci-app-easyflash
@@ -35,10 +35,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 957
+Installed-Size: 956
 Filename: luci-app-easyflash_git-18.021.64448-4dddecf-3_all.ipk
-Size: 1789
-SHA256sum: 2996b0e89c0f884a8c112737a1df51fd1248b989cced4ea1e5840907251f2f60
+Size: 1792
+SHA256sum: 03c4891ac0aec6b23082a7e43047c9729a8e8b2b6600d859f44ae63792479c9c
 Description:  Easy Flash Web UI
 
 Package: luci-app-simple-adblock
@@ -49,10 +49,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1450
+Installed-Size: 1498
 Filename: luci-app-simple-adblock_git-18.021.64448-4dddecf-5_all.ipk
-Size: 2277
-SHA256sum: f048ae70d6fe3e07c6455cb0f6abfc4cbb54765778a309007e38dc8c9111d1e9
+Size: 2325
+SHA256sum: 774b362cfb5d355471ae587918417ac7c5f48f6ea47d35f61e8eba9e0c3f12a8
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -63,10 +63,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1444
+Installed-Size: 1377
 Filename: luci-app-vpnbypass_git-18.021.64448-4dddecf-3_all.ipk
-Size: 2269
-SHA256sum: 950f6e101cacc5be2915976ba9bfbe0a3fe27b764bba21daac56b9b567bf38ab
+Size: 2217
+SHA256sum: 75ac9642cb5e79f8bcf9449410926e3bf75f45762e09841fbaa405ba326a4ed2
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpn-policy-routing
@@ -77,10 +77,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4170
+Installed-Size: 4160
 Filename: luci-app-vpn-policy-routing_git-18.021.64448-4dddecf-12_all.ipk
-Size: 5004
-SHA256sum: e5f8cd05805765353bc41e4339fdb3839ab02ffe2ba0a9b1a7fb3ccbdc76bb29
+Size: 4985
+SHA256sum: 22c842ba394da54c8d373a592c30add028588d1b4789170ad027130b654c3b0f
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-mod-alt-reboot
@@ -105,10 +105,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3729
+Installed-Size: 3712
 Filename: simple-adblock_1.5.7-11_all.ipk
-Size: 4538
-SHA256sum: 995a440a3958053a185b9e128e8bf825c9f2f8fc3c4029931fdf69bd448c4a6f
+Size: 4528
+SHA256sum: c6b6da2866ff20bc30b02bd24cc7137322c418c10b0d5dcd35f29855f4443def
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -122,10 +122,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2161
+Installed-Size: 2160
 Filename: vpnbypass_1.3.0-11_all.ipk
-Size: 3414
-SHA256sum: 435f010bdf16e3b9d0a5a5146a164e9544530e9048c9a1d056c0598d32cd5fce
+Size: 3415
+SHA256sum: 745dd56aa6a941b7c422ecd1c5f24608d38003f83cb4c5b74fff4d9794010c12
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
@@ -140,10 +140,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 7718
+Installed-Size: 7689
 Filename: vpn-policy-routing_0.0.1-15_all.ipk
-Size: 9056
-SHA256sum: 7a7082910d09ae38cf8e2b9cc8649e385d0c34096cae7049f3e9050a36530be3
+Size: 9028
+SHA256sum: 70ada4d6205eea766afd046f195b014c63622ea74d983a02309412c246c95ce6
 Description:  This service allows policy-based routing for Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
