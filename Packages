@@ -36,15 +36,15 @@ SHA256sum: 26f5f14b1348111e38f3699bf7eb7abaa42f5b785a9f54a4d9697014f2ffca66
 Description:  Easy Flash Web UI
 
 Package: luci-app-simple-adblock
-Version: git-17.362.62617-4f644d9-4
+Version: git-18.021.64448-4dddecf-4
 Depends: libc, luci, simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1582
-Filename: luci-app-simple-adblock_git-17.362.62617-4f644d9-4_all.ipk
-Size: 2416
-SHA256sum: 1f9f809d9179bfdc97f424dd78b00fe2a670ce5464935e00411e05f0f7359fba
+Installed-Size: 1583
+Filename: luci-app-simple-adblock_git-18.021.64448-4dddecf-4_all.ipk
+Size: 2415
+SHA256sum: 592927f71c4f782eab91261fd53fcaed597c5480630ca3b9618c6d77ce1cf1b9
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -65,10 +65,10 @@ Depends: libc, luci, vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 4249
+Installed-Size: 4250
 Filename: luci-app-vpn-policy-routing_git-18.021.64448-4dddecf-11_all.ipk
-Size: 5078
-SHA256sum: 7bdd78561ad662d5519b77a2eb20d717ea62cd1b646cbe05a635682f7d4d9378
+Size: 5077
+SHA256sum: d3e207179fae9cc663187823e4a8b493e4631d119891b9dc09e0e939b36248d2
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-mod-alt-reboot
@@ -89,10 +89,10 @@ Depends: libc
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 3688
+Installed-Size: 3690
 Filename: simple-adblock_1.5.7-10_all.ipk
-Size: 4502
-SHA256sum: 402f81b3d921e1b25077b1a3ef1fefe5d195e161408e14f9a769e6b8f920b4eb
+Size: 4507
+SHA256sum: 963de193b89e2a22e471a4a7c5b743787642778f063ef1a58797799dc63f8423
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -120,10 +120,10 @@ Conflicts: vpnbypass, openvpn-policy-routing
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 7674
+Installed-Size: 7673
 Filename: vpn-policy-routing_0.0.1-14b00_all.ipk
-Size: 9020
-SHA256sum: f0e1dd61fe5b7fcfd1deb02fc62994832be141abeaebe8e3c0cd73bbfa73aada
+Size: 9017
+SHA256sum: 19deb278c52530a4528fc9ae377a5ee8e436efd334f963c5adbf33fd10bfa037
 Description:  This service allows policy-based routing for Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
