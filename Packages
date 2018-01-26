@@ -53,10 +53,10 @@ Depends: libc, luci, vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1377
+Installed-Size: 1378
 Filename: luci-app-vpnbypass_git-18.023.74248-ee409b6-3_all.ipk
 Size: 2215
-SHA256sum: 7f13dedb440e0fafb17ca75f9f261a6b8bd202ae2cc55cfe4c55fec37a8f39cd
+SHA256sum: 0b9a436c554b7c058571148d78677ffc8ce72a7b36a6c80c2ba39e5586d1031e
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpn-policy-routing
@@ -98,16 +98,16 @@ Description:  This service provides dnsmasq-based ad blocking.
  
 
 Package: vpnbypass
-Version: 1.3.0-11
+Version: 1.3.1-1
 Depends: libc, ipset, iptables, kmod-ipt-ipset
 Conflicts: openvpn-policy-routing
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2164
-Filename: vpnbypass_1.3.0-11_all.ipk
-Size: 3418
-SHA256sum: 8cd339db48ce7ffe549422c074633b5bef73bb7d70b64c885e4e958b3333234f
+Installed-Size: 2097
+Filename: vpnbypass_1.3.1-1_all.ipk
+Size: 3355
+SHA256sum: 36cabbba10f92ff4986cb3809079ae7e72e3d842a8517868dd2b3f9bdfea4412
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct internet access (outside of your VPN tunnel).
