@@ -14,7 +14,7 @@ echo -e -n 'untrusted comment: LEDE usign key of Stan Grishin\nRWR//HUXxMwMVnx7f
 opkg update
 ```
 
-###### LEDE Project and OpenWrt 18.xx or later
+###### LEDE Project 17.01.x and OpenWrt 18.xx or later
 ```sh
 opkg update; opkg install uclient-fetch libustream-mbedtls
 echo -e -n 'untrusted comment: LEDE usign key of Stan Grishin\nRWR//HUXxMwMVnx7fESOKO7x8XoW4/dRidJPjt91hAAU2L59mYvHy0Fa\n' > /tmp/stangri-repo.pub && opkg-key add /tmp/stangri-repo.pub
