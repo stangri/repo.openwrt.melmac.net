@@ -42,17 +42,17 @@ SHA256sum: d58165b4acc796d062bc77f0bc2b1d8dbc38554ac9e78bb87d4448670df037a1
 Description:  Easy Flash Web UI
 
 Package: luci-app-simple-adblock
-Version: git-18.039.58622-76f9f5e-5
+Version: git-18.039.58622-76f9f5e-6
 Depends: libc, luci, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1500
-Filename: luci-app-simple-adblock_git-18.039.58622-76f9f5e-5_all.ipk
-Size: 2329
-SHA256sum: d323f00c4eaa7ec2d2c624ed98e268249d3c3fff4fe4047eba4537b0ceab7420
+Installed-Size: 1499
+Filename: luci-app-simple-adblock_git-18.039.58622-76f9f5e-6_all.ipk
+Size: 2325
+SHA256sum: 0e133e94d7c724e7956dc541a0de96ee1afddeea01e8761686240491c40768a4
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -98,17 +98,17 @@ SHA256sum: 714a3d5d88d87cbe5fd144ee45c332cbb8584da0d397dc67be576ba2d33bee86
 Description:  Alternative Partition Reboot Web UI
 
 Package: simple-adblock
-Version: 1.5.8-4
+Version: 1.5.8-5
 Depends: libc
 Source: /mnt/NAS/Users/stangri/lede/Config/simple-adblock/net/simple-adblock
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3936
-Filename: simple-adblock_1.5.8-4_all.ipk
-Size: 4913
-SHA256sum: 8b07b140a582fa183c269962dc3e5d03f2705b7cb793e896c3bf1ff613bb37e3
+Installed-Size: 3937
+Filename: simple-adblock_1.5.8-5_all.ipk
+Size: 5070
+SHA256sum: 6b147f49ba819a102b4944377d58eba2e99988fc949e1f2e8c4963648ad855c3
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
