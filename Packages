@@ -11,6 +11,18 @@ SHA256sum: 4d871e238d7a92cb8a44f343f37074818c4ff2c33741248c82cb6a1bf0e2cecf
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity.
 
+Package: luci-app-advanced-reboot
+Version: git-18.068.60872-bf04031-26b05
+Depends: libc, luci
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 4007
+Filename: luci-app-advanced-reboot_git-18.068.60872-bf04031-26b05_all.ipk
+Size: 4930
+SHA256sum: 5d12605839850862cd8b87808865e344c30057866f1b5e63aa802cd98179c3f8
+Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an altnerative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/stangri/openwrt-luci/blob/luci-app-advanced-reboot/applications/luci-app-advanced-reboot/README.md
+
 Package: luci-app-easyflash
 Version: git-18.023.74248-ee409b6-3
 Depends: libc, luci
@@ -58,6 +70,30 @@ Filename: luci-app-vpn-policy-routing_git-18.068.60872-bf04031-16_all.ipk
 Size: 5069
 SHA256sum: c3e00876b88a30661b93b7af3004fe0285ab608e2c95678b0fcdd065fea1d1bb
 Description:  Provides Web UI for vpn-policy-routing service.
+
+Package: luci-i18n-advanced-reboot-ru
+Version: git-18.068.60872-bf04031-26b05
+Depends: libc, luci-app-advanced-reboot
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 2035
+Filename: luci-i18n-advanced-reboot-ru_git-18.068.60872-bf04031-26b05_all.ipk
+Size: 2887
+SHA256sum: e53351aa638955bac9e6bf789cd85d08abe02034dd76581efc5c2424f747db55
+Description:  Translation for luci-app-advanced-reboot - Русский (Russian)
+
+Package: luci-i18n-advanced-reboot-sv
+Version: git-18.068.60872-bf04031-26b05
+Depends: libc, luci-app-advanced-reboot
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 1145
+Filename: luci-i18n-advanced-reboot-sv_git-18.068.60872-bf04031-26b05_all.ipk
+Size: 2004
+SHA256sum: 2631b1318941153e15723f5f633dfe2574fbd6cd72288bcd38d090acbc891b9c
+Description:  Translation for luci-app-advanced-reboot - Svenska (Swedish)
 
 Package: luci-i18n-simple-adblock-fr
 Version: git-18.068.60872-bf04031-6
