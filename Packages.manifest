@@ -14,17 +14,17 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity.
 
 Package: luci-app-advanced-reboot
-Version: git-18.068.60872-bf04031-26b05
+Version: git-18.070.62791-62630fb-26b05
 Depends: libc, luci
 Source: package/luci/applications/luci-app-advanced-reboot
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4007
-Filename: luci-app-advanced-reboot_git-18.068.60872-bf04031-26b05_all.ipk
-Size: 4930
-SHA256sum: 5d12605839850862cd8b87808865e344c30057866f1b5e63aa802cd98179c3f8
+Installed-Size: 4008
+Filename: luci-app-advanced-reboot_git-18.070.62791-62630fb-26b05_all.ipk
+Size: 4932
+SHA256sum: d61cf5cc30b2386aeceda522101fc13f1d88bbb29b234f81e6c2a5eeec3db4dd
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an altnerative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/stangri/openwrt-luci/blob/luci-app-advanced-reboot/applications/luci-app-advanced-reboot/README.md
 
 Package: luci-app-easyflash
@@ -70,45 +70,45 @@ SHA256sum: 4b3a08280d5c849895d2379ed3652bc4fe596a4ec89b875d6a3f544a60b15224
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-18.068.60872-bf04031-16
+Version: git-18.071.69548-de88c2e-17
 Depends: libc, luci, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4241
-Filename: luci-app-vpn-policy-routing_git-18.068.60872-bf04031-16_all.ipk
-Size: 5069
-SHA256sum: c3e00876b88a30661b93b7af3004fe0285ab608e2c95678b0fcdd065fea1d1bb
+Installed-Size: 4247
+Filename: luci-app-vpn-policy-routing_git-18.071.69548-de88c2e-17_all.ipk
+Size: 5075
+SHA256sum: ac622364951367e7acf0b7ee9f2ebd8e9629b2d0e0d0a835b80e46bf97a33ceb
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-i18n-advanced-reboot-ru
-Version: git-18.068.60872-bf04031-26b05
+Version: git-18.070.62791-62630fb-26b05
 Depends: libc, luci-app-advanced-reboot
 Source: package/luci/applications/luci-app-advanced-reboot
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2035
-Filename: luci-i18n-advanced-reboot-ru_git-18.068.60872-bf04031-26b05_all.ipk
-Size: 2887
-SHA256sum: e53351aa638955bac9e6bf789cd85d08abe02034dd76581efc5c2424f747db55
+Installed-Size: 2034
+Filename: luci-i18n-advanced-reboot-ru_git-18.070.62791-62630fb-26b05_all.ipk
+Size: 2892
+SHA256sum: 68b4ad152e694cf364b8cb162bd87c6d4628a009d64657a572eed85198ef76de
 Description:  Translation for luci-app-advanced-reboot - Русский (Russian)
 
 Package: luci-i18n-advanced-reboot-sv
-Version: git-18.068.60872-bf04031-26b05
+Version: git-18.070.62791-62630fb-26b05
 Depends: libc, luci-app-advanced-reboot
 Source: package/luci/applications/luci-app-advanced-reboot
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1145
-Filename: luci-i18n-advanced-reboot-sv_git-18.068.60872-bf04031-26b05_all.ipk
-Size: 2004
-SHA256sum: 2631b1318941153e15723f5f633dfe2574fbd6cd72288bcd38d090acbc891b9c
+Installed-Size: 1148
+Filename: luci-i18n-advanced-reboot-sv_git-18.070.62791-62630fb-26b05_all.ipk
+Size: 2005
+SHA256sum: 0d0a89db525a717be25fae9ee7dbb9580a9a5a9508dc011606fa1244c3e488d4
 Description:  Translation for luci-app-advanced-reboot - Svenska (Swedish)
 
 Package: luci-i18n-simple-adblock-fr
@@ -301,7 +301,7 @@ Description:  This service can be used to enable simple VPN split tunnelling.
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.0.1-18
+Version: 0.0.1-18b01
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, ip-full
 Conflicts: vpnbypass, openvpn-policy-routing
 Source: /mnt/NAS/Users/stangri/lede/Config/vpn-policy-routing/net/vpn-policy-routing
@@ -309,10 +309,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 7582
-Filename: vpn-policy-routing_0.0.1-18_all.ipk
-Size: 8870
-SHA256sum: 6434b4cd94738400de56f04d0807cf0fc22c9cbc17aabb9aceaa167b61410373
+Installed-Size: 7599
+Filename: vpn-policy-routing_0.0.1-18b01_all.ipk
+Size: 8891
+SHA256sum: 8b3ae257a3851c0375e26e188326927712be711b0697ac2e17a52003c0a99d76
 Description:  This service allows policy-based routing for Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
