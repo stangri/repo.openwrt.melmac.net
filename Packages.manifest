@@ -1,15 +1,15 @@
 Package: fakeinternet
 Version: 0.0.2-1
-Depends: libc, uhttpd, dnsmasq
+Depends: libc, uhttpd
 Source: /mnt/NAS/Users/stangri/lede/Config/fakeinternet/net/fakeinternet
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2014
+Installed-Size: 2015
 Filename: fakeinternet_0.0.2-1_all.ipk
-Size: 3159
-SHA256sum: 61a156b9f66a6ae8511598c55d230bd5ba41c9f93efca575da4a19e24c1ab702
+Size: 3155
+SHA256sum: 50e96accc2ed4a438b01f9d6e3c6620f87bcceb0312f043c6473d65d4fb65f4b
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity.
 
