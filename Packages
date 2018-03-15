@@ -4,10 +4,10 @@ Depends: libc, uhttpd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 1992
+Installed-Size: 1991
 Filename: fakeinternet_0.0.2-2_all.ipk
-Size: 3133
-SHA256sum: d7a60673a04f87b8c96ecf61890535968408aee69b46883a5630331220d9f6d7
+Size: 3132
+SHA256sum: 28e02f1b9c1321ae2f2f2950c81a70f8042cb86485588a16d3f34778fbc238de
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
