@@ -1,17 +1,17 @@
 Package: fakeinternet
-Version: 0.0.2-1
+Version: 0.0.2-2
 Depends: libc, uhttpd
 Source: /mnt/NAS/Users/stangri/lede/Config/fakeinternet/net/fakeinternet
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2015
-Filename: fakeinternet_0.0.2-1_all.ipk
-Size: 3155
-SHA256sum: 50e96accc2ed4a438b01f9d6e3c6620f87bcceb0312f043c6473d65d4fb65f4b
+Installed-Size: 1992
+Filename: fakeinternet_0.0.2-2_all.ipk
+Size: 3133
+SHA256sum: d7a60673a04f87b8c96ecf61890535968408aee69b46883a5630331220d9f6d7
 Description:  This service can be used to fake internet connectivity for local devices.
- Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity.
+ Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-advanced-reboot
 Version: git-18.070.62791-62630fb-26b05
