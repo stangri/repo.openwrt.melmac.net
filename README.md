@@ -34,31 +34,33 @@ to the ```repositories.conf``` file inside your Image Builder directory. You can
 ```
 
 ###### SDK
-The packages are in various branches at [my  packages source](https://github.com/stangri/openwrt-packages) and [my  luci source](https://github.com/stangri/openwrt-luci) repositories. Check out the code you want and add it to your SDK by adding ```src-link``` to ```feeds.conf``` (OpenWrt 15.05.1) or ```feeds.conf.default``` (LEDE Project and OpenWrt 18.xx or later).
+The packages source code is available in [my  packages source](https://github.com/stangri/openwrt_packages). Check out the code you want and add it to your SDK by adding ```src-link``` to ```feeds.conf``` (OpenWrt 15.05.1) or ```feeds.conf.default``` (LEDE Project and OpenWrt 18.xx or later).
 
 
 ## Description of packages
 
 #### fakeinternet
 This service can be used to fake internet connectivity for local devices.
-Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity. Please see the [README](https://github.com/stangri/openwrt-packages/blob/fakeinternet/net/fakeinternet/files/) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/fakeinternet-service-package-wip/924) for further information.
+Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity. Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/fakeinternet/files/) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/fakeinternet-service-package-wip/924) for further information.
+
+
 
 #### luci-app-easyflash
 This package installs Web UI for quickly updating your router firmware if you use automated snapshots build process which produces fully customized images and uploads them to your router. Requires sysupgrade-compatible upgrade file ```/tmp/firmware.img``` and a one-line description (target/version/filename info) in ```/tmp/firmware.tag```. WARNING: does not keep your router settings.
 
 #### luci-app-advanced-reboot
-This package enables Web UI for reboot to another partition functionality on supported (dual-partition) routers and to power off (power down) your OpenWrt/LEDE Project router. Please see the [README](https://github.com/stangri/openwrt-luci/blob/luci-app-advanced-reboot/applications/luci-app-advanced-reboot/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/web-ui-to-reboot-to-another-partition-for-dual-partition-routers/3423) for further information.
+This package enables Web UI for reboot to another partition functionality on supported (dual-partition) routers and to power off (power down) your OpenWrt/LEDE Project router. Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/luci-app-advanced-reboot/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/web-ui-to-reboot-to-another-partition-for-dual-partition-routers/3423) for further information.
 
 #### luci-mod-alt-reboot
-This package enables Web UI for reboot to another partition functionality on supported (dual-partition) routers and to power off (power down) your OpenWrt/LEDE Project router by overwriting default System --> Reboot page. Please see the [README](https://github.com/stangri/openwrt-luci/blob/luci-mod-alt-reboot/modules/luci-mod-alt-reboot/README.md) for further information. This package has been superseded by ```luci-app-advanced-reboot``` and is no longer developed/supported.
+This package enables Web UI for reboot to another partition functionality on supported (dual-partition) routers and to power off (power down) your OpenWrt/LEDE Project router by overwriting default System --> Reboot page. Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/luci-mod-alt-reboot/README.md) for further information. This package has been superseded by ```luci-app-advanced-reboot``` and is no longer developed/supported.
 
 #### vpn-policy-routing & luci-app-vpn-policy-routing
-This service can be used to enable policy-based routing for Openconnect, OpenVPN and Wireguard tunnels and WAN/WAN6 interfaces. Supports policies based on domain names, IP addresses and/or ports. Compatible with legacy (IPv4) and modern (IPv6) protocols. Please see the [README](https://github.com/stangri/openwrt-packages/blob/vpn-policy-routing/net/vpn-policy-routing/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/vpn-policy-based-routing-web-ui-discussion/10389) for further information.
+This service can be used to enable policy-based routing for L2TP, Openconnect, OpenVPN and Wireguard tunnels and WAN/WAN6 interfaces. Supports policies based on domain names, IP addresses and/or ports. Compatible with legacy (IPv4) and modern (IPv6) protocols. Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/vpn-policy-routing/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/vpn-policy-based-routing-web-ui-discussion/10389) for further information.
 
 
 #### simple-adblock & luci-app-simple-adblock
-This service provides lightweight and very fast dnsmasq-based ad blocking. Please see the [README](https://github.com/stangri/openwrt-packages/blob/simple-adblock/net/simple-adblock/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/simple-adblock-fast-lightweight-and-fully-uci-luci-configurable-ad-blocking/1327) for further information.
+This service provides lightweight and very fast dnsmasq-based ad blocking. Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/simple-adblock/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/simple-adblock-fast-lightweight-and-fully-uci-luci-configurable-ad-blocking/1327) for further information.
 
 
 #### vpnbypass & luci-app-vpnbypass
-This service can be used to enable simple OpenVPN split tunneling. Supports accessing domains, IP ranges outside of your OpenVPN tunnel. Also supports dedicating local ports/IP ranges for direct internet access (outside of your OpenVPN tunnel). Please see the [README](https://github.com/stangri/openwrt-packages/blob/vpnbypass/net/vpnbypass/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/vpn-bypass-split-tunneling-service-luci-ui/1106/12) for further information.
+This service can be used to enable simple OpenVPN split tunneling. Supports accessing domains, IP ranges outside of your OpenVPN tunnel. Also supports dedicating local ports/IP ranges for direct internet access (outside of your OpenVPN tunnel). Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/vpnbypass/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/vpn-bypass-split-tunneling-service-luci-ui/1106/12) for further information.
