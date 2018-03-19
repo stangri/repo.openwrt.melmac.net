@@ -6,10 +6,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2046
+Installed-Size: 2047
 Filename: fakeinternet_0.0.3-1_all.ipk
-Size: 3178
-SHA256sum: d6df9b2db08a370d823c0f007a345c8d1c2017146bf31b7c8db2dc322b7a2072
+Size: 3173
+SHA256sum: 79702b47e6206ae20d118c834de90944eea2166cda4cf3196e881633029eef5a
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
