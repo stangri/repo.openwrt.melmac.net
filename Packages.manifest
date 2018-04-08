@@ -42,7 +42,7 @@ SHA256sum: a72051d9214ab1ad07da21f0b8fecaf60b175a0966f0abcd27da4c7f8fad2fee
 Description:  Easy Flash Web UI
 
 Package: luci-app-simple-adblock
-Version: git-18.097.73589-c736983-6
+Version: git-18.097.73589-c736983-7
 Depends: libc, luci, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
@@ -50,9 +50,9 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1494
-Filename: luci-app-simple-adblock_git-18.097.73589-c736983-6_all.ipk
-Size: 2327
-SHA256sum: 8d11bf4213bf2e1991b92d6f3d9514a5b9da6f9b9abe9824b42e1ad3a34e0b7f
+Filename: luci-app-simple-adblock_git-18.097.73589-c736983-7_all.ipk
+Size: 2324
+SHA256sum: c4f081f6856c744b897f6ab9cf8652108948b8a5902a0dac4a46e018454ef6d1
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -112,35 +112,35 @@ SHA256sum: 4e505d946fa6ca9f39263e29ab398aafb60cee27c5563fbc6c993e9354b675c4
 Description:  Translation for luci-app-advanced-reboot - Svenska (Swedish)
 
 Package: luci-i18n-simple-adblock-fr
-Version: git-18.097.73589-c736983-6
+Version: git-18.097.73589-c736983-7
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1170
-Filename: luci-i18n-simple-adblock-fr_git-18.097.73589-c736983-6_all.ipk
-Size: 2034
-SHA256sum: d90972f66804afcfa12911490c6864082a13e465aef08750c9323fb8966a5806
+Installed-Size: 1168
+Filename: luci-i18n-simple-adblock-fr_git-18.097.73589-c736983-7_all.ipk
+Size: 2033
+SHA256sum: c1e2432d3f209fb79c32332ead6227850154064b185fe57e2f46f12fa0762959
 Description:  Translation for luci-app-simple-adblock - Français (French)
 
 Package: luci-i18n-simple-adblock-ja
-Version: git-18.097.73589-c736983-6
+Version: git-18.097.73589-c736983-7
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1224
-Filename: luci-i18n-simple-adblock-ja_git-18.097.73589-c736983-6_all.ipk
-Size: 2105
-SHA256sum: a0699337c2651673a3907d58b38cd0539d16461efca905c86c853adfeb9d6424
+Installed-Size: 1225
+Filename: luci-i18n-simple-adblock-ja_git-18.097.73589-c736983-7_all.ipk
+Size: 2104
+SHA256sum: 74c9f99ae60088e77d4d4cc9f3248c9af9ad1d762a763dbd719bfa324a4b583a
 Description:  Translation for luci-app-simple-adblock - 日本語 (Japanese)
 
 Package: luci-i18n-simple-adblock-pt-br
-Version: git-18.097.73589-c736983-6
+Version: git-18.097.73589-c736983-7
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
@@ -148,13 +148,13 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1177
-Filename: luci-i18n-simple-adblock-pt-br_git-18.097.73589-c736983-6_all.ipk
-Size: 2060
-SHA256sum: 9ff8f87e2ff2a4cce2d1951f6eeb0781951098611cf22f59264c2244f92cd97d
+Filename: luci-i18n-simple-adblock-pt-br_git-18.097.73589-c736983-7_all.ipk
+Size: 2062
+SHA256sum: a8578981e37ff8c528dcfbabc30bac2e9d7bb49311fa3a3902550c2eee86fe0d
 Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-simple-adblock-pt
-Version: git-18.097.73589-c736983-6
+Version: git-18.097.73589-c736983-7
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
@@ -162,27 +162,27 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1150
-Filename: luci-i18n-simple-adblock-pt_git-18.097.73589-c736983-6_all.ipk
-Size: 2018
-SHA256sum: a0f17e477206f672b8e0bfe84ce947c587ee7db0151abaff7fe148e3eb1d71de
+Filename: luci-i18n-simple-adblock-pt_git-18.097.73589-c736983-7_all.ipk
+Size: 2020
+SHA256sum: 7d44923fdc6f11a74a1870d6857cc39defd0a3619b75aaad56b09de7ae810076
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: luci-i18n-simple-adblock-ru
-Version: git-18.097.73589-c736983-6
+Version: git-18.097.73589-c736983-7
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1269
-Filename: luci-i18n-simple-adblock-ru_git-18.097.73589-c736983-6_all.ipk
-Size: 2147
-SHA256sum: 16924da1a382217fbc3fb653402d94264d7bf49916d89f95d6afec8a8f53e61a
+Installed-Size: 1268
+Filename: luci-i18n-simple-adblock-ru_git-18.097.73589-c736983-7_all.ipk
+Size: 2148
+SHA256sum: 202f6784a61db459fadc2faa3ec356f6fcdb362df53a98fad47da5b88eeae22a
 Description:  Translation for luci-app-simple-adblock - Русский (Russian)
 
 Package: luci-i18n-simple-adblock-sv
-Version: git-18.097.73589-c736983-6
+Version: git-18.097.73589-c736983-7
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
@@ -190,9 +190,9 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 796
-Filename: luci-i18n-simple-adblock-sv_git-18.097.73589-c736983-6_all.ipk
-Size: 1651
-SHA256sum: c8704927b64e1215afdeab438a855043e97afbb57dd75739c0415fbfc88049a5
+Filename: luci-i18n-simple-adblock-sv_git-18.097.73589-c736983-7_all.ipk
+Size: 1654
+SHA256sum: 980a19ce01c6369916b59a9b529a6a23a1940d3aa93a7f71b9de1bbd5267fc13
 Description:  Translation for luci-app-simple-adblock - Svenska (Swedish)
 
 Package: luci-i18n-vpnbypass-pt-br
@@ -273,10 +273,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3767
+Installed-Size: 3766
 Filename: simple-adblock_1.6.0-2_all.ipk
-Size: 4873
-SHA256sum: 6968c11ff139b9dec886f3f350fe11cbb426e1c381788bd0f88d68c192e14030
+Size: 4876
+SHA256sum: dd7c1ce32ce69993089ba5e3ee389a2871c050faa2457b06e5582a6b284f8311
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
