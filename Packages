@@ -6,8 +6,8 @@ Section: net
 Architecture: all
 Installed-Size: 2041
 Filename: fakeinternet_0.0.5-4_all.ipk
-Size: 3165
-SHA256sum: b96ab2bc49ebcec204a833f2041947d21597dacac04cce9ea3be124009145e74
+Size: 3167
+SHA256sum: 1087c3d6ce510e595f9a7c11f2e5b458f6c8a32ac836900d5de6fc26b1e988d7
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -17,10 +17,10 @@ Depends: libc, luci
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 4009
+Installed-Size: 4007
 Filename: luci-app-advanced-reboot_git-18.097.73589-c736983-28_all.ipk
-Size: 4933
-SHA256sum: 147948f399a37e354b6c5b69997fc221baf0625044ea659ae5128f405b58f032
+Size: 4929
+SHA256sum: 6d58c2656af34a23cac6c44020dcfb1b1edda65d2f0e8a2bda616b7e58b5c259
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an altnerative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/stangri/openwrt-luci/blob/luci-app-advanced-reboot/applications/luci-app-advanced-reboot/README.md
 
 Package: luci-app-easyflash
@@ -29,10 +29,10 @@ Depends: libc, luci
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 956
+Installed-Size: 955
 Filename: luci-app-easyflash_git-18.097.73589-c736983-3_all.ipk
-Size: 1792
-SHA256sum: a72051d9214ab1ad07da21f0b8fecaf60b175a0966f0abcd27da4c7f8fad2fee
+Size: 1793
+SHA256sum: ae05c073fb72f5600ad30692b0b27b5bdf4c24c616881d9ec473b62019fc8cb6
 Description:  Easy Flash Web UI
 
 Package: luci-app-simple-adblock
@@ -44,31 +44,31 @@ Architecture: all
 Installed-Size: 1494
 Filename: luci-app-simple-adblock_git-18.097.73589-c736983-7_all.ipk
 Size: 2324
-SHA256sum: c4f081f6856c744b897f6ab9cf8652108948b8a5902a0dac4a46e018454ef6d1
+SHA256sum: 007f9362d626f93fa255f5d18ebbf424f19035c993139e6df94004591f12f1b2
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
-Version: git-18.097.73589-c736983-3
+Version: git-18.097.73589-c736983-4
 Depends: libc, luci, vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1381
-Filename: luci-app-vpnbypass_git-18.097.73589-c736983-3_all.ipk
+Installed-Size: 1382
+Filename: luci-app-vpnbypass_git-18.097.73589-c736983-4_all.ipk
 Size: 2210
-SHA256sum: a5cf30b11a352f406782f024edcba39d27e389b6dae319dcd15865a5a74e1450
+SHA256sum: c37e5e388343c52be0eac560f54057adb12809728a0f902fae461a2d5dc6fb89
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-18.097.73589-c736983-21b01
+Version: git-18.097.73589-c736983-22
 Depends: libc, luci, vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 4331
-Filename: luci-app-vpn-policy-routing_git-18.097.73589-c736983-21b01_all.ipk
-Size: 5170
-SHA256sum: a27f3b6a854723891d380fad3f4fb526ecd1848500007c57efc89cf9d5aa4d15
+Installed-Size: 4336
+Filename: luci-app-vpn-policy-routing_git-18.097.73589-c736983-22_all.ipk
+Size: 5171
+SHA256sum: 0f7fdbf9133c290781c2010181495af98dd5a69269a88a5d318930971b88eb77
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-i18n-advanced-reboot-ru
@@ -79,8 +79,8 @@ Section: luci
 Architecture: all
 Installed-Size: 2035
 Filename: luci-i18n-advanced-reboot-ru_git-18.097.73589-c736983-28_all.ipk
-Size: 2892
-SHA256sum: f8143f1cf2217cd75924fa030b927de0b0e16ccfa91973deafb028d8410b2c10
+Size: 2890
+SHA256sum: e86e90832253dc1ea45031bb4c88033be97ab102c66b579601247d9e996f7759
 Description:  Translation for luci-app-advanced-reboot - Русский (Russian)
 
 Package: luci-i18n-advanced-reboot-sv
@@ -89,10 +89,10 @@ Depends: libc, luci-app-advanced-reboot
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1145
+Installed-Size: 1146
 Filename: luci-i18n-advanced-reboot-sv_git-18.097.73589-c736983-28_all.ipk
-Size: 2009
-SHA256sum: 4e505d946fa6ca9f39263e29ab398aafb60cee27c5563fbc6c993e9354b675c4
+Size: 2007
+SHA256sum: 4686bada08710815da008f60f41156306dc43326f57d8038a2734a91226f96cc
 Description:  Translation for luci-app-advanced-reboot - Svenska (Swedish)
 
 Package: luci-i18n-simple-adblock-fr
@@ -101,10 +101,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1168
+Installed-Size: 1169
 Filename: luci-i18n-simple-adblock-fr_git-18.097.73589-c736983-7_all.ipk
-Size: 2033
-SHA256sum: c1e2432d3f209fb79c32332ead6227850154064b185fe57e2f46f12fa0762959
+Size: 2037
+SHA256sum: 46655a0482d8690cbe1cf0d2254906bee1819822c1a156a232a30c54da374139
 Description:  Translation for luci-app-simple-adblock - Français (French)
 
 Package: luci-i18n-simple-adblock-ja
@@ -113,10 +113,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1225
+Installed-Size: 1224
 Filename: luci-i18n-simple-adblock-ja_git-18.097.73589-c736983-7_all.ipk
-Size: 2104
-SHA256sum: 74c9f99ae60088e77d4d4cc9f3248c9af9ad1d762a763dbd719bfa324a4b583a
+Size: 2107
+SHA256sum: c5e11fc4b4e0300630ab0955b640c49d33d16fd68b6d8cabc050839af30ef68d
 Description:  Translation for luci-app-simple-adblock - 日本語 (Japanese)
 
 Package: luci-i18n-simple-adblock-pt-br
@@ -125,10 +125,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1177
+Installed-Size: 1176
 Filename: luci-i18n-simple-adblock-pt-br_git-18.097.73589-c736983-7_all.ipk
-Size: 2062
-SHA256sum: a8578981e37ff8c528dcfbabc30bac2e9d7bb49311fa3a3902550c2eee86fe0d
+Size: 2060
+SHA256sum: 7de683e63609811d9715d06d27ac0bb6c1675993d4d780441dcddda8af383d34
 Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-simple-adblock-pt
@@ -137,10 +137,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1150
+Installed-Size: 1149
 Filename: luci-i18n-simple-adblock-pt_git-18.097.73589-c736983-7_all.ipk
-Size: 2020
-SHA256sum: 7d44923fdc6f11a74a1870d6857cc39defd0a3619b75aaad56b09de7ae810076
+Size: 2013
+SHA256sum: 33b9b00fca63941c1b605d09eeeafbdc26d638d9576990b731e341b9ca45d2db
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: luci-i18n-simple-adblock-ru
@@ -149,10 +149,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1268
+Installed-Size: 1269
 Filename: luci-i18n-simple-adblock-ru_git-18.097.73589-c736983-7_all.ipk
 Size: 2148
-SHA256sum: 202f6784a61db459fadc2faa3ec356f6fcdb362df53a98fad47da5b88eeae22a
+SHA256sum: 9885fc194e2fca4caf57b83ca4965d6981c547eb67aae2341d14c391a9996bcf
 Description:  Translation for luci-app-simple-adblock - Русский (Russian)
 
 Package: luci-i18n-simple-adblock-sv
@@ -161,58 +161,58 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 796
+Installed-Size: 797
 Filename: luci-i18n-simple-adblock-sv_git-18.097.73589-c736983-7_all.ipk
-Size: 1654
-SHA256sum: 980a19ce01c6369916b59a9b529a6a23a1940d3aa93a7f71b9de1bbd5267fc13
+Size: 1657
+SHA256sum: 9892b56cde17eeaa46e436b7abbb67669c215f60a6471b36518f0bce8cc87c25
 Description:  Translation for luci-app-simple-adblock - Svenska (Swedish)
 
 Package: luci-i18n-vpnbypass-pt-br
-Version: git-18.097.73589-c736983-3
+Version: git-18.097.73589-c736983-4
 Depends: libc, luci-app-vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 567
-Filename: luci-i18n-vpnbypass-pt-br_git-18.097.73589-c736983-3_all.ipk
-Size: 1443
-SHA256sum: a3dc8ca9a41aa6bc33b9f712f6634dacd15b60aa748c1fe268a4caab7135cf57
+Installed-Size: 569
+Filename: luci-i18n-vpnbypass-pt-br_git-18.097.73589-c736983-4_all.ipk
+Size: 1445
+SHA256sum: 170a5a70610127b12d3ef4d242625a3882407dcf82d1cdab4937ad6919ae1877
 Description:  Translation for luci-app-vpnbypass - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-vpnbypass-ru
-Version: git-18.097.73589-c736983-3
+Version: git-18.097.73589-c736983-4
 Depends: libc, luci-app-vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 920
-Filename: luci-i18n-vpnbypass-ru_git-18.097.73589-c736983-3_all.ipk
-Size: 1795
-SHA256sum: 38c5f4fb57283becd4be36119ec1931bbde3861cada18a3eb2407746b89d4c3d
+Installed-Size: 921
+Filename: luci-i18n-vpnbypass-ru_git-18.097.73589-c736983-4_all.ipk
+Size: 1794
+SHA256sum: d2e64afce0dc0f12464673a082aee0b556ec50566be25676feb2c00bc3403144
 Description:  Translation for luci-app-vpnbypass - Русский (Russian)
 
 Package: luci-i18n-vpnbypass-zh-cn
-Version: git-18.097.73589-c736983-3
+Version: git-18.097.73589-c736983-4
 Depends: libc, luci-app-vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 759
-Filename: luci-i18n-vpnbypass-zh-cn_git-18.097.73589-c736983-3_all.ipk
+Filename: luci-i18n-vpnbypass-zh-cn_git-18.097.73589-c736983-4_all.ipk
 Size: 1627
-SHA256sum: f5c1445c406d84757e0c4ff28d26f408278e2aa1e99a6393b30e06c9be9777c6
+SHA256sum: 3dcf91e453f52a11210823c356492bab4529a4bc695e3f76403158d7631cd69d
 Description:  Translation for luci-app-vpnbypass - 中文 (Chinese)
 
 Package: luci-i18n-vpnbypass-zh-tw
-Version: git-18.097.73589-c736983-3
+Version: git-18.097.73589-c736983-4
 Depends: libc, luci-app-vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 765
-Filename: luci-i18n-vpnbypass-zh-tw_git-18.097.73589-c736983-3_all.ipk
-Size: 1649
-SHA256sum: 7647a78136fc34c3502f6d03407e87566e04eea2ce293c03519d28b20ed8d7aa
+Filename: luci-i18n-vpnbypass-zh-tw_git-18.097.73589-c736983-4_all.ipk
+Size: 1647
+SHA256sum: 6fac6faacd433efbae7bacc5e748967930d9f9b74b4c793bae2d53ee0f29af1e
 Description:  Translation for luci-app-vpnbypass - 臺灣華語 (Taiwanese)
 
 Package: luci-mod-alt-reboot
@@ -235,8 +235,8 @@ Section: net
 Architecture: all
 Installed-Size: 3766
 Filename: simple-adblock_1.6.0-2_all.ipk
-Size: 4876
-SHA256sum: dd7c1ce32ce69993089ba5e3ee389a2871c050faa2457b06e5582a6b284f8311
+Size: 4877
+SHA256sum: d7d78850ebfaa0b8caaaaca874d1316717b34ad07bbb5df5b031cf81c3c45e0a
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -251,7 +251,7 @@ Architecture: all
 Installed-Size: 2105
 Filename: vpnbypass_1.3.1-1_all.ipk
 Size: 3361
-SHA256sum: f1088bca6b811d164fc840eb222755fcbd6fbc42bab17ea92d4d7f99c0162921
+SHA256sum: 31020138db7e421a8cbe8c4b4981d4a0fb6c62ae9741811c9d795d72a37be998
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
@@ -265,10 +265,10 @@ Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 7717
+Installed-Size: 7718
 Filename: vpn-policy-routing_0.0.1-22_all.ipk
-Size: 9015
-SHA256sum: b824c966b933ea0ec27f12cd76bf23daa45d58cf15512f33aa8dc5cc86613015
+Size: 9018
+SHA256sum: 1ab97c41b82ab2a7eaafb732c04d681b202d992198f639d534cf10e285df2378
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
