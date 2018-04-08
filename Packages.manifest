@@ -8,27 +8,27 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 2041
 Filename: fakeinternet_0.0.5-4_all.ipk
-Size: 3164
-SHA256sum: c5d6cd4a1ea71fb01f4fde35bd896910cbad63eb8b7da062d6b440fd2ac9bf89
+Size: 3165
+SHA256sum: b96ab2bc49ebcec204a833f2041947d21597dacac04cce9ea3be124009145e74
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-advanced-reboot
-Version: git-18.097.35024-5c31937-27
+Version: git-18.097.73589-c736983-28
 Depends: libc, luci
 Source: package/luci/applications/luci-app-advanced-reboot
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4012
-Filename: luci-app-advanced-reboot_git-18.097.35024-5c31937-27_all.ipk
-Size: 4935
-SHA256sum: fe8bdaace163af9c46888d67444e896fa9b4d84a293872a215f4a030038497cb
+Installed-Size: 4009
+Filename: luci-app-advanced-reboot_git-18.097.73589-c736983-28_all.ipk
+Size: 4933
+SHA256sum: 147948f399a37e354b6c5b69997fc221baf0625044ea659ae5128f405b58f032
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an altnerative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/stangri/openwrt-luci/blob/luci-app-advanced-reboot/applications/luci-app-advanced-reboot/README.md
 
 Package: luci-app-easyflash
-Version: git-18.023.74248-ee409b6-3
+Version: git-18.097.73589-c736983-3
 Depends: libc, luci
 Source: package/luci/applications/luci-app-easyflash
 License: GPL-3.0+
@@ -36,13 +36,13 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 956
-Filename: luci-app-easyflash_git-18.023.74248-ee409b6-3_all.ipk
+Filename: luci-app-easyflash_git-18.097.73589-c736983-3_all.ipk
 Size: 1792
-SHA256sum: d58165b4acc796d062bc77f0bc2b1d8dbc38554ac9e78bb87d4448670df037a1
+SHA256sum: a72051d9214ab1ad07da21f0b8fecaf60b175a0966f0abcd27da4c7f8fad2fee
 Description:  Easy Flash Web UI
 
 Package: luci-app-simple-adblock
-Version: git-18.077.69876-c575c78-6
+Version: git-18.097.73589-c736983-6
 Depends: libc, luci, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
@@ -50,97 +50,97 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1500
-Filename: luci-app-simple-adblock_git-18.077.69876-c575c78-6_all.ipk
-Size: 2324
-SHA256sum: 9825d662a7fc3a956a3997407684e38fca8d1332eda756f78d9feffd8907a798
+Filename: luci-app-simple-adblock_git-18.097.73589-c736983-6_all.ipk
+Size: 2326
+SHA256sum: c89f12e0f6cc26abcbc67953bf57d5172c3d465e4040bbc41a33bb92dfa9e1b2
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
-Version: git-18.097.35024-5c31937-3
+Version: git-18.097.73589-c736983-3
 Depends: libc, luci, vpnbypass
 Source: package/luci/applications/luci-app-vpnbypass
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1378
-Filename: luci-app-vpnbypass_git-18.097.35024-5c31937-3_all.ipk
-Size: 2215
-SHA256sum: 313b61e3cdc114c35279dcf91e6ff8676a46d70647a47df6f14231cb1ec70c71
+Installed-Size: 1381
+Filename: luci-app-vpnbypass_git-18.097.73589-c736983-3_all.ipk
+Size: 2210
+SHA256sum: a5cf30b11a352f406782f024edcba39d27e389b6dae319dcd15865a5a74e1450
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-18.097.35024-5c31937-19
+Version: git-18.097.73589-c736983-21
 Depends: libc, luci, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4317
-Filename: luci-app-vpn-policy-routing_git-18.097.35024-5c31937-19_all.ipk
-Size: 5146
-SHA256sum: e60e1fc93c93663156e3562f80e55d1b9cdbd064b16baed5c6a157434d992bdc
+Installed-Size: 4318
+Filename: luci-app-vpn-policy-routing_git-18.097.73589-c736983-21_all.ipk
+Size: 5144
+SHA256sum: 5167e1dc0ed9cf2bfd06f3c517a773baf25f355aed2b33ff138e0caebc6970e1
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-i18n-advanced-reboot-ru
-Version: git-18.097.35024-5c31937-27
+Version: git-18.097.73589-c736983-28
 Depends: libc, luci-app-advanced-reboot
 Source: package/luci/applications/luci-app-advanced-reboot
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2036
-Filename: luci-i18n-advanced-reboot-ru_git-18.097.35024-5c31937-27_all.ipk
-Size: 2893
-SHA256sum: 2ba01cca5c49653deee00863f0221ad2ddcb1bce0f709c15c6d222cd72fbc563
+Installed-Size: 2035
+Filename: luci-i18n-advanced-reboot-ru_git-18.097.73589-c736983-28_all.ipk
+Size: 2892
+SHA256sum: f8143f1cf2217cd75924fa030b927de0b0e16ccfa91973deafb028d8410b2c10
 Description:  Translation for luci-app-advanced-reboot - Русский (Russian)
 
 Package: luci-i18n-advanced-reboot-sv
-Version: git-18.097.35024-5c31937-27
+Version: git-18.097.73589-c736983-28
 Depends: libc, luci-app-advanced-reboot
 Source: package/luci/applications/luci-app-advanced-reboot
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1146
-Filename: luci-i18n-advanced-reboot-sv_git-18.097.35024-5c31937-27_all.ipk
-Size: 2010
-SHA256sum: e31514e618453c8e0fa180ba6dd2a2da477dc1da705d1042fc23fbc0cb737a68
+Installed-Size: 1145
+Filename: luci-i18n-advanced-reboot-sv_git-18.097.73589-c736983-28_all.ipk
+Size: 2009
+SHA256sum: 4e505d946fa6ca9f39263e29ab398aafb60cee27c5563fbc6c993e9354b675c4
 Description:  Translation for luci-app-advanced-reboot - Svenska (Swedish)
 
 Package: luci-i18n-simple-adblock-fr
-Version: git-18.077.69876-c575c78-6
+Version: git-18.097.73589-c736983-6
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1167
-Filename: luci-i18n-simple-adblock-fr_git-18.077.69876-c575c78-6_all.ipk
-Size: 2032
-SHA256sum: 5c9ffffd9304337f91a17362b22ab159bd5fa093784427411d43075bf38cbcdc
+Installed-Size: 1166
+Filename: luci-i18n-simple-adblock-fr_git-18.097.73589-c736983-6_all.ipk
+Size: 2033
+SHA256sum: ae4b8b45d21d094261684bc92d1a14d31f00e86333e4093da1e3a163e6f536e8
 Description:  Translation for luci-app-simple-adblock - Français (French)
 
 Package: luci-i18n-simple-adblock-ja
-Version: git-18.077.69876-c575c78-6
+Version: git-18.097.73589-c736983-6
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1224
-Filename: luci-i18n-simple-adblock-ja_git-18.077.69876-c575c78-6_all.ipk
-Size: 2101
-SHA256sum: 86756b1f3a62f7447d831d426f4d5ca8d8d9e144d066cf5b9e46203a858fccef
+Installed-Size: 1223
+Filename: luci-i18n-simple-adblock-ja_git-18.097.73589-c736983-6_all.ipk
+Size: 2103
+SHA256sum: f2ddccf57ce90a3d896af2f18c46c4321c66352b65960811f6e1cf2f62cbcfd3
 Description:  Translation for luci-app-simple-adblock - 日本語 (Japanese)
 
 Package: luci-i18n-simple-adblock-pt-br
-Version: git-18.077.69876-c575c78-6
+Version: git-18.097.73589-c736983-6
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
@@ -148,41 +148,41 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1175
-Filename: luci-i18n-simple-adblock-pt-br_git-18.077.69876-c575c78-6_all.ipk
+Filename: luci-i18n-simple-adblock-pt-br_git-18.097.73589-c736983-6_all.ipk
 Size: 2059
-SHA256sum: 8392bfa908f37d9c27da7d434521d376a637c0402270a2e834b9b73e0e41d69a
+SHA256sum: 541541f505cf22d0859ad904197065abcb9649388baf6babd676e7fa4e38a811
 Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-simple-adblock-pt
-Version: git-18.077.69876-c575c78-6
+Version: git-18.097.73589-c736983-6
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1148
-Filename: luci-i18n-simple-adblock-pt_git-18.077.69876-c575c78-6_all.ipk
-Size: 2017
-SHA256sum: 3554f249515ad944b5cb785f2c6075be0eb4247ed37a89a0741bab0f6ca795ff
+Installed-Size: 1149
+Filename: luci-i18n-simple-adblock-pt_git-18.097.73589-c736983-6_all.ipk
+Size: 2015
+SHA256sum: eb54169c4b86620c6006ad0b7147a5dd9eec76a58b11b3dcd451090257d3a3b5
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: luci-i18n-simple-adblock-ru
-Version: git-18.077.69876-c575c78-6
+Version: git-18.097.73589-c736983-6
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1266
-Filename: luci-i18n-simple-adblock-ru_git-18.077.69876-c575c78-6_all.ipk
-Size: 2142
-SHA256sum: fe88cc0023eee0ef63a8479a390ff97cd12cb240695253106e6be36b504b232c
+Installed-Size: 1267
+Filename: luci-i18n-simple-adblock-ru_git-18.097.73589-c736983-6_all.ipk
+Size: 2149
+SHA256sum: d5987f02f689954433b95343830558a8b9d57e1a7021f33a9e955346eab5f024
 Description:  Translation for luci-app-simple-adblock - Русский (Russian)
 
 Package: luci-i18n-simple-adblock-sv
-Version: git-18.077.69876-c575c78-6
+Version: git-18.097.73589-c736983-6
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
@@ -190,13 +190,13 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 795
-Filename: luci-i18n-simple-adblock-sv_git-18.077.69876-c575c78-6_all.ipk
-Size: 1656
-SHA256sum: 883b7606f0f470750bc6f466c778951976e7553b87a9db515fb0e46dcf9fd33f
+Filename: luci-i18n-simple-adblock-sv_git-18.097.73589-c736983-6_all.ipk
+Size: 1653
+SHA256sum: ad3fdd0a07c284fab6b816fe587c3fa5ed3004ae5605d646d52c9cee1605688c
 Description:  Translation for luci-app-simple-adblock - Svenska (Swedish)
 
 Package: luci-i18n-vpnbypass-pt-br
-Version: git-18.097.35024-5c31937-3
+Version: git-18.097.73589-c736983-3
 Depends: libc, luci-app-vpnbypass
 Source: package/luci/applications/luci-app-vpnbypass
 License: GPL-3.0+
@@ -204,51 +204,51 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 567
-Filename: luci-i18n-vpnbypass-pt-br_git-18.097.35024-5c31937-3_all.ipk
-Size: 1444
-SHA256sum: 0be15d221c1fac68b31e4f728513689695865df008eba78c250745f5275d49a1
+Filename: luci-i18n-vpnbypass-pt-br_git-18.097.73589-c736983-3_all.ipk
+Size: 1443
+SHA256sum: a3dc8ca9a41aa6bc33b9f712f6634dacd15b60aa748c1fe268a4caab7135cf57
 Description:  Translation for luci-app-vpnbypass - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-vpnbypass-ru
-Version: git-18.097.35024-5c31937-3
+Version: git-18.097.73589-c736983-3
 Depends: libc, luci-app-vpnbypass
 Source: package/luci/applications/luci-app-vpnbypass
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 921
-Filename: luci-i18n-vpnbypass-ru_git-18.097.35024-5c31937-3_all.ipk
-Size: 1793
-SHA256sum: 08053f44507776efbe611dff7890d8d1f288f09ed6cf8eae0031c3246c7f28bc
+Installed-Size: 920
+Filename: luci-i18n-vpnbypass-ru_git-18.097.73589-c736983-3_all.ipk
+Size: 1795
+SHA256sum: 38c5f4fb57283becd4be36119ec1931bbde3861cada18a3eb2407746b89d4c3d
 Description:  Translation for luci-app-vpnbypass - Русский (Russian)
 
 Package: luci-i18n-vpnbypass-zh-cn
-Version: git-18.097.35024-5c31937-3
+Version: git-18.097.73589-c736983-3
 Depends: libc, luci-app-vpnbypass
 Source: package/luci/applications/luci-app-vpnbypass
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 758
-Filename: luci-i18n-vpnbypass-zh-cn_git-18.097.35024-5c31937-3_all.ipk
-Size: 1625
-SHA256sum: afefca158189a869eb1957fa024e7af076178e67a2e2e9e4bd8ebb2fde5190e3
+Installed-Size: 759
+Filename: luci-i18n-vpnbypass-zh-cn_git-18.097.73589-c736983-3_all.ipk
+Size: 1627
+SHA256sum: f5c1445c406d84757e0c4ff28d26f408278e2aa1e99a6393b30e06c9be9777c6
 Description:  Translation for luci-app-vpnbypass - 中文 (Chinese)
 
 Package: luci-i18n-vpnbypass-zh-tw
-Version: git-18.097.35024-5c31937-3
+Version: git-18.097.73589-c736983-3
 Depends: libc, luci-app-vpnbypass
 Source: package/luci/applications/luci-app-vpnbypass
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 764
-Filename: luci-i18n-vpnbypass-zh-tw_git-18.097.35024-5c31937-3_all.ipk
-Size: 1637
-SHA256sum: c2eb95eab1d9ef9de0953172b76b50c5c1d6dd74e1f18b727fef582818a70cf0
+Installed-Size: 765
+Filename: luci-i18n-vpnbypass-zh-tw_git-18.097.73589-c736983-3_all.ipk
+Size: 1649
+SHA256sum: 7647a78136fc34c3502f6d03407e87566e04eea2ce293c03519d28b20ed8d7aa
 Description:  Translation for luci-app-vpnbypass - 臺灣華語 (Taiwanese)
 
 Package: luci-mod-alt-reboot
@@ -275,8 +275,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 3766
 Filename: simple-adblock_1.6.0-2_all.ipk
-Size: 4870
-SHA256sum: d4c010d9d4666ec2dafbd4670a6fcf14a314b179336062bed48a1ba7718cec56
+Size: 4875
+SHA256sum: 486b5e3b8a7fe9fd1fa431eec52d6bc41d1a4da6c4349f0ba53532e18b53c375
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -290,10 +290,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2103
+Installed-Size: 2105
 Filename: vpnbypass_1.3.1-1_all.ipk
-Size: 3354
-SHA256sum: 6b4b39fe3e3b1e6f59f434a8acb78e5b69540de5b88a07cf837ee71629e43d29
+Size: 3361
+SHA256sum: f1088bca6b811d164fc840eb222755fcbd6fbc42bab17ea92d4d7f99c0162921
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
@@ -311,8 +311,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 7718
 Filename: vpn-policy-routing_0.0.1-22_all.ipk
-Size: 9012
-SHA256sum: 5f1623239d01c7770dd19ecbc705de447c7db6c534e34d2352da48304062965a
+Size: 9017
+SHA256sum: fc58e9a8bd31c6b8a089ee8bf86d05093436211b2688cce20d80a712c64943fd
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
