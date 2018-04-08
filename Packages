@@ -41,10 +41,10 @@ Depends: libc, luci, simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1500
+Installed-Size: 1517
 Filename: luci-app-simple-adblock_git-18.097.73589-c736983-6_all.ipk
-Size: 2326
-SHA256sum: c89f12e0f6cc26abcbc67953bf57d5172c3d465e4040bbc41a33bb92dfa9e1b2
+Size: 2346
+SHA256sum: 5ba148234ea984b1b815acd4d3c3d7a4a2de07a1a50dbd7150a98fb7341b05e8
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -101,10 +101,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1166
+Installed-Size: 1170
 Filename: luci-i18n-simple-adblock-fr_git-18.097.73589-c736983-6_all.ipk
-Size: 2033
-SHA256sum: ae4b8b45d21d094261684bc92d1a14d31f00e86333e4093da1e3a163e6f536e8
+Size: 2036
+SHA256sum: 73cc4b6a892e2af1e440b6b6f13a191ff752003740cc25ba47358ef486e1c8df
 Description:  Translation for luci-app-simple-adblock - Français (French)
 
 Package: luci-i18n-simple-adblock-ja
@@ -113,10 +113,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1223
+Installed-Size: 1224
 Filename: luci-i18n-simple-adblock-ja_git-18.097.73589-c736983-6_all.ipk
-Size: 2103
-SHA256sum: f2ddccf57ce90a3d896af2f18c46c4321c66352b65960811f6e1cf2f62cbcfd3
+Size: 2102
+SHA256sum: d0b8b2e2280ba725ae90a91df2b8a779e7ac7554e797a8288647a1ca6486e146
 Description:  Translation for luci-app-simple-adblock - 日本語 (Japanese)
 
 Package: luci-i18n-simple-adblock-pt-br
@@ -125,10 +125,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1175
+Installed-Size: 1176
 Filename: luci-i18n-simple-adblock-pt-br_git-18.097.73589-c736983-6_all.ipk
-Size: 2059
-SHA256sum: 541541f505cf22d0859ad904197065abcb9649388baf6babd676e7fa4e38a811
+Size: 2060
+SHA256sum: c1b2d92b203fed976bd47e3c22d0f760b3e20eb8112f898517685083b4bd43f5
 Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-simple-adblock-pt
@@ -137,10 +137,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1149
+Installed-Size: 1150
 Filename: luci-i18n-simple-adblock-pt_git-18.097.73589-c736983-6_all.ipk
-Size: 2015
-SHA256sum: eb54169c4b86620c6006ad0b7147a5dd9eec76a58b11b3dcd451090257d3a3b5
+Size: 2018
+SHA256sum: 4a50783acbcacb29280022e645fa5c7ef727278407b1f91ae1e5ee73f8ad2c6d
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: luci-i18n-simple-adblock-ru
@@ -149,10 +149,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1267
+Installed-Size: 1269
 Filename: luci-i18n-simple-adblock-ru_git-18.097.73589-c736983-6_all.ipk
 Size: 2149
-SHA256sum: d5987f02f689954433b95343830558a8b9d57e1a7021f33a9e955346eab5f024
+SHA256sum: 5c2b98fd74210ceb275841add6458bb701140e94112c6267ba4dc24da61001da
 Description:  Translation for luci-app-simple-adblock - Русский (Russian)
 
 Package: luci-i18n-simple-adblock-sv
@@ -161,10 +161,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 795
+Installed-Size: 796
 Filename: luci-i18n-simple-adblock-sv_git-18.097.73589-c736983-6_all.ipk
-Size: 1653
-SHA256sum: ad3fdd0a07c284fab6b816fe587c3fa5ed3004ae5605d646d52c9cee1605688c
+Size: 1656
+SHA256sum: eb6cd287458e06b03a710ac1c4218923c5aebdb5de0cf161749145bc117b6e55
 Description:  Translation for luci-app-simple-adblock - Svenska (Swedish)
 
 Package: luci-i18n-vpnbypass-pt-br
@@ -233,10 +233,10 @@ Depends: libc
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 3766
+Installed-Size: 3765
 Filename: simple-adblock_1.6.0-2_all.ipk
-Size: 4875
-SHA256sum: 486b5e3b8a7fe9fd1fa431eec52d6bc41d1a4da6c4349f0ba53532e18b53c375
+Size: 4879
+SHA256sum: 57b136cd30479ea859ff338325ff8f8cfe678c52cec40d91052a78c893be3afb
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
