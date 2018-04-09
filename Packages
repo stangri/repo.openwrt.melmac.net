@@ -272,3 +272,16 @@ SHA256sum: 1ab97c41b82ab2a7eaafb732c04d681b202d992198f639d534cf10e285df2378
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
+Package: wlanblinker
+Version: 0.0.1-3
+Depends: libc, coreutils-sleep, iwinfo
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 1490
+Filename: wlanblinker_0.0.1-3_all.ipk
+Size: 2662
+SHA256sum: 51f47d4c7e07c56d7240b1e9e05c3c6784a1a8694a651b84fe4f7a46d61d4987
+Description:  This service can be used to signal WLAN status by the unused LED.
+ Please see the README for further information.
+
