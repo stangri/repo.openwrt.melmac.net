@@ -317,7 +317,7 @@ Description:  This service allows policy-based routing for L2TP, Openconnect, Op
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
 Package: wlanblinker
-Version: 0.0.1-4
+Version: 0.0.1-5
 Depends: libc, coreutils-sleep, iwinfo
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/wlanblinker
 License: GPL-3.0+
@@ -325,9 +325,9 @@ Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1486
-Filename: wlanblinker_0.0.1-4_all.ipk
-Size: 2659
-SHA256sum: fb9a6c96c0182202ff1003f129c3c56fa5788910f6a4d89ee62058c92996065a
+Filename: wlanblinker_0.0.1-5_all.ipk
+Size: 2660
+SHA256sum: 977c98f44d6c180279372a944502079a292338881b1473e9278d1cbabe2e5655
 Description:  This service can be used to signal WLAN status by the unused LED.
  Please see the README for further information.
 
