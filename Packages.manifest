@@ -326,8 +326,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1486
 Filename: wlanblinker_0.0.1-5_all.ipk
-Size: 2660
-SHA256sum: 977c98f44d6c180279372a944502079a292338881b1473e9278d1cbabe2e5655
+Size: 2658
+SHA256sum: d1a92abeab94385822b7b0bcf7cff4a3f1d6c1e376b1c6525fa4bc0d9e0ae2a2
 Description:  This service can be used to signal WLAN status by the unused LED.
  Please see the README for further information.
 
