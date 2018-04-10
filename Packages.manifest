@@ -84,17 +84,17 @@ SHA256sum: 0f7fdbf9133c290781c2010181495af98dd5a69269a88a5d318930971b88eb77
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-wlanblinker
-Version: git-18.099.52401-edd1fab-2
+Version: git-18.099.52401-edd1fab-3
 Depends: libc, luci, wlanblinker
 Source: package/luci/applications/luci-app-wlanblinker
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1143
-Filename: luci-app-wlanblinker_git-18.099.52401-edd1fab-2_all.ipk
-Size: 2003
-SHA256sum: 1ceaf87e4460d17cd309e7fc7a710dc492e83482ed339b61fd5e237b03a772f8
+Installed-Size: 1195
+Filename: luci-app-wlanblinker_git-18.099.52401-edd1fab-3_all.ipk
+Size: 2064
+SHA256sum: 8f603fc8b0eff7e8b30bd9df392fe25dbb0ebc589740f22a2f09824d11d2720f
 Description:  Provides Web UI for WLAN Blinker service.
 
 Package: luci-i18n-advanced-reboot-ru
@@ -338,10 +338,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1488
+Installed-Size: 1485
 Filename: wlanblinker_0.0.1-5_all.ipk
-Size: 2660
-SHA256sum: 2630cb0cbad4ccf7762b401eb56800ac27ec844b52587ec6667c57f326d8c60c
+Size: 2651
+SHA256sum: 2361d23a2882e8d97a862e3041e02798baa7e92a4d63d1d39b0eda34387a454a
 Description:  This service can be used to signal WLAN status by the unused LED.
  Please see the README for further information.
 
