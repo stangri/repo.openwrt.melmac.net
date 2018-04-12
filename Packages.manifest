@@ -93,8 +93,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1466
 Filename: luci-app-wlanblinker_git-18.101.21196-d488681-4_all.ipk
-Size: 2299
-SHA256sum: abd2c2ade3cb099e93a04692ee0bf710e472b34042b9a7e305d8e34690b94dcd
+Size: 2293
+SHA256sum: c74f01fa47feccad4b8fa06864829634254d052fae1871e8367cecb3f3eda710
 Description:  Provides Web UI for WLAN Blinker service.
 
 Package: luci-i18n-advanced-reboot-ru
@@ -296,31 +296,31 @@ Description:  This service provides dnsmasq-based ad blocking.
  
 
 Package: slider-support-ar300m
-Version: 0.0.1-5
+Version: 0.0.1-5b01
 Depends: libc, relayd
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/slider-support
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2057
-Filename: slider-support-ar300m_0.0.1-5_all.ipk
-Size: 2824
-SHA256sum: 431dd296883dba4f36c3ea4e84c0536e3de6c5eb2a50ef928416486bd0411f96
+Installed-Size: 2068
+Filename: slider-support-ar300m_0.0.1-5b01_all.ipk
+Size: 2836
+SHA256sum: d060b6641a19ad3a0a909b004fd5432250b62870c0480f6648babfffec15ec41
 Description:  Slider support for GL-Inet AR300M
 
 Package: slider-support-mt300n
-Version: 0.0.1-5
+Version: 0.0.1-5b01
 Depends: libc, relayd
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/slider-support
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2052
-Filename: slider-support-mt300n_0.0.1-5_all.ipk
-Size: 2812
-SHA256sum: 1ca585f5812f23826c39c636354e2a7792a79719ce6c6c4739489184a1e2e60a
+Installed-Size: 2059
+Filename: slider-support-mt300n_0.0.1-5b01_all.ipk
+Size: 2833
+SHA256sum: 0347dfd3cdf23a2da85706f76b83179aebb45724b1fe71a1d0de60fd9cac964e
 Description:  Slider support for GL-Inet MT300N/v2
 
 Package: vpnbypass
@@ -366,10 +366,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1507
+Installed-Size: 1505
 Filename: wlanblinker_0.0.1-7_all.ipk
-Size: 2669
-SHA256sum: 088c4b34b1742514c6d0241ba3a42b18048324c8d37a7ac15092e50fa30e0fd2
+Size: 2677
+SHA256sum: ac562b5705a65bd81689408f930e8402c471eab28a1fd93803be4f7b2a462175
 Description:  This service can be used to signal WLAN status by the unused LED.
  Please see the README for further information.
 
