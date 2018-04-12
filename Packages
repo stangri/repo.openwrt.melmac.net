@@ -1,13 +1,13 @@
 Package: fakeinternet
-Version: 0.0.5-4
+Version: 0.0.5-5
 Depends: libc, uhttpd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2041
-Filename: fakeinternet_0.0.5-4_all.ipk
-Size: 3167
-SHA256sum: 1087c3d6ce510e595f9a7c11f2e5b458f6c8a32ac836900d5de6fc26b1e988d7
+Installed-Size: 2035
+Filename: fakeinternet_0.0.5-5_all.ipk
+Size: 3160
+SHA256sum: bef58a51a14cefb2dfcf1471730a88b02f9d2499d6f8948d4af14f3820013778
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -72,15 +72,15 @@ SHA256sum: 0f7fdbf9133c290781c2010181495af98dd5a69269a88a5d318930971b88eb77
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-wlanblinker
-Version: git-18.099.52401-edd1fab-4
+Version: git-18.101.21196-d488681-4
 Depends: libc, luci, wlanblinker
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1466
-Filename: luci-app-wlanblinker_git-18.099.52401-edd1fab-4_all.ipk
-Size: 2296
-SHA256sum: 83d5ae4c4c800bada2e0897f7d7d604c45577c7aefd5a342cd50f6d0f131909b
+Installed-Size: 1465
+Filename: luci-app-wlanblinker_git-18.101.21196-d488681-4_all.ipk
+Size: 2290
+SHA256sum: 0b68855ef87f896ddda0a5b321b05f54e3ecc410e03ef7d24cf7c63a664c6a48
 Description:  Provides Web UI for WLAN Blinker service.
 
 Package: luci-i18n-advanced-reboot-ru
@@ -309,15 +309,15 @@ Description:  This service allows policy-based routing for L2TP, Openconnect, Op
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
 Package: wlanblinker
-Version: 0.0.1-5
+Version: 0.0.1-6
 Depends: libc, coreutils-sleep, iwinfo
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 1487
-Filename: wlanblinker_0.0.1-5_all.ipk
-Size: 2657
-SHA256sum: aaaba173cef536ace04832aec59caf22fb4ea8f87fac2b3a99fdb65ba743db06
+Installed-Size: 1495
+Filename: wlanblinker_0.0.1-6_all.ipk
+Size: 2664
+SHA256sum: 77ad8d81ed93f0b571318f7301d5b03fbc1e0d8c1198f847c912c8c81749f451
 Description:  This service can be used to signal WLAN status by the unused LED.
  Please see the README for further information.
 
