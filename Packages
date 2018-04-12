@@ -4,10 +4,10 @@ Depends: libc, uhttpd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2035
+Installed-Size: 2036
 Filename: fakeinternet_0.0.5-5_all.ipk
-Size: 3160
-SHA256sum: bef58a51a14cefb2dfcf1471730a88b02f9d2499d6f8948d4af14f3820013778
+Size: 3159
+SHA256sum: dc63ba70ec860d514e6b3c5b84db6d9f7a5f9819c064a979fb32b55bf693788d
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -77,10 +77,10 @@ Depends: libc, luci, wlanblinker
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1465
+Installed-Size: 1466
 Filename: luci-app-wlanblinker_git-18.101.21196-d488681-4_all.ipk
-Size: 2290
-SHA256sum: 0b68855ef87f896ddda0a5b321b05f54e3ecc410e03ef7d24cf7c63a664c6a48
+Size: 2299
+SHA256sum: 5b2e51f0184c2e0706116cfbc6d7d0b236bb1b82c6ad2ab4c4542f77accfb210
 Description:  Provides Web UI for WLAN Blinker service.
 
 Package: luci-i18n-advanced-reboot-ru
@@ -309,15 +309,15 @@ Description:  This service allows policy-based routing for L2TP, Openconnect, Op
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
 Package: wlanblinker
-Version: 0.0.1-6
+Version: 0.0.1-7
 Depends: libc, coreutils-sleep, iwinfo
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 1495
-Filename: wlanblinker_0.0.1-6_all.ipk
-Size: 2664
-SHA256sum: 77ad8d81ed93f0b571318f7301d5b03fbc1e0d8c1198f847c912c8c81749f451
+Installed-Size: 1514
+Filename: wlanblinker_0.0.1-7_all.ipk
+Size: 2685
+SHA256sum: a01d2469792fe045c33282d416732cb2674c3e7910e391c554c2848fa229be1d
 Description:  This service can be used to signal WLAN status by the unused LED.
  Please see the README for further information.
 
