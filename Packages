@@ -259,10 +259,10 @@ Depends: libc, relayd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2080
+Installed-Size: 2086
 Filename: slider-support-ar300m_0.0.1-11_all.ipk
-Size: 2851
-SHA256sum: 4ae432fa37a1454d04512da7f02731e6a304a9a2a47f8f8ee8bd2505e82ac8e0
+Size: 2863
+SHA256sum: e83ec862726609671c2c492e6bd6dad10c7fdc96e1b2a65f8e55f5d7584ff957
 Description:  Slider support for GL-Inet AR300M
 
 Package: slider-support-mt300n
@@ -271,10 +271,10 @@ Depends: libc, relayd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2077
+Installed-Size: 2085
 Filename: slider-support-mt300n_0.0.1-11_all.ipk
-Size: 2851
-SHA256sum: e585f9b340c3b4d039a7427572a63c5ce56f0b1ef6f4891ed76b972cadc6e519
+Size: 2857
+SHA256sum: 7f058aa5470d0eb500da94d32dbacf316ce1a7d92593a672a6671830a8c6b7fd
 Description:  Slider support for GL-Inet MT300N/v2
 
 Package: vpnbypass
