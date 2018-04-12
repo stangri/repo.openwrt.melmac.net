@@ -4,10 +4,10 @@ Depends: libc, uhttpd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2036
+Installed-Size: 2034
 Filename: fakeinternet_0.0.5-5_all.ipk
-Size: 3159
-SHA256sum: dc63ba70ec860d514e6b3c5b84db6d9f7a5f9819c064a979fb32b55bf693788d
+Size: 3157
+SHA256sum: cc9c348ad65d96abb62a0e2c1c49324cf52918ee90b1d047367d929517a2722c
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -80,7 +80,7 @@ Architecture: all
 Installed-Size: 1466
 Filename: luci-app-wlanblinker_git-18.101.21196-d488681-4_all.ipk
 Size: 2299
-SHA256sum: 5b2e51f0184c2e0706116cfbc6d7d0b236bb1b82c6ad2ab4c4542f77accfb210
+SHA256sum: abd2c2ade3cb099e93a04692ee0bf710e472b34042b9a7e305d8e34690b94dcd
 Description:  Provides Web UI for WLAN Blinker service.
 
 Package: luci-i18n-advanced-reboot-ru
@@ -314,10 +314,10 @@ Depends: libc, coreutils-sleep, iwinfo
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 1514
+Installed-Size: 1507
 Filename: wlanblinker_0.0.1-7_all.ipk
-Size: 2685
-SHA256sum: a01d2469792fe045c33282d416732cb2674c3e7910e391c554c2848fa229be1d
+Size: 2669
+SHA256sum: 088c4b34b1742514c6d0241ba3a42b18048324c8d37a7ac15092e50fa30e0fd2
 Description:  This service can be used to signal WLAN status by the unused LED.
  Please see the README for further information.
 
