@@ -254,27 +254,27 @@ Description:  This service provides dnsmasq-based ad blocking.
  
 
 Package: slider-support-ar300m
-Version: 0.0.1-5b04
+Version: 0.0.1-5
 Depends: libc, relayd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2038
-Filename: slider-support-ar300m_0.0.1-5b04_all.ipk
-Size: 2812
-SHA256sum: 15f9df9393624311718384dd491777d63a08c4dd577259d45f194020e6ea134c
+Installed-Size: 2033
+Filename: slider-support-ar300m_0.0.1-5_all.ipk
+Size: 2800
+SHA256sum: efc8ed534512728aea66fa07f3e7706dd938468b456d6ce3a69a9e3b0215ca43
 Description:  Slider support for GL-Inet AR300M
 
 Package: slider-support-mt300n
-Version: 0.0.1-5b04
+Version: 0.0.1-5
 Depends: libc, relayd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2032
-Filename: slider-support-mt300n_0.0.1-5b04_all.ipk
-Size: 2803
-SHA256sum: 560e9d749a3e0f24a3c638cd1dcd401b9aac5d7fe95f508308734ec678a43df7
+Installed-Size: 2029
+Filename: slider-support-mt300n_0.0.1-5_all.ipk
+Size: 2793
+SHA256sum: 2f6151b6a2ce3bfe67e13adeb030e2c2cba8692799a4530f2f8f8c38bdbff894
 Description:  Slider support for GL-Inet MT300N/v2
 
 Package: vpnbypass
