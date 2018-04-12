@@ -305,8 +305,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 2080
 Filename: slider-support-ar300m_0.0.1-2_all.ipk
-Size: 2839
-SHA256sum: 5de7cb7824211fb02ade5fe236afe9163a4f60443397cc7b39d00d435c543fea
+Size: 2837
+SHA256sum: 102d0988cce587f02c1cf32f48eaa03867239d789052ba45feb91700fc1da9d7
 Description:  Slider support for GL-Inet AR300M
 
 Package: slider-support-mt300n
@@ -317,10 +317,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2078
+Installed-Size: 2077
 Filename: slider-support-mt300n_0.0.1-2_all.ipk
-Size: 2844
-SHA256sum: daa903ff229e594a34eddba08b2e17be8952e48655dfbd5d82d4397e0072473c
+Size: 2834
+SHA256sum: c49b64f19b26eecd70d87880a77b6bd8d067ed374e2368a8d26ee8d4987793b8
 Description:  Slider support for GL-Inet MT300N/v2
 
 Package: vpnbypass
