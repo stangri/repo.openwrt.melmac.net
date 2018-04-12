@@ -253,6 +253,19 @@ Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
 
+Package: slider-support
+Version: 0.0.1-1
+Depends: libc, ethtool, swconfig, relayd
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 1704
+Filename: slider-support_0.0.1-1_all.ipk
+Size: 2930
+SHA256sum: dcc64cf37bf4a49ff5f72c703fecf93d4f791bda732f89bf25a0eba675c74695
+Description:  This service can be used to signal WLAN status by the unused LED.
+ Please see the README for further information.
+
 Package: vpnbypass
 Version: 1.3.1-1
 Depends: libc, ipset, iptables

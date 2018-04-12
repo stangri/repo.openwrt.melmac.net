@@ -63,3 +63,6 @@ This service can be used to enable policy-based routing for L2TP, Openconnect, O
 
 #### vpnbypass & luci-app-vpnbypass
 This service can be used to enable simple OpenVPN split tunneling. Supports accessing domains, IP ranges outside of your OpenVPN tunnel. Also supports dedicating local ports/IP ranges for direct internet access (outside of your OpenVPN tunnel). Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/vpnbypass/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/vpn-bypass-split-tunneling-service-luci-ui/1106/12) for further information.
+
+#### wlanblinker & luci-app-wlanblinker
+This service can be used to indicate WLAN status by blinking the unused LED. Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/wlanblinker/files/README.md) for further information.
