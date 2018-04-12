@@ -58,6 +58,9 @@ This package enables Web UI for reboot to another partition functionality on sup
 #### simple-adblock & luci-app-simple-adblock
 This service provides lightweight and very fast dnsmasq-based ad blocking. Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/simple-adblock/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/simple-adblock-fast-lightweight-and-fully-uci-luci-configurable-ad-blocking/1327) for further information.
 
+#### slider-support
+This package enables switching between ```Router```, ```Access Point``` and ```Wireless Repeater``` modes of operation for supported routers equipped with slider switch. It also sets the correct ```current mode``` setting for the [```WLAN Blinker``` service](https://github.com/stangri/openwrt_packages/blob/master/wlanblinker/files/README.md). Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/slider-support/files/README.md) for further information.
+
 #### vpn-policy-routing & luci-app-vpn-policy-routing
 This service can be used to enable policy-based routing for L2TP, Openconnect, OpenVPN and Wireguard tunnels and WAN/WAN6 interfaces. Supports policies based on domain names, IP addresses and/or ports. Compatible with legacy (IPv4) and modern (IPv6) protocols. Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/vpn-policy-routing/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/vpn-policy-based-routing-web-ui-discussion/10389) for further information.
 

@@ -261,8 +261,8 @@ Section: net
 Architecture: all
 Installed-Size: 1704
 Filename: slider-support_0.0.1-1_all.ipk
-Size: 2930
-SHA256sum: dcc64cf37bf4a49ff5f72c703fecf93d4f791bda732f89bf25a0eba675c74695
+Size: 2936
+SHA256sum: a1ca7dc81f30878a7654bd57d5bdf0dd25ed7a59699b965063ce350aa5056c02
 Description:  This service can be used to signal WLAN status by the unused LED.
  Please see the README for further information.
 
