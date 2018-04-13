@@ -296,21 +296,21 @@ Description:  This service provides dnsmasq-based ad blocking.
  
 
 Package: slider-support-ar300m
-Version: 0.0.1-11
+Version: 0.0.1-12
 Depends: libc, relayd
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/slider-support
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2086
-Filename: slider-support-ar300m_0.0.1-11_all.ipk
-Size: 2863
-SHA256sum: e83ec862726609671c2c492e6bd6dad10c7fdc96e1b2a65f8e55f5d7584ff957
+Installed-Size: 2088
+Filename: slider-support-ar300m_0.0.1-12_all.ipk
+Size: 2862
+SHA256sum: f2606e6d5a7eb4f6df8d1898ea3c902b9ba88681572c9c27cd7ebcad775b0456
 Description:  Slider support for GL-Inet AR300M
 
 Package: slider-support-mt300n
-Version: 0.0.1-11
+Version: 0.0.1-12
 Depends: libc, relayd
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/slider-support
 License: GPL-3.0+
@@ -318,9 +318,9 @@ Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 2085
-Filename: slider-support-mt300n_0.0.1-11_all.ipk
+Filename: slider-support-mt300n_0.0.1-12_all.ipk
 Size: 2857
-SHA256sum: 7f058aa5470d0eb500da94d32dbacf316ce1a7d92593a672a6671830a8c6b7fd
+SHA256sum: 64f24cec443002a93bd93e57e70fd9fd99823c44fc67613d5ef7d1e770e89e30
 Description:  Slider support for GL-Inet MT300N/v2
 
 Package: vpnbypass
