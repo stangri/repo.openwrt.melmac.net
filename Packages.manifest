@@ -1,15 +1,15 @@
 Package: fakeinternet
-Version: 0.0.7-1
+Version: 0.0.7-2
 Depends: libc, uhttpd
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/fakeinternet
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2062
-Filename: fakeinternet_0.0.7-1_all.ipk
-Size: 3183
-SHA256sum: f030af38b111feac2eab7970a8c6bb391d441934b69123d6b48868f979c09916
+Installed-Size: 2068
+Filename: fakeinternet_0.0.7-2_all.ipk
+Size: 3189
+SHA256sum: 2047c514db5d35438b3fa3bdca4ad2bb13fdbac9c35c57f11c632ec81473b34f
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
