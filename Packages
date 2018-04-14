@@ -254,28 +254,32 @@ Description:  This service provides dnsmasq-based ad blocking.
  
 
 Package: slider-support-ar300m
-Version: 0.0.2-1
+Version: 0.0.2-3
 Depends: libc, relayd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2037
-Filename: slider-support-ar300m_0.0.2-1_all.ipk
-Size: 2801
-SHA256sum: a21a636838c569cd2ecf83ccb48b7bb0c1f9ad4c2ada91c4a9ecc0b73c38fa1d
-Description:  Slider support for GL-Inet AR300M
+Installed-Size: 2086
+Filename: slider-support-ar300m_0.0.2-3_all.ipk
+Size: 2957
+SHA256sum: 41072944df707d06a0c19242d0314e58382e4b553650525c36dd00d45bc005bf
+Description:  This service enables switching between Router, Access Point and Wireless Repeater
+ modes of operation for supported routers equipped with slider switch.
+ Please see the README for further information.
 
 Package: slider-support-mt300n
-Version: 0.0.2-1
+Version: 0.0.2-3
 Depends: libc, relayd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2030
-Filename: slider-support-mt300n_0.0.2-1_all.ipk
-Size: 2796
-SHA256sum: 31e685f9acec5a8942ea3f9dbfd8c61355ed3f0b22048b26962b8a798ee044e6
-Description:  Slider support for GL-Inet MT300N/v2
+Installed-Size: 2078
+Filename: slider-support-mt300n_0.0.2-3_all.ipk
+Size: 2946
+SHA256sum: 0fa926276bf8b7afd6f95ce828a4fb337ea76abc90dc2ccd169d2263ff92b5cf
+Description:  This service enables switching between Router, Access Point and Wireless Repeater
+ modes of operation for supported routers equipped with slider switch.
+ Please see the README for further information.
 
 Package: vpnbypass
 Version: 1.3.1-1
