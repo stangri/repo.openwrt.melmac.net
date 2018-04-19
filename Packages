@@ -1,13 +1,13 @@
 Package: antminer-monitor
-Version: 1-0.4.0
+Version: 0.4.0-2
 Depends: libc, python-light, python-pip
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 530084
-Filename: antminer-monitor_1-0.4.0_all.ipk
-Size: 531253
-SHA256sum: 44749452fb80e0da2bbc2286a2619062034844f03c03872ca1b458129c59b708
+Installed-Size: 530041
+Filename: antminer-monitor_0.4.0-2_all.ipk
+Size: 531207
+SHA256sum: ea29267a638f902b07ec69c465ce6e52e0e72358fe65f6b90b82de3fd9a5e22b
 Description:  This service can be used to monitor Antminers on local network.
 
 Package: fakeinternet
