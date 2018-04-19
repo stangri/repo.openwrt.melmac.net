@@ -1,15 +1,15 @@
 Package: antminer-monitor
-Version: 0.4.0-4
+Version: 0.4.0-5
 Depends: libc, python-light, python-pip
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/antminer-monitor
 License: GPL-3.0
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 530058
-Filename: antminer-monitor_0.4.0-4_all.ipk
-Size: 531216
-SHA256sum: 2bc338f53539ba9d11cba9f700a227f842f9c28c26715ae3c71b396fbcc4740a
+Installed-Size: 530068
+Filename: antminer-monitor_0.4.0-5_all.ipk
+Size: 531250
+SHA256sum: b75099526a2193b098c9d7c0bb4e0ff1f0eb24be088e6b2370bdfa5281f11de4
 Description:  This service can be used to monitor Antminers on local network.
 
 Package: fakeinternet
