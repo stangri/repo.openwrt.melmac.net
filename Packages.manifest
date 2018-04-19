@@ -6,10 +6,10 @@ License: GPL-3.0
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 530041
+Installed-Size: 530056
 Filename: antminer-monitor_0.4.0-2_all.ipk
-Size: 531207
-SHA256sum: ea29267a638f902b07ec69c465ce6e52e0e72358fe65f6b90b82de3fd9a5e22b
+Size: 531223
+SHA256sum: 7d6cca85ac9ce722364d357d9f03ad9c22b90452e7a7084fc6c7d26c34a9fbce
 Description:  This service can be used to monitor Antminers on local network.
 
 Package: fakeinternet
