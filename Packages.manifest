@@ -310,7 +310,23 @@ Description:  This service provides dnsmasq-based ad blocking.
  
 
 Package: slider-support-ar300m
-Version: 0.0.2-5
+Version: 0.0.2-7
+Depends: libc, relayd
+Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/slider-support
+License: GPL-3.0+
+Section: net
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 2260
+Filename: slider-support-ar300m_0.0.2-7_all.ipk
+Size: 3285
+SHA256sum: 03fa4b2a6114049de308a09fcf3c03aa528c1e318f406f65a24d766d3ea39c1b
+Description:  This service enables switching between Router, Access Point and Wireless Repeater
+ modes of operation for supported routers equipped with slider switch.
+ Please see the README for further information.
+
+Package: slider-support-mt300n
+Version: 0.0.2-7
 Depends: libc, relayd
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/slider-support
 License: GPL-3.0+
@@ -318,25 +334,9 @@ Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 2253
-Filename: slider-support-ar300m_0.0.2-5_all.ipk
-Size: 3286
-SHA256sum: b507503d3439063e0e040d3bc5358caeba738fb2325f9793d19c39297a3cc436
-Description:  This service enables switching between Router, Access Point and Wireless Repeater
- modes of operation for supported routers equipped with slider switch.
- Please see the README for further information.
-
-Package: slider-support-mt300n
-Version: 0.0.2-5
-Depends: libc, relayd
-Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/slider-support
-License: GPL-3.0+
-Section: net
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 2249
-Filename: slider-support-mt300n_0.0.2-5_all.ipk
-Size: 3277
-SHA256sum: 6b01b4ec679e049d2dd171bfcfc943bfe5d796fbf0577988d3a5d49726e33019
+Filename: slider-support-mt300n_0.0.2-7_all.ipk
+Size: 3281
+SHA256sum: 563e58c5c95a2826d34288824f2205d2da8513f0f5aea6c25b303c1b2f463d19
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
