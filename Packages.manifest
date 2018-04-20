@@ -317,10 +317,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2282
+Installed-Size: 2276
 Filename: slider-support-ar300m_0.0.2-8_all.ipk
-Size: 3312
-SHA256sum: dc6ccc093807b756b68997125b5cfeb1550cf1dcd46c6fb5e6eab38901bd6abb
+Size: 3304
+SHA256sum: ae3ff81deb2aacb9dbf5377a9fb818bd86ec97442cdd52508e6d184a2f348180
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -333,10 +333,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2276
+Installed-Size: 2270
 Filename: slider-support-mt300n_0.0.2-8_all.ipk
-Size: 3300
-SHA256sum: 125fa554a958c56d97ff30bcfd83205718eab5d1dc9aac5c27a7064357c667cc
+Size: 3298
+SHA256sum: 6fd6e2776bac676da1e61f2bf4c022b5d764370c723877d3590b0cfcd6c17bd3
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
