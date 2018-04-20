@@ -310,33 +310,33 @@ Description:  This service provides dnsmasq-based ad blocking.
  
 
 Package: slider-support-ar300m
-Version: 0.0.2-4
+Version: 0.0.2-5
 Depends: libc, relayd
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/slider-support
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2411
-Filename: slider-support-ar300m_0.0.2-4_all.ipk
-Size: 3442
-SHA256sum: da3955d76150a24f3cdf80380e94e42a215fddd068c90b6e000e0376643e6940
+Installed-Size: 2452
+Filename: slider-support-ar300m_0.0.2-5_all.ipk
+Size: 3481
+SHA256sum: 17fdda112f6b0ba0ecd589ec19ec01700b259e32dabe3cca676c376e37755bf8
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
 
 Package: slider-support-mt300n
-Version: 0.0.2-4
+Version: 0.0.2-5
 Depends: libc, relayd
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/slider-support
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2405
-Filename: slider-support-mt300n_0.0.2-4_all.ipk
-Size: 3437
-SHA256sum: ade8b910a22266cede8aa8a1483c649207e2815ca8d34e97db768c165d0c7ae6
+Installed-Size: 2446
+Filename: slider-support-mt300n_0.0.2-5_all.ipk
+Size: 3480
+SHA256sum: 7f66c5cc7a77f22fa1cde4a6ba31e3a06a9f7a06465d20923ec0c0238b42b8b9
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
