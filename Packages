@@ -271,10 +271,10 @@ Depends: libc, relayd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2452
+Installed-Size: 2451
 Filename: slider-support-ar300m_0.0.2-5_all.ipk
-Size: 3486
-SHA256sum: dd294660c2892813e4116ee811348056fe076fa7ad7da2bc1490a32c32468d5f
+Size: 3482
+SHA256sum: e35b363b9753420e8de89d205773ee3d84898df67ae53a793755a7b7b678b526
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -287,8 +287,8 @@ Section: net
 Architecture: all
 Installed-Size: 2445
 Filename: slider-support-mt300n_0.0.2-5_all.ipk
-Size: 3478
-SHA256sum: 1286532c2a28f49457bb1ad9ba0e0d6e9d39f87096d90fead8a359074f42d3da
+Size: 3476
+SHA256sum: 52b4f09201824407a9ac4c69769d1d42a1f4038027994b738aae231505f2fac3
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
