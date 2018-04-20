@@ -266,29 +266,29 @@ Description:  This service provides dnsmasq-based ad blocking.
  
 
 Package: slider-support-ar300m
-Version: 0.0.2-3
+Version: 0.0.2-5
 Depends: libc, relayd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2085
-Filename: slider-support-ar300m_0.0.2-3_all.ipk
-Size: 2994
-SHA256sum: 31bd36531ec15c78714632016c157053ea7af8f076d85f620f440accfd79b3ef
+Installed-Size: 2159
+Filename: slider-support-ar300m_0.0.2-5_all.ipk
+Size: 3186
+SHA256sum: b27c7d3f54e186274ac68ad0515ae9f2a3914143873a7eab89c036105828f8f5
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
 
 Package: slider-support-mt300n
-Version: 0.0.2-3
+Version: 0.0.2-5
 Depends: libc, relayd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2079
-Filename: slider-support-mt300n_0.0.2-3_all.ipk
-Size: 2986
-SHA256sum: 35a83d2c96e41966a552159393d368ea1b1c2ad19885f45bef1d285ffa4f50bf
+Installed-Size: 2152
+Filename: slider-support-mt300n_0.0.2-5_all.ipk
+Size: 3180
+SHA256sum: d8b52a3de2ee36fee7e70b793f29cdf0d23f766dd219f0cf769682c62b10e823
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
