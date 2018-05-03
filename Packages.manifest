@@ -63,10 +63,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1494
+Installed-Size: 1493
 Filename: luci-app-simple-adblock_git-18.122.73605-3f51712-7_all.ipk
-Size: 2323
-SHA256sum: 43bdef3bb287a925985c98d97ce8c694b058de25a5cb9d15867021471c045473
+Size: 2325
+SHA256sum: f34fdc080ce9c45e8d38c74cebb10e40686d79512ac54e66563c4a6748a74c39
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -147,10 +147,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1168
+Installed-Size: 1167
 Filename: luci-i18n-simple-adblock-fr_git-18.122.73605-3f51712-7_all.ipk
-Size: 2034
-SHA256sum: d78e1d37a5bcb6d8eb92688dad5dd0589a0f237e30f52f1d970c16da76c352e8
+Size: 2027
+SHA256sum: 5bf2f86873f889ebf8d0ad869dce5b436fefd329b2936a0e4762709bde20d1ca
 Description:  Translation for luci-app-simple-adblock - Français (French)
 
 Package: luci-i18n-simple-adblock-ja
@@ -161,10 +161,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1225
+Installed-Size: 1224
 Filename: luci-i18n-simple-adblock-ja_git-18.122.73605-3f51712-7_all.ipk
-Size: 2111
-SHA256sum: 9bfe53b8268fdb1987cedb1646bea79eadfed6d4cecc2867ad389e72d6fea6eb
+Size: 2104
+SHA256sum: cfd3f0bd6ff8338e2e9436f22e937f05e909b7974db051bfd59ca4dd2aa0ea40
 Description:  Translation for luci-app-simple-adblock - 日本語 (Japanese)
 
 Package: luci-i18n-simple-adblock-pt-br
@@ -178,7 +178,7 @@ Architecture: all
 Installed-Size: 1176
 Filename: luci-i18n-simple-adblock-pt-br_git-18.122.73605-3f51712-7_all.ipk
 Size: 2058
-SHA256sum: 0bd9c486d291e324a8726ad5164829b63489dad475206cc5e0a44c975b0fb947
+SHA256sum: 5258306d9673c393ee75a1d29e1f27a07405841f03c42b847000c1c956a6be5a
 Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-simple-adblock-pt
@@ -189,10 +189,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1149
+Installed-Size: 1150
 Filename: luci-i18n-simple-adblock-pt_git-18.122.73605-3f51712-7_all.ipk
-Size: 2020
-SHA256sum: b639601a47f58100ec8190f455f4738d623e9eb254ed50cd10a645e3524ac14d
+Size: 2021
+SHA256sum: 1c60cf586d9c35a833646783dee0cc7fca8694f14087239e798ff99fca8d747b
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: luci-i18n-simple-adblock-ru
@@ -203,10 +203,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1269
+Installed-Size: 1270
 Filename: luci-i18n-simple-adblock-ru_git-18.122.73605-3f51712-7_all.ipk
-Size: 2149
-SHA256sum: f8b8a6d69deb1bd27031e4cf42042ed987246b1cd3f25d7b32d742c38c52ecdb
+Size: 2151
+SHA256sum: 266e40c0c695d31a0e3a61c890e721ec7bcb7e31d77e5c8202d9b16f590249f4
 Description:  Translation for luci-app-simple-adblock - Русский (Russian)
 
 Package: luci-i18n-simple-adblock-sv
@@ -217,10 +217,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 795
+Installed-Size: 796
 Filename: luci-i18n-simple-adblock-sv_git-18.122.73605-3f51712-7_all.ipk
-Size: 1653
-SHA256sum: 49baf758e82572e798c3ae808f937095f10b0841184003d2338242f2983b19e7
+Size: 1655
+SHA256sum: 525f4a7d9577b2972f921d2a0d40378ca2c42b1f784e7eaf115974e9cd43e74c
 Description:  Translation for luci-app-simple-adblock - Svenska (Swedish)
 
 Package: luci-i18n-vpnbypass-pt-br
@@ -301,10 +301,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4108
+Installed-Size: 4106
 Filename: simple-adblock_1.6.0-4_all.ipk
-Size: 5231
-SHA256sum: 5c01cf9edf8f94fa4ea827d9c09dc3e149e55ccf78c3794f3dd65b4012daf101
+Size: 5230
+SHA256sum: cbe7a673722c3228e02316e2ab293b058206021ab096458dc337488cddec6385
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
