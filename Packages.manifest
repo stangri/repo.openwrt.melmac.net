@@ -13,17 +13,17 @@ SHA256sum: c2b63ac850f8bd741004538c291a0a8d6cb5da6f3409af0beab7ee76f8508acf
 Description:  This service can be used to monitor Antminers on local network.
 
 Package: fakeinternet
-Version: 0.0.7-2
+Version: 0.0.7-3
 Depends: libc, uhttpd
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/fakeinternet
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2068
-Filename: fakeinternet_0.0.7-2_all.ipk
-Size: 3189
-SHA256sum: 2047c514db5d35438b3fa3bdca4ad2bb13fdbac9c35c57f11c632ec81473b34f
+Installed-Size: 2005
+Filename: fakeinternet_0.0.7-3_all.ipk
+Size: 3130
+SHA256sum: 0502b6ee2d114e32bd1dc3dc5978010b62fdf717f891563073ed2edfcbdc9242
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
