@@ -84,17 +84,17 @@ SHA256sum: c37e5e388343c52be0eac560f54057adb12809728a0f902fae461a2d5dc6fb89
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-18.122.73605-3f51712-22
+Version: git-18.125.76267-055b621-23
 Depends: libc, luci, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4334
-Filename: luci-app-vpn-policy-routing_git-18.122.73605-3f51712-22_all.ipk
-Size: 5162
-SHA256sum: 6b836461835f83bd3397a94cf84f3293a8fbd53f71ef488a14baf3fac36542b4
+Installed-Size: 4340
+Filename: luci-app-vpn-policy-routing_git-18.125.76267-055b621-23_all.ipk
+Size: 5169
+SHA256sum: 2b1334bc037196725bcc527b3fd39cdd7bf9b0cab79307c5f99032a984050407
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-wlanblinker
@@ -361,7 +361,7 @@ Description:  This service can be used to enable simple VPN split tunnelling.
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.0.1-24
+Version: 0.0.1-25
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, ip-full
 Conflicts: vpnbypass
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/vpn-policy-routing
@@ -369,10 +369,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 7744
-Filename: vpn-policy-routing_0.0.1-24_all.ipk
-Size: 9035
-SHA256sum: f3e90e5f44b998b0dd78f15a539e5e3d61c568173543517f68702bef9c9f87f8
+Installed-Size: 7755
+Filename: vpn-policy-routing_0.0.1-25_all.ipk
+Size: 9055
+SHA256sum: fc25436b72b63645eb2ff8bae1a31d4669309bcfb1f23135943855bed32d7efc
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
