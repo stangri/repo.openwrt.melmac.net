@@ -16,10 +16,10 @@ Depends: libc, uhttpd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2200
+Installed-Size: 2199
 Filename: fakeinternet_0.1.1-1_all.ipk
-Size: 3329
-SHA256sum: 8ebcbb75cec2f467fee3cc3106d8e1b15a5f0eae1c56d4ed9ab2261a024f260e
+Size: 3336
+SHA256sum: cc64864da30b67279631d10a9729b5393268c1154dcef94288655969e0f50603
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -53,10 +53,10 @@ Depends: libc, luci, fakeinternet
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1143
+Installed-Size: 1147
 Filename: luci-app-fakeinternet_git-18.151.61791-fed315a-1_all.ipk
-Size: 1970
-SHA256sum: 32f8999704cd566b60c314b313daf4c8fb2070f3546487f86f241df0a45077a0
+Size: 1979
+SHA256sum: 0a475aeea0dab05d6cdede3c87c3ee31d3b311fa1e89932e67ab1c9db7fa5ece
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-simple-adblock
@@ -65,10 +65,10 @@ Depends: libc, luci, simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1493
+Installed-Size: 1494
 Filename: luci-app-simple-adblock_git-18.151.61791-fed315a-7_all.ipk
-Size: 2318
-SHA256sum: 006e0dd26c62043f399619b438fab73c99c5f4b02c24127a807444cc45611b95
+Size: 2327
+SHA256sum: 8606bdadf701db0cee881e68ea2f3daad4eab4fc97a23a1082bb05929126db0b
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -91,8 +91,8 @@ Section: luci
 Architecture: all
 Installed-Size: 4341
 Filename: luci-app-vpn-policy-routing_git-18.151.61791-fed315a-23_all.ipk
-Size: 5160
-SHA256sum: 0be89af9e1b9a0e8e9cbaf692d1896ec6db4f040a0c7b15db4547222e64e6c11
+Size: 5170
+SHA256sum: e85eece886e8ffadaa558098681d5f3016bc183c3abc9a1caeceba78d089a5f4
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-wlanblinker
@@ -137,10 +137,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1169
+Installed-Size: 1170
 Filename: luci-i18n-simple-adblock-fr_git-18.151.61791-fed315a-7_all.ipk
-Size: 2035
-SHA256sum: 276f85a5384c89bb770d56b523d29e4247921828e517263ab11bd654d72bb93a
+Size: 2034
+SHA256sum: fef113384b430a3f662b5436f2ca565b2bee20716dad37369688d10da592e2d5
 Description:  Translation for luci-app-simple-adblock - Français (French)
 
 Package: luci-i18n-simple-adblock-ja
@@ -149,10 +149,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1224
+Installed-Size: 1223
 Filename: luci-i18n-simple-adblock-ja_git-18.151.61791-fed315a-7_all.ipk
-Size: 2106
-SHA256sum: 0d812b028531e5d98ecdd0bcce18577cf17ba20ec026d3116dc3f1767a129e3c
+Size: 2104
+SHA256sum: dd415e4d3230f0d9bf531a569772bed76cfdf0290da7017d3476e5f0be92d3eb
 Description:  Translation for luci-app-simple-adblock - 日本語 (Japanese)
 
 Package: luci-i18n-simple-adblock-pt-br
@@ -161,10 +161,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1175
+Installed-Size: 1174
 Filename: luci-i18n-simple-adblock-pt-br_git-18.151.61791-fed315a-7_all.ipk
-Size: 2060
-SHA256sum: f7e49a6b8b3e759d67ebd4362a7dca8b7e69755330499c3b1e34c0c8a75fda8b
+Size: 2056
+SHA256sum: d1b414eed2b29948dc376306a9e93f0814e051132a2400f62f2b4bb042b00108
 Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-simple-adblock-pt
@@ -173,10 +173,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1150
+Installed-Size: 1148
 Filename: luci-i18n-simple-adblock-pt_git-18.151.61791-fed315a-7_all.ipk
-Size: 2020
-SHA256sum: 705671fe4c3ba88ca8ea0377bb38e50f4af0ef3c78555cb1fffc4f6fb9e38e7c
+Size: 2007
+SHA256sum: 8e1e4d7dd53f9a22fed3334e278dfae2e83eaa5c1f0b83626fabc5ea1858c3c4
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: luci-i18n-simple-adblock-ru
@@ -185,10 +185,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1269
+Installed-Size: 1267
 Filename: luci-i18n-simple-adblock-ru_git-18.151.61791-fed315a-7_all.ipk
 Size: 2148
-SHA256sum: e7b17293ce35700aa666bb774b50818deec2d2a8be3c352b9b9909acbdae52cf
+SHA256sum: b2eb4d3a6a159985dfb2c41cd9ff31b6bd0ad17ffb743a1942dcdde20ada4c3d
 Description:  Translation for luci-app-simple-adblock - Русский (Russian)
 
 Package: luci-i18n-simple-adblock-sv
@@ -197,10 +197,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 796
+Installed-Size: 794
 Filename: luci-i18n-simple-adblock-sv_git-18.151.61791-fed315a-7_all.ipk
-Size: 1658
-SHA256sum: 4124492e0b458f454caa3651ff8a45193fb1f6185d1887a84b3679465a35cb12
+Size: 1655
+SHA256sum: 488e05b5fedddcdfda13386e6b3b84de9ae3e0950fef14e4d54ed5e5787821ed
 Description:  Translation for luci-app-simple-adblock - Svenska (Swedish)
 
 Package: luci-i18n-vpnbypass-pt-br
@@ -269,10 +269,10 @@ Depends: libc
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 4043
+Installed-Size: 4047
 Filename: simple-adblock_1.6.0-5_all.ipk
-Size: 5166
-SHA256sum: 8bbfcab177128c271fff503a830c067371b61b3c5d8c0d693a7547a4320d51a8
+Size: 5172
+SHA256sum: 688d9f94c80ee4d2d153301e670f5518d0774aa2af2fa5283288328b482c1c7a
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -329,10 +329,10 @@ Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 7881
+Installed-Size: 7884
 Filename: vpn-policy-routing_0.0.2-2_all.ipk
-Size: 9187
-SHA256sum: 5184f79d251f8bd9c1d566d4ab58704460183e1df940752ac8d1f2f0038d65d7
+Size: 9192
+SHA256sum: 3cec31ccbcedbf63a04825f6e26c84fafebe5b5016241325d32721995fdafdc3
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
