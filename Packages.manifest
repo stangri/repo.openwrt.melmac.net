@@ -20,10 +20,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2201
+Installed-Size: 2200
 Filename: fakeinternet_0.1.1-1_all.ipk
-Size: 3332
-SHA256sum: 67326f18afd3a0829c4cb1b699b4525274be49bfc4e9002a2ccc9b0c77af63b3
+Size: 3329
+SHA256sum: 8ebcbb75cec2f467fee3cc3106d8e1b15a5f0eae1c56d4ed9ab2261a024f260e
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -63,10 +63,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1148
+Installed-Size: 1143
 Filename: luci-app-fakeinternet_git-18.151.61791-fed315a-1_all.ipk
-Size: 1977
-SHA256sum: a3ec15525cbadbe0c13f95305a3a7045412280d6dba5ff266888c52cf07b53fb
+Size: 1970
+SHA256sum: 32f8999704cd566b60c314b313daf4c8fb2070f3546487f86f241df0a45077a0
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-simple-adblock
@@ -77,10 +77,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1494
+Installed-Size: 1493
 Filename: luci-app-simple-adblock_git-18.151.61791-fed315a-7_all.ipk
-Size: 2320
-SHA256sum: 667939c44b61b3c8e92791acd86f1be03b98419929a55c18afec5b90648079eb
+Size: 2318
+SHA256sum: 006e0dd26c62043f399619b438fab73c99c5f4b02c24127a807444cc45611b95
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -105,10 +105,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4340
+Installed-Size: 4341
 Filename: luci-app-vpn-policy-routing_git-18.151.61791-fed315a-23_all.ipk
-Size: 5171
-SHA256sum: c614aee6508fbd6d3315196502d52ccd1700eac0eb1b5c44d6015ab38f8ce038
+Size: 5160
+SHA256sum: 0be89af9e1b9a0e8e9cbaf692d1896ec6db4f040a0c7b15db4547222e64e6c11
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-wlanblinker
@@ -161,10 +161,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1170
+Installed-Size: 1169
 Filename: luci-i18n-simple-adblock-fr_git-18.151.61791-fed315a-7_all.ipk
-Size: 2029
-SHA256sum: 201722fe90f320c79ef0a3b4bdc6ccb808cf6f0b85fe3ff9893da48a495e65ee
+Size: 2035
+SHA256sum: 276f85a5384c89bb770d56b523d29e4247921828e517263ab11bd654d72bb93a
 Description:  Translation for luci-app-simple-adblock - Français (French)
 
 Package: luci-i18n-simple-adblock-ja
@@ -175,10 +175,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1225
+Installed-Size: 1224
 Filename: luci-i18n-simple-adblock-ja_git-18.151.61791-fed315a-7_all.ipk
-Size: 2107
-SHA256sum: 95549996a1c0ed42ea2f7a9c8497b4d9f442c67d9e5eb31f32a135691b3884c4
+Size: 2106
+SHA256sum: 0d812b028531e5d98ecdd0bcce18577cf17ba20ec026d3116dc3f1767a129e3c
 Description:  Translation for luci-app-simple-adblock - 日本語 (Japanese)
 
 Package: luci-i18n-simple-adblock-pt-br
@@ -189,10 +189,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1174
+Installed-Size: 1175
 Filename: luci-i18n-simple-adblock-pt-br_git-18.151.61791-fed315a-7_all.ipk
-Size: 2059
-SHA256sum: c42d107cd7336195d6efe3c9fe0c4d3fc8d4e4be483034b49744f2ce7c4094f8
+Size: 2060
+SHA256sum: f7e49a6b8b3e759d67ebd4362a7dca8b7e69755330499c3b1e34c0c8a75fda8b
 Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-simple-adblock-pt
@@ -203,10 +203,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1148
+Installed-Size: 1150
 Filename: luci-i18n-simple-adblock-pt_git-18.151.61791-fed315a-7_all.ipk
-Size: 2016
-SHA256sum: 370aab1997dd1ae072d6b1bd35e85162692140c9b91f3de755134fbbcb71370e
+Size: 2020
+SHA256sum: 705671fe4c3ba88ca8ea0377bb38e50f4af0ef3c78555cb1fffc4f6fb9e38e7c
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: luci-i18n-simple-adblock-ru
@@ -217,10 +217,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1268
+Installed-Size: 1269
 Filename: luci-i18n-simple-adblock-ru_git-18.151.61791-fed315a-7_all.ipk
-Size: 2149
-SHA256sum: 8f0893e3f4acf927199a363ec888ac3d5f06ef602f6594000c1e0a2034378567
+Size: 2148
+SHA256sum: e7b17293ce35700aa666bb774b50818deec2d2a8be3c352b9b9909acbdae52cf
 Description:  Translation for luci-app-simple-adblock - Русский (Russian)
 
 Package: luci-i18n-simple-adblock-sv
@@ -231,10 +231,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 795
+Installed-Size: 796
 Filename: luci-i18n-simple-adblock-sv_git-18.151.61791-fed315a-7_all.ipk
-Size: 1656
-SHA256sum: 79c48f74a7d7af73c90691c5c30ea6da2321680b33f4735936df54f0d893967f
+Size: 1658
+SHA256sum: 4124492e0b458f454caa3651ff8a45193fb1f6185d1887a84b3679465a35cb12
 Description:  Translation for luci-app-simple-adblock - Svenska (Swedish)
 
 Package: luci-i18n-vpnbypass-pt-br
@@ -318,7 +318,7 @@ Architecture: all
 Installed-Size: 4043
 Filename: simple-adblock_1.6.0-5_all.ipk
 Size: 5166
-SHA256sum: c08f930d37f98e9588ac10b801e1f3af2cc324b8cb09577660def69a51757885
+SHA256sum: 8bbfcab177128c271fff503a830c067371b61b3c5d8c0d693a7547a4320d51a8
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -383,10 +383,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 7860
+Installed-Size: 7881
 Filename: vpn-policy-routing_0.0.2-2_all.ipk
-Size: 9163
-SHA256sum: 6a470ac86be56336d5cb83b4a72b92efa56a6f61297744eda7723960a427a604
+Size: 9187
+SHA256sum: 5184f79d251f8bd9c1d566d4ab58704460183e1df940752ac8d1f2f0038d65d7
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
