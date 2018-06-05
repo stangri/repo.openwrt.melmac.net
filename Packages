@@ -67,8 +67,8 @@ Section: luci
 Architecture: all
 Installed-Size: 1492
 Filename: luci-app-simple-adblock_git-18.155.32863-4cd0825-7_all.ipk
-Size: 2320
-SHA256sum: 3b68910f35e3edcb70e153b9754ad97b9700e3a5c84a00478dd66e57231f3802
+Size: 2317
+SHA256sum: 852e4b81f4aaf796f587e9546fd71f5348fc7f1b43ea54817580905721c04c39
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -137,10 +137,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1167
+Installed-Size: 1168
 Filename: luci-i18n-simple-adblock-fr_git-18.155.32863-4cd0825-7_all.ipk
 Size: 2033
-SHA256sum: 2c9a6d7b1645c63dc604f083053d709b0896acfcf4fb87e152f97965ef9e6428
+SHA256sum: c654f8c7f7a4e0a76238a5ed2b3c04909e5912c9022ccb3391fe505e617950f8
 Description:  Translation for luci-app-simple-adblock - Français (French)
 
 Package: luci-i18n-simple-adblock-ja
@@ -149,10 +149,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1222
+Installed-Size: 1223
 Filename: luci-i18n-simple-adblock-ja_git-18.155.32863-4cd0825-7_all.ipk
-Size: 2104
-SHA256sum: 682049972c6e50e4d11cf3df9854493660dd046ac4e2d007da4231f0be67ae54
+Size: 2097
+SHA256sum: 51a2ee873b8c45f180515f4a0db57e9e63bbf1ed70f815ffe64bf35758416274
 Description:  Translation for luci-app-simple-adblock - 日本語 (Japanese)
 
 Package: luci-i18n-simple-adblock-pt-br
@@ -163,8 +163,8 @@ Section: luci
 Architecture: all
 Installed-Size: 1175
 Filename: luci-i18n-simple-adblock-pt-br_git-18.155.32863-4cd0825-7_all.ipk
-Size: 2055
-SHA256sum: eb4ae2316f4571ca70a85fe3836011ca74f8116cb5d8be88315ac34314eefee7
+Size: 2062
+SHA256sum: d13437ff2d5b782ee650a5c6bccdb0d3c3baebacdf557d70509b9d129a1d7510
 Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-simple-adblock-pt
@@ -175,8 +175,8 @@ Section: luci
 Architecture: all
 Installed-Size: 1148
 Filename: luci-i18n-simple-adblock-pt_git-18.155.32863-4cd0825-7_all.ipk
-Size: 2014
-SHA256sum: e4d97ee43a5446362be7d6c4dbe8a3f8f9f87fb11d4f76aed74ba2a9399a6ec9
+Size: 2009
+SHA256sum: 57cce22b3cb060d88e557e2a7ae804778c29bf43574889349a6d4449351230cc
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: luci-i18n-simple-adblock-ru
@@ -185,10 +185,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1267
+Installed-Size: 1268
 Filename: luci-i18n-simple-adblock-ru_git-18.155.32863-4cd0825-7_all.ipk
-Size: 2142
-SHA256sum: 737b4e64c4de5fd91c47691ad628b6d020825efca38e7d51bff2fadca29430c5
+Size: 2145
+SHA256sum: e1596d6eafad3d47ba5796ecfc41c18b44f9fc6e7b805e44feb9b7fdbe1adbfb
 Description:  Translation for luci-app-simple-adblock - Русский (Russian)
 
 Package: luci-i18n-simple-adblock-sv
@@ -199,8 +199,8 @@ Section: luci
 Architecture: all
 Installed-Size: 795
 Filename: luci-i18n-simple-adblock-sv_git-18.155.32863-4cd0825-7_all.ipk
-Size: 1654
-SHA256sum: b46ebb715617412349a02a92153fb3a9b5582107fa603c1eb70b3cbd88d82b58
+Size: 1656
+SHA256sum: 0439a93a5dbcf883f4b99783ecf1497f2473f78d017469fb14cde8cd8b07ce66
 Description:  Translation for luci-app-simple-adblock - Svenska (Swedish)
 
 Package: luci-i18n-vpnbypass-pt-br
@@ -269,10 +269,10 @@ Depends: libc
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 4094
+Installed-Size: 4112
 Filename: simple-adblock_1.6.0-6_all.ipk
-Size: 5218
-SHA256sum: 893ccc2f4899239d0c82b660055e011dcc63c9eee93ad5a61b6657a02dfbac7d
+Size: 5237
+SHA256sum: 517a829ad535707e4e64bbdae81c6417420e08577599494d604f744db581d1c6
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
