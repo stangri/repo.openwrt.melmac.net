@@ -35,10 +35,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4099
+Installed-Size: 4116
 Filename: luci-app-advanced-reboot_git-18.163.61042-b5a43cf-30_all.ipk
-Size: 5012
-SHA256sum: 1ce85052483e477b38bb97e3f4964dac1efbd8567147665240e163734d220713
+Size: 5024
+SHA256sum: c9347bcc58ef7306967d4cb811f734077748f9b855edeb4908500ad3c75642db
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an altnerative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/stangri/openwrt-luci/blob/luci-app-advanced-reboot/applications/luci-app-advanced-reboot/README.md
 
 Package: luci-app-easyflash
@@ -133,10 +133,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2004
+Installed-Size: 2002
 Filename: luci-i18n-advanced-reboot-ru_git-18.163.61042-b5a43cf-30_all.ipk
-Size: 2854
-SHA256sum: e233cf0114434498c17c7b4786d124fb8c38e7c0ac5e4b06d3a8e4908c505e9f
+Size: 2853
+SHA256sum: ad106e4f77d93be2e4bea5de9a2f3d556e5d6135f5547e98c48dcf0a2ae0a2ab
 Description:  Translation for luci-app-advanced-reboot - Русский (Russian)
 
 Package: luci-i18n-advanced-reboot-sv
@@ -147,10 +147,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1122
+Installed-Size: 1119
 Filename: luci-i18n-advanced-reboot-sv_git-18.163.61042-b5a43cf-30_all.ipk
 Size: 1975
-SHA256sum: 0e2ffe10fa834833dffdb713ced4fbb66ee2afa6770622b5819a248da4feb280
+SHA256sum: d68059cf760fa922e9c8c8237679b1c5cdf4e7af755b1dcb838b75e50b8efe62
 Description:  Translation for luci-app-advanced-reboot - Svenska (Swedish)
 
 Package: luci-i18n-simple-adblock-fr
