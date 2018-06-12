@@ -67,8 +67,8 @@ Section: luci
 Architecture: all
 Installed-Size: 1493
 Filename: luci-app-simple-adblock_git-18.162.68884-9abf409-7_all.ipk
-Size: 2322
-SHA256sum: 200e00bd44579cc1fdc1b4fddbbea315225f1fe0dbe71490cfafe131801cf132
+Size: 2323
+SHA256sum: d4dc59384b5864a617378e060796c9a7dbc7083a9316e9bbc31f4f295544f912
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -137,10 +137,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1168
+Installed-Size: 1166
 Filename: luci-i18n-simple-adblock-fr_git-18.162.68884-9abf409-7_all.ipk
-Size: 2031
-SHA256sum: a1c34518163a969abcdd2b407ac2401a5e4d7142f2461861543d3ceb272ac9e3
+Size: 2028
+SHA256sum: 75444ed5e1220ab1b02a623fc99040290e1b52fdd1322a2f96a7ae9c02307169
 Description:  Translation for luci-app-simple-adblock - Français (French)
 
 Package: luci-i18n-simple-adblock-ja
@@ -149,10 +149,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1225
+Installed-Size: 1223
 Filename: luci-i18n-simple-adblock-ja_git-18.162.68884-9abf409-7_all.ipk
-Size: 2101
-SHA256sum: 0f7fc34825b3d65f40dc6ac5d4c46ba1f4c65b2e1dc0154680ee09f570ccf2a7
+Size: 2110
+SHA256sum: 929e220498ab321d34b3527ebc0a75c982b0d7ffbf0f1de662fe387472206531
 Description:  Translation for luci-app-simple-adblock - 日本語 (Japanese)
 
 Package: luci-i18n-simple-adblock-pt-br
@@ -161,10 +161,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1176
+Installed-Size: 1173
 Filename: luci-i18n-simple-adblock-pt-br_git-18.162.68884-9abf409-7_all.ipk
-Size: 2062
-SHA256sum: fadba05ff80a9dcb945f5b439348091f03640f0ebf950d7d7cc19a0ebfab4024
+Size: 2056
+SHA256sum: 11e1ab609249d93e96de613ff571f24fde3211681904d4fb0bee094b73a71dee
 Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-simple-adblock-pt
@@ -173,10 +173,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1150
+Installed-Size: 1146
 Filename: luci-i18n-simple-adblock-pt_git-18.162.68884-9abf409-7_all.ipk
-Size: 2023
-SHA256sum: 0a7820108a0387b2d5a9f8295ae1411157855892d19a37325a5b7698ac41da85
+Size: 2007
+SHA256sum: 8326bd78ba33e9a8363680fab70e1a8c31661352ca03d37919f9dcb2670e44ac
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: luci-i18n-simple-adblock-ru
@@ -185,10 +185,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1267
+Installed-Size: 1265
 Filename: luci-i18n-simple-adblock-ru_git-18.162.68884-9abf409-7_all.ipk
-Size: 2143
-SHA256sum: 28bd0612a2c8fe825a2645cb69e8a143bf1243b134353fa740eb804515a11e24
+Size: 2146
+SHA256sum: 4a9cf76c65d8a4c19f6f6032c267a39908215f50015eb99f484e0515bd15827d
 Description:  Translation for luci-app-simple-adblock - Русский (Russian)
 
 Package: luci-i18n-simple-adblock-sv
@@ -197,10 +197,10 @@ Depends: libc, luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 796
+Installed-Size: 795
 Filename: luci-i18n-simple-adblock-sv_git-18.162.68884-9abf409-7_all.ipk
-Size: 1655
-SHA256sum: e714835f7ce7932d64eed4fe86194d9bd18dbb2ea5f68b69dd2824260157be5a
+Size: 1654
+SHA256sum: 6c11e4c0cc07619383ae5816ba02b9e085f8f15e41be238dc23b269c1760b267
 Description:  Translation for luci-app-simple-adblock - Svenska (Swedish)
 
 Package: luci-i18n-vpnbypass-pt-br
@@ -264,15 +264,15 @@ SHA256sum: 714a3d5d88d87cbe5fd144ee45c332cbb8584da0d397dc67be576ba2d33bee86
 Description:  Alternative Partition Reboot Web UI
 
 Package: simple-adblock
-Version: 1.6.1-0
+Version: 1.6.1-1
 Depends: libc
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 4135
-Filename: simple-adblock_1.6.1-0_all.ipk
-Size: 5263
-SHA256sum: 99aa750ee6387a3ed920eafd9ddb2c4a2fe7e9f8a3ffd33eb251a9977ff7c979
+Installed-Size: 4378
+Filename: simple-adblock_1.6.1-1_all.ipk
+Size: 5513
+SHA256sum: f81317e48f7992e6b3e3e04159f6014e46f1c8b16fe740763e2512a0f0410d4b
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
