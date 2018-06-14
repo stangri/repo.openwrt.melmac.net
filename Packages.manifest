@@ -13,17 +13,17 @@ SHA256sum: c2b63ac850f8bd741004538c291a0a8d6cb5da6f3409af0beab7ee76f8508acf
 Description:  This service can be used to monitor Antminers on local network.
 
 Package: fakeinternet
-Version: 0.1.2-3
+Version: 0.1.2-4
 Depends: libc, uhttpd
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/fakeinternet
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2112
-Filename: fakeinternet_0.1.2-3_all.ipk
-Size: 3238
-SHA256sum: 320c5f0e53975cde3b05f4a8006f6cd90f17bc4410cf2894866d24005b0dbafd
+Installed-Size: 2599
+Filename: fakeinternet_0.1.2-4_all.ipk
+Size: 3732
+SHA256sum: 1e249ebb2657aed4ae1bcb31c24d6bb8a040c3b57536968d84e1410a08daa746
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -65,8 +65,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1146
 Filename: luci-app-fakeinternet_git-18.163.61042-b5a43cf-1_all.ipk
-Size: 1972
-SHA256sum: d5cc2be48d0f9e389e4b1da86beeaa385cdc6312c7a237d80ca3eda281f80277
+Size: 1970
+SHA256sum: 990382a9fb9be41c297d4afec233c9a301743c8388b2c08d126588d56f83a605
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-simple-adblock
