@@ -16,10 +16,10 @@ Depends: libc, uhttpd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2870
+Installed-Size: 2533
 Filename: fakeinternet_0.1.2-5_all.ipk
-Size: 4012
-SHA256sum: 5f3ab51febfeda75be2071214a11ece19f17edc493b9cfb1c3d4522a0b3cc7b3
+Size: 3669
+SHA256sum: d9287260c4bd4666fe984ede028c59c8df869787b830d6803cdc4e9cbb4b728f
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -48,15 +48,15 @@ SHA256sum: ae05c073fb72f5600ad30692b0b27b5bdf4c24c616881d9ec473b62019fc8cb6
 Description:  Easy Flash Web UI
 
 Package: luci-app-fakeinternet
-Version: git-18.168.47988-52de52e-1
+Version: git-18.169.60721-6cc547f-1
 Depends: libc, luci, fakeinternet
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1150
-Filename: luci-app-fakeinternet_git-18.168.47988-52de52e-1_all.ipk
-Size: 1975
-SHA256sum: 1e9f44146b4312ecc458b311d91163e3fe499cb70e2449d4c0a3bb4f7d33e443
+Installed-Size: 1148
+Filename: luci-app-fakeinternet_git-18.169.60721-6cc547f-1_all.ipk
+Size: 1981
+SHA256sum: 0dc0b7345d544a6330b6a967391e97809037da4076ce4e5555e880efbb96704e
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-simple-adblock
