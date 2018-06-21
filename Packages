@@ -84,15 +84,15 @@ SHA256sum: c37e5e388343c52be0eac560f54057adb12809728a0f902fae461a2d5dc6fb89
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-18.151.61791-fed315a-23
+Version: git-18.169.62979-e380cf5-23
 Depends: libc, luci, vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 4341
-Filename: luci-app-vpn-policy-routing_git-18.151.61791-fed315a-23_all.ipk
-Size: 5170
-SHA256sum: e85eece886e8ffadaa558098681d5f3016bc183c3abc9a1caeceba78d089a5f4
+Filename: luci-app-vpn-policy-routing_git-18.169.62979-e380cf5-23_all.ipk
+Size: 5165
+SHA256sum: d62aae5fd5c563761b5d53f27c60e943614784f4f5b33366f02a77764c880116
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-wlanblinker
@@ -323,16 +323,16 @@ Description:  This service can be used to enable simple VPN split tunnelling.
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.0.2-2
+Version: 0.0.2-3
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, ip-full
 Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 7884
-Filename: vpn-policy-routing_0.0.2-2_all.ipk
-Size: 9192
-SHA256sum: 3cec31ccbcedbf63a04825f6e26c84fafebe5b5016241325d32721995fdafdc3
+Installed-Size: 7949
+Filename: vpn-policy-routing_0.0.2-3_all.ipk
+Size: 9261
+SHA256sum: c6d37ba0100ecda6ce062fd78b433f60bc7f616b4351d34363dc30a7ef90168f
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
