@@ -77,10 +77,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1494
+Installed-Size: 1492
 Filename: luci-app-simple-adblock_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2325
-SHA256sum: 9e39228b1a264000968e0cc8c448f4b34f4b2742a606aed57bfa1141305ac20c
+Size: 2322
+SHA256sum: bd4792dfb6a2851b958bf05b2dc7b2e82816f7959a85038d4f6d16a31bcdcb76
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -161,10 +161,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1168
+Installed-Size: 1169
 Filename: luci-i18n-simple-adblock-fr_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2032
-SHA256sum: 738fe80b000aa30cc6567edc9337ebc6c84c8feb09284c0683a2a3028a272133
+Size: 2033
+SHA256sum: 9b82920c9eb0193134989a1100b318c903bf7a4b29132e43803a3d1be1177d70
 Description:  Translation for luci-app-simple-adblock - Français (French)
 
 Package: luci-i18n-simple-adblock-ja
@@ -175,10 +175,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1225
+Installed-Size: 1224
 Filename: luci-i18n-simple-adblock-ja_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2103
-SHA256sum: fa91476fc105f7bf1b66fd079f37d113e93b969ac297440a7eeae7350ea7cbdd
+Size: 2101
+SHA256sum: 171ae77394b6c28e7e37170ed1b62a3a2351c2184c87bc04d76e729b45b11c23
 Description:  Translation for luci-app-simple-adblock - 日本語 (Japanese)
 
 Package: luci-i18n-simple-adblock-pt-br
@@ -189,10 +189,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1178
+Installed-Size: 1176
 Filename: luci-i18n-simple-adblock-pt-br_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2066
-SHA256sum: 172967e80278b9bf493497ad6207c749c57f79729fe117167cc5af32aedc5ad4
+Size: 2055
+SHA256sum: 1d0672c39bd3fea25cf27b386bfcd4bda3b64511080aa6fdda8bd5ed3a771ff2
 Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-simple-adblock-pt
@@ -203,10 +203,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1151
+Installed-Size: 1150
 Filename: luci-i18n-simple-adblock-pt_git-18.174.28902-a65d55e-7_all.ipk
 Size: 2018
-SHA256sum: 9e9da1c42c0d79930cb5d830cbe971702baa069a9f88edba29ac26474387bad7
+SHA256sum: 98701817da3fcaac4f605412625ad575af1a4b23e772a47e4a2b8af95eb29f01
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: luci-i18n-simple-adblock-ru
@@ -217,10 +217,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1269
+Installed-Size: 1267
 Filename: luci-i18n-simple-adblock-ru_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2151
-SHA256sum: 56384ec0025e54049ab388db089b5cfe776defdcd12528adaec16b30aec1e722
+Size: 2144
+SHA256sum: 221494a73396b5cec9c594caeb2cfd7f10f512004ca6ea3a0821e3865d4f73b2
 Description:  Translation for luci-app-simple-adblock - Русский (Russian)
 
 Package: luci-i18n-simple-adblock-sv
@@ -231,10 +231,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 796
+Installed-Size: 795
 Filename: luci-i18n-simple-adblock-sv_git-18.174.28902-a65d55e-7_all.ipk
-Size: 1658
-SHA256sum: b2a898afb34ed1a60a9b62e4eff7cbda8382a45ac0e9f5793c2fd085e08ceb61
+Size: 1650
+SHA256sum: 2391ac60dcf88c6223604f2d394c301506259b6c6a150ef89f18d6eea343f4b0
 Description:  Translation for luci-app-simple-adblock - Svenska (Swedish)
 
 Package: luci-i18n-vpnbypass-pt-br
@@ -315,10 +315,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4447
+Installed-Size: 4441
 Filename: simple-adblock_1.6.2-0_all.ipk
-Size: 5588
-SHA256sum: da96cf6adbd55e42b66d662938973f409bb76a3027a8d731aef76272265dc0b0
+Size: 5575
+SHA256sum: 53590b3d1d274cff5b80acc2f01fc1df6a7ecd828805d49d4ae3d0568756f5c3
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
