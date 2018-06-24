@@ -77,10 +77,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1495
+Installed-Size: 1494
 Filename: luci-app-simple-adblock_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2325
-SHA256sum: 1d75d11941043d129ad8304b1784dda46a86fd818754177e5b56ae71078a2664
+Size: 2321
+SHA256sum: da03c356549e040d974c14d126ccee87a330e72e8b84f4471598412a59c6aafe
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -161,10 +161,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1170
+Installed-Size: 1169
 Filename: luci-i18n-simple-adblock-fr_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2032
-SHA256sum: ea17af5ab9b3bbea7d6dd61437e0d2c63a2eea1e0c97c38352667e0f5f451aba
+Size: 2033
+SHA256sum: cd117307261301cef62ac19b9617a65ee2d4a85249a2399651f9ba5a053d74d4
 Description:  Translation for luci-app-simple-adblock - Français (French)
 
 Package: luci-i18n-simple-adblock-ja
@@ -175,10 +175,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1226
+Installed-Size: 1224
 Filename: luci-i18n-simple-adblock-ja_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2101
-SHA256sum: 8955f4443a100381d455b964ac75c85831a7cbbfee71ec05caf5a36fa37b544f
+Size: 2107
+SHA256sum: 3c14d3708fe566d99728d0c9d47a77e29b0cd59a0876727dd48f97550dacf44f
 Description:  Translation for luci-app-simple-adblock - 日本語 (Japanese)
 
 Package: luci-i18n-simple-adblock-pt-br
@@ -189,10 +189,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1176
+Installed-Size: 1175
 Filename: luci-i18n-simple-adblock-pt-br_git-18.174.28902-a65d55e-7_all.ipk
 Size: 2061
-SHA256sum: 893433064a9e0f0573d7e9fd606bf7139b3c4e859db10388dbfde2965abc740f
+SHA256sum: a1abc5dfacdf05f4d464454ceb295721b917b239ef0cf99d166dc851c61759e2
 Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-simple-adblock-pt
@@ -203,10 +203,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1150
+Installed-Size: 1148
 Filename: luci-i18n-simple-adblock-pt_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2014
-SHA256sum: be4cd2931376fbddb136a99b436a09e54307eeb156912fe3a67d95934d11d7e8
+Size: 2015
+SHA256sum: 079bf78ac787b826c05230b1892f0fc8997c3176d7cc5d92404127afa633ba88
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: luci-i18n-simple-adblock-ru
@@ -217,10 +217,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1268
+Installed-Size: 1267
 Filename: luci-i18n-simple-adblock-ru_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2143
-SHA256sum: 66032c32624b71e86a007975999447cc32f0d41032b769c03fb5d57b1f16d91d
+Size: 2146
+SHA256sum: e94421ac20dc19aea08b0946b153b62c141c5904823abe67e8c67dd768a0fd9c
 Description:  Translation for luci-app-simple-adblock - Русский (Russian)
 
 Package: luci-i18n-simple-adblock-sv
@@ -233,8 +233,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 795
 Filename: luci-i18n-simple-adblock-sv_git-18.174.28902-a65d55e-7_all.ipk
-Size: 1649
-SHA256sum: 29765a13825d5e891756e5c0953bec0c02c9511b92f0b291efcf598bbc0f8f0b
+Size: 1658
+SHA256sum: 0170a68a7e88c87abe889e59d40d04e2c7402e92f9fa5338aeada07579a18807
 Description:  Translation for luci-app-simple-adblock - Svenska (Swedish)
 
 Package: luci-i18n-vpnbypass-pt-br
@@ -315,10 +315,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4392
+Installed-Size: 4406
 Filename: simple-adblock_1.6.2-0_all.ipk
-Size: 5520
-SHA256sum: e6e4bf9fffc68d5b893e4d5ba475bdf05cee614370b5f87842711cd02c801252
+Size: 5538
+SHA256sum: 6e541c0b072bbc680b7577c490b669752e34cea7ba3b048aadf9fa4cfd931d36
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
