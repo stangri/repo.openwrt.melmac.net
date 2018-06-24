@@ -79,8 +79,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1494
 Filename: luci-app-simple-adblock_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2321
-SHA256sum: 9981f87e4d56787fe026bc05ad53ea89c4e423c60495268fec8d8daec5360f29
+Size: 2323
+SHA256sum: 545c7df2ea74f7541fce9723df59b39200aaa48d810210ade72dfd36d2a51e95
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -161,10 +161,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1169
+Installed-Size: 1168
 Filename: luci-i18n-simple-adblock-fr_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2033
-SHA256sum: ce24210abaf1232d16cd8a8fd151e35e84e5489e33698cec74b0a6f65b3f5dc0
+Size: 2030
+SHA256sum: 08b91fb326f9089dca788ae07a98394b57d17f6425d80263b8c648b6589af0e5
 Description:  Translation for luci-app-simple-adblock - Français (French)
 
 Package: luci-i18n-simple-adblock-ja
@@ -175,10 +175,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1225
+Installed-Size: 1221
 Filename: luci-i18n-simple-adblock-ja_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2103
-SHA256sum: 9bf62e6a1a2ab7e42d716eac2f118137029c959dbe382f1a6454ab91140e81d2
+Size: 2094
+SHA256sum: ff99421fea85af6d7af72d07fcaa87aaa7a638d32f9398572e26f5547b390fb3
 Description:  Translation for luci-app-simple-adblock - 日本語 (Japanese)
 
 Package: luci-i18n-simple-adblock-pt-br
@@ -189,10 +189,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1177
+Installed-Size: 1175
 Filename: luci-i18n-simple-adblock-pt-br_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2062
-SHA256sum: 06165407f2cf7c032295177cedec44f6882e193e14b174048b763c5eb116d8e5
+Size: 2058
+SHA256sum: 4849bcee1e3ec1dd229c2c84148937e192e08195aae8d62193c5fe15ad948b3b
 Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-simple-adblock-pt
@@ -203,10 +203,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1150
+Installed-Size: 1147
 Filename: luci-i18n-simple-adblock-pt_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2015
-SHA256sum: 71b128c74a51a8ad62cdf657bed1d890bc3f2a4d3f0ea95d15348b689d90acec
+Size: 2018
+SHA256sum: 3ea232c0282f54190ebec2c9e145e65c79e60baf9317e1126c394a05841f53be
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: luci-i18n-simple-adblock-ru
@@ -217,10 +217,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1268
+Installed-Size: 1269
 Filename: luci-i18n-simple-adblock-ru_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2150
-SHA256sum: dfc9c5c0f16af1f4ba0ffe4e5677de3b7543908db7ad3b4ea3e4e290ea568275
+Size: 2149
+SHA256sum: ea7d508ffc52271ede185af5dbd58679906be90a6e9ad59a0ded66926efcbff0
 Description:  Translation for luci-app-simple-adblock - Русский (Russian)
 
 Package: luci-i18n-simple-adblock-sv
@@ -231,10 +231,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 796
+Installed-Size: 797
 Filename: luci-i18n-simple-adblock-sv_git-18.174.28902-a65d55e-7_all.ipk
-Size: 1666
-SHA256sum: ce997693f5a4aa0ed00e9e52e80a78a2c650d1df04ebe01187cf7149e507f3aa
+Size: 1659
+SHA256sum: d38030268b5b668c23426bd0d92a79e00dddb74cebbfc6c0315872e89d676390
 Description:  Translation for luci-app-simple-adblock - Svenska (Swedish)
 
 Package: luci-i18n-vpnbypass-pt-br
@@ -315,10 +315,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4407
+Installed-Size: 4439
 Filename: simple-adblock_1.6.2-0_all.ipk
-Size: 5536
-SHA256sum: e05a589724a9d04259b2f64e5e2dec211bc77e8c9a4e41ee900864d5d581a7bd
+Size: 5572
+SHA256sum: 8f690d9792391473ff6d1d727e170ec5dfb6322dcf9426c995fea22b48b83d90
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
