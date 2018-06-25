@@ -70,17 +70,17 @@ SHA256sum: ad2d8a5a463fd1d28a382e33f47d6c92d8088ac6e5b8df23e687fe067a9c1b94
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-simple-adblock
-Version: git-18.174.28902-a65d55e-7
+Version: git-18.176.34901-0d9a64b-7
 Depends: libc, luci, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1493
-Filename: luci-app-simple-adblock_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2315
-SHA256sum: 543c8d81c8b56d847dafc6cbf36e856712bfc00e16c12da6a2bfe245acd44cd9
+Installed-Size: 1494
+Filename: luci-app-simple-adblock_git-18.176.34901-0d9a64b-7_all.ipk
+Size: 2323
+SHA256sum: 9742fb5a4fce6553bd8ed54182349330c9c377f9837e25180293403dafe02a42
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -154,7 +154,7 @@ SHA256sum: b8de7ce1e198e0a0c0f5840723b80af1b444c4d13a65eea0a39e996417249c80
 Description:  Translation for luci-app-advanced-reboot - Svenska (Swedish)
 
 Package: luci-i18n-simple-adblock-fr
-Version: git-18.174.28902-a65d55e-7
+Version: git-18.176.34901-0d9a64b-7
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
@@ -162,79 +162,79 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1168
-Filename: luci-i18n-simple-adblock-fr_git-18.174.28902-a65d55e-7_all.ipk
+Filename: luci-i18n-simple-adblock-fr_git-18.176.34901-0d9a64b-7_all.ipk
 Size: 2031
-SHA256sum: e3b2ef4a5d70b1b440daeacf2d0f0aaea4bf7dff0dc59e4809db2430858b1ad7
+SHA256sum: 01ef93aa789d40afa2bd18ed65ac849e391dc06e29579693c3f7cf3e4391214b
 Description:  Translation for luci-app-simple-adblock - Français (French)
 
 Package: luci-i18n-simple-adblock-ja
-Version: git-18.174.28902-a65d55e-7
+Version: git-18.176.34901-0d9a64b-7
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1225
-Filename: luci-i18n-simple-adblock-ja_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2107
-SHA256sum: f522d8b93689d6ef421f4c635e818096b1522a80ee0da4218549c6ac09aaa050
+Installed-Size: 1223
+Filename: luci-i18n-simple-adblock-ja_git-18.176.34901-0d9a64b-7_all.ipk
+Size: 2109
+SHA256sum: 913ca96d2a1fb34835fe44568f9798f901706a849d0e48d44be101538bb9071a
 Description:  Translation for luci-app-simple-adblock - 日本語 (Japanese)
 
 Package: luci-i18n-simple-adblock-pt-br
-Version: git-18.174.28902-a65d55e-7
+Version: git-18.176.34901-0d9a64b-7
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1176
-Filename: luci-i18n-simple-adblock-pt-br_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2059
-SHA256sum: 95d27bf8cd704bba55ba50098592f6c343c1881b603a66077fd2d9b6e4f84450
+Installed-Size: 1175
+Filename: luci-i18n-simple-adblock-pt-br_git-18.176.34901-0d9a64b-7_all.ipk
+Size: 2060
+SHA256sum: dec92e27a61c4b148dc02e2ba27f77e829248ca4109081f265e682d18e5c7fb4
 Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-simple-adblock-pt
-Version: git-18.174.28902-a65d55e-7
+Version: git-18.176.34901-0d9a64b-7
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1150
-Filename: luci-i18n-simple-adblock-pt_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2023
-SHA256sum: 726e35ae7649f8bc6836f49b0fc5a89f1870232b075d0a2dfe6db55f0473acc4
+Installed-Size: 1146
+Filename: luci-i18n-simple-adblock-pt_git-18.176.34901-0d9a64b-7_all.ipk
+Size: 2020
+SHA256sum: 9e3b00e55acc2857c479c8dfb1abe6f4dbc723a8ddf9ae1f8f5aa3d038a2327c
 Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
 
 Package: luci-i18n-simple-adblock-ru
-Version: git-18.174.28902-a65d55e-7
+Version: git-18.176.34901-0d9a64b-7
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1269
-Filename: luci-i18n-simple-adblock-ru_git-18.174.28902-a65d55e-7_all.ipk
-Size: 2152
-SHA256sum: d580650c31383f8067185e927af60ba35078cdf76afc8322c061c0a8597fa365
+Installed-Size: 1267
+Filename: luci-i18n-simple-adblock-ru_git-18.176.34901-0d9a64b-7_all.ipk
+Size: 2147
+SHA256sum: 9d195630c48ad9b2087e1338bc2f54579cbf78b81766647d696d8697825c95fd
 Description:  Translation for luci-app-simple-adblock - Русский (Russian)
 
 Package: luci-i18n-simple-adblock-sv
-Version: git-18.174.28902-a65d55e-7
+Version: git-18.176.34901-0d9a64b-7
 Depends: libc, luci-app-simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 796
-Filename: luci-i18n-simple-adblock-sv_git-18.174.28902-a65d55e-7_all.ipk
-Size: 1656
-SHA256sum: 312c5c148e8f22729ede8a8dabdfca7cfd4aa1e05bc2bf58f8aedb4c42af4cd8
+Installed-Size: 794
+Filename: luci-i18n-simple-adblock-sv_git-18.176.34901-0d9a64b-7_all.ipk
+Size: 1654
+SHA256sum: 42939d22874cfd4e1bf40d8681961634e0ac559ee17a2b748d76889b293e6714
 Description:  Translation for luci-app-simple-adblock - Svenska (Swedish)
 
 Package: luci-i18n-vpnbypass-pt-br
@@ -315,10 +315,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4770
+Installed-Size: 4642
 Filename: simple-adblock_1.6.2-0_all.ipk
-Size: 5867
-SHA256sum: f69bf7e36d190d24699c1ddbbc7415b7af6d48753728780001e90b0a29202f56
+Size: 5774
+SHA256sum: f3f4156c512d26ceefc99f631fd5da0da2855433b4404502d3596e5c54abd89e
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
