@@ -28,17 +28,17 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-advanced-reboot
-Version: git-18.163.61042-b5a43cf-30b5
+Version: git-18.184.32851-8ca29ef-31
 Depends: libc, luci
 Source: package/luci/applications/luci-app-advanced-reboot
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4052
-Filename: luci-app-advanced-reboot_git-18.163.61042-b5a43cf-30b5_all.ipk
-Size: 4974
-SHA256sum: e7ab2220a74511556b3e30a33b642a4e525effd85e955eeccc8b4b8f1d586ade
+Installed-Size: 4053
+Filename: luci-app-advanced-reboot_git-18.184.32851-8ca29ef-31_all.ipk
+Size: 4973
+SHA256sum: 045e494fa4e7d80b86b3650c8da6b0ea15bdd45df16271f04da3530e7dda2b63
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an altnerative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/stangri/openwrt-luci/blob/luci-app-advanced-reboot/applications/luci-app-advanced-reboot/README.md
 
 Package: luci-app-easyflash
@@ -126,31 +126,31 @@ SHA256sum: c74f01fa47feccad4b8fa06864829634254d052fae1871e8367cecb3f3eda710
 Description:  Provides Web UI for WLAN Blinker service.
 
 Package: luci-i18n-advanced-reboot-ru
-Version: git-18.163.61042-b5a43cf-30b5
+Version: git-18.184.32851-8ca29ef-31
 Depends: libc, luci-app-advanced-reboot
 Source: package/luci/applications/luci-app-advanced-reboot
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1976
-Filename: luci-i18n-advanced-reboot-ru_git-18.163.61042-b5a43cf-30b5_all.ipk
-Size: 2825
-SHA256sum: 803e1bc096b916aee0b13be21415e19ed0997cf546fdfa9769dea5481fa2cc8d
+Installed-Size: 1978
+Filename: luci-i18n-advanced-reboot-ru_git-18.184.32851-8ca29ef-31_all.ipk
+Size: 2840
+SHA256sum: 2dddb47e6c0a9732c894fb4f84660882e56fbe3e8a02ad441e8937da73ca8287
 Description:  Translation for luci-app-advanced-reboot - Русский (Russian)
 
 Package: luci-i18n-advanced-reboot-sv
-Version: git-18.163.61042-b5a43cf-30b5
+Version: git-18.184.32851-8ca29ef-31
 Depends: libc, luci-app-advanced-reboot
 Source: package/luci/applications/luci-app-advanced-reboot
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1120
-Filename: luci-i18n-advanced-reboot-sv_git-18.163.61042-b5a43cf-30b5_all.ipk
-Size: 1977
-SHA256sum: b8de7ce1e198e0a0c0f5840723b80af1b444c4d13a65eea0a39e996417249c80
+Installed-Size: 1118
+Filename: luci-i18n-advanced-reboot-sv_git-18.184.32851-8ca29ef-31_all.ipk
+Size: 1981
+SHA256sum: 34f381ba312e43cdbe86f3e0cb6a36779e04fe8d6bc4f7579c80a342e030795e
 Description:  Translation for luci-app-advanced-reboot - Svenska (Swedish)
 
 Package: luci-i18n-simple-adblock-fr
