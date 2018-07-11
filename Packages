@@ -65,10 +65,10 @@ Depends: libc, luci-mod-admin-full, simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1931
+Installed-Size: 1954
 Filename: luci-app-simple-adblock_git-18.192.22043-6f77399-10_all.ipk
-Size: 2772
-SHA256sum: 59c58d4d40b1a72d3fce6550878ec01cb5a60a5606eb9ac2a7a6f3e400766741
+Size: 2801
+SHA256sum: b6e8345956ae5de578495630d22e77df5c397b4733bb5d23b00ef70d6fcf410e
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -197,10 +197,10 @@ Depends: libc
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 5036
+Installed-Size: 5053
 Filename: simple-adblock_1.6.2-6_all.ipk
-Size: 6162
-SHA256sum: e9d87587b5503df63a6b7b1d7c9592f98da668155f67c0c65ae74619e2f02283
+Size: 6184
+SHA256sum: 6b61b8b2973facc156ed63239c91bf43f1f5245b5383c5971ee55f43969d9997
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
