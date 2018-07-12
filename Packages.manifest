@@ -79,8 +79,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1999
 Filename: luci-app-simple-adblock_git-18.192.22043-6f77399-10_all.ipk
-Size: 2846
-SHA256sum: 54ae1e52e1c9fcccf98e95d65d2deee1949d1bd3d6497df97ea4fced8c3aefca
+Size: 2843
+SHA256sum: 9f7e970e6ac3169eeb8759a8df8cf90b9a2f77ec48b2d2b0266a885c916c1b8b
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -224,17 +224,17 @@ SHA256sum: 714a3d5d88d87cbe5fd144ee45c332cbb8584da0d397dc67be576ba2d33bee86
 Description:  Alternative Partition Reboot Web UI
 
 Package: simple-adblock
-Version: 1.6.2-6
+Version: 1.6.3-0
 Depends: libc
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/simple-adblock
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 5048
-Filename: simple-adblock_1.6.2-6_all.ipk
-Size: 6177
-SHA256sum: f65c28d30a13d212b0eb742f6b5511b41b0f2bb682bf7159f2ca42e3dd60e24b
+Installed-Size: 5291
+Filename: simple-adblock_1.6.3-0_all.ipk
+Size: 6421
+SHA256sum: 9aa5b1f4a377520c84f5acecc35e2ad3ef5fe2a5ddce7817d4d73c3eed5adbb8
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
