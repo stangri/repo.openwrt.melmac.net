@@ -22,8 +22,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 2465
 Filename: fakeinternet_0.1.2-8_all.ipk
-Size: 3599
-SHA256sum: 7a7ea6361f1767320a4e5c82b7da3d29592496dfda26c3dfd051a24f7e7a0701
+Size: 3607
+SHA256sum: c438507db314bc36050e41ea3e3591c40ec5a9da92de998c6998f5c3ea1a688f
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -56,17 +56,17 @@ SHA256sum: 4f6b556b52c03780ca63f482366b8576d467712be0d9318bb915c43f1afaa1d1
 Description:  Easy Flash Web UI
 
 Package: luci-app-fakeinternet
-Version: git-18.190.71702-36b6d98-3
+Version: git-18.192.22043-6f77399-3
 Depends: libc, luci-mod-admin-full, fakeinternet
 Source: package/luci/applications/luci-app-fakeinternet
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1436
-Filename: luci-app-fakeinternet_git-18.190.71702-36b6d98-3_all.ipk
-Size: 2272
-SHA256sum: 77f8d2f4b3e9460a37cfa4ba662f048dea144228315741ebd8d8c05f89d03528
+Installed-Size: 1443
+Filename: luci-app-fakeinternet_git-18.192.22043-6f77399-3_all.ipk
+Size: 2282
+SHA256sum: c4563708387325c8fbcbb15656d90a12963fcba8caf23a96729acd72618054e7
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-simple-adblock

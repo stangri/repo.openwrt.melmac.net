@@ -45,7 +45,7 @@ The packages source code is available in [my  packages source](https://github.co
 This service can be used to monitor local BITMAIN Antminers. This is just the wrapper for [Antminer Monitor python app](https://github.com/anselal/antminer-monitor). **WARNING**: Requires a router with a lot of flash, 128Mb recommended. Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/antminer-monitor/files/) for further information.
 
 
-#### fakeinternet
+#### fakeinternet & luci-app-fakeinternet
 This service can be used to fake internet connectivity for local devices.
 Can be used on routers with no internet access to suppress warnings on local devices on no internet connectivity. Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/fakeinternet/files/) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/fakeinternet-service-package-wip/924) for further information.
 
