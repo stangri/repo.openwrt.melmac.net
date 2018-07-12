@@ -18,8 +18,8 @@ Section: net
 Architecture: all
 Installed-Size: 2465
 Filename: fakeinternet_0.1.2-8_all.ipk
-Size: 3604
-SHA256sum: f60d4af3832a3b25557578ac4c0556b5aebbfeca615d5b0d3bdacdc6651114be
+Size: 3602
+SHA256sum: f3126ede9f4c9d19333ed3737af0bb31bb1a3746820a377057980dc577c7a82b
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -55,8 +55,8 @@ Section: luci
 Architecture: all
 Installed-Size: 1464
 Filename: luci-app-fakeinternet_git-18.192.22043-6f77399-4_all.ipk
-Size: 2309
-SHA256sum: 996fd982870df97dcb90f020ae1b4502a76894b7296b60da54e140f2d76b2d16
+Size: 2311
+SHA256sum: 602a48253c276caa5e93924f70be77c9e1d0646ef4db7012ca20c3440252defa
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-simple-adblock
@@ -259,8 +259,8 @@ Section: net
 Architecture: all
 Installed-Size: 8245
 Filename: vpn-policy-routing_0.0.2-11_all.ipk
-Size: 9563
-SHA256sum: 4a8b0262006858b859e63d4373b995477f3f6b6dc88f4ec7e8524e42166c56df
+Size: 9562
+SHA256sum: e6fbd9453179b11c582edfc3e3e9424101fd1bee02ee75124f9e3bd0f21ecb68
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
