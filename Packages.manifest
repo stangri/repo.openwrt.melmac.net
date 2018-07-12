@@ -91,10 +91,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1602
+Installed-Size: 1610
 Filename: luci-app-vpnbypass_git-18.192.22043-6f77399-6_all.ipk
-Size: 2452
-SHA256sum: d0963ce884e3d7a9983f12c2ebfd0da5ddb511786f0c32f3db7a49ad928c4901
+Size: 2457
+SHA256sum: a39c1a64138abaf65930d6672a265b59b93ecec8c52573fbfe9673ee6c4c5401
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpn-policy-routing
@@ -224,10 +224,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2099
+Installed-Size: 2098
 Filename: vpnbypass_1.3.1-1_all.ipk
-Size: 3355
-SHA256sum: 99d0320c77df0300861beea11d13e011f90f147450c393ff6312d537239434e1
+Size: 3346
+SHA256sum: 16514ae8c65d7097bf3e412d38e92949f5a97fb8e1344bca6211de416c671d99
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
