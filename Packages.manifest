@@ -84,17 +84,17 @@ SHA256sum: 34adcf734eed8324d3389db9bfd2338cd3e470ee200338fb988c4f726a24cf1c
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
-Version: git-18.190.71702-36b6d98-6
+Version: git-18.192.22043-6f77399-6
 Depends: libc, luci-mod-admin-full, vpnbypass
 Source: package/luci/applications/luci-app-vpnbypass
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1568
-Filename: luci-app-vpnbypass_git-18.190.71702-36b6d98-6_all.ipk
-Size: 2410
-SHA256sum: f65ec7d5eba04fb3dfcd590c3abd582cfd85016f6fd402b3eb918f4ed9a658d9
+Installed-Size: 1602
+Filename: luci-app-vpnbypass_git-18.192.22043-6f77399-6_all.ipk
+Size: 2452
+SHA256sum: d0963ce884e3d7a9983f12c2ebfd0da5ddb511786f0c32f3db7a49ad928c4901
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpn-policy-routing
@@ -152,62 +152,6 @@ Filename: luci-i18n-advanced-reboot-sv_git-18.190.71702-36b6d98-32_all.ipk
 Size: 1980
 SHA256sum: 28693d9d84cab65bfba5b28d444e3439b7f348404aa5be637a1a85ddf10439e1
 Description:  Translation for luci-app-advanced-reboot - Svenska (Swedish)
-
-Package: luci-i18n-vpnbypass-pt-br
-Version: git-18.190.71702-36b6d98-6
-Depends: libc, luci-app-vpnbypass
-Source: package/luci/applications/luci-app-vpnbypass
-License: GPL-3.0+
-Section: luci
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 571
-Filename: luci-i18n-vpnbypass-pt-br_git-18.190.71702-36b6d98-6_all.ipk
-Size: 1446
-SHA256sum: f749c1dc1951be6d313ac2a5b8d7ea699e1011b310e54da48e2e7d72036d7d78
-Description:  Translation for luci-app-vpnbypass - Português do Brasil (Brazialian Portuguese)
-
-Package: luci-i18n-vpnbypass-ru
-Version: git-18.190.71702-36b6d98-6
-Depends: libc, luci-app-vpnbypass
-Source: package/luci/applications/luci-app-vpnbypass
-License: GPL-3.0+
-Section: luci
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 921
-Filename: luci-i18n-vpnbypass-ru_git-18.190.71702-36b6d98-6_all.ipk
-Size: 1792
-SHA256sum: b0abb118522cdf95f2de1c37a73dae7c522b64a2961a7b07ad2ac2dbaaa1dc26
-Description:  Translation for luci-app-vpnbypass - Русский (Russian)
-
-Package: luci-i18n-vpnbypass-zh-cn
-Version: git-18.190.71702-36b6d98-6
-Depends: libc, luci-app-vpnbypass
-Source: package/luci/applications/luci-app-vpnbypass
-License: GPL-3.0+
-Section: luci
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 760
-Filename: luci-i18n-vpnbypass-zh-cn_git-18.190.71702-36b6d98-6_all.ipk
-Size: 1625
-SHA256sum: 07e09a3e5bc9b7ee30f1ea8f4b4d74cd985e957c755baa28d94d83a7f723b3e5
-Description:  Translation for luci-app-vpnbypass - 中文 (Chinese)
-
-Package: luci-i18n-vpnbypass-zh-tw
-Version: git-18.190.71702-36b6d98-6
-Depends: libc, luci-app-vpnbypass
-Source: package/luci/applications/luci-app-vpnbypass
-License: GPL-3.0+
-Section: luci
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 765
-Filename: luci-i18n-vpnbypass-zh-tw_git-18.190.71702-36b6d98-6_all.ipk
-Size: 1643
-SHA256sum: 4b074dc6ff0ae84ce649edc905a86666463a6d8bd828c5de040f2ac7fc63842e
-Description:  Translation for luci-app-vpnbypass - 臺灣華語 (Taiwanese)
 
 Package: luci-mod-alt-reboot
 Version: git-17.362.62617-4f644d9-10
@@ -280,10 +224,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2105
+Installed-Size: 2099
 Filename: vpnbypass_1.3.1-1_all.ipk
-Size: 3353
-SHA256sum: bafd8eaa0a3f4798dad42b5e2e4435c4f5e05d934bb9ab6e77bc6bace3777e8a
+Size: 3355
+SHA256sum: 99d0320c77df0300861beea11d13e011f90f147450c393ff6312d537239434e1
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
