@@ -4,10 +4,10 @@ Depends: libc, python-light, python-pip
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 530058
+Installed-Size: 530001
 Filename: antminer-monitor_0.4.0-5_all.ipk
-Size: 531300
-SHA256sum: b6350a60af9bd2f8b966f2945f117de8fb369c378177058614d2c44239452b72
+Size: 531223
+SHA256sum: 57a9437a9f4733a8c2848ccf0695082ffc5a1e5c90321cb32eb1d9d7124a6e39
 Description:  This service can be used to monitor Antminers on local network.
 
 Package: fakeinternet
@@ -16,35 +16,35 @@ Depends: libc, uhttpd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2465
+Installed-Size: 2458
 Filename: fakeinternet_0.1.2-8_all.ipk
-Size: 3602
-SHA256sum: f3126ede9f4c9d19333ed3737af0bb31bb1a3746820a377057980dc577c7a82b
+Size: 3576
+SHA256sum: 3daf9b752498e24a829446c04455104908e367fda49bc84d107c47a1ab110b66
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-advanced-reboot
-Version: git-18.190.71702-36b6d98-32
+Version: git-18.192.22043-6f77399-32
 Depends: libc, luci-mod-admin-full
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 4054
-Filename: luci-app-advanced-reboot_git-18.190.71702-36b6d98-32_all.ipk
-Size: 4984
-SHA256sum: 10fad2b0ea3710d90aa41c4a4c99d8d0be9c9198743ce996bbcc0cf9741d7c4a
+Installed-Size: 4046
+Filename: luci-app-advanced-reboot_git-18.192.22043-6f77399-32_all.ipk
+Size: 4957
+SHA256sum: 2329d6fd6fbbf626347411785be7787c55506e6cc151ceb6264e60f6b8a30dbb
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an altnerative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/stangri/openwrt-luci/blob/luci-app-advanced-reboot/applications/luci-app-advanced-reboot/README.md
 
 Package: luci-app-easyflash
-Version: git-18.190.71702-36b6d98-4
+Version: git-18.192.22043-6f77399-4
 Depends: libc, luci-mod-admin-full
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 956
-Filename: luci-app-easyflash_git-18.190.71702-36b6d98-4_all.ipk
-Size: 1807
-SHA256sum: 4f6b556b52c03780ca63f482366b8576d467712be0d9318bb915c43f1afaa1d1
+Installed-Size: 951
+Filename: luci-app-easyflash_git-18.192.22043-6f77399-4_all.ipk
+Size: 1780
+SHA256sum: 58b4e56ce745ca8265f406369d5ac52031d6ec22039a170405d27bf708f7b3f7
 Description:  Easy Flash Web UI
 
 Package: luci-app-fakeinternet
@@ -53,10 +53,10 @@ Depends: libc, luci-mod-admin-full, fakeinternet
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1464
+Installed-Size: 1459
 Filename: luci-app-fakeinternet_git-18.192.22043-6f77399-4_all.ipk
-Size: 2311
-SHA256sum: 602a48253c276caa5e93924f70be77c9e1d0646ef4db7012ca20c3440252defa
+Size: 2291
+SHA256sum: bf08f2342c48a034fd6e10d1662336a060c324f4ff2adfbb53bdfae291fe8783
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-simple-adblock
@@ -65,10 +65,10 @@ Depends: libc, luci-mod-admin-full, simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 2671
+Installed-Size: 2663
 Filename: luci-app-simple-adblock_git-18.192.22043-6f77399-13_all.ipk
-Size: 3538
-SHA256sum: 34adcf734eed8324d3389db9bfd2338cd3e470ee200338fb988c4f726a24cf1c
+Size: 3509
+SHA256sum: 284d9fb6064cf186b6f1bf555fda2da4163591050ce19250652ce0526a152c8a
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -77,10 +77,10 @@ Depends: libc, luci-mod-admin-full, vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1610
+Installed-Size: 1607
 Filename: luci-app-vpnbypass_git-18.192.22043-6f77399-6_all.ipk
-Size: 2457
-SHA256sum: a39c1a64138abaf65930d6672a265b59b93ecec8c52573fbfe9673ee6c4c5401
+Size: 2438
+SHA256sum: 8b344bc9a40a62db1027b3217319be01f292c042c036c3eb9850e2c2f05d073a
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpn-policy-routing
@@ -89,10 +89,10 @@ Depends: libc, luci-mod-admin-full, vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 5074
+Installed-Size: 5065
 Filename: luci-app-vpn-policy-routing_git-18.192.22043-6f77399-27_all.ipk
-Size: 5917
-SHA256sum: 7c5c5589a184edcb3302d719c8e9f5a125f40226491bfe771d88a67c7f0703a4
+Size: 5893
+SHA256sum: be2849dcc53bac22c257721556efa3e06b0dece5e000f3ddb7da8de94aa27819
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-wlanblinker
@@ -101,35 +101,11 @@ Depends: libc, luci-mod-admin-full, wlanblinker
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1641
+Installed-Size: 1636
 Filename: luci-app-wlanblinker_git-18.192.22043-6f77399-7_all.ipk
-Size: 2484
-SHA256sum: 99441f0eb2511b5b03213ada98d299532c0d283df854a2311c5e49e70700ef0e
+Size: 2469
+SHA256sum: e17f9fcb2a791e6861763cb9f91b6e31573f8d3b669015793574c500195e0d19
 Description:  Provides Web UI for WLAN Blinker service.
-
-Package: luci-i18n-advanced-reboot-ru
-Version: git-18.190.71702-36b6d98-32
-Depends: libc, luci-app-advanced-reboot
-License: GPL-3.0+
-Section: luci
-Architecture: all
-Installed-Size: 1979
-Filename: luci-i18n-advanced-reboot-ru_git-18.190.71702-36b6d98-32_all.ipk
-Size: 2838
-SHA256sum: 1a66348d2ef2b8cb553c91aca0ed540cca0934c14b9caab8fd9349c2b5e87b8d
-Description:  Translation for luci-app-advanced-reboot - Русский (Russian)
-
-Package: luci-i18n-advanced-reboot-sv
-Version: git-18.190.71702-36b6d98-32
-Depends: libc, luci-app-advanced-reboot
-License: GPL-3.0+
-Section: luci
-Architecture: all
-Installed-Size: 1122
-Filename: luci-i18n-advanced-reboot-sv_git-18.190.71702-36b6d98-32_all.ipk
-Size: 1980
-SHA256sum: 28693d9d84cab65bfba5b28d444e3439b7f348404aa5be637a1a85ddf10439e1
-Description:  Translation for luci-app-advanced-reboot - Svenska (Swedish)
 
 Package: luci-mod-alt-reboot
 Version: git-17.362.62617-4f644d9-10
@@ -149,10 +125,10 @@ Depends: libc
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 5315
+Installed-Size: 5305
 Filename: simple-adblock_1.6.3-0_all.ipk
-Size: 6439
-SHA256sum: a6dbfbb1a55a17655a4b340c75b93c31552ae20b83fd9c858e8218dad0cfb221
+Size: 6415
+SHA256sum: aae6c560f1f3503b873899e6d9cd9908102c558cd308364db84be5e58fa446c7
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -163,10 +139,10 @@ Depends: libc, relayd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2486
+Installed-Size: 2480
 Filename: slider-support-ar300m_0.0.2-6_all.ipk
-Size: 3518
-SHA256sum: 8e8ee6106bfcba5fcbb3bf2b278957e000fab15347c053b74e31a51de8a6ced5
+Size: 3487
+SHA256sum: c92d703f7cebb06538d68dd1dab1a22b6535ab7a496d6b6948ada664504f8e29
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -177,10 +153,10 @@ Depends: libc, relayd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2479
+Installed-Size: 2473
 Filename: slider-support-mt300n_0.0.2-6_all.ipk
-Size: 3512
-SHA256sum: b772d64f9831d7ca20ae677a081ed49d6774f952bec7525aeba62e2b4feab5d8
+Size: 3482
+SHA256sum: 6b2e30231d5eeabe36b10f29c0ed1117f10201450d2d91c96e9062699030dfb4
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -192,10 +168,10 @@ Conflicts: vpn-policy-routing
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2098
+Installed-Size: 2088
 Filename: vpnbypass_1.3.1-1_all.ipk
-Size: 3346
-SHA256sum: 16514ae8c65d7097bf3e412d38e92949f5a97fb8e1344bca6211de416c671d99
+Size: 3320
+SHA256sum: dfd269ffb9f7703f0968786395e8429d14670e1c3ad82c1540f45c098aced95a
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
@@ -209,10 +185,10 @@ Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 8245
+Installed-Size: 8238
 Filename: vpn-policy-routing_0.0.2-11_all.ipk
-Size: 9562
-SHA256sum: e6fbd9453179b11c582edfc3e3e9424101fd1bee02ee75124f9e3bd0f21ecb68
+Size: 9538
+SHA256sum: cc4eb543ce129fce9e6c028223220b6c9dd5a613b1af97130d68cac08ff40bb7
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
@@ -222,10 +198,10 @@ Depends: libc, coreutils-sleep, iwinfo
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 1505
+Installed-Size: 1498
 Filename: wlanblinker_0.0.1-7_all.ipk
-Size: 2676
-SHA256sum: 2c0f0b36fc30a1b5d8de4228005b0735b08d4b18a32f3755163b3335435a9e79
+Size: 2653
+SHA256sum: 1a6e71ede4a895bca6e97abf0e1d2234b2ba090c3137022543405b38940edbbe
 Description:  This service can be used to signal WLAN status by the unused LED.
  Please see the README for further information.
 
