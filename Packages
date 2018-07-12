@@ -18,8 +18,8 @@ Section: net
 Architecture: all
 Installed-Size: 2465
 Filename: fakeinternet_0.1.2-8_all.ipk
-Size: 3607
-SHA256sum: c438507db314bc36050e41ea3e3591c40ec5a9da92de998c6998f5c3ea1a688f
+Size: 3604
+SHA256sum: f60d4af3832a3b25557578ac4c0556b5aebbfeca615d5b0d3bdacdc6651114be
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -48,15 +48,15 @@ SHA256sum: 4f6b556b52c03780ca63f482366b8576d467712be0d9318bb915c43f1afaa1d1
 Description:  Easy Flash Web UI
 
 Package: luci-app-fakeinternet
-Version: git-18.192.22043-6f77399-3
+Version: git-18.192.22043-6f77399-4
 Depends: libc, luci-mod-admin-full, fakeinternet
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1443
-Filename: luci-app-fakeinternet_git-18.192.22043-6f77399-3_all.ipk
-Size: 2282
-SHA256sum: c4563708387325c8fbcbb15656d90a12963fcba8caf23a96729acd72618054e7
+Installed-Size: 1464
+Filename: luci-app-fakeinternet_git-18.192.22043-6f77399-4_all.ipk
+Size: 2309
+SHA256sum: 996fd982870df97dcb90f020ae1b4502a76894b7296b60da54e140f2d76b2d16
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-simple-adblock
@@ -96,15 +96,15 @@ SHA256sum: 7c5c5589a184edcb3302d719c8e9f5a125f40226491bfe771d88a67c7f0703a4
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-wlanblinker
-Version: git-18.190.71702-36b6d98-6
+Version: git-18.192.22043-6f77399-7
 Depends: libc, luci-mod-admin-full, wlanblinker
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1628
-Filename: luci-app-wlanblinker_git-18.190.71702-36b6d98-6_all.ipk
-Size: 2471
-SHA256sum: 8a70c969181516f98b9bb768463aff735ecf38605a898752787f4864a40d1de4
+Installed-Size: 1641
+Filename: luci-app-wlanblinker_git-18.192.22043-6f77399-7_all.ipk
+Size: 2484
+SHA256sum: 99441f0eb2511b5b03213ada98d299532c0d283df854a2311c5e49e70700ef0e
 Description:  Provides Web UI for WLAN Blinker service.
 
 Package: luci-i18n-advanced-reboot-ru
@@ -270,10 +270,10 @@ Depends: libc, coreutils-sleep, iwinfo
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 1506
+Installed-Size: 1505
 Filename: wlanblinker_0.0.1-7_all.ipk
-Size: 2671
-SHA256sum: cd59d9d3fc13363ede5ad8a157402a12e43e73a10233e250e3cef0da525ba2f8
+Size: 2676
+SHA256sum: 2c0f0b36fc30a1b5d8de4228005b0735b08d4b18a32f3755163b3335435a9e79
 Description:  This service can be used to signal WLAN status by the unused LED.
  Please see the README for further information.
 
