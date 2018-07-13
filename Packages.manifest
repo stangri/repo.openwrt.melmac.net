@@ -77,10 +77,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2663
+Installed-Size: 2662
 Filename: luci-app-simple-adblock_git-18.194.53747-b38306d-13_all.ipk
 Size: 3506
-SHA256sum: 3390a71d0439df701e3774cb603b22ece9ef3338623a988a17e4c3222a206a98
+SHA256sum: 5222a7fee4244bc8d13b835dbeaf4196b1ff9529a990b6b07606035e5c8e2721
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -147,10 +147,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 5316
+Installed-Size: 5318
 Filename: simple-adblock_1.6.3-1_all.ipk
 Size: 6396
-SHA256sum: 30e93ab61342ec78b91c0ba6a5717b744f1efbfbb4239ee8ca238daee1f3cb0f
+SHA256sum: f09b72a179fea37082bc3770964a6ebef8f0573ded3a264763f4e354a60a1348
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
