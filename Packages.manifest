@@ -79,8 +79,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 2662
 Filename: luci-app-simple-adblock_git-18.194.53747-b38306d-13_all.ipk
-Size: 3506
-SHA256sum: 16910a1e050ed2f01d4b13bfc1d4362039a801f90266d5cccf6d7ff59669959b
+Size: 3502
+SHA256sum: 7fabee6b8ef02ad03fa70485f873b398791c6585a3d95f0b19306b4cca2343b1
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -105,10 +105,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 5232
+Installed-Size: 5234
 Filename: luci-app-vpn-policy-routing_git-18.194.53747-b38306d-29_all.ipk
-Size: 6065
-SHA256sum: 7deb0ddd56d83da7329c1f803b95213bda7fabb1dfdccd087c515d8e72d8485a
+Size: 6066
+SHA256sum: e836c07951cb69b6c39842e25b6e5f5e33da97f7b1c59873d81d464f8997c2f0
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-wlanblinker
@@ -140,17 +140,17 @@ SHA256sum: 714a3d5d88d87cbe5fd144ee45c332cbb8584da0d397dc67be576ba2d33bee86
 Description:  Alternative Partition Reboot Web UI
 
 Package: simple-adblock
-Version: 1.6.3-2
+Version: 1.6.3-3
 Depends: libc
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/simple-adblock
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 5320
-Filename: simple-adblock_1.6.3-2_all.ipk
-Size: 6399
-SHA256sum: 67d1c7c77fbf3357a14b2de5c4f315dcb63eaaa9b6c35d64af5144848145c030
+Installed-Size: 5404
+Filename: simple-adblock_1.6.3-3_all.ipk
+Size: 6477
+SHA256sum: b9f40c67be85dc1168009cd6daac1bece9a9d42d87e9ac90ff1f5f1749b38c0f
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -207,7 +207,7 @@ Description:  This service can be used to enable simple VPN split tunnelling.
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.0.2-16
+Version: 0.0.2-17
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, ip-full
 Conflicts: vpnbypass
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/vpn-policy-routing
@@ -215,10 +215,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 8505
-Filename: vpn-policy-routing_0.0.2-16_all.ipk
-Size: 9845
-SHA256sum: 16fcf8293698d174489b4712d884e1a685ab0362b0422efb03dca5af97a17133
+Installed-Size: 8604
+Filename: vpn-policy-routing_0.0.2-17_all.ipk
+Size: 9940
+SHA256sum: 5cba95210c4cdc2a6719ace0c551a1d2fa61e5f954fdb74a27806ac31f61695a
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
