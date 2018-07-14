@@ -77,10 +77,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2663
+Installed-Size: 2662
 Filename: luci-app-simple-adblock_git-18.194.53747-b38306d-13_all.ipk
-Size: 3504
-SHA256sum: 32cb6b78130982583cdc40dc4d444c904e2cb882ec2a1cb69b99dd0321a034db
+Size: 3506
+SHA256sum: 25bbf60c3d0f818a693eebd47b496aef16919c2ae35192f1c777f7af13f5968d
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -105,10 +105,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 5232
+Installed-Size: 5235
 Filename: luci-app-vpn-policy-routing_git-18.194.53747-b38306d-29_all.ipk
-Size: 6067
-SHA256sum: 712e165808538bcce4357771ba3229accd2abe3ecb357800a1ef7086aea9d576
+Size: 6063
+SHA256sum: ef188d1727a3601826598b10d644498dd639f7e2718b63016408276b4d2cfe42
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-wlanblinker
@@ -149,8 +149,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 5403
 Filename: simple-adblock_1.6.3-3_all.ipk
-Size: 6484
-SHA256sum: 20b4b4247ba78b8c36d820e61e8fc57679de0a0b1d13638dd0cb6b2bca85c4fa
+Size: 6488
+SHA256sum: 6f918abb5dd2c52b408c22284b558256c50ce476b0ac6b233be3618b4e27edca
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -215,10 +215,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 8599
+Installed-Size: 8596
 Filename: vpn-policy-routing_0.0.2-17_all.ipk
-Size: 9932
-SHA256sum: f33a9f34a75e47293584a86e47181d11492c001b31aefa3c62d4fbc9958849e2
+Size: 9928
+SHA256sum: b2f8482c87c389aad7509e3e5bed70b5a3e3633b5bab2c1d4d91f8cf390d1df2
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
