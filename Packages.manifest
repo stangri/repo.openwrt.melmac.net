@@ -80,7 +80,7 @@ Architecture: all
 Installed-Size: 2664
 Filename: luci-app-simple-adblock_git-18.196.37553-f29b2a2-13_all.ipk
 Size: 3508
-SHA256sum: 143ab714a02febb3d1fa37513ca12eb7d10517d18dc87a5c48e6ecdea4ff8008
+SHA256sum: 33f8008418936488e8c53f0bdea16cd27a7862491b6a74f0826d66ad2bdb430c
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -91,10 +91,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1607
+Installed-Size: 1606
 Filename: luci-app-vpnbypass_git-18.196.37553-f29b2a2-6_all.ipk
-Size: 2438
-SHA256sum: 6dd2c368fb4e81007bd18d5dc535f444a9e21d0bcd8db1f2627de11a8ba28c52
+Size: 2432
+SHA256sum: 4f24c61fc8b217634aebe2be8dccc6e93243d191f658737d9a03c08ec75b3d1c
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpn-policy-routing
@@ -105,10 +105,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 5236
+Installed-Size: 5235
 Filename: luci-app-vpn-policy-routing_git-18.196.37553-f29b2a2-29_all.ipk
-Size: 6066
-SHA256sum: f4c3cc1be47bc51dbc7c236aaa832e1079d556ab4e534e3a72477bee37d6d439
+Size: 6068
+SHA256sum: 15802a27d6067567a7481be926cb835880bf43385423ea0621993630f87ac698
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-wlanblinker
@@ -150,7 +150,7 @@ Architecture: all
 Installed-Size: 5439
 Filename: simple-adblock_1.6.3-4_all.ipk
 Size: 6521
-SHA256sum: e5740e0fdfb8754046b70f587d09c60dd4b9b5f8cc13e8de039e78d129f82b94
+SHA256sum: 9dcf8f9a01c68a9817dcf178089bff277c209a09e6fea740782b3c573215cd1e
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -196,10 +196,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2135
+Installed-Size: 2137
 Filename: vpnbypass_1.3.1-2_all.ipk
-Size: 3366
-SHA256sum: cad0d233a6f3baf367a8e9a84f385d6463738bfc8283ec7f227c391c2c7ef2a5
+Size: 3373
+SHA256sum: 964bfad786af910dfc7816495a3e128bc999039919e28b19945d2c4f37d96fe3
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
@@ -215,10 +215,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 8614
+Installed-Size: 8609
 Filename: vpn-policy-routing_0.0.2-19_all.ipk
-Size: 9957
-SHA256sum: 3c509fee6b9bbb1e05cf8cde002e50e46b840c06839588c17b099f83e7f345d6
+Size: 9946
+SHA256sum: bde736371def257641972fcd4f2414b977ab245795dbeb52ace569a1486b7233
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
