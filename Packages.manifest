@@ -98,7 +98,7 @@ SHA256sum: 80d9eca6bb4edbc3f2831b05812a14d2a6b07ecd1657cb93ecb6cd0f9e35e564
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-18.196.55741-4f0b755-30
+Version: git-18.196.65037-b9dd1c9-30
 Depends: libc, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 License: GPL-3.0+
@@ -106,9 +106,9 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 5246
-Filename: luci-app-vpn-policy-routing_git-18.196.55741-4f0b755-30_all.ipk
-Size: 6075
-SHA256sum: f16006b99d4c8c83d434ab3b7e9bc7b31124753c6fe0138804f71e71ffb1ed45
+Filename: luci-app-vpn-policy-routing_git-18.196.65037-b9dd1c9-30_all.ipk
+Size: 6082
+SHA256sum: 6e6268c5acca3fb2a446d07af98bec8e87e4ed1c2f8ccbc01f170c8949323972
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-wlanblinker
@@ -163,10 +163,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2480
+Installed-Size: 2476
 Filename: slider-support-ar300m_0.0.2-6_all.ipk
-Size: 3487
-SHA256sum: c92d703f7cebb06538d68dd1dab1a22b6535ab7a496d6b6948ada664504f8e29
+Size: 3485
+SHA256sum: 7ac8ab5e99329c46b6605421e396e327422fec75987753f9a6a8de4389e57198
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -179,10 +179,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2473
+Installed-Size: 2472
 Filename: slider-support-mt300n_0.0.2-6_all.ipk
-Size: 3482
-SHA256sum: 6b2e30231d5eeabe36b10f29c0ed1117f10201450d2d91c96e9062699030dfb4
+Size: 3480
+SHA256sum: 702f01d8cc5a50a80969949cc73b550e71509db1b4a955483ef486e1ce2df61c
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -215,26 +215,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 8522
+Installed-Size: 8610
 Filename: vpn-policy-routing_0.0.2-20_all.ipk
-Size: 9763
-SHA256sum: 864673f7eb7595266917af5011fe269c7244674617527b6b0fd80d0d4b858cc4
-Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
- Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
-
-Package: vpn-policy-routing-turris
-Version: 0.0.2-20
-Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, ip-full
-Conflicts: vpnbypass
-Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/vpn-policy-routing
-License: GPL-3.0+
-Section: net
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 8522
-Filename: vpn-policy-routing-turris_0.0.2-20_all.ipk
-Size: 9769
-SHA256sum: 001053589c29da3bc77ad95b9d2524543a2f5a52035cc8af403b5f5999c7c1a5
+Size: 9928
+SHA256sum: f0320bd2f20ed20bfd832b98d9f6736aa73e2b40b01a584b1eb2ea76b556c77c
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
