@@ -98,17 +98,17 @@ SHA256sum: 80d9eca6bb4edbc3f2831b05812a14d2a6b07ecd1657cb93ecb6cd0f9e35e564
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-18.196.55741-4f0b755-29
+Version: git-18.196.55741-4f0b755-30
 Depends: libc, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 5236
-Filename: luci-app-vpn-policy-routing_git-18.196.55741-4f0b755-29_all.ipk
-Size: 6063
-SHA256sum: 04d060dec236a47f2d34540c779758e9a2853991da919848f19646851ef5b879
+Installed-Size: 5246
+Filename: luci-app-vpn-policy-routing_git-18.196.55741-4f0b755-30_all.ipk
+Size: 6075
+SHA256sum: f16006b99d4c8c83d434ab3b7e9bc7b31124753c6fe0138804f71e71ffb1ed45
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-wlanblinker
@@ -215,10 +215,26 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 8611
+Installed-Size: 8522
 Filename: vpn-policy-routing_0.0.2-20_all.ipk
-Size: 9933
-SHA256sum: 372c2c0f916c893939b0d306ff3b773977a3af8885a6a1ba50e7196405e5da00
+Size: 9763
+SHA256sum: 864673f7eb7595266917af5011fe269c7244674617527b6b0fd80d0d4b858cc4
+Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
+ Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
+
+Package: vpn-policy-routing-turris
+Version: 0.0.2-20
+Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, ip-full
+Conflicts: vpnbypass
+Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/vpn-policy-routing
+License: GPL-3.0+
+Section: net
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 8522
+Filename: vpn-policy-routing-turris_0.0.2-20_all.ipk
+Size: 9769
+SHA256sum: 001053589c29da3bc77ad95b9d2524543a2f5a52035cc8af403b5f5999c7c1a5
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
