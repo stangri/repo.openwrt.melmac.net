@@ -60,39 +60,39 @@ SHA256sum: bf08f2342c48a034fd6e10d1662336a060c324f4ff2adfbb53bdfae291fe8783
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-simple-adblock
-Version: git-18.196.37553-f29b2a2-13
+Version: git-18.196.55741-4f0b755-13
 Depends: libc, luci-mod-admin-full, simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 2665
-Filename: luci-app-simple-adblock_git-18.196.37553-f29b2a2-13_all.ipk
-Size: 3512
-SHA256sum: 4a97cb677eb886820ffe777045da9f506a7f3a695682d330e85d47a0a7f42feb
+Installed-Size: 2663
+Filename: luci-app-simple-adblock_git-18.196.55741-4f0b755-13_all.ipk
+Size: 3506
+SHA256sum: cc4dc893069f4c1e440eb6b0422b51a64d690a96c63c3456b47aed1d8c294b3f
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
-Version: git-18.196.37553-f29b2a2-6
+Version: git-18.196.55741-4f0b755-6
 Depends: libc, luci-mod-admin-full, vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1606
-Filename: luci-app-vpnbypass_git-18.196.37553-f29b2a2-6_all.ipk
-Size: 2440
-SHA256sum: 23ac0ff6e69ee21d5e40b8c13ece4467da1c156009a90b52bad920f734fbc72e
+Installed-Size: 1607
+Filename: luci-app-vpnbypass_git-18.196.55741-4f0b755-6_all.ipk
+Size: 2435
+SHA256sum: 80d9eca6bb4edbc3f2831b05812a14d2a6b07ecd1657cb93ecb6cd0f9e35e564
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-18.196.37553-f29b2a2-29
+Version: git-18.196.55741-4f0b755-29
 Depends: libc, luci-mod-admin-full, vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 5235
-Filename: luci-app-vpn-policy-routing_git-18.196.37553-f29b2a2-29_all.ipk
-Size: 6067
-SHA256sum: 5ae8060ca1db838dd5153c10cafa9bf26216349b5a48e3cb3864ae36deea761a
+Installed-Size: 5236
+Filename: luci-app-vpn-policy-routing_git-18.196.55741-4f0b755-29_all.ipk
+Size: 6063
+SHA256sum: 04d060dec236a47f2d34540c779758e9a2853991da919848f19646851ef5b879
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-wlanblinker
@@ -120,15 +120,15 @@ SHA256sum: 714a3d5d88d87cbe5fd144ee45c332cbb8584da0d397dc67be576ba2d33bee86
 Description:  Alternative Partition Reboot Web UI
 
 Package: simple-adblock
-Version: 1.6.3-4
+Version: 1.6.3-5
 Depends: libc
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 5436
-Filename: simple-adblock_1.6.3-4_all.ipk
-Size: 6514
-SHA256sum: b4beb04ce5b4253080671f692ef88716899a24713e77dc15962229d154450844
+Installed-Size: 5435
+Filename: simple-adblock_1.6.3-5_all.ipk
+Size: 6501
+SHA256sum: ac8df96f6b4acabdec54bc69ca3df76a000ac5800af65e84e713e600acc67c39
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -162,16 +162,16 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpnbypass
-Version: 1.3.1-2
+Version: 1.3.1-3
 Depends: libc, ipset, iptables
 Conflicts: vpn-policy-routing
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2134
-Filename: vpnbypass_1.3.1-2_all.ipk
-Size: 3368
-SHA256sum: 735b6e162b43dbcf2170be8de249abe32cfdebf6a7b891ebc53f249986e024a6
+Installed-Size: 2135
+Filename: vpnbypass_1.3.1-3_all.ipk
+Size: 3363
+SHA256sum: 817d32dfe8eff970af57e1da3ad8ecacdd208f48a89daf81d7bd79071bb800c7
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
@@ -179,16 +179,16 @@ Description:  This service can be used to enable simple VPN split tunnelling.
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.0.2-19
+Version: 0.0.2-20
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, ip-full
 Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 8607
-Filename: vpn-policy-routing_0.0.2-19_all.ipk
-Size: 9944
-SHA256sum: 5cfb1fc690a87c400423f43e1b2da2604497ebdf45c81e0b42fe571781521358
+Installed-Size: 8611
+Filename: vpn-policy-routing_0.0.2-20_all.ipk
+Size: 9933
+SHA256sum: 372c2c0f916c893939b0d306ff3b773977a3af8885a6a1ba50e7196405e5da00
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
