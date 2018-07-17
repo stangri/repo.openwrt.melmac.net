@@ -124,10 +124,10 @@ Version: git-18.198.51540-60e7ea2-1
 Depends: libc
 Section: luci
 Architecture: all
-Installed-Size: 50174
+Installed-Size: 50178
 Filename: luci-theme-material-old_git-18.198.51540-60e7ea2-1_all.ipk
-Size: 50995
-SHA256sum: bff23a5ced430aa4a2ab92e62172c76eb356049f6a191a9f7a0b67d2845fa1c7
+Size: 51002
+SHA256sum: 3146caa342ce50c0c1f321b1b9e4fe4e3a84d74108abe96a245b0057f8e4d48d
 Description:  Material Theme (Old Style)
 
 Package: simple-adblock

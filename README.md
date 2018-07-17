@@ -60,7 +60,7 @@ This package installs Web UI for quickly updating your router firmware if you us
 This package enables Web UI for reboot to another partition functionality on supported (dual-partition) routers and to power off (power down) your OpenWrt/LEDE Project router by overwriting default System --> Reboot page. Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/luci-mod-alt-reboot/README.md) for further information. This package has been superseded by ```luci-app-advanced-reboot``` and is no longer developed/supported.
 
 #### luci-theme-material-old
-This package brings back the old button styles to the ```luci-theme-material``` on OpenWrt 18.06.0-rc2 and later.
+This package brings back the old button styles to the ```luci-theme-material``` on OpenWrt 18.06.0-rc2 and later. Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/luci-theme-material-old/README.md) for further information.
 
 #### simple-adblock & luci-app-simple-adblock
 This service provides lightweight and very fast dnsmasq-based ad blocking. Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/simple-adblock/files/README.md) and [LEDE Project Forum Thread](https://forum.lede-project.org/t/simple-adblock-fast-lightweight-and-fully-uci-luci-configurable-ad-blocking/1327) for further information.
