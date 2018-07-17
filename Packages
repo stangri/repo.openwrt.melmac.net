@@ -16,10 +16,10 @@ Depends: libc, uhttpd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2458
+Installed-Size: 2459
 Filename: fakeinternet_0.1.2-8_all.ipk
-Size: 3576
-SHA256sum: 3daf9b752498e24a829446c04455104908e367fda49bc84d107c47a1ab110b66
+Size: 3580
+SHA256sum: deb2dfa02f3947868cf19ba55078ffd1a79b02f41bdb2fc41d7301c42d85d974
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -48,15 +48,15 @@ SHA256sum: 58b4e56ce745ca8265f406369d5ac52031d6ec22039a170405d27bf708f7b3f7
 Description:  Easy Flash Web UI
 
 Package: luci-app-fakeinternet
-Version: git-18.192.22043-6f77399-4
+Version: git-18.198.51540-60e7ea2-5
 Depends: libc, luci-mod-admin-full, fakeinternet
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1459
-Filename: luci-app-fakeinternet_git-18.192.22043-6f77399-4_all.ipk
-Size: 2291
-SHA256sum: bf08f2342c48a034fd6e10d1662336a060c324f4ff2adfbb53bdfae291fe8783
+Installed-Size: 1468
+Filename: luci-app-fakeinternet_git-18.198.51540-60e7ea2-5_all.ipk
+Size: 2282
+SHA256sum: b7cb9b61d1a2a2cfcf8051621bdb554ddb489b5887ab0e2a25c4b517707a2594
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-simple-adblock
@@ -72,15 +72,15 @@ SHA256sum: 76c35005cdb819bb0db716960a741296bf28de52be87592fd98147619cf5cb1d
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
-Version: git-18.196.55741-4f0b755-6
+Version: git-18.198.51540-60e7ea2-7
 Depends: libc, luci-mod-admin-full, vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1607
-Filename: luci-app-vpnbypass_git-18.196.55741-4f0b755-6_all.ipk
-Size: 2435
-SHA256sum: 80d9eca6bb4edbc3f2831b05812a14d2a6b07ecd1657cb93ecb6cd0f9e35e564
+Installed-Size: 1616
+Filename: luci-app-vpnbypass_git-18.198.51540-60e7ea2-7_all.ipk
+Size: 2444
+SHA256sum: 8a25d682f8da0ecd99f7cae2a4fdfaaae6d977ad7fce91cd1134599b132a00a8
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpn-policy-routing
@@ -96,15 +96,15 @@ SHA256sum: cbaf238eb4eaf534d59ebc5a0ab0f3dce969b5e6e734ae79e833eef9655dfd49
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-wlanblinker
-Version: git-18.192.22043-6f77399-7
+Version: git-18.198.51540-60e7ea2-8
 Depends: libc, luci-mod-admin-full, wlanblinker
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1636
-Filename: luci-app-wlanblinker_git-18.192.22043-6f77399-7_all.ipk
-Size: 2469
-SHA256sum: e17f9fcb2a791e6861763cb9f91b6e31573f8d3b669015793574c500195e0d19
+Installed-Size: 1643
+Filename: luci-app-wlanblinker_git-18.198.51540-60e7ea2-8_all.ipk
+Size: 2476
+SHA256sum: d0d1bc118bf423e963a019214dfc0bf43ea5f2eece78d7a77223f438aa9d7fb0
 Description:  Provides Web UI for WLAN Blinker service.
 
 Package: luci-mod-alt-reboot
@@ -181,8 +181,8 @@ Section: net
 Architecture: all
 Installed-Size: 2135
 Filename: vpnbypass_1.3.1-3_all.ipk
-Size: 3363
-SHA256sum: 817d32dfe8eff970af57e1da3ad8ecacdd208f48a89daf81d7bd79071bb800c7
+Size: 3364
+SHA256sum: a56a80ebaad5402107b74c3cf9580f2ca3bea6be694d1a8ddc7ff3432433f75e
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
@@ -209,10 +209,10 @@ Depends: libc, coreutils-sleep, iwinfo
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 1498
+Installed-Size: 1497
 Filename: wlanblinker_0.0.1-7_all.ipk
-Size: 2653
-SHA256sum: 1a6e71ede4a895bca6e97abf0e1d2234b2ba090c3137022543405b38940edbbe
+Size: 2651
+SHA256sum: ed00824b80637fef76d588703dc088a6d9454ab8e9fd9867b767ac7cee722fd6
 Description:  This service can be used to signal WLAN status by the unused LED.
  Please see the README for further information.
 
