@@ -119,6 +119,17 @@ Size: 6597
 SHA256sum: 714a3d5d88d87cbe5fd144ee45c332cbb8584da0d397dc67be576ba2d33bee86
 Description:  Alternative Partition Reboot Web UI
 
+Package: luci-theme-material-old
+Version: git-18.198.51540-60e7ea2-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 50170
+Filename: luci-theme-material-old_git-18.198.51540-60e7ea2-1_all.ipk
+Size: 51000
+SHA256sum: bd3c359699dd187906c68fe164a2456807cdda501eb6b0e37e8d78e2b1f91cc8
+Description:  Material Theme (Old Style)
+
 Package: simple-adblock
 Version: 1.6.3-5
 Depends: libc
