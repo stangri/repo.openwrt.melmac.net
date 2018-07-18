@@ -151,6 +151,20 @@ Size: 51002
 SHA256sum: 3146caa342ce50c0c1f321b1b9e4fe4e3a84d74108abe96a245b0057f8e4d48d
 Description:  Material Theme (Old Style)
 
+Package: luci-theme-material-old
+Version: git-18.199.46142-369553c-2
+Depends: libc
+Source: package/luci/applications/luci-theme-material-old
+License: GPL-3.0+
+Section: luci
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 50163
+Filename: luci-theme-material-old_git-18.199.46142-369553c-2_all.ipk
+Size: 51065
+SHA256sum: 1a1c3189161a67a290d724fb8a78da6908f6a16e7d50d8299b272f0fcf393b2f
+Description:  This is Material Theme with the old style colorful buttons.
+
 Package: simple-adblock
 Version: 1.6.3-5
 Depends: libc
