@@ -60,15 +60,15 @@ SHA256sum: b7cb9b61d1a2a2cfcf8051621bdb554ddb489b5887ab0e2a25c4b517707a2594
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-simple-adblock
-Version: git-18.198.51540-60e7ea2-15
+Version: git-18.200.53596-a680062-15
 Depends: libc, luci-mod-admin-full, simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 2673
-Filename: luci-app-simple-adblock_git-18.198.51540-60e7ea2-15_all.ipk
-Size: 3520
-SHA256sum: 76c35005cdb819bb0db716960a741296bf28de52be87592fd98147619cf5cb1d
+Installed-Size: 2671
+Filename: luci-app-simple-adblock_git-18.200.53596-a680062-15_all.ipk
+Size: 3519
+SHA256sum: 5e1aab0a199ace4d1b8257e046e4f30b042595c2ff5f194901600bc635250650
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -143,15 +143,15 @@ SHA256sum: 1a1c3189161a67a290d724fb8a78da6908f6a16e7d50d8299b272f0fcf393b2f
 Description:  This is Material Theme with the old style colorful buttons.
 
 Package: simple-adblock
-Version: 1.6.3-5
+Version: 1.6.3-6
 Depends: libc
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 5436
-Filename: simple-adblock_1.6.3-5_all.ipk
-Size: 6505
-SHA256sum: 9357204412aea8fdad9af8b012cbb47c5b698678282669edc2a1804609ea8d87
+Installed-Size: 5434
+Filename: simple-adblock_1.6.3-6_all.ipk
+Size: 6498
+SHA256sum: f487074ee3cc46ad03859c7ac2e028d885cccec2ba7f374e26c4b111d07e434a
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
