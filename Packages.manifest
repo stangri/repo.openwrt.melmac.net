@@ -70,17 +70,17 @@ SHA256sum: b7cb9b61d1a2a2cfcf8051621bdb554ddb489b5887ab0e2a25c4b517707a2594
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-simple-adblock
-Version: git-18.200.53596-a680062-15
+Version: git-18.211.18106-9db490a-16
 Depends: libc, luci-mod-admin-full, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2671
-Filename: luci-app-simple-adblock_git-18.200.53596-a680062-15_all.ipk
-Size: 3519
-SHA256sum: 5e1aab0a199ace4d1b8257e046e4f30b042595c2ff5f194901600bc635250650
+Installed-Size: 2672
+Filename: luci-app-simple-adblock_git-18.211.18106-9db490a-16_all.ipk
+Size: 3518
+SHA256sum: 95ed0e699de5521f9a5fcd3da648eff456d285efa3d2771822bca51d04d13920
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpnbypass
@@ -166,17 +166,17 @@ SHA256sum: 1a1c3189161a67a290d724fb8a78da6908f6a16e7d50d8299b272f0fcf393b2f
 Description:  This is Material Theme with the old style colorful buttons.
 
 Package: simple-adblock
-Version: 1.6.3-6
+Version: 1.6.3-7
 Depends: libc
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/simple-adblock
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 5434
-Filename: simple-adblock_1.6.3-6_all.ipk
-Size: 6498
-SHA256sum: f487074ee3cc46ad03859c7ac2e028d885cccec2ba7f374e26c4b111d07e434a
+Installed-Size: 5428
+Filename: simple-adblock_1.6.3-7_all.ipk
+Size: 6496
+SHA256sum: 63aec9329e41d8aaf55e7b9c13157f905b4298bc842b59b0756c84764c31a7a0
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
