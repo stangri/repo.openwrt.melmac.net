@@ -16,10 +16,10 @@ Depends: libc, uhttpd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2539
+Installed-Size: 2536
 Filename: fakeinternet_0.1.2-9_all.ipk
-Size: 3666
-SHA256sum: 05f4d545f07424e56be6580e76cafa474c43ca2d4cd7c27af02c315e4c89b551
+Size: 3667
+SHA256sum: a865df5dbc0e25a2d5b8054d8f0c64eafbc2ebc6487803f5bd8e992efb19e483
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -57,6 +57,18 @@ Installed-Size: 1467
 Filename: luci-app-fakeinternet_git-18.225.48207-809d3b9-5_all.ipk
 Size: 2295
 SHA256sum: 8d64169b9c30c78e72fa53ef74ba35daa14268f7823ce12d11ab22e2c44cfa9d
+Description:  Provides Web UI for Fakeinternet.
+
+Package: luci-app-fakeinternet
+Version: git-18.228.27397-98d4eb1-5
+Depends: libc, luci-mod-admin-full, fakeinternet
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 1468
+Filename: luci-app-fakeinternet_git-18.228.27397-98d4eb1-5_all.ipk
+Size: 2286
+SHA256sum: 0a88070e523cf93099c1e7a9d79959694ff3128f06d5bc8d09afadf9d7a9388b
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https_dns_proxy
