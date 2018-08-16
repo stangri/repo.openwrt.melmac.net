@@ -125,6 +125,20 @@ Size: 6202
 SHA256sum: a701e9723e663f44b1462ae56f6a1ae37b0d93d742ab1eb359231c105fe09ec0
 Description:  Provides Web UI for vpn-policy-routing service.
 
+Package: luci-app-vpn-policy-routing
+Version: git-18.228.27397-98d4eb1-33
+Depends: libc, luci-mod-admin-full, vpn-policy-routing
+Source: package/luci/applications/luci-app-vpn-policy-routing
+License: GPL-3.0+
+Section: luci
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 5375
+Filename: luci-app-vpn-policy-routing_git-18.228.27397-98d4eb1-33_all.ipk
+Size: 6205
+SHA256sum: 69d623c510923142efda6b66ff2c917c711b494e979141a1d387c773431ec5f3
+Description:  Provides Web UI for vpn-policy-routing service.
+
 Package: luci-app-wlanblinker
 Version: git-18.225.48207-809d3b9-8
 Depends: libc, luci-mod-admin-full, wlanblinker
@@ -215,10 +229,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 5826
+Installed-Size: 5836
 Filename: simple-adblock_1.6.4-3_all.ipk
-Size: 6901
-SHA256sum: e56f18eb4d5f75a42960c26ecfc79bcf753defbc87fd0eae406ae045aef28669
+Size: 6905
+SHA256sum: 8a6791e7a9185204a63e46e268759b14d82dc112dbc3f6399cfec8b83a3d2c74
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -273,6 +287,22 @@ Description:  This service can be used to enable simple VPN split tunnelling.
  Also supports dedicating local ports/IP ranges for direct
  internet access (outside of your VPN tunnel).
  Please see the README for further information.
+
+Package: vpn-policy-routing
+Version: 0.0.2-24
+Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, ip-full
+Conflicts: vpnbypass
+Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/vpn-policy-routing
+License: GPL-3.0+
+Section: net
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 8957
+Filename: vpn-policy-routing_0.0.2-24_all.ipk
+Size: 10283
+SHA256sum: 1a9931a1a62f0a8d33862dddce31dc7eac2c060082b6361ef5af22a3cfcbea3e
+Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
+ Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
 Package: wlanblinker
 Version: 0.0.1-7
