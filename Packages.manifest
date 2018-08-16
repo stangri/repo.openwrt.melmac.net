@@ -69,6 +69,20 @@ Size: 2295
 SHA256sum: 8d64169b9c30c78e72fa53ef74ba35daa14268f7823ce12d11ab22e2c44cfa9d
 Description:  Provides Web UI for Fakeinternet.
 
+Package: luci-app-https_dns_proxy
+Version: git-18.228.27397-98d4eb1-1
+Depends: libc
+Source: package/luci/applications/luci-app-https_dns_proxy
+License: GPL-3.0+
+Section: luci
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 1153
+Filename: luci-app-https_dns_proxy_git-18.228.27397-98d4eb1-1_all.ipk
+Size: 1993
+SHA256sum: 0e89cd1284e6466a9db3da33a7099752d7e75b82c5b98ffae2e734a937079776
+Description:  Provides Web UI for HTTPS DNS Proxy
+
 Package: luci-app-simple-adblock
 Version: git-18.225.48207-809d3b9-19
 Depends: libc, luci-mod-admin-full, simple-adblock
@@ -259,22 +273,6 @@ Description:  This service can be used to enable simple VPN split tunnelling.
  Also supports dedicating local ports/IP ranges for direct
  internet access (outside of your VPN tunnel).
  Please see the README for further information.
-
-Package: vpn-policy-routing
-Version: 0.0.2-24
-Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, ip-full
-Conflicts: vpnbypass
-Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/vpn-policy-routing
-License: GPL-3.0+
-Section: net
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 8956
-Filename: vpn-policy-routing_0.0.2-24_all.ipk
-Size: 10278
-SHA256sum: 35301c23bf61b34d116f4458367d5368a02da61d2355c51e3cb9640c33453098
-Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
- Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
 Package: wlanblinker
 Version: 0.0.1-7
