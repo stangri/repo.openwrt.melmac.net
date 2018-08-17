@@ -35,10 +35,10 @@ License: MIT
 Section: net
 Maintainer: Aaron Drew <aarond10@gmail.com>
 Architecture: arm_cortex-a9_vfpv3
-Installed-Size: 14730
+Installed-Size: 14789
 Filename: https_dns_proxy_2018-04-23-3_arm_cortex-a9_vfpv3.ipk
-Size: 15491
-SHA256sum: 4854596bc1aa5895927c056619a42d1db6a9abf2b9929065e8f7e62cf6a5495e
+Size: 15554
+SHA256sum: 713dc5c9bddef5fa0f5b31309b0de9d77873ae7816c7d2204529c9a8b11bf0c1
 Description:  DNS over HTTPS proxy server
 
 Package: luci-app-advanced-reboot
@@ -133,10 +133,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1363
+Installed-Size: 1388
 Filename: luci-app-https_dns_proxy_git-18.229.17933-8c77975-2_all.ipk
-Size: 2184
-SHA256sum: 4ba6e87c7904bf9a23a8d287b0d8e91178e235bdf95e5bd6ba2e0d848d5a53c6
+Size: 2207
+SHA256sum: 09958038d1802eb29bd8de37323298d893a97f4e73d94e23e36a2510dda2f0a3
 Description:  Provides Web UI for HTTPS DNS Proxy
 
 Package: luci-app-simple-adblock
