@@ -29,10 +29,10 @@ Depends: libc, libcares, libcurl, libev, ca-bundle
 License: MIT
 Section: net
 Architecture: arm_cortex-a9_vfpv3
-Installed-Size: 14791
+Installed-Size: 14789
 Filename: https_dns_proxy_2018-04-23-3_arm_cortex-a9_vfpv3.ipk
-Size: 15524
-SHA256sum: bc9fb00fbd2b372ed7ca3869aefe69bc888e627ce18f522fb6209fac178a3253
+Size: 15547
+SHA256sum: 66cef70299d41b1ea55caef93461f1ed611239b3148b30428f58650402b45e76
 Description:  DNS over HTTPS proxy server
 
 Package: luci-app-advanced-reboot
@@ -109,14 +109,14 @@ Description:  Provides Web UI for HTTPS DNS Proxy
 
 Package: luci-app-https_dns_proxy
 Version: git-18.229.17933-8c77975-2
-Depends: libc
+Depends: libc, luci-mod-admin-full, https_dns_proxy
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1274
+Installed-Size: 1276
 Filename: luci-app-https_dns_proxy_git-18.229.17933-8c77975-2_all.ipk
-Size: 2096
-SHA256sum: 07722b5cc16193209cca9f2a600be47fca9bf945525394987db0eafc68b5d8c5
+Size: 2112
+SHA256sum: b7fd93554eadc40ece3101fa89f4b200cac2d43ec7fed70fccc65f49ba152fde
 Description:  Provides Web UI for HTTPS DNS Proxy
 
 Package: luci-app-simple-adblock
