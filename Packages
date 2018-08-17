@@ -83,6 +83,18 @@ Size: 1993
 SHA256sum: 0e89cd1284e6466a9db3da33a7099752d7e75b82c5b98ffae2e734a937079776
 Description:  Provides Web UI for HTTPS DNS Proxy
 
+Package: luci-app-https_dns_proxy
+Version: git-18.229.17933-8c77975-1
+Depends: libc
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 1150
+Filename: luci-app-https_dns_proxy_git-18.229.17933-8c77975-1_all.ipk
+Size: 1992
+SHA256sum: d919714d83f982726c20153e526685db7969c64070b65e101b9c0f6166989271
+Description:  Provides Web UI for HTTPS DNS Proxy
+
 Package: luci-app-simple-adblock
 Version: git-18.225.48207-809d3b9-19
 Depends: libc, luci-mod-admin-full, simple-adblock
