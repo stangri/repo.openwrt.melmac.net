@@ -24,15 +24,15 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: https_dns_proxy
-Version: 2018-04-23-2
+Version: 2018-04-23-3
 Depends: libc, libcares, libcurl, libev, ca-bundle
 License: MIT
 Section: net
 Architecture: arm_cortex-a9_vfpv3
-Installed-Size: 14973
-Filename: https_dns_proxy_2018-04-23-2_arm_cortex-a9_vfpv3.ipk
-Size: 15702
-SHA256sum: 5ba61fc35a3a97ad48ab191d4092c6dc1633d314cfd6afd4444b9e7123722ce6
+Installed-Size: 14730
+Filename: https_dns_proxy_2018-04-23-3_arm_cortex-a9_vfpv3.ipk
+Size: 15491
+SHA256sum: 4854596bc1aa5895927c056619a42d1db6a9abf2b9929065e8f7e62cf6a5495e
 Description:  DNS over HTTPS proxy server
 
 Package: luci-app-advanced-reboot
@@ -105,6 +105,18 @@ Installed-Size: 1152
 Filename: luci-app-https_dns_proxy_git-18.229.17933-8c77975-1_all.ipk
 Size: 1993
 SHA256sum: 91e8569abfec2844a00e5dd0bff49eac751d351921f9058c4b3291103b5cf5f0
+Description:  Provides Web UI for HTTPS DNS Proxy
+
+Package: luci-app-https_dns_proxy
+Version: git-18.229.17933-8c77975-2
+Depends: libc
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 1363
+Filename: luci-app-https_dns_proxy_git-18.229.17933-8c77975-2_all.ipk
+Size: 2184
+SHA256sum: 4ba6e87c7904bf9a23a8d287b0d8e91178e235bdf95e5bd6ba2e0d848d5a53c6
 Description:  Provides Web UI for HTTPS DNS Proxy
 
 Package: luci-app-simple-adblock
