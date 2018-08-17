@@ -91,8 +91,8 @@ Section: luci
 Architecture: all
 Installed-Size: 1153
 Filename: luci-app-https_dns_proxy_git-18.229.17933-8c77975-1_all.ipk
-Size: 1999
-SHA256sum: 39606eb9649d375297814a29d4496788c039a3d72deedc3625eda6c175ec1c1f
+Size: 1996
+SHA256sum: a8a7ffb5193babde1fc15d1cd8d3dead6c63c784ab1a69efd0a04c90761b024c
 Description:  Provides Web UI for HTTPS DNS Proxy
 
 Package: luci-app-simple-adblock
