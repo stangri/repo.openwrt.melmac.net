@@ -107,8 +107,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 2801
 Filename: luci-app-simple-adblock_git-18.247.53383-f6dd876-19_all.ipk
-Size: 3642
-SHA256sum: 4c95aa4ba30b20f2b411c32807b2afc54ff9dad265626fed1af54c9ce9fac8b5
+Size: 3648
+SHA256sum: 4498fdaa4689a466aabda6a06ef3f25ad8b62d3283e9404f232c8fe37fcf8e4d
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -189,10 +189,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 5886
+Installed-Size: 5885
 Filename: simple-adblock_1.6.4-5_all.ipk
-Size: 6961
-SHA256sum: e4d687adf58514020f492077e380afa68444defc41efadae87810fa763ce2ca7
+Size: 6952
+SHA256sum: 0cae41988f5d17157463346eea9cc8ef1ba0aa2f2d5d78e57c154e27927b8770
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -238,10 +238,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 8972
+Installed-Size: 8974
 Filename: vpn-policy-routing_0.0.2-26_all.ipk
-Size: 10293
-SHA256sum: ac8ef55c0f3693c23bd9e56af4dec3d4b0e0e520b42f98c7f3116ed8dc41fa55
+Size: 10303
+SHA256sum: 12dc76f1f880c3449c3db9d5e741a3cf1885fdcb0ea834278c74e1b8ff0aaabc
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
