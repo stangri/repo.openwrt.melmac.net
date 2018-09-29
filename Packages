@@ -155,6 +155,17 @@ Size: 51072
 SHA256sum: bd39ca52a5e2437934fed0a26abbe5c5bad071f31e5fca1292380a9cd4a5bc55
 Description:  This is Material Theme with the old style colorful buttons.
 
+Package: luci-wrtbwmon
+Version: 0.8.1
+Depends: luci, wrtbwmon
+Architecture: all
+Section: net
+Priority: optional
+Filename: luci-wrtbwmon_0.8.1_all.ipk
+Size: 7338
+SHA256sum: 5323cd3058c988e68859ea3f81b438928c89cfd96e9902022f6833196c93b8f6
+Description: A Luci module that uses wrtbwmon to track bandwidth usage.
+
 Package: simple-adblock
 Version: 1.6.4-5
 Depends: libc
@@ -170,29 +181,43 @@ Description:  This service provides dnsmasq-based ad blocking.
  
 
 Package: slider-support-ar300m
-Version: 0.0.2-8
+Version: 0.0.2-9
 Depends: libc, relayd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2496
-Filename: slider-support-ar300m_0.0.2-8_all.ipk
-Size: 3508
-SHA256sum: 1f76c54cbd195c130de15c5418b9a68243958d36423fff924aaf86db707223ae
+Installed-Size: 2498
+Filename: slider-support-ar300m_0.0.2-9_all.ipk
+Size: 3517
+SHA256sum: 3d8ce012cbf89e6e98b928fbf0d8d71bbc0891399a90a3bea84b3fa3e70783bb
+Description:  This service enables switching between Router, Access Point and Wireless Repeater
+ modes of operation for supported routers equipped with slider switch.
+ Please see the README for further information.
+
+Package: slider-support-ar750
+Version: 0.0.2-9
+Depends: libc, relayd
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 2500
+Filename: slider-support-ar750_0.0.2-9_all.ipk
+Size: 3510
+SHA256sum: 89ceff779ab75e864055471a24aed78e78488af422528cbffcded317921eea8d
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
 
 Package: slider-support-mt300n
-Version: 0.0.2-8
+Version: 0.0.2-9
 Depends: libc, relayd
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2495
-Filename: slider-support-mt300n_0.0.2-8_all.ipk
-Size: 3508
-SHA256sum: d16d6efe4fde1dd4e84f093eb0f2d9455f2b992c01eb42c9c285ff0def5ed391
+Installed-Size: 2492
+Filename: slider-support-mt300n_0.0.2-9_all.ipk
+Size: 3504
+SHA256sum: 14c76ef3ed8254b6954f76fe6813b27cc66203f590d6060d3d934ea6065e525d
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -240,4 +265,15 @@ Size: 2649
 SHA256sum: 2fde0ff8e19011aea01c6cae10a55b4572cbf446bb6408f2db7675853f277ecd
 Description:  This service can be used to signal WLAN status by the unused LED.
  Please see the README for further information.
+
+Package: wrtbwmon
+Version: 0.36
+Architecture: all
+Section: net
+Priority: optional
+Filename: wrtbwmon_0.36_all.ipk
+Size: 6223
+SHA256sum: 15032b7475e3a47699785dd8a89039c520f5d229667050f6f9c64585638c5314
+Description: wrtbwmon was designed to track bandwidth consumption on home routers. It accomplishes this with iptables rules, which means you don't need to run an extra process just to track bandwidth. wrtbwmon conveniently tracks bandwidth consumption on a per-IP address basis, so you can easily determine which user/device is the culprit.
+#Depends: gawk | mawk | busybox, iptables, sed | busybox, iproute2 | ip
 
