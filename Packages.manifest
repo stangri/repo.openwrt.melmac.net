@@ -181,6 +181,18 @@ Size: 51072
 SHA256sum: bd39ca52a5e2437934fed0a26abbe5c5bad071f31e5fca1292380a9cd4a5bc55
 Description:  This is Material Theme with the old style colorful buttons.
 
+Package: luci-theme-rosy
+Version: git-18.278.37823-a0cc076-1.2
+Depends: libc
+Source: package/luci/applications/luci-theme-rosy
+Section: luci
+Architecture: all
+Installed-Size: 138203
+Filename: luci-theme-rosy_git-18.278.37823-a0cc076-1.2_all.ipk
+Size: 139010
+SHA256sum: 671522a2b84b5723146953466405b337563405520a3cc42dec5bdaf997ae8f20
+Description:  Rosy Theme
+
 Package: luci-wrtbwmon
 Version: 0.8.1
 Depends: luci, wrtbwmon
