@@ -11,15 +11,15 @@ SHA256sum: b67b29979da59c3bccb1f3a1b2af7055e142411163511ba132a00b27724205ee
 Description:  This service can be used to monitor Antminers on local network.
 
 Package: fakeinternet
-Version: 0.1.2-11
+Version: 0.1.2-12
 Depends: libc, uhttpd, uhttpd-mod-ubus
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2541
-Filename: fakeinternet_0.1.2-11_all.ipk
-Size: 3673
-SHA256sum: dec4164f74c04a95cfd38baec4432ee4de4b61fb83ae07da4957fc8f8942c435
+Installed-Size: 2544
+Filename: fakeinternet_0.1.2-12_all.ipk
+Size: 3680
+SHA256sum: 13a0c4eea9f28ebcf6552aff28aac7c4520f3f88aa099fe036980ac2a15ddb14
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -60,15 +60,15 @@ SHA256sum: 896ebefe7eef71c117b9c74eb62ec08fe7f1882a9b5b29ca52a57fa72ded7b9d
 Description:  Easy Flash Web UI
 
 Package: luci-app-fakeinternet
-Version: git-18.247.53383-f6dd876-5
+Version: git-19.015.13861-8fc68be-5
 Depends: libc, luci-mod-admin-full, fakeinternet
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 1465
-Filename: luci-app-fakeinternet_git-18.247.53383-f6dd876-5_all.ipk
-Size: 2280
-SHA256sum: 1ccf9a108e56a9e0f75b3c17c082678c9c3e6eff8a6024394db322d48251a0ca
+Filename: luci-app-fakeinternet_git-19.015.13861-8fc68be-5_all.ipk
+Size: 2290
+SHA256sum: 7391479e2db66ce477ec4fdb69a37b544654e3214d84f314b5c7324ae7fea2d1
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https_dns_proxy
@@ -96,15 +96,15 @@ SHA256sum: d27b8b93b8ac834a2e04ed8f4f8ab58ae532a0d81f334bbbbfc080f18a2ca3ab
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-19.006.40074-a98e239-34
+Version: git-19.011.54860-47d9205-34
 Depends: libc, luci-mod-admin-full, vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 5544
-Filename: luci-app-vpn-policy-routing_git-19.006.40074-a98e239-34_all.ipk
-Size: 6378
-SHA256sum: 316fdfdef762a0a0f5719cf0caf090c4b8abeb9998460ae4300caa8e7d683c1e
+Filename: luci-app-vpn-policy-routing_git-19.011.54860-47d9205-34_all.ipk
+Size: 6377
+SHA256sum: 4d5694f11226e8bdcfcd8ecbeadf104dc67b8c7595410a3ec236bfa282466256
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -234,16 +234,16 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.0.2-35
+Version: 0.0.2-36
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, ip-full
 Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 9195
-Filename: vpn-policy-routing_0.0.2-35_all.ipk
-Size: 10523
-SHA256sum: cce8bd9a81439dd735b230e3a4898adafff800b78a4e850d8adbc53db0452976
+Installed-Size: 9200
+Filename: vpn-policy-routing_0.0.2-36_all.ipk
+Size: 10526
+SHA256sum: 7c226fce6e220c9026037b91a7af6bb882e3ad2555407ff50fcbb54bd0106443
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
