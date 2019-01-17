@@ -20,10 +20,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2544
+Installed-Size: 2545
 Filename: fakeinternet_0.1.2-12_all.ipk
 Size: 3680
-SHA256sum: 13a0c4eea9f28ebcf6552aff28aac7c4520f3f88aa099fe036980ac2a15ddb14
+SHA256sum: 49227ea1506b1e31a80862ac8416bd9a082f50da7897efca5faf7a1e1b0f652b
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -77,10 +77,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1465
+Installed-Size: 1467
 Filename: luci-app-fakeinternet_git-19.015.13861-8fc68be-5_all.ipk
-Size: 2290
-SHA256sum: 7391479e2db66ce477ec4fdb69a37b544654e3214d84f314b5c7324ae7fea2d1
+Size: 2294
+SHA256sum: aa59988724ce2904aa81a57e5c17e822ca6228862a4f80ff17e966c1dd06244c
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https_dns_proxy
