@@ -42,17 +42,17 @@ SHA256sum: b7bd72f2abf9bf1c0d2011b4b2dffea570a824b6978a92614a33786672cca6b5
 Description:  DNS over HTTPS proxy server
 
 Package: luci-app-advanced-reboot
-Version: git-19.006.40074-a98e239-35
+Version: git-19.026.58450-d6ae363-36
 Depends: libc, luci-mod-admin-full
 Source: package/luci/applications/luci-app-advanced-reboot
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4085
-Filename: luci-app-advanced-reboot_git-19.006.40074-a98e239-35_all.ipk
-Size: 4994
-SHA256sum: 425f33a9b469df195ad85a467d6bb76e04ae3d82ebc9cb32cd0b1e257fffe03a
+Installed-Size: 4100
+Filename: luci-app-advanced-reboot_git-19.026.58450-d6ae363-36_all.ipk
+Size: 5007
+SHA256sum: 767811e9552800d678533d2ab469e2527ce07e1a05cb50ef4cc901ba0feb8875
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/stangri/openwrt-luci/blob/luci-app-advanced-reboot/applications/luci-app-advanced-reboot/README.md
 
 Package: luci-app-easyflash
