@@ -42,17 +42,17 @@ SHA256sum: b7bd72f2abf9bf1c0d2011b4b2dffea570a824b6978a92614a33786672cca6b5
 Description:  DNS over HTTPS proxy server
 
 Package: luci-app-advanced-reboot
-Version: git-19.026.58450-d6ae363-36
+Version: git-19.034.35151-9f520b4-37
 Depends: libc, luci-mod-admin-full
 Source: package/luci/applications/luci-app-advanced-reboot
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 4100
-Filename: luci-app-advanced-reboot_git-19.026.58450-d6ae363-36_all.ipk
-Size: 5007
-SHA256sum: 767811e9552800d678533d2ab469e2527ce07e1a05cb50ef4cc901ba0feb8875
+Installed-Size: 4103
+Filename: luci-app-advanced-reboot_git-19.034.35151-9f520b4-37_all.ipk
+Size: 5014
+SHA256sum: d3903465270a8f9a4906c66c50a14eb456269acff09dc302fb88e13a5ce588a9
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/stangri/openwrt-luci/blob/luci-app-advanced-reboot/applications/luci-app-advanced-reboot/README.md
 
 Package: luci-app-easyflash
@@ -112,17 +112,17 @@ SHA256sum: d27b8b93b8ac834a2e04ed8f4f8ab58ae532a0d81f334bbbbfc080f18a2ca3ab
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-19.026.58450-d6ae363-34
+Version: git-19.034.35151-9f520b4-36
 Depends: libc, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 5548
-Filename: luci-app-vpn-policy-routing_git-19.026.58450-d6ae363-34_all.ipk
-Size: 6387
-SHA256sum: b09504a24d52c4c06603b6530c44b86d006aa0b85ea658a5d6b9cb0470684789
+Installed-Size: 5791
+Filename: luci-app-vpn-policy-routing_git-19.034.35151-9f520b4-36_all.ipk
+Size: 6638
+SHA256sum: 78fec1f5277d1707ca59bdc95e434f6ee7b36c2ee4e35937040278acef2eb41a
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -271,7 +271,7 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.0.2-37
+Version: 0.0.3-2
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, ip-full
 Conflicts: vpnbypass
 Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/vpn-policy-routing
@@ -279,10 +279,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 9221
-Filename: vpn-policy-routing_0.0.2-37_all.ipk
-Size: 10547
-SHA256sum: aac36cfba4037f9e245bc56c6a7720329ad6d998e0929d35b8dc9f85f3c2f4bf
+Installed-Size: 9166
+Filename: vpn-policy-routing_0.0.3-2_all.ipk
+Size: 10504
+SHA256sum: bf044a542ff13b2619696a577e045cac4bb560a05ba0876624fe489a65243960
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
