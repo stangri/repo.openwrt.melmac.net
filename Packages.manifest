@@ -139,6 +139,20 @@ Size: 2444
 SHA256sum: 5442abdbfa03322db19a25ee487096f77786d54f3aa4e9cdda9ff9fbfeab479c
 Description:  Provides Web UI for VPNBypass service.
 
+Package: luci-app-wireshark-helper
+Version: git-19.038.66435-4e5111e-1
+Depends: libc, luci-mod-admin-full, wireshark-helper
+Source: package/luci/applications/luci-app-wireshark-helper
+License: GPL-3.0+
+Section: luci
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 1505
+Filename: luci-app-wireshark-helper_git-19.038.66435-4e5111e-1_all.ipk
+Size: 2322
+SHA256sum: d9e546db7af909542d5972d403d9c7e7d51a5b85f1e27e2aab1ae175ebd63d41
+Description:  Provides Web UI for Wireshark-helper.
+
 Package: luci-app-wlanblinker
 Version: git-19.035.52233-21b29f3-8
 Depends: libc, luci-mod-admin-full, wlanblinker
