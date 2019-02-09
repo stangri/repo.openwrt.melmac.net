@@ -319,6 +319,20 @@ Description:  This service can be used to enable simple VPN split tunnelling.
  internet access (outside of your VPN tunnel).
  Please see the README for further information.
 
+Package: wireshark-helper
+Version: 0.0.1-0
+Depends: libc, iptables-mod-tee
+Source: /mnt/NAS/Users/stangri/lede/Config/openwrt_packages/wireshark-helper
+License: GPL-3.0+
+Section: net
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 925
+Filename: wireshark-helper_0.0.1-0_all.ipk
+Size: 2011
+SHA256sum: c6f45ffb8ee94a861aa70cf90d6926a7d53af345e4cd7d3298d14f350361a2b5
+Description:  This service can be used to set up iptables rules required for WireShark.
+
 Package: wlanblinker
 Version: 0.0.1-8
 Depends: libc, coreutils-sleep, iwinfo
