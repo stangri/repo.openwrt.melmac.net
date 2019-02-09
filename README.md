@@ -97,4 +97,4 @@ This service can be used to indicate WLAN status by blinking the unused LED. Ple
 
 ### wireshark-helper & luci-app-wireshark-helper
 
-This service can be used to configure router to sniff packets to/from monitored device on the device running WireShark app. Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/wireshark-helper/files/README.md) for further information.
+This service can be used to configure router to sniff packets to/from monitored device on the device running Wireshark app. Please see the [README](https://github.com/stangri/openwrt_packages/blob/master/wireshark-helper/files/README.md) for further information.

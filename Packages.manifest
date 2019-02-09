@@ -147,10 +147,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1488
+Installed-Size: 1486
 Filename: luci-app-wireshark-helper_git-19.038.66435-4e5111e-1_all.ipk
-Size: 2303
-SHA256sum: 7393311265f5867833a0bafa10fa92dcdb5732f7ab8e8b96eaf095ef01d9515c
+Size: 2302
+SHA256sum: 51d056592a7e1555338c38c83f52c6dfd29b320c2accf67783aa13d429976669
 Description:  Provides Web UI for Wireshark-helper.
 
 Package: luci-app-wlanblinker
