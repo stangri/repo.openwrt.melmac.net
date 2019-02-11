@@ -125,10 +125,10 @@ Depends: libc, luci-mod-admin-full, wireshark-helper
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1671
+Installed-Size: 1689
 Filename: luci-app-wireshark-helper_git-19.042.42292-b7fabbd-1_all.ipk
-Size: 2491
-SHA256sum: 62173eedde0fcde1abf59ca7500521bb94cdfdf377e348f780cebeaab87d813d
+Size: 2512
+SHA256sum: e0af0c8216cd3736a74054056c3a483f7c92db335674e5c9a3ffb2726894564c
 Description:  Provides Web UI for Wireshark-helper.
 
 Package: luci-app-wlanblinker
