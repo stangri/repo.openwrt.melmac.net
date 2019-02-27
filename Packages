@@ -282,10 +282,10 @@ Depends: libc, iptables-mod-tee
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 928
+Installed-Size: 911
 Filename: wireshark-helper_0.0.1-1_all.ipk
-Size: 2016
-SHA256sum: 346f17de2313655c9c669f878468b8a8dfc7255cccbd1fbb34e6bf57022592d7
+Size: 1997
+SHA256sum: d79090312065ee72c6e21107f2524608ecb7fbed01d242f9414fd80ccb454623
 Description:  This service can be used to set up iptables rules required for WireShark.
 
 Package: wlanblinker
