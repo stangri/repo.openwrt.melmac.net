@@ -11,15 +11,15 @@ SHA256sum: e542edb25e62148b57c05332471d9c621a9bd2c6ba475c747048b15232c9d051
 Description:  This service can be used to monitor Antminers on local network.
 
 Package: fakeinternet
-Version: 0.1.4-1
+Version: 0.1.4-2
 Depends: libc, uhttpd, uhttpd-mod-ubus
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2616
-Filename: fakeinternet_0.1.4-1_all.ipk
-Size: 3753
-SHA256sum: cf5c5e5c054075763212e5d64742fab644baa45abf6943bb7b38d94a4291c4cc
+Installed-Size: 2617
+Filename: fakeinternet_0.1.4-2_all.ipk
+Size: 3752
+SHA256sum: ec4eac4cc954a0b3983b12ecd18c5664b608d5be697bae711b3109a32cdcc11b
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
