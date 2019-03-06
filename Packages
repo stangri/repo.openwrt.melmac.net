@@ -60,15 +60,15 @@ SHA256sum: 9501c79728e83af6c26e82f8d1b694326683a39d73824aab9246e343f108434c
 Description:  Easy Flash Web UI
 
 Package: luci-app-fakeinternet
-Version: git-19.065.57576-61ea3ed-5
+Version: git-19.065.57576-61ea3ed-6
 Depends: libc, luci-mod-admin-full, fakeinternet
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 1467
-Filename: luci-app-fakeinternet_git-19.065.57576-61ea3ed-5_all.ipk
-Size: 2279
-SHA256sum: 52559b3f81f4d1bcc9da6b343858288457d5813640b2f12c3571186eedc7c2a9
+Installed-Size: 1551
+Filename: luci-app-fakeinternet_git-19.065.57576-61ea3ed-6_all.ipk
+Size: 2366
+SHA256sum: eccb0548995cf1da4e91000c75e1d74716844fc6d309b8e2406bb401f74ec24d
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https_dns_proxy
