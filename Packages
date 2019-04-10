@@ -24,111 +24,111 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-advanced-reboot
-Version: git-19.065.57576-61ea3ed-39
+Version: git-19.099.68053-6c028c8-39
 Depends: libc, luci-mod-admin-full
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 4116
-Filename: luci-app-advanced-reboot_git-19.065.57576-61ea3ed-39_all.ipk
+Filename: luci-app-advanced-reboot_git-19.099.68053-6c028c8-39_all.ipk
 Size: 5028
-SHA256sum: 1fd671fc6a2f3ceabcffbc8c9442d453ae40933aad1e28ddd8184f2d91dec9ac
+SHA256sum: ba1ad0c05f89499272bd0f8c50067faebcffab45b8e48e83f196c17b83755746
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/stangri/openwrt-luci/blob/luci-app-advanced-reboot/applications/luci-app-advanced-reboot/README.md
 
 Package: luci-app-easyflash
-Version: git-19.065.57576-61ea3ed-5
+Version: git-19.099.68053-6c028c8-5
 Depends: libc, luci-mod-admin-full
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 971
-Filename: luci-app-easyflash_git-19.065.57576-61ea3ed-5_all.ipk
-Size: 1797
-SHA256sum: 065793039fb72332fc682c79226b68f2291824072cb738a37e45c7b0a0a9b546
+Filename: luci-app-easyflash_git-19.099.68053-6c028c8-5_all.ipk
+Size: 1804
+SHA256sum: 1ca7a876be6650f92c09b655b2726ce9c3cc17327dec75da0bd3fcfb15745bbc
 Description:  Easy Flash Web UI
 
 Package: luci-app-fakeinternet
-Version: git-19.065.57576-61ea3ed-6
+Version: git-19.099.68053-6c028c8-6
 Depends: libc, luci-mod-admin-full, fakeinternet
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 1568
-Filename: luci-app-fakeinternet_git-19.065.57576-61ea3ed-6_all.ipk
-Size: 2386
-SHA256sum: 65d3870e9847163b51ca642765454e1dd4a9b6fe79c5ee98ad02c7b8ae75a280
+Filename: luci-app-fakeinternet_git-19.099.68053-6c028c8-6_all.ipk
+Size: 2388
+SHA256sum: 6d18c5057fecfd47365fb4ac5ee94b52567c3042c442810ea0607ab4d3f1a6ce
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https_dns_proxy
-Version: git-19.065.57576-61ea3ed-2
+Version: git-19.099.68053-6c028c8-2
 Depends: libc, luci-mod-admin-full, https_dns_proxy
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 1293
-Filename: luci-app-https_dns_proxy_git-19.065.57576-61ea3ed-2_all.ipk
-Size: 2128
-SHA256sum: 110c7e3b9efe76cf190dc1749eab1cbd97840104a25ba0dfcf8fdb4994a7a027
+Filename: luci-app-https_dns_proxy_git-19.099.68053-6c028c8-2_all.ipk
+Size: 2125
+SHA256sum: c67324b20c709bf186166c1814d9cd518c0781260676c9d9f0198422979d7cd2
 Description:  Provides Web UI for HTTPS DNS Proxy
 
 Package: luci-app-simple-adblock
-Version: git-19.065.57576-61ea3ed-24
+Version: git-19.099.68053-6c028c8-24
 Depends: libc, luci-mod-admin-full, simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 3137
-Filename: luci-app-simple-adblock_git-19.065.57576-61ea3ed-24_all.ipk
-Size: 3980
-SHA256sum: 48278348e08fa3cd819042e5fe3338ebb551aabccaae6ab895609cadaef18156
+Filename: luci-app-simple-adblock_git-19.099.68053-6c028c8-24_all.ipk
+Size: 3979
+SHA256sum: 7c8ca4347c806e6a0c241824600eb6ed767f1d2d24aa57effb6dd566bc4e47ea
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-19.065.57576-61ea3ed-38
+Version: git-19.099.68053-6c028c8-38
 Depends: libc, luci-mod-admin-full, vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 5599
-Filename: luci-app-vpn-policy-routing_git-19.065.57576-61ea3ed-38_all.ipk
-Size: 6437
-SHA256sum: e45449ae7224b1e0437c415df96f6d32b8124d63103df31de8d0c3e9db362615
+Filename: luci-app-vpn-policy-routing_git-19.099.68053-6c028c8-38_all.ipk
+Size: 6438
+SHA256sum: 33119884aa71a3dadcb41c95962718e0a7793cd22249adc951d08deb4991594d
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
-Version: git-19.065.57576-61ea3ed-7
+Version: git-19.099.68053-6c028c8-7
 Depends: libc, luci-mod-admin-full, vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 1629
-Filename: luci-app-vpnbypass_git-19.065.57576-61ea3ed-7_all.ipk
-Size: 2459
-SHA256sum: 7bc3eb4b8b666be9a7ce3048d99d8d76e69fbdd949e0d9667be8e41e225f7c6e
+Filename: luci-app-vpnbypass_git-19.099.68053-6c028c8-7_all.ipk
+Size: 2458
+SHA256sum: 9d7383017037c94158b05876498ba4cdc415a08c53e0a398341bd29e3c4de231
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
-Version: git-19.065.57576-61ea3ed-4
+Version: git-19.099.68053-6c028c8-4
 Depends: libc, luci-mod-admin-full, wireshark-helper
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 1750
-Filename: luci-app-wireshark-helper_git-19.065.57576-61ea3ed-4_all.ipk
-Size: 2564
-SHA256sum: a001441237e07519298c538c566c871246b364cea906994aee8b31e124815803
+Filename: luci-app-wireshark-helper_git-19.099.68053-6c028c8-4_all.ipk
+Size: 2566
+SHA256sum: d94f512cb3d6e5d7e445c2fd74be6580574d5872cc08a0d23dd5a1e2933bb936
 Description:  Provides Web UI for Wireshark-helper.
 
 Package: luci-app-wlanblinker
-Version: git-19.065.57576-61ea3ed-8
+Version: git-19.099.68053-6c028c8-8
 Depends: libc, luci-mod-admin-full, wlanblinker
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 1659
-Filename: luci-app-wlanblinker_git-19.065.57576-61ea3ed-8_all.ipk
-Size: 2488
-SHA256sum: f475da2045f7b1ef48680741c3bfdf76f7f6ad860fbaaafa360d6d63c487242c
+Filename: luci-app-wlanblinker_git-19.099.68053-6c028c8-8_all.ipk
+Size: 2492
+SHA256sum: ce7fd6ff3a77fed018b31f34baa6bab4288faad85ccd8b94861fce5c96e10dd6
 Description:  Provides Web UI for WLAN Blinker service.
 
 Package: luci-mod-alt-reboot
@@ -144,16 +144,27 @@ SHA256sum: 714a3d5d88d87cbe5fd144ee45c332cbb8584da0d397dc67be576ba2d33bee86
 Description:  Alternative Partition Reboot Web UI
 
 Package: luci-theme-material-old
-Version: git-19.065.57576-61ea3ed-2
+Version: git-19.099.68053-6c028c8-2
 Depends: libc
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 50167
-Filename: luci-theme-material-old_git-19.065.57576-61ea3ed-2_all.ipk
-Size: 51073
-SHA256sum: 0814462931750134f8110978640f346e3570ad109b950788e39dd606f6157e12
+Installed-Size: 50169
+Filename: luci-theme-material-old_git-19.099.68053-6c028c8-2_all.ipk
+Size: 51078
+SHA256sum: 26787fa59ab73a210a050e88ce32df1cb3d968af54df142e10b2f301a0902bb4
 Description:  This is Material Theme with the old style colorful buttons.
+
+Package: luci-theme-rosy
+Version: git-19.099.68053-6c028c8-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 104588
+Filename: luci-theme-rosy_git-19.099.68053-6c028c8-1_all.ipk
+Size: 105426
+SHA256sum: 761774ca0554a46615388e088915711e52857550b4f6d95fca5ff16cddd9131f
+Description:  Rosy Theme
 
 Package: luci-wrtbwmon
 Version: 0.8.1
