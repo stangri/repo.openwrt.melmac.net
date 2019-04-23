@@ -97,6 +97,20 @@ Size: 3979
 SHA256sum: 7c8ca4347c806e6a0c241824600eb6ed767f1d2d24aa57effb6dd566bc4e47ea
 Description:  Provides Web UI for simple-adblock service.
 
+Package: luci-app-vpn-policy-routing
+Version: git-19.113.55792-3c7b3fa-38
+Depends: libc, luci-mod-admin-full, vpn-policy-routing
+Source: package/luci/applications/luci-app-vpn-policy-routing
+License: GPL-3.0+
+Section: luci
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 5599
+Filename: luci-app-vpn-policy-routing_git-19.113.55792-3c7b3fa-38_all.ipk
+Size: 6439
+SHA256sum: da6d65117da5af47012b3b3d58ce150e01aa7af01ca8c6ab8664a7f620409864
+Description:  Provides Web UI for vpn-policy-routing service.
+
 Package: luci-app-vpnbypass
 Version: git-19.099.68053-6c028c8-7
 Depends: libc, luci-mod-admin-full, vpnbypass
