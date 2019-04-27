@@ -83,34 +83,6 @@ Size: 2127
 SHA256sum: e3de7b5bed1180af0c9925f057e5796c086508c09aeccdd2823ac1bdd174ffe6
 Description:  Provides Web UI for HTTPS DNS Proxy
 
-Package: luci-app-simple-adblock
-Version: git-19.113.55792-3c7b3fa-24
-Depends: libc, luci-mod-admin-full, simple-adblock
-Source: package/luci/applications/luci-app-simple-adblock
-License: GPL-3.0+
-Section: luci
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 3134
-Filename: luci-app-simple-adblock_git-19.113.55792-3c7b3fa-24_all.ipk
-Size: 3983
-SHA256sum: d315acd3004a3d98c58ca41cbdaa3e0fd3c883b87956490a7fed3bff204b10ed
-Description:  Provides Web UI for simple-adblock service.
-
-Package: luci-app-vpn-policy-routing
-Version: git-19.113.55792-3c7b3fa-38
-Depends: libc, luci-mod-admin-full, vpn-policy-routing
-Source: package/luci/applications/luci-app-vpn-policy-routing
-License: GPL-3.0+
-Section: luci
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 5599
-Filename: luci-app-vpn-policy-routing_git-19.113.55792-3c7b3fa-38_all.ipk
-Size: 6439
-SHA256sum: da6d65117da5af47012b3b3d58ce150e01aa7af01ca8c6ab8664a7f620409864
-Description:  Provides Web UI for vpn-policy-routing service.
-
 Package: luci-app-vpnbypass
 Version: git-19.113.55792-3c7b3fa-7
 Depends: libc, luci-mod-admin-full, vpnbypass
@@ -207,17 +179,17 @@ Description: A Luci module that uses wrtbwmon to track bandwidth usage.
 Source: https://github.com/Kiougar/luci-wrtbwmon
 
 Package: simple-adblock
-Version: 1.6.6-4
+Version: 1.6.6-5
 Depends: libc
 Source: /home/stangri/lede/Config/openwrt_packages/simple-adblock
 License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6746
-Filename: simple-adblock_1.6.6-4_all.ipk
-Size: 7887
-SHA256sum: b6d5b8ed4e5c858f3be3df7ba603902319e5b671fa40283b4b7dc9374fc589b8
+Installed-Size: 6795
+Filename: simple-adblock_1.6.6-5_all.ipk
+Size: 7903
+SHA256sum: efd6488d0ea5f0ce01a463a79b5f2635276125b38c08c6669bf4e223d1ad3fb0
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
@@ -271,7 +243,7 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.0.4-6
+Version: 0.0.4-7
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Conflicts: vpnbypass
 Source: /home/stangri/lede/Config/openwrt_packages/vpn-policy-routing
@@ -279,10 +251,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 9357
-Filename: vpn-policy-routing_0.0.4-6_all.ipk
-Size: 10686
-SHA256sum: d2fc22726f2f862118a6a55cbd84718dd264cc1454ca7939518180f07b2edc7f
+Installed-Size: 9371
+Filename: vpn-policy-routing_0.0.4-7_all.ipk
+Size: 10693
+SHA256sum: 8f6d6cb41d76a66a4e13f2da9c476e835567f2382a2939eb29d41058ee9e9f7b
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
