@@ -91,10 +91,10 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3271
+Installed-Size: 3272
 Filename: luci-app-simple-adblock_git-19.120.25736-3b379f0-27_all.ipk
-Size: 4119
-SHA256sum: 4ff4368e7371b4d0175ee3d1155bd0a9abd38346a5f3035a1557fc67d41ec5e5
+Size: 4120
+SHA256sum: b0a86894a74d74dd14d07dce06932fd51be4ad03c5d9297439f50d056b098049
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
