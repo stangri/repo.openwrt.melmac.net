@@ -84,31 +84,31 @@ SHA256sum: 3b1bce2662dca3dab8a854c34e45c5c696509614017175f85774f2708da68b91
 Description:  Provides Web UI for HTTPS DNS Proxy
 
 Package: luci-app-simple-adblock
-Version: git-19.120.24458-1b79446-27
+Version: git-19.120.25736-3b379f0-27
 Depends: libc, luci-mod-admin-full, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3276
-Filename: luci-app-simple-adblock_git-19.120.24458-1b79446-27_all.ipk
-Size: 4120
-SHA256sum: 35163b807258dc9daf21603d1d222682b8e31020b1d4558336a03033ce7bf746
+Installed-Size: 3271
+Filename: luci-app-simple-adblock_git-19.120.25736-3b379f0-27_all.ipk
+Size: 4119
+SHA256sum: 4ff4368e7371b4d0175ee3d1155bd0a9abd38346a5f3035a1557fc67d41ec5e5
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-19.120.24458-1b79446-41
+Version: git-19.120.25736-3b379f0-41
 Depends: libc, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 5518
-Filename: luci-app-vpn-policy-routing_git-19.120.24458-1b79446-41_all.ipk
-Size: 6352
-SHA256sum: 75bee2ae1ddcb7193c5da5c3e9c615cb289021ddb2f2c35964709a728cef4f24
+Installed-Size: 5526
+Filename: luci-app-vpn-policy-routing_git-19.120.25736-3b379f0-41_all.ipk
+Size: 6361
+SHA256sum: fa0188d4c1f0fc04cb67382ee8c889661b1e9ec0ac8b7ea552dedba16c66050d
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
