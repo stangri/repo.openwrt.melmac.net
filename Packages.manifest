@@ -139,6 +139,20 @@ Size: 2531
 SHA256sum: d06e7522ba630b04c186370e25ad0f6b389dece46579b5f106d9d8b2ee713a6a
 Description:  Provides Web UI for Wireshark-helper.
 
+Package: luci-app-wlanblinker
+Version: git-19.190.57021-ffdafd4-8
+Depends: libc, luci-mod-admin-full, wlanblinker
+Source: package/luci/applications/luci-app-wlanblinker
+License: GPL-3.0+
+Section: luci
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 1643
+Filename: luci-app-wlanblinker_git-19.190.57021-ffdafd4-8_all.ipk
+Size: 2469
+SHA256sum: 1abc34914faf932c065730fd851899f7c4c3ab7326575ac794b824dfc72f0845
+Description:  Provides Web UI for WLAN Blinker service.
+
 Package: luci-mod-alt-reboot
 Version: git-17.362.62617-4f644d9-10
 Depends: libc
