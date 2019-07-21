@@ -185,8 +185,8 @@ Section: net
 Architecture: all
 Installed-Size: 6758
 Filename: simple-adblock_1.7.0-7_all.ipk
-Size: 7899
-SHA256sum: ea272dc8963286ec4ed99a784455301ebda9de693d1f340d5d3be29f14e9b1a9
+Size: 7902
+SHA256sum: 21d01608ef8f107a41ac3bb117f8ad3df9636bf47c381c2cb7945d916581efe3
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
