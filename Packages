@@ -206,16 +206,16 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.0.7-1
+Version: 0.0.7-3
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 10232
-Filename: vpn-policy-routing_0.0.7-1_all.ipk
-Size: 11572
-SHA256sum: 3dc4e5d57a5fc6f345f428ca684df4371e78805c81fb570cc69c9018af267aa8
+Installed-Size: 10177
+Filename: vpn-policy-routing_0.0.7-3_all.ipk
+Size: 11515
+SHA256sum: 6c6ea07b884f43eba5eb20ef012bd70a70ab406edb4eee5ada564eac5548ed72
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
