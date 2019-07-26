@@ -108,7 +108,7 @@ Architecture: all
 Installed-Size: 5799
 Filename: luci-app-vpn-policy-routing_git-19.207.38375-e8ce961-45_all.ipk
 Size: 6642
-SHA256sum: 52a9d6b132074ee48a3d46899f1b551907b6db8dc6248ac6f7e3ea708221de35
+SHA256sum: 5c1ac573c12afccb23d86b7a80b47b816d21c2ad75b898a7678e766a53671d62
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
