@@ -214,10 +214,10 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 7585
+Installed-Size: 7589
 Filename: simple-adblock_1.7.1-25_all.ipk
-Size: 8810
-SHA256sum: 4249fbdad8abd4d678a3bd6c25cfec64a8dc7d57108a003641349d0c1dde9bbf
+Size: 8820
+SHA256sum: 338228842d9dc67066cd20a2616563e323eb75e5ffaf4d974e532d3041262f29
 Description:  This service provides DNSMASQ or Unbound based ad blocking.
  Please see the README for further information.
  
