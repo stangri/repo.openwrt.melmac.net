@@ -216,8 +216,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 7588
 Filename: simple-adblock_1.7.1-21_all.ipk
-Size: 8830
-SHA256sum: 67ba4b63041bd6cf4bba7d4a5133159b3e1cf7f033a266a5170aa94f6e7f24fd
+Size: 8831
+SHA256sum: ef2eb824622502276df31b579f0654ea7d8ef7662033246337ff9603e66aece9
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
