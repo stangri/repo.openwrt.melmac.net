@@ -207,17 +207,17 @@ Description: A Luci module that uses wrtbwmon to track bandwidth usage.
 Source: https://github.com/Kiougar/luci-wrtbwmon
 
 Package: simple-adblock
-Version: 1.7.1-21
+Version: 1.7.1-23
 Depends: libc
 Source: /home/stangri/development/Config/openwrt_packages/simple-adblock
 License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 7594
-Filename: simple-adblock_1.7.1-21_all.ipk
-Size: 8846
-SHA256sum: c7195f86c79362acc34ca4c48336525752448d3af38d2f34ef833419ad158259
+Installed-Size: 7602
+Filename: simple-adblock_1.7.1-23_all.ipk
+Size: 8806
+SHA256sum: 8b1b450de0e617e232e5d5a75a53adb15758c47b65e59178c94ba3685a7aee5c
 Description:  This service provides dnsmasq-based ad blocking.
  Please see the README for further information.
  
