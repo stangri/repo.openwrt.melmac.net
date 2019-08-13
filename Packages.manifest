@@ -214,10 +214,10 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 7607
+Installed-Size: 7601
 Filename: simple-adblock_1.7.1-25_all.ipk
-Size: 8834
-SHA256sum: 1c91124617bd62d25934c1356163b50434f0660539aedb11dbfb7a11551feb3a
+Size: 8827
+SHA256sum: a661df75d2ae07e8b9d39f52ee2af355814513301095eb7f01d623cc4d9f6edb
 Description:  This service provides DNSMASQ or Unbound based ad blocking.
  Please see the README for further information.
  
@@ -247,10 +247,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 10966
+Installed-Size: 10951
 Filename: vpn-policy-routing_0.0.7-23_all.ipk
-Size: 12278
-SHA256sum: 82af0fede410ae1b4e5a267fdce3c7cd00e7fa23064ad5b6c68eecdcfcba3f1b
+Size: 12261
+SHA256sum: f980d697e9b06fcf8bd0e303d9d07624d7b029133d7bed054e04428b069b1a0e
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
