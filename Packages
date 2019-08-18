@@ -212,10 +212,10 @@ Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 11087
+Installed-Size: 11094
 Filename: vpn-policy-routing_0.0.7-27_all.ipk
-Size: 12400
-SHA256sum: deb1a2c7f339098a92d6aaeb82e442ce6f6bd0c6ebe1568e3eabd9fe4fe6ab4f
+Size: 12405
+SHA256sum: 7d87e75770b1a64974dd8ad1953db1f4108f7eb442f68e3e35fa51d2cb7053f0
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
