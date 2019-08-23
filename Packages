@@ -178,15 +178,15 @@ SHA256sum: 5323cd3058c988e68859ea3f81b438928c89cfd96e9902022f6833196c93b8f6
 Description: A Luci module that uses wrtbwmon to track bandwidth usage.
 
 Package: simple-adblock
-Version: 1.8.0-2
+Version: 1.8.0-4
 Depends: libc
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 7638
-Filename: simple-adblock_1.8.0-2_all.ipk
-Size: 8864
-SHA256sum: 84fe731fe71e9c2fda01972f46f1cdf712512be006ec19e24fa2c881964ee68f
+Installed-Size: 7807
+Filename: simple-adblock_1.8.0-4_all.ipk
+Size: 9046
+SHA256sum: d17ce822bc853229afbbb3ac98023063c8917f8ae5a8a7d4b74d2034db4dbdbf
 Description:  This service provides DNSMASQ or Unbound based ad blocking.
  Please see the project's README at github for further information.
  
@@ -206,16 +206,16 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.1.0-6
+Version: 0.1.0-8
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 11077
-Filename: vpn-policy-routing_0.1.0-6_all.ipk
-Size: 12386
-SHA256sum: 3e5277b225a6d0e62216ee259b38cdc6713eeb8214a9e740f96adb1d68858821
+Installed-Size: 11151
+Filename: vpn-policy-routing_0.1.0-8_all.ipk
+Size: 12463
+SHA256sum: d790cae322a3f848a9c6d04ba9e6dad357ac7fd3a58ca82ccb53b920e43888db
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
