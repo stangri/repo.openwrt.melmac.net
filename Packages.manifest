@@ -239,7 +239,7 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.1.0-10
+Version: 0.1.0-12
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Conflicts: vpnbypass
 Source: /home/stangri/development/Config/openwrt_packages/vpn-policy-routing
@@ -247,10 +247,10 @@ License: GPL-3.0+
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 11162
-Filename: vpn-policy-routing_0.1.0-10_all.ipk
-Size: 12470
-SHA256sum: 65cde3b480d92883f4e95aa5c17aa23eaa6b11c3023e19530b25ac2b1bd00f9d
+Installed-Size: 11164
+Filename: vpn-policy-routing_0.1.0-12_all.ipk
+Size: 12472
+SHA256sum: e2e91a226af4baea032289677300369d40a390d94f25379fceb360383ff59614
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
