@@ -183,10 +183,10 @@ Depends: libc
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 7848
+Installed-Size: 7849
 Filename: simple-adblock_1.8.0-4_all.ipk
-Size: 9087
-SHA256sum: 8cd7450abedac5d7106895b0b74a50f62a3fa4ac913ebec2f3972b1d7c4a6886
+Size: 9083
+SHA256sum: 12440d14d4869bba52769df70f1fbee9a4e4f989fe8b22578a48b032dbb38b84
 Description:  This service provides DNSMASQ or Unbound based ad blocking.
  Please see the project's README at github for further information.
  
