@@ -98,31 +98,31 @@ SHA256sum: 21f3077cacbde08422d09d192623d233d10289d8c8dd0c3388c3ae425ee6d144
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-19.243.51105-2fab0ad-50
+Version: git-19.243.51105-2fab0ad-51
 Depends: libc, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 5196
-Filename: luci-app-vpn-policy-routing_git-19.243.51105-2fab0ad-50_all.ipk
-Size: 6034
-SHA256sum: 4d6fec43593ce845659f3beaa0330cdddb50feab66cf5834bcfd4f36b49b70ec
+Installed-Size: 5212
+Filename: luci-app-vpn-policy-routing_git-19.243.51105-2fab0ad-51_all.ipk
+Size: 6041
+SHA256sum: 257d80cdc9b66844de9db70283ff0d9ef96b5477c38410af7d4f6acc12c35b3b
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
-Version: git-19.190.57021-ffdafd4-8
+Version: git-19.243.51105-2fab0ad-9
 Depends: libc, luci-mod-admin-full, vpnbypass
 Source: package/luci/applications/luci-app-vpnbypass
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1627
-Filename: luci-app-vpnbypass_git-19.190.57021-ffdafd4-8_all.ipk
-Size: 2447
-SHA256sum: 420b1efdf7f7507d5d48fe4e736e9a2dfcb3ade8c40cb50872308703c6e2adf5
+Installed-Size: 1647
+Filename: luci-app-vpnbypass_git-19.243.51105-2fab0ad-9_all.ipk
+Size: 2471
+SHA256sum: 1b7296820be968cf09c4eb833edfff57492ee711971508bd23550e1e6e7d92c4
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
