@@ -72,27 +72,27 @@ SHA256sum: 0b2d4e65e621a379c6c40859732fbd5f30d70212efb98a8cab6a7e7933b5c752
 Description:  Provides Web UI for HTTPS DNS Proxy
 
 Package: luci-app-simple-adblock
-Version: git-19.240.39671-3fffcde-35
+Version: git-19.246.62933-f9074ad-36
 Depends: libc, luci-mod-admin-full, simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3893
-Filename: luci-app-simple-adblock_git-19.240.39671-3fffcde-35_all.ipk
-Size: 4697
-SHA256sum: 21f3077cacbde08422d09d192623d233d10289d8c8dd0c3388c3ae425ee6d144
+Installed-Size: 3910
+Filename: luci-app-simple-adblock_git-19.246.62933-f9074ad-36_all.ipk
+Size: 4720
+SHA256sum: 4c0fbc8f1757854eccf6a1d93d1cc99c6c1c665072a4a5267d99af7559cd0e98
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-19.246.62933-f9074ad-53
+Version: git-19.249.68069-204293a-54
 Depends: libc, luci-mod-admin-full, vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 5236
-Filename: luci-app-vpn-policy-routing_git-19.246.62933-f9074ad-53_all.ipk
-Size: 6066
-SHA256sum: 52c13243fc1c655aa20f2e00cd92acecd6e9fa69179c4f3be04fed43b064422f
+Installed-Size: 5256
+Filename: luci-app-vpn-policy-routing_git-19.249.68069-204293a-54_all.ipk
+Size: 6091
+SHA256sum: c7863a612691dce343efee0d72dd19d81a4751b34ea6e7ec86415078dfba4bc9
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -178,15 +178,15 @@ SHA256sum: 5323cd3058c988e68859ea3f81b438928c89cfd96e9902022f6833196c93b8f6
 Description: A Luci module that uses wrtbwmon to track bandwidth usage.
 
 Package: simple-adblock
-Version: 1.8.0-6
+Version: 1.8.0-8
 Depends: libc
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 7934
-Filename: simple-adblock_1.8.0-6_all.ipk
-Size: 9173
-SHA256sum: 653d2cc7fd99d08ede06590fc65d995af2129c4c070c60a7ca9b006509b41e51
+Installed-Size: 8282
+Filename: simple-adblock_1.8.0-8_all.ipk
+Size: 9527
+SHA256sum: d25b0b471a8c2de5789abac3132386a95eac5ca11b837a8da04da19094b85c37
 Description:  This service provides DNSMASQ or Unbound based ad blocking.
  Please see the project's README at github for further information.
  
