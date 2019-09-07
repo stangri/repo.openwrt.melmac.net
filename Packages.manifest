@@ -107,8 +107,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 5314
 Filename: luci-app-vpn-policy-routing_git-19.249.68069-204293a-56_all.ipk
-Size: 6142
-SHA256sum: 7be4a1451e9369558a18435762d92d64a3b3a23fa1f8bdd0a1a09803683791c1
+Size: 6144
+SHA256sum: 0d0d33f176e181c31486a1d6c58f0e5ff3df69fa26f4589b6c873179254cf952
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
