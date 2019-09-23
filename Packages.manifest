@@ -84,7 +84,7 @@ SHA256sum: 0b2d4e65e621a379c6c40859732fbd5f30d70212efb98a8cab6a7e7933b5c752
 Description:  Provides Web UI for HTTPS DNS Proxy
 
 Package: luci-app-simple-adblock
-Version: git-19.264.32154-6dba41c-37
+Version: git-19.266.35058-f3ff641-37
 Depends: libc, luci-mod-admin-full, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
@@ -92,9 +92,9 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 4065
-Filename: luci-app-simple-adblock_git-19.264.32154-6dba41c-37_all.ipk
-Size: 4881
-SHA256sum: 2cee6a772331457bf6e9181ab61cc507f7c01b4390d1fd57d2e0575c8e0ba324
+Filename: luci-app-simple-adblock_git-19.266.35058-f3ff641-37_all.ipk
+Size: 4880
+SHA256sum: 957f37946c1c9fc791728bbdbbf0f4c3a304e17348b1186117cdd5db7382aac2
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -207,17 +207,17 @@ Description: A Luci module that uses wrtbwmon to track bandwidth usage.
 Source: https://github.com/Kiougar/luci-wrtbwmon
 
 Package: simple-adblock
-Version: 1.8.1-5
+Version: 1.8.1-7
 Depends: libc
 Source: /home/stangri/development/Config/openwrt_packages/simple-adblock
 License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 8778
-Filename: simple-adblock_1.8.1-5_all.ipk
-Size: 10006
-SHA256sum: 09c36c4f34509f0068acf2e66ae6d44bb3586dbe68be004b372771a3108c06af
+Installed-Size: 8759
+Filename: simple-adblock_1.8.1-7_all.ipk
+Size: 9982
+SHA256sum: bdd7080c0a19675040215f8774581579c4a247d29610e511dd3792fec1308eec
 Description:  This service provides DNSMASQ or Unbound based ad blocking.
  Please see the project's README at github for further information.
  
