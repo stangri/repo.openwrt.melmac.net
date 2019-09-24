@@ -143,6 +143,17 @@ Size: 6597
 SHA256sum: 714a3d5d88d87cbe5fd144ee45c332cbb8584da0d397dc67be576ba2d33bee86
 Description:  Alternative Partition Reboot Web UI
 
+Package: luci-theme-argon
+Version: 1.1-01-20190809
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 2516949
+Filename: luci-theme-argon_1.1-01-20190809_all.ipk
+Size: 2517782
+SHA256sum: 3efede4625d550a96e6e09acb42432bac21808e0bd459b6bb95be8fe88586ca1
+Description:  Argon Theme
+
 Package: luci-theme-material-old
 Version: git-19.190.57021-ffdafd4-2
 Depends: libc
