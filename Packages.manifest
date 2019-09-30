@@ -27,6 +27,20 @@ SHA256sum: bacbb6cd5b475d86cf2d88c169a8ed717cb980e7efe7672eaef3d2b18adf43ff
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
+Package: https_dns_proxy
+Version: 2018-04-23-4
+Depends: libc, libcares, libcurl, libev, ca-bundle
+Source: /home/stangri/development/Config/openwrt_packages/https-dns-proxy
+License: MIT
+Section: net
+Maintainer: Aaron Drew <aarond10@gmail.com>
+Architecture: arm_cortex-a9_vfpv3
+Installed-Size: 14856
+Filename: https_dns_proxy_2018-04-23-4_arm_cortex-a9_vfpv3.ipk
+Size: 15595
+SHA256sum: aee3fc4b0c0a81f0d54f4a490e9332d54d0a26d680b50c78b012b814dca84a18
+Description:  DNS over HTTPS proxy server
+
 Package: luci-app-advanced-reboot
 Version: git-19.238.65398-f8e30d5-42
 Depends: libc, luci-mod-admin-full
