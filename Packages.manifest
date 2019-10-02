@@ -112,7 +112,7 @@ SHA256sum: 5c8b2a4232f7c5af3b91acf14c8ee3b519bb4c1b3d60656e0dd4c2a025f74ed1
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
-Version: git-19.274.29149-68190f4-9
+Version: git-19.274.29149-68190f4-10
 Depends: libc, luci-mod-admin-full, vpnbypass
 Source: package/luci/applications/luci-app-vpnbypass
 License: GPL-3.0+
@@ -120,9 +120,9 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1667
-Filename: luci-app-vpnbypass_git-19.274.29149-68190f4-9_all.ipk
-Size: 2491
-SHA256sum: 40dec48d53eab319ca945c9bb257631d3b02f1523f7f4234ed0487e5429ca0cb
+Filename: luci-app-vpnbypass_git-19.274.29149-68190f4-10_all.ipk
+Size: 2490
+SHA256sum: 625a7d4ae4f9fc596ed6fa0de880b1cc7f7c59e28012852bb1bfac2e231a1659
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
