@@ -189,15 +189,15 @@ SHA256sum: 5323cd3058c988e68859ea3f81b438928c89cfd96e9902022f6833196c93b8f6
 Description: A Luci module that uses wrtbwmon to track bandwidth usage.
 
 Package: simple-adblock
-Version: 1.8.1-9
+Version: 1.8.1-11
 Depends: libc
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 8757
-Filename: simple-adblock_1.8.1-9_all.ipk
-Size: 9980
-SHA256sum: 211d31af813597dca7243d759e7da90159cf29a570f05cc5cd96dad470e7453f
+Installed-Size: 9230
+Filename: simple-adblock_1.8.1-11_all.ipk
+Size: 10448
+SHA256sum: 383180c2e4765112f05711e54d5a27f81e7cd790c7cdb3e875ff46e0d15f6a70
 Description:  This service provides DNSMASQ or Unbound based ad blocking.
  Please see the project's README at github for further information.
  
