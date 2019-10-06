@@ -70,21 +70,21 @@ SHA256sum: 3d66e70368f89803d1d350dd03a9ad0fa63d052942d2725d7bc2971849e1b909
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https_dns_proxy
-Version: git-19.273.39907-b7ee57a-4
+Version: git-19.278.57548-95ea1e6-4
 Depends: libc, luci-mod-admin-full, https_dns_proxy
 Source: package/luci/applications/luci-app-https_dns_proxy
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1601
-Filename: luci-app-https_dns_proxy_git-19.273.39907-b7ee57a-4_all.ipk
-Size: 2426
-SHA256sum: 85136c959efe962a858aa4674b74e42d7f471ed68d3a03daf9e9d32b4208ea31
+Installed-Size: 2401
+Filename: luci-app-https_dns_proxy_git-19.278.57548-95ea1e6-4_all.ipk
+Size: 3246
+SHA256sum: 00135048f12f09069f6c3afcbfa127804213be9ca775b1b8ca7635236b625c19
 Description:  Provides Web UI for HTTPS DNS Proxy
 
 Package: luci-app-simple-adblock
-Version: git-19.276.17189-aed5e93-37
+Version: git-19.278.57548-95ea1e6-37
 Depends: libc, luci-mod-admin-full, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
@@ -92,9 +92,9 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 4062
-Filename: luci-app-simple-adblock_git-19.276.17189-aed5e93-37_all.ipk
-Size: 4881
-SHA256sum: ef6d1073fa2838d330c1de678873640dbc0f25099c92fd762265ffd879964a42
+Filename: luci-app-simple-adblock_git-19.278.57548-95ea1e6-37_all.ipk
+Size: 4879
+SHA256sum: 0b4b70c728543c88e4e5f0de07c2ed74c6af95f1e8db0c566d73485220475db0
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -194,15 +194,15 @@ SHA256sum: 586021158240c502465b417fe6b3a00eaf53f40ca1432c4868fa80d8ed94b6d5
 Description:  This is Material Theme with the old style colorful buttons.
 
 Package: luci-theme-rosy
-Version: git-19.270.39227-355223e-1
+Version: git-19.278.57548-95ea1e6-1
 Depends: libc
 Source: package/luci/applications/luci-theme-rosy
 Section: luci
 Architecture: all
 Installed-Size: 104665
-Filename: luci-theme-rosy_git-19.270.39227-355223e-1_all.ipk
-Size: 105470
-SHA256sum: fc22b3770fee821c34f74e5ae19e361807b546c1645aef17af66f6ea03e3d424
+Filename: luci-theme-rosy_git-19.278.57548-95ea1e6-1_all.ipk
+Size: 105469
+SHA256sum: a47ef70fb47e4e58394ae7d45833d57f7297bf835bc8fa5d24ad1e3d2e0ccca2
 Description:  Rosy Theme
 
 Package: luci-wrtbwmon
@@ -219,17 +219,17 @@ Description: A Luci module that uses wrtbwmon to track bandwidth usage.
 Source: https://github.com/Kiougar/luci-wrtbwmon
 
 Package: simple-adblock
-Version: 1.8.1-11
+Version: 1.8.2-1
 Depends: libc
 Source: /home/stangri/development/Config/openwrt_packages/simple-adblock
 License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 9230
-Filename: simple-adblock_1.8.1-11_all.ipk
-Size: 10448
-SHA256sum: 383180c2e4765112f05711e54d5a27f81e7cd790c7cdb3e875ff46e0d15f6a70
+Installed-Size: 9270
+Filename: simple-adblock_1.8.2-1_all.ipk
+Size: 10484
+SHA256sum: 6c52058fa19248597c0153305f872f9ac9bd1a5ab1d998d52da17320ce93a4bb
 Description:  This service provides DNSMASQ or Unbound based ad blocking.
  Please see the project's README at github for further information.
  
