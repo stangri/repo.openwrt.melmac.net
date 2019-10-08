@@ -60,15 +60,15 @@ SHA256sum: 3d66e70368f89803d1d350dd03a9ad0fa63d052942d2725d7bc2971849e1b909
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https_dns_proxy
-Version: git-19.278.57548-95ea1e6-4
+Version: git-19.281.57027-a154533-5
 Depends: libc, luci-mod-admin-full, https_dns_proxy
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 2401
-Filename: luci-app-https_dns_proxy_git-19.278.57548-95ea1e6-4_all.ipk
-Size: 3246
-SHA256sum: 00135048f12f09069f6c3afcbfa127804213be9ca775b1b8ca7635236b625c19
+Installed-Size: 2416
+Filename: luci-app-https_dns_proxy_git-19.281.57027-a154533-5_all.ipk
+Size: 3261
+SHA256sum: 1af3c617b82f79ab345bd94ca736232b23308a26244fa50ad93c220ffac7e66c
 Description:  Provides Web UI for HTTPS DNS Proxy
 
 Package: luci-app-simple-adblock
@@ -212,6 +212,34 @@ Installed-Size: 2495
 Filename: slider-support-ar300m_0.0.2-9_all.ipk
 Size: 3507
 SHA256sum: 357fc53ea013785893c1dab75832ee2fe225a72350aafe009602951cce7ba243
+Description:  This service enables switching between Router, Access Point and Wireless Repeater
+ modes of operation for supported routers equipped with slider switch.
+ Please see the README for further information.
+
+Package: slider-support-ar750
+Version: 0.0.2-9
+Depends: libc, relayd
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 2497
+Filename: slider-support-ar750_0.0.2-9_all.ipk
+Size: 3503
+SHA256sum: 68952b84524c8db996f676691970fab425e06993ba8486a664b8b2fff2102a7a
+Description:  This service enables switching between Router, Access Point and Wireless Repeater
+ modes of operation for supported routers equipped with slider switch.
+ Please see the README for further information.
+
+Package: slider-support-mt300n
+Version: 0.0.2-9
+Depends: libc, relayd
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 2492
+Filename: slider-support-mt300n_0.0.2-9_all.ipk
+Size: 3496
+SHA256sum: 25bf63856108a7f8deb184db66b3e126dfbc39e05f816c2ab6ba31f05eae7b86
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
