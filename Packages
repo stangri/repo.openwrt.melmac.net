@@ -83,6 +83,18 @@ Size: 4871
 SHA256sum: c138cf402ca12bd513220dc15499cb4c456df5ffc163d80eee8e370f4c9f6c0b
 Description:  Provides Web UI for simple-adblock service.
 
+Package: luci-app-simple-adblock
+Version: git-19.284.27115-3688774-39
+Depends: libc, luci-mod-admin-full, simple-adblock
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 5246
+Filename: luci-app-simple-adblock_git-19.284.27115-3688774-39_all.ipk
+Size: 6053
+SHA256sum: dc602c35fede78f5c12055d4776288f21e4a47eea60f351a0a47739c4fce06af
+Description:  Provides Web UI for simple-adblock service.
+
 Package: luci-app-vpn-policy-routing
 Version: git-19.282.50161-b768123-61
 Depends: libc, luci-mod-admin-full, vpn-policy-routing
