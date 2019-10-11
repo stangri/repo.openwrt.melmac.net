@@ -119,6 +119,18 @@ Size: 6957
 SHA256sum: 88ee1143e6d074acf265dee88b5f1ef571df0170ae71be58380faa53ea6ac6a2
 Description:  Provides Web UI for vpn-policy-routing service.
 
+Package: luci-app-vpn-policy-routing
+Version: git-19.284.27115-3688774-62
+Depends: libc, luci-mod-admin-full, vpn-policy-routing
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 6558
+Filename: luci-app-vpn-policy-routing_git-19.284.27115-3688774-62_all.ipk
+Size: 7431
+SHA256sum: 342a19490a7720b7361ea28cf078384835ae23d9133b9442d146adc8e7f4ace2
+Description:  Provides Web UI for vpn-policy-routing service.
+
 Package: luci-app-vpnbypass
 Version: git-19.274.29149-68190f4-10
 Depends: libc, luci-mod-admin-full, vpnbypass
