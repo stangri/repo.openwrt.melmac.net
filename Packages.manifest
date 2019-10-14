@@ -84,35 +84,7 @@ SHA256sum: 1af3c617b82f79ab345bd94ca736232b23308a26244fa50ad93c220ffac7e66c
 Description:  Provides Web UI for HTTPS DNS Proxy
 
 Package: luci-app-simple-adblock
-Version: git-19.283.21020-d18ef58-38
-Depends: libc, luci-mod-admin-full, simple-adblock
-Source: package/luci/applications/luci-app-simple-adblock
-License: GPL-3.0+
-Section: luci
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 4055
-Filename: luci-app-simple-adblock_git-19.283.21020-d18ef58-38_all.ipk
-Size: 4871
-SHA256sum: c138cf402ca12bd513220dc15499cb4c456df5ffc163d80eee8e370f4c9f6c0b
-Description:  Provides Web UI for simple-adblock service.
-
-Package: luci-app-simple-adblock
-Version: git-19.284.27115-3688774-39
-Depends: libc, luci-mod-admin-full, simple-adblock
-Source: package/luci/applications/luci-app-simple-adblock
-License: GPL-3.0+
-Section: luci
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 5245
-Filename: luci-app-simple-adblock_git-19.284.27115-3688774-39_all.ipk
-Size: 6048
-SHA256sum: 5adece4a85307d03c3ac0e54409755ae37c7104542507e2b03703fd563d68cf0
-Description:  Provides Web UI for simple-adblock service.
-
-Package: luci-app-simple-adblock
-Version: git-19.284.27115-3688774-40
+Version: git-19.287.53084-11e4377-40
 Depends: libc, luci-mod-admin-full, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
@@ -120,38 +92,10 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 5239
-Filename: luci-app-simple-adblock_git-19.284.27115-3688774-40_all.ipk
-Size: 6047
-SHA256sum: e705e0734437e5b7e9e6c5f2cc0823d445417bceb285a52be1edff4e76384265
+Filename: luci-app-simple-adblock_git-19.287.53084-11e4377-40_all.ipk
+Size: 6043
+SHA256sum: 60ff5290184a0f520ff23e1258e2a8c6aeaf3636f717c6bde58d025e08ce1f92
 Description:  Provides Web UI for simple-adblock service.
-
-Package: luci-app-vpn-policy-routing
-Version: git-19.282.50161-b768123-61
-Depends: libc, luci-mod-admin-full, vpn-policy-routing
-Source: package/luci/applications/luci-app-vpn-policy-routing
-License: GPL-3.0+
-Section: luci
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 6138
-Filename: luci-app-vpn-policy-routing_git-19.282.50161-b768123-61_all.ipk
-Size: 6957
-SHA256sum: 88ee1143e6d074acf265dee88b5f1ef571df0170ae71be58380faa53ea6ac6a2
-Description:  Provides Web UI for vpn-policy-routing service.
-
-Package: luci-app-vpn-policy-routing
-Version: git-19.284.27115-3688774-62
-Depends: libc, luci-mod-admin-full, vpn-policy-routing
-Source: package/luci/applications/luci-app-vpn-policy-routing
-License: GPL-3.0+
-Section: luci
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 6692
-Filename: luci-app-vpn-policy-routing_git-19.284.27115-3688774-62_all.ipk
-Size: 7571
-SHA256sum: 4d8d43cf6c436430b3fd0104db8a8077ddd73d1431c93b304895ec38de940474
-Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpn-policy-routing
 Version: git-19.287.53084-11e4377-63
@@ -273,22 +217,6 @@ Size: 7338
 SHA256sum: 5323cd3058c988e68859ea3f81b438928c89cfd96e9902022f6833196c93b8f6
 Description: A Luci module that uses wrtbwmon to track bandwidth usage.
 Source: https://github.com/Kiougar/luci-wrtbwmon
-
-Package: simple-adblock
-Version: 1.8.2-1
-Depends: libc
-Source: /home/stangri/development/Config/openwrt_packages/simple-adblock
-License: GPL-3.0-or-later
-Section: net
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 9299
-Filename: simple-adblock_1.8.2-1_all.ipk
-Size: 10519
-SHA256sum: b2d632f968f2cf668df192caf8a1323b4450286a40a0f0c35211af39f3b3a52d
-Description:  This service provides DNSMASQ or Unbound based ad blocking.
- Please see the project's README at github for further information.
- 
 
 Package: slider-support-ar300m
 Version: 0.0.2-9
