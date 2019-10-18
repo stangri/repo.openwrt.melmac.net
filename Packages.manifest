@@ -98,31 +98,31 @@ SHA256sum: 60ff5290184a0f520ff23e1258e2a8c6aeaf3636f717c6bde58d025e08ce1f92
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-19.287.53084-11e4377-63
+Version: git-19.290.74883-9c3e931-63
 Depends: libc, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6695
-Filename: luci-app-vpn-policy-routing_git-19.287.53084-11e4377-63_all.ipk
-Size: 7573
-SHA256sum: 3162922078eca153a1c7f99c5776249534fdfcdae66e85c48fef7d10fe14cccf
+Installed-Size: 6768
+Filename: luci-app-vpn-policy-routing_git-19.290.74883-9c3e931-63_all.ipk
+Size: 7653
+SHA256sum: 275466a51901d03df1a7b4478cd226517538bbfdb4bf1b1ea176a70572b665a5
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
-Version: git-19.274.29149-68190f4-10
+Version: git-19.290.74883-9c3e931-11
 Depends: libc, luci-mod-admin-full, vpnbypass
 Source: package/luci/applications/luci-app-vpnbypass
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1667
-Filename: luci-app-vpnbypass_git-19.274.29149-68190f4-10_all.ipk
-Size: 2490
-SHA256sum: 625a7d4ae4f9fc596ed6fa0de880b1cc7f7c59e28012852bb1bfac2e231a1659
+Installed-Size: 1687
+Filename: luci-app-vpnbypass_git-19.290.74883-9c3e931-11_all.ipk
+Size: 2510
+SHA256sum: 05b272055729ff6db8a2cf85c2952af9df6dab994326815802520b2ba132b142
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
@@ -264,41 +264,6 @@ Size: 3496
 SHA256sum: 25bf63856108a7f8deb184db66b3e126dfbc39e05f816c2ab6ba31f05eae7b86
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
- Please see the README for further information.
-
-Package: vpn-policy-routing
-Version: 0.2.0-1
-Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
-Conflicts: vpnbypass
-Source: /home/stangri/development/Config/openwrt_packages/vpn-policy-routing
-License: GPL-3.0+
-Section: net
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 11546
-Filename: vpn-policy-routing_0.2.0-1_all.ipk
-Size: 12857
-SHA256sum: dd5e21cb864836d450d1ff28fe09ef64afb289ba41167bec058adf7d607f12ba
-Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
- Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
-
-Package: vpnbypass
-Version: 1.3.1-3
-Depends: libc, ipset, iptables
-Conflicts: vpn-policy-routing
-Source: /home/stangri/development/Config/openwrt_packages/vpnbypass
-License: GPL-3.0+
-Section: net
-Maintainer: Stan Grishin <stangri@melmac.net>
-Architecture: all
-Installed-Size: 2202
-Filename: vpnbypass_1.3.1-3_all.ipk
-Size: 3425
-SHA256sum: 2ccf93f85dae0e11f12d445196275cbc509621db7c41d0b154def9362a00e962
-Description:  This service can be used to enable simple VPN split tunnelling.
- Supports accessing domains, IP ranges outside of your VPN tunnel.
- Also supports dedicating local ports/IP ranges for direct
- internet access (outside of your VPN tunnel).
  Please see the README for further information.
 
 Package: wireshark-helper
