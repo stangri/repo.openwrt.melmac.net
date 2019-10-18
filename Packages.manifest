@@ -84,17 +84,17 @@ SHA256sum: c6b3c3b533f2e1bb655f84b369d4e611cc945be0c51bc78556dbd7e90dcf67f7
 Description:  Provides Web UI for HTTPS DNS Proxy
 
 Package: luci-app-simple-adblock
-Version: git-19.287.53084-11e4377-40
+Version: git-19.291.61341-29e4b39-41
 Depends: libc, luci-mod-admin-full, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 License: GPL-3.0+
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 5239
-Filename: luci-app-simple-adblock_git-19.287.53084-11e4377-40_all.ipk
-Size: 6043
-SHA256sum: 60ff5290184a0f520ff23e1258e2a8c6aeaf3636f717c6bde58d025e08ce1f92
+Installed-Size: 5802
+Filename: luci-app-simple-adblock_git-19.291.61341-29e4b39-41_all.ipk
+Size: 6615
+SHA256sum: 4dbfa1efebd533c1b2f921e723fe5b120bb25b11ee6600b8dfa2b49faf3edae6
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -112,7 +112,7 @@ SHA256sum: 6f244cd02910ac680a7c0f23497cab840bbe0ffbd64092b7ff8bfce744c3729a
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
-Version: git-19.290.74883-9c3e931-11
+Version: git-19.291.61341-29e4b39-11
 Depends: libc, luci-mod-admin-full, vpnbypass
 Source: package/luci/applications/luci-app-vpnbypass
 License: GPL-3.0+
@@ -120,9 +120,9 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1687
-Filename: luci-app-vpnbypass_git-19.290.74883-9c3e931-11_all.ipk
-Size: 2510
-SHA256sum: 05b272055729ff6db8a2cf85c2952af9df6dab994326815802520b2ba132b142
+Filename: luci-app-vpnbypass_git-19.291.61341-29e4b39-11_all.ipk
+Size: 2509
+SHA256sum: 06433792c4c87f64e8b55bda38627edfdc90c5349915e8fea0131183a6afe42c
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
@@ -218,6 +218,22 @@ SHA256sum: 5323cd3058c988e68859ea3f81b438928c89cfd96e9902022f6833196c93b8f6
 Description: A Luci module that uses wrtbwmon to track bandwidth usage.
 Source: https://github.com/Kiougar/luci-wrtbwmon
 
+Package: simple-adblock
+Version: 1.8.2-2
+Depends: libc
+Source: /home/stangri/development/Config/openwrt_packages/simple-adblock
+License: GPL-3.0-or-later
+Section: net
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 9703
+Filename: simple-adblock_1.8.2-2_all.ipk
+Size: 10938
+SHA256sum: 6cbd09ab0933d182265c901912cf837216d101ce25cc4f97a3ad07769cdf6d9b
+Description:  This service provides DNSMASQ or Unbound based ad blocking.
+ Please see the project's README at github for further information.
+ 
+
 Package: slider-support-ar300m
 Version: 0.0.2-9
 Depends: libc, relayd
@@ -264,6 +280,41 @@ Size: 3496
 SHA256sum: 25bf63856108a7f8deb184db66b3e126dfbc39e05f816c2ab6ba31f05eae7b86
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
+ Please see the README for further information.
+
+Package: vpn-policy-routing
+Version: 0.2.0-2
+Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
+Conflicts: vpnbypass
+Source: /home/stangri/development/Config/openwrt_packages/vpn-policy-routing
+License: GPL-3.0+
+Section: net
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 11612
+Filename: vpn-policy-routing_0.2.0-2_all.ipk
+Size: 12920
+SHA256sum: 35ff347c496a0ad05f23523f45ad044eb2ca4832eaf179e714984212a7ea78d6
+Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
+ Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
+
+Package: vpnbypass
+Version: 1.3.1-3
+Depends: libc, ipset, iptables
+Conflicts: vpn-policy-routing
+Source: /home/stangri/development/Config/openwrt_packages/vpnbypass
+License: GPL-3.0+
+Section: net
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 2202
+Filename: vpnbypass_1.3.1-3_all.ipk
+Size: 3425
+SHA256sum: 2ccf93f85dae0e11f12d445196275cbc509621db7c41d0b154def9362a00e962
+Description:  This service can be used to enable simple VPN split tunnelling.
+ Supports accessing domains, IP ranges outside of your VPN tunnel.
+ Also supports dedicating local ports/IP ranges for direct
+ internet access (outside of your VPN tunnel).
  Please see the README for further information.
 
 Package: wireshark-helper
