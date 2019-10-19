@@ -72,27 +72,27 @@ SHA256sum: ced024de72bf3f3423fb22a0e521669d01f005e8c2b86e70a3391daa2668aa69
 Description:  Provides Web UI for HTTPS DNS Proxy
 
 Package: luci-app-simple-adblock
-Version: git-19.291.61341-29e4b39-41
+Version: git-19.291.72323-df6abf5-42
 Depends: libc, luci-mod-admin-full, simple-adblock
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 5802
-Filename: luci-app-simple-adblock_git-19.291.61341-29e4b39-41_all.ipk
-Size: 6615
-SHA256sum: 4dbfa1efebd533c1b2f921e723fe5b120bb25b11ee6600b8dfa2b49faf3edae6
+Installed-Size: 5872
+Filename: luci-app-simple-adblock_git-19.291.72323-df6abf5-42_all.ipk
+Size: 6680
+SHA256sum: 4dc0df617dcf1f9393ef3ba2c5c7916f30f92c53de528b92b120c1c646bf01a9
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-19.291.61341-29e4b39-63
+Version: git-19.291.72323-df6abf5-63
 Depends: libc, luci-mod-admin-full, vpn-policy-routing
 License: GPL-3.0+
 Section: luci
 Architecture: all
 Installed-Size: 6768
-Filename: luci-app-vpn-policy-routing_git-19.291.61341-29e4b39-63_all.ipk
-Size: 7652
-SHA256sum: 6f244cd02910ac680a7c0f23497cab840bbe0ffbd64092b7ff8bfce744c3729a
+Filename: luci-app-vpn-policy-routing_git-19.291.72323-df6abf5-63_all.ipk
+Size: 7653
+SHA256sum: 08166665e61d96ed4697f196812aff9529ea5957cb8a4d8e7882f215cf07c6b2
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -189,15 +189,15 @@ SHA256sum: 5323cd3058c988e68859ea3f81b438928c89cfd96e9902022f6833196c93b8f6
 Description: A Luci module that uses wrtbwmon to track bandwidth usage.
 
 Package: simple-adblock
-Version: 1.8.2-2
+Version: 1.8.2-3
 Depends: libc
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 9703
-Filename: simple-adblock_1.8.2-2_all.ipk
-Size: 10938
-SHA256sum: 6cbd09ab0933d182265c901912cf837216d101ce25cc4f97a3ad07769cdf6d9b
+Installed-Size: 9711
+Filename: simple-adblock_1.8.2-3_all.ipk
+Size: 10945
+SHA256sum: 4ef36aa24b64db05aeb8beed2cfd67e5416e621fa23fbde029ce40ad867694d4
 Description:  This service provides DNSMASQ or Unbound based ad blocking.
  Please see the project's README at github for further information.
  
@@ -245,16 +245,16 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.2.0-2
+Version: 0.2.0-3
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Conflicts: vpnbypass
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 11612
-Filename: vpn-policy-routing_0.2.0-2_all.ipk
-Size: 12920
-SHA256sum: 35ff347c496a0ad05f23523f45ad044eb2ca4832eaf179e714984212a7ea78d6
+Installed-Size: 11584
+Filename: vpn-policy-routing_0.2.0-3_all.ipk
+Size: 12893
+SHA256sum: 56eca915e348eadd5827d5b1d7dfc6dc6dc65517ede87ccbe9cacbeebbfe3488
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
