@@ -265,10 +265,10 @@ Conflicts: vpn-policy-routing
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2248
+Installed-Size: 2250
 Filename: vpnbypass_1.3.1-4_all.ipk
-Size: 3486
-SHA256sum: df7bbc966bb689f2f1d25bd598f75510efe89072ff7555aebd5f29e0e12782ee
+Size: 3477
+SHA256sum: 87eccf74835a599354320c6afa675f4a6f9d759e2f5ab1f05136cca343e99616
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
