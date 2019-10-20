@@ -101,10 +101,10 @@ Depends: libc, luci-mod-admin-full, vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3468
+Installed-Size: 3446
 Filename: luci-app-vpnbypass_git-19.293.62605-f7120fb-12_all.ipk
-Size: 4283
-SHA256sum: 4a227dd58c4a14f01318c149d97d1985264032cc5ecb2de31633680797a14678
+Size: 4259
+SHA256sum: 356dff29c3e7f71232400fcf75fd95adef80f63bbb440d52caed058c11c859ad
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
@@ -259,16 +259,16 @@ Description:  This service allows policy-based routing for L2TP, Openconnect, Op
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
 Package: vpnbypass
-Version: 1.3.1-3
+Version: 1.3.1-4
 Depends: libc, ipset, iptables
 Conflicts: vpn-policy-routing
 License: GPL-3.0+
 Section: net
 Architecture: all
-Installed-Size: 2202
-Filename: vpnbypass_1.3.1-3_all.ipk
-Size: 3425
-SHA256sum: 2ccf93f85dae0e11f12d445196275cbc509621db7c41d0b154def9362a00e962
+Installed-Size: 2254
+Filename: vpnbypass_1.3.1-4_all.ipk
+Size: 3478
+SHA256sum: 9855e925a7582aa4ab8bd96c81d8ea38c7b0c8aadab71542e47b9eb795076650
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
