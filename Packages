@@ -101,10 +101,10 @@ Depends: libc, luci-mod-admin-full, vpnbypass
 License: GPL-3.0+
 Section: luci
 Architecture: all
-Installed-Size: 3470
+Installed-Size: 3468
 Filename: luci-app-vpnbypass_git-19.293.62605-f7120fb-12_all.ipk
-Size: 4279
-SHA256sum: 554dc5ba7068e9552e53e2e53a78909530c08941518fc43b084abe0c5e81c7f3
+Size: 4283
+SHA256sum: 4a227dd58c4a14f01318c149d97d1985264032cc5ecb2de31633680797a14678
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
