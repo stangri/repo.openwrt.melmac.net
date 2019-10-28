@@ -98,17 +98,17 @@ SHA256sum: 4dc0df617dcf1f9393ef3ba2c5c7916f30f92c53de528b92b120c1c646bf01a9
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-19.291.72323-df6abf5-63
+Version: git-19.301.33306-7707b67-64
 Depends: libc, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
-License: GPL-3.0+
+License: GPL-3.0-or-later
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6768
-Filename: luci-app-vpn-policy-routing_git-19.291.72323-df6abf5-63_all.ipk
-Size: 7653
-SHA256sum: 08166665e61d96ed4697f196812aff9529ea5957cb8a4d8e7882f215cf07c6b2
+Installed-Size: 6944
+Filename: luci-app-vpn-policy-routing_git-19.301.33306-7707b67-64_all.ipk
+Size: 7822
+SHA256sum: 06681216ca94223c7b6836432f7a541abcbeea36fbdb889cc6b8b5992867b8a2
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -283,18 +283,18 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.2.0-3
+Version: 0.2.0-4
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Conflicts: vpnbypass
 Source: /home/stangri/development/Config/openwrt_packages/vpn-policy-routing
-License: GPL-3.0+
+License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 11584
-Filename: vpn-policy-routing_0.2.0-3_all.ipk
-Size: 12893
-SHA256sum: 56eca915e348eadd5827d5b1d7dfc6dc6dc65517ede87ccbe9cacbeebbfe3488
+Installed-Size: 11586
+Filename: vpn-policy-routing_0.2.0-4_all.ipk
+Size: 12898
+SHA256sum: 30f260603d34f69671721ce4826ee9c20bdf820e9f9c94b1dfdcaa29c459ec82
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
