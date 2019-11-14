@@ -25,110 +25,110 @@ Description:  This service can be used to fake internet connectivity for local d
 
 Package: luci-app-advanced-reboot
 Version: git-19.317.75660-a07d0b4-42
-Depends: libc, luci-compat, luci-mod-admin-full
+Depends: libc, luci-mod-admin-full
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 4778
 Filename: luci-app-advanced-reboot_git-19.317.75660-a07d0b4-42_all.ipk
-Size: 5784
-SHA256sum: f6e0857dc4789f41467da8aa61f3258d6c24f9f00fdcc77191af8af95dee4f6b
+Size: 5776
+SHA256sum: 160ee8a92bd82575fedb87a92546e73f7cf820e194022157cf774a6e7397024a
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/openwrt/luci/blob/master/applications/luci-app-advanced-reboot/README.md
 
 Package: luci-app-easyflash
 Version: git-19.317.75660-a07d0b4-5
-Depends: libc, luci-compat, luci-mod-admin-full
+Depends: libc, luci-mod-admin-full
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 953
 Filename: luci-app-easyflash_git-19.317.75660-a07d0b4-5_all.ipk
-Size: 1793
-SHA256sum: 2d7f233c383a31d0eb2bda8f6eb501e454167cb7b5534143ee1249d2e1c17438
+Size: 1788
+SHA256sum: 15cd455752e738db2e5dd30500ac967e3cef31611f8b28796bd96f8d00f87885
 Description:  Easy Flash Web UI
 
 Package: luci-app-fakeinternet
 Version: git-19.317.75660-a07d0b4-6
-Depends: libc, luci-compat, luci-mod-admin-full, fakeinternet
+Depends: libc, luci-mod-admin-full, fakeinternet
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 1533
 Filename: luci-app-fakeinternet_git-19.317.75660-a07d0b4-6_all.ipk
-Size: 2352
-SHA256sum: 13d3602ec1107dad67f7b75018568e9e6959582f9cb6e815dd888cd0d4f13638
+Size: 2345
+SHA256sum: ae48d5185d30ec8f59c88c69b2d06d4623c7511af738bf50d7fb5c40a0b3a79b
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https_dns_proxy
 Version: git-19.317.75660-a07d0b4-9
-Depends: libc, luci-compat, luci-mod-admin-full, https_dns_proxy
+Depends: libc, luci-mod-admin-full, https_dns_proxy
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 4907
 Filename: luci-app-https_dns_proxy_git-19.317.75660-a07d0b4-9_all.ipk
-Size: 5639
-SHA256sum: 8550fb8d0c57947fc8eb4b728152e88b1c1142febd7ffaa7f27893d015cfece6
+Size: 5631
+SHA256sum: e71d61e23835409ea43245ad599cd1ec67ba09ed301b468817d1a17235ef7b9f
 Description:  Provides Web UI for HTTPS DNS Proxy
 
 Package: luci-app-simple-adblock
 Version: git-19.317.75660-a07d0b4-42
-Depends: libc, luci-compat, luci-mod-admin-full, simple-adblock
+Depends: libc, luci-mod-admin-full, simple-adblock
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 5860
 Filename: luci-app-simple-adblock_git-19.317.75660-a07d0b4-42_all.ipk
-Size: 6680
-SHA256sum: eff346c387e295ff5aeb04782ff6f70550adf3c29861e1e5e536de63cf9a7202
+Size: 6674
+SHA256sum: 768e7fba7577153dc2a78dbfffd7c3579f7a0eb2c96996a048c8dd34dc6cce66
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
 Version: git-19.317.75660-a07d0b4-65
-Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing
+Depends: libc, luci-mod-admin-full, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 7115
 Filename: luci-app-vpn-policy-routing_git-19.317.75660-a07d0b4-65_all.ipk
-Size: 8004
-SHA256sum: 26a71791e2b8093bba2d538378c1c96b0de55c70784941c400ddf5c8442331d2
+Size: 7994
+SHA256sum: 0ceba6f1322d94823531d7a325b549f086f2811b46f9fe8479aa7c555c4a06d0
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
 Version: git-19.317.75660-a07d0b4-13
-Depends: libc, luci-compat, luci-mod-admin-full, vpnbypass
+Depends: libc, luci-mod-admin-full, vpnbypass
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 3457
 Filename: luci-app-vpnbypass_git-19.317.75660-a07d0b4-13_all.ipk
-Size: 4281
-SHA256sum: 53c010a4a6efe3f99f3c7caf755cf688e4c083ed2a6a836daf66b1db758615a3
+Size: 4277
+SHA256sum: e34f924d3890050fc18304b3659aa576bcb64f3767feab488cfb95ab97f710f7
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
 Version: git-19.317.75660-a07d0b4-4
-Depends: libc, luci-compat, luci-mod-admin-full, wireshark-helper
+Depends: libc, luci-mod-admin-full, wireshark-helper
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 1715
 Filename: luci-app-wireshark-helper_git-19.317.75660-a07d0b4-4_all.ipk
-Size: 2540
-SHA256sum: dc4412fbe26af9081a513655cce6850fa5e23ffe77e8514dee53e0a251180045
+Size: 2535
+SHA256sum: 9f5ff5fe7ffad9fa1ea719641f1382ea597ee2a8f32296c9d3cb4bcb7a653db4
 Description:  Provides Web UI for Wireshark-helper.
 
 Package: luci-app-wlanblinker
 Version: git-19.317.75660-a07d0b4-8
-Depends: libc, luci-compat, luci-mod-admin-full, wlanblinker
+Depends: libc, luci-mod-admin-full, wlanblinker
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 1643
 Filename: luci-app-wlanblinker_git-19.317.75660-a07d0b4-8_all.ipk
-Size: 2476
-SHA256sum: 7b021f4fe1bd84979b4dbf4386528e1515e3208cb7e1202c945bff49b0d55ac7
+Size: 2474
+SHA256sum: 61b9b0fe9ce5d05c7ee0de2d592e3ade5d279c8d6d4765d3bc8e87978d424640
 Description:  Provides Web UI for WLAN Blinker service.
 
 Package: luci-mod-alt-reboot
