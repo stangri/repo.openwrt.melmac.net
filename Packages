@@ -24,15 +24,15 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-advanced-reboot
-Version: git-20.009.37523-c8909a6-50
+Version: git-20.009.37523-c8909a6-51
 Depends: libc, luci-compat, luci-mod-admin-full
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 6332
-Filename: luci-app-advanced-reboot_git-20.009.37523-c8909a6-50_all.ipk
-Size: 7386
-SHA256sum: 0dbfb390e67c9b0b2660f1cf0e3019e57d4ae07304977a5345e6303ec972646a
+Installed-Size: 6353
+Filename: luci-app-advanced-reboot_git-20.009.37523-c8909a6-51_all.ipk
+Size: 7398
+SHA256sum: 2434934a0db275b38d568f49405406ed85e4fc70a68bb90c815f96d280ccbaae
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/openwrt/luci/blob/master/applications/luci-app-advanced-reboot/README.md
 
 Package: luci-app-easyflash
