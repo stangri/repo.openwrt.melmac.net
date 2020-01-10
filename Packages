@@ -29,10 +29,10 @@ Depends: libc, luci-compat, luci-mod-admin-full
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 6353
+Installed-Size: 6355
 Filename: luci-app-advanced-reboot_git-20.009.37523-c8909a6-51_all.ipk
-Size: 7398
-SHA256sum: 2434934a0db275b38d568f49405406ed85e4fc70a68bb90c815f96d280ccbaae
+Size: 7409
+SHA256sum: 40db62c58224a71f0cd54d0f2b3f95bf055e52afed98cffefcf1362bb888c700
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/openwrt/luci/blob/master/applications/luci-app-advanced-reboot/README.md
 
 Package: luci-app-easyflash
