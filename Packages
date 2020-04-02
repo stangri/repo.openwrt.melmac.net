@@ -84,39 +84,39 @@ SHA256sum: 2d96c6995df10a33b51cea2446f993087dd11decf0f1ba9c6cfcea018e11cd10
 Description:  Provides Web UI for HTTPS DNS Proxy
 
 Package: luci-app-simple-adblock
-Version: git-20.085.76008-a3eb1bf-42
+Version: git-20.093.48859-e2750a4-43
 Depends: libc, luci-compat, luci-mod-admin-full, simple-adblock
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 5822
-Filename: luci-app-simple-adblock_git-20.085.76008-a3eb1bf-42_all.ipk
-Size: 6701
-SHA256sum: 323a53a3872bb574a2074043ec71845cdc8ce0260dc67f7979b5765b5f90ce34
+Installed-Size: 5894
+Filename: luci-app-simple-adblock_git-20.093.48859-e2750a4-43_all.ipk
+Size: 6770
+SHA256sum: ce543da7e7ed34d4c03f70fec51bf00f9e1d9ab976d44fe757a183d6f9c14c71
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-20.091.54340-65a461e-69
+Version: git-20.093.48859-e2750a4-70
 Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 7038
-Filename: luci-app-vpn-policy-routing_git-20.091.54340-65a461e-69_all.ipk
-Size: 7992
-SHA256sum: 750f627cf58c6f48939ffd47d2e1f79c820441dfe462640f3eb485a4a2ae9269
+Installed-Size: 7071
+Filename: luci-app-vpn-policy-routing_git-20.093.48859-e2750a4-70_all.ipk
+Size: 8023
+SHA256sum: 241a7caefc8171abb113b5b91e50f959318a897e9d5a87fe7c98e4f34321f329
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
-Version: git-20.085.76008-a3eb1bf-15
+Version: git-20.093.48859-e2750a4-16
 Depends: libc, luci-compat, luci-mod-admin-full, vpnbypass
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 3377
-Filename: luci-app-vpnbypass_git-20.085.76008-a3eb1bf-15_all.ipk
-Size: 4259
-SHA256sum: 3a1736bf6fd0b7c09e6a8b90da6fcc0e409059c9472b3bf6ba7b45d6efa5901a
+Installed-Size: 3475
+Filename: luci-app-vpnbypass_git-20.093.48859-e2750a4-16_all.ipk
+Size: 4358
+SHA256sum: 20811f207c6870dd7d9cf122963242b57e4714dfebf2f9d845ed4855a359cf94
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
