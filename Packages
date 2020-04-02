@@ -89,10 +89,10 @@ Depends: libc, luci-compat, luci-mod-admin-full, simple-adblock
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 5894
+Installed-Size: 5905
 Filename: luci-app-simple-adblock_git-20.093.48859-e2750a4-43_all.ipk
-Size: 6770
-SHA256sum: ce543da7e7ed34d4c03f70fec51bf00f9e1d9ab976d44fe757a183d6f9c14c71
+Size: 6789
+SHA256sum: 64b424608e1b5735171713ca8a1f7d014141c20c05d1caf67e079a85a271cfca
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -101,10 +101,10 @@ Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 7071
+Installed-Size: 7074
 Filename: luci-app-vpn-policy-routing_git-20.093.48859-e2750a4-70_all.ipk
-Size: 8023
-SHA256sum: 241a7caefc8171abb113b5b91e50f959318a897e9d5a87fe7c98e4f34321f329
+Size: 8027
+SHA256sum: 209560b40d542356d8af9fa71c9748e6d8c5159a1580de3c6887158ae9255511
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -113,10 +113,10 @@ Depends: libc, luci-compat, luci-mod-admin-full, vpnbypass
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 3475
+Installed-Size: 3481
 Filename: luci-app-vpnbypass_git-20.093.48859-e2750a4-16_all.ipk
-Size: 4358
-SHA256sum: 20811f207c6870dd7d9cf122963242b57e4714dfebf2f9d845ed4855a359cf94
+Size: 4365
+SHA256sum: d455aae5001425c6e51cc1470501ed76ecca49e8f88676a6ab5b588c997e25e1
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
@@ -125,10 +125,10 @@ Depends: libc, luci-compat, luci-mod-admin-full, wireshark-helper
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 3622
+Installed-Size: 3624
 Filename: luci-app-wireshark-helper_git-20.093.48859-e2750a4-5_all.ipk
 Size: 4505
-SHA256sum: ea36a0e9b2c81175bbbd722c78f07458ee052d260d9fad3c930eedc745be7794
+SHA256sum: 68c6c97208e0ac9a6e7f8f21b0aae1eca15d6207045919ad5da46d9e084322d6
 Description:  Provides Web UI for Wireshark-helper.
 
 Package: luci-app-wlanblinker
