@@ -150,7 +150,7 @@ SHA256sum: 3a1736bf6fd0b7c09e6a8b90da6fcc0e409059c9472b3bf6ba7b45d6efa5901a
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
-Version: git-20.085.76008-a3eb1bf-4
+Version: git-20.093.33505-c8f9f6f-5
 Depends: libc, luci-compat, luci-mod-admin-full, wireshark-helper
 Source: package/luci/applications/luci-app-wireshark-helper
 SourceName: luci-app-wireshark-helper
@@ -158,10 +158,10 @@ License: GPL-3.0-or-later
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1654
-Filename: luci-app-wireshark-helper_git-20.085.76008-a3eb1bf-4_all.ipk
-Size: 2537
-SHA256sum: 221e500330a994925c6b7fc08f19e2aada1f9bf4e687ac70b12aec2c449b314c
+Installed-Size: 3542
+Filename: luci-app-wireshark-helper_git-20.093.33505-c8f9f6f-5_all.ipk
+Size: 4419
+SHA256sum: dd69ffb0a5c93f9407f5b8f92a843ffc5e9be8686fb2136db40c1e631cceebbc
 Description:  Provides Web UI for Wireshark-helper.
 
 Package: luci-app-wlanblinker
@@ -351,17 +351,17 @@ Description:  This service can be used to enable simple VPN split tunnelling.
 
 Package: wireshark-helper
 Version: 0.0.1-2
-Depends: libc, iptables-mod-tee
+Depends: libc, iptables-mod-tee, luci-compat
 Source: /home/stangri/development/Config/openwrt_packages/wireshark-helper
 SourceName: wireshark-helper
 License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 930
+Installed-Size: 1006
 Filename: wireshark-helper_0.0.1-2_all.ipk
-Size: 1922
-SHA256sum: d4ff3687d7b6349ba4dd322cc6087818c438ed0777f7026a71367319f33c499f
+Size: 2004
+SHA256sum: 92a94d675ad9f95718e8bce32c991fd79cc05803fa1f0ef8a743e5a7d8fe4467
 Description:  This service can be used to set up iptables rules required for WireShark.
 
 Package: wlanblinker
