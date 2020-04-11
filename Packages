@@ -96,27 +96,27 @@ SHA256sum: e4816321d41589a1627cbb5d4e4557ea388eb9461ea6cfff4890983c5f14b8d2
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-20.097.46114-77158e2-70
+Version: git-20.101.76895-43e8728
 Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 7071
-Filename: luci-app-vpn-policy-routing_git-20.097.46114-77158e2-70_all.ipk
-Size: 8021
-SHA256sum: f7138a38b37a24ef59380e7e8a336704e52ed6f9ee2279513b18e4051363b068
+Installed-Size: 7026
+Filename: luci-app-vpn-policy-routing_git-20.101.76895-43e8728_all.ipk
+Size: 7975
+SHA256sum: c2431a08b522b865404f9a923e0ad67bc8cb4461a96dfda7798694238ecd0d76
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
-Version: git-20.097.46114-77158e2-16
+Version: git-20.101.76895-43e8728
 Depends: libc, luci-compat, luci-mod-admin-full, vpnbypass
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 3476
-Filename: luci-app-vpnbypass_git-20.097.46114-77158e2-16_all.ipk
-Size: 4359
-SHA256sum: 46c9527c333e2b33c2721e4e524acf64cb7c9dd382d96e8b47152473aecf0ec8
+Installed-Size: 3446
+Filename: luci-app-vpnbypass_git-20.101.76895-43e8728_all.ipk
+Size: 4331
+SHA256sum: 467aaf6a0c8585b0943be5de91881bccccce91b50a03795cf37ce07f312b66f4
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
@@ -262,10 +262,10 @@ Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, i
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 11539
+Installed-Size: 11546
 Filename: vpn-policy-routing_0.2.1-8_all.ipk
-Size: 12700
-SHA256sum: 1415995932cdd68f8f2c6a0abd6f04150efd51fb1dc0cbd2d14a87cfdcb0b1ba
+Size: 12706
+SHA256sum: dbdacfc32e3d4fdd4c9ef1b9448121117574a2ea0ba3ac9e9d7a7b3dbc8884cd
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
