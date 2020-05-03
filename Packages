@@ -72,15 +72,15 @@ SHA256sum: d3d09ddebb1d739d9a310cc6fb8ac29b466513933e50893ae9e44cf85be48296
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-simple-adblock
-Version: git-20.115.52331-39a8290-46
+Version: git-20.123.58856-e62ca66-46
 Depends: libc, luci-compat, luci-mod-admin-full, simple-adblock
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 5904
-Filename: luci-app-simple-adblock_git-20.115.52331-39a8290-46_all.ipk
-Size: 6725
-SHA256sum: 6a445ed79ed2350a84d4b7ed39e432d517921fc3a80173e69f804f457fb1be16
+Filename: luci-app-simple-adblock_git-20.123.58856-e62ca66-46_all.ipk
+Size: 6728
+SHA256sum: b9d23442faf7be783dc52d80f737fd85a85a16111b1e8e90ab33e5746664fe4b
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -189,17 +189,17 @@ SHA256sum: 5323cd3058c988e68859ea3f81b438928c89cfd96e9902022f6833196c93b8f6
 Description: A Luci module that uses wrtbwmon to track bandwidth usage.
 
 Package: simple-adblock
-Version: 1.8.3-3
+Version: 1.8.3-5
 Depends: libc
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 9906
-Filename: simple-adblock_1.8.3-3_all.ipk
-Size: 10966
-SHA256sum: 1938b6948b698c6fe82d150661338b0d57117609559f9c709233494df6d426df
+Installed-Size: 9905
+Filename: simple-adblock_1.8.3-5_all.ipk
+Size: 10964
+SHA256sum: 7384eddf3472b8edac7dc21853a695f05f28f0629ec1f9da2fd3b32bd358c5f0
 Description:  This service provides DNSMASQ or Unbound based ad blocking.
- Please see the project's README at github for further information.
+ Please see the project's README on GitHub for further information.
  
 
 Package: slider-support-ar300m
