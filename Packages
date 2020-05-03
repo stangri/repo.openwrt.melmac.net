@@ -155,15 +155,15 @@ SHA256sum: 3efede4625d550a96e6e09acb42432bac21808e0bd459b6bb95be8fe88586ca1
 Description:  Argon Theme
 
 Package: luci-theme-material-old
-Version: git-20.115.52331-39a8290-2
+Version: git-20.123.58856-e62ca66-2
 Depends: libc
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 48194
-Filename: luci-theme-material-old_git-20.115.52331-39a8290-2_all.ipk
-Size: 49147
-SHA256sum: c7971cb1970a814b72d9ea24a0c4aaedcb004411b879c6e9ae0b55ff2eceb6a1
+Installed-Size: 48870
+Filename: luci-theme-material-old_git-20.123.58856-e62ca66-2_all.ipk
+Size: 49765
+SHA256sum: 37f19fb7d9334700969185bc1082ca2d4db8e2e03fcfbb0f96eef07bf8dab584
 Description:  This is Material Theme with the old style colorful buttons.
 
 Package: luci-theme-rosy
