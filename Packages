@@ -65,10 +65,10 @@ Depends: libc, luci-compat, luci-mod-admin-full, https-dns-proxy
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 5773
+Installed-Size: 5786
 Filename: luci-app-https-dns-proxy_git-20.125.82541-d320179-7_all.ipk
-Size: 6620
-SHA256sum: 4bf6f51c0d0e3aa694502c74d9312881b7d9e0adf5c8581a37e84dd353cd797a
+Size: 6629
+SHA256sum: f5736683488818106b0ea54a7a21b233069cc127e8a2e5cc1bd3aa7c20a82b46
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-simple-adblock
