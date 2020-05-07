@@ -105,7 +105,7 @@ SHA256sum: b9d23442faf7be783dc52d80f737fd85a85a16111b1e8e90ab33e5746664fe4b
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-20.125.82541-d320179-73
+Version: git-20.128.71839-5366acb-73
 Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 SourceName: luci-app-vpn-policy-routing
@@ -114,9 +114,9 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 7064
-Filename: luci-app-vpn-policy-routing_git-20.125.82541-d320179-73_all.ipk
-Size: 7968
-SHA256sum: fab497b1228fec309e9b2ce0b72ef2cd4f90119d3059f029e94acacd6361edda
+Filename: luci-app-vpn-policy-routing_git-20.128.71839-5366acb-73_all.ipk
+Size: 7969
+SHA256sum: a346fcc68583e923212427a6f2f560f40c0ba12a96706d39c9bff97d3b6fa1c8
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -308,10 +308,10 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 11623
+Installed-Size: 11621
 Filename: vpn-policy-routing_0.2.1-15_all.ipk
-Size: 12792
-SHA256sum: 7ee9eda8f3e6d3a535f42439d9c741b325de10c6a77cf420bd4c96f58e4f8396
+Size: 12785
+SHA256sum: 97656daee673823001b8d022e12df845bdc441393a23da8e6be157233cc50115
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
