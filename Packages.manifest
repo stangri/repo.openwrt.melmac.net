@@ -83,10 +83,10 @@ License: GPL-3.0-or-later
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6020
+Installed-Size: 6108
 Filename: luci-app-https-dns-proxy_git-20.142.51595-0c6fd62-8_all.ipk
-Size: 6912
-SHA256sum: 1e3eeadeac5e5ae1a1464f3a05ac201f13496964811dd6788c3ab6e80d98bb48
+Size: 7003
+SHA256sum: 1f572e98dfa4ef47620f09ed3578e03f113b0734cf9392d8651706b0102324fb
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-simple-adblock
@@ -98,10 +98,10 @@ License: GPL-3.0-or-later
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6050
+Installed-Size: 6340
 Filename: luci-app-simple-adblock_git-20.142.51595-0c6fd62-47_all.ipk
-Size: 6924
-SHA256sum: 6d7bf9c4b9d346b880e85116141fd8798c8be9ab091082385c834344a7d3df16
+Size: 7275
+SHA256sum: 3298b12ac7a6d88df8e4d56176dea371ab4bdfb2032afa87366601a9a115bf82
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
