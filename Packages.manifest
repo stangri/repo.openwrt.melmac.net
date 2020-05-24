@@ -242,8 +242,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 9903
 Filename: simple-adblock_1.8.3-7_all.ipk
-Size: 10963
-SHA256sum: fa671a81152eafde5d996d8084264809c1369ced60b097a408948242b3a20156
+Size: 10965
+SHA256sum: e536e2531894521d77d60cc3aa4ee92c7df4f586be980b74cab1b87e2abe52bc
 Description:  This service provides DNSMASQ or Unbound based ad blocking.
  Please see the project's README on GitHub for further information.
  
