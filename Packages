@@ -194,10 +194,10 @@ Depends: libc, jshn, jsonfilter
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 10225
+Installed-Size: 10226
 Filename: simple-adblock_1.8.3-13_all.ipk
-Size: 11410
-SHA256sum: 691eefa1802ea040266f442b92ebe07483efdc866792c35003fdfb6ef3df6eda
+Size: 11415
+SHA256sum: 43a8c4a1359ff08e6f75100bb422ee5a0772a47fa7fe145bc154b74ef102d8fb
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both black- and white-listing.
  Please see https://github.com/openwrt/packages/blob/master/net/simple-adblock/files/README.md for more information.
