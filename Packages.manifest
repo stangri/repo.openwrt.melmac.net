@@ -30,7 +30,7 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-advanced-reboot
-Version: git-20.166.62203-d0a2566
+Version: git-20.213.35577-5e79fc4
 Depends: libc, luci-compat, luci-mod-admin-full
 Source: package/luci/applications/luci-app-advanced-reboot
 SourceName: luci-app-advanced-reboot
@@ -39,9 +39,9 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 6813
-Filename: luci-app-advanced-reboot_git-20.166.62203-d0a2566_all.ipk
-Size: 7909
-SHA256sum: 3c1ff4b5b3d75d207c4f2dd5e03ae7d4d099e1ff35712dba085e4db12d5dd49d
+Filename: luci-app-advanced-reboot_git-20.213.35577-5e79fc4_all.ipk
+Size: 7908
+SHA256sum: d3ac1c3feb3bb6abb32ac215b8f917e03a3998104b245b0ea30021fac0d1682a
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://github.com/openwrt/luci/blob/master/applications/luci-app-advanced-reboot/README.md
 
 Package: luci-app-easyflash
@@ -75,7 +75,7 @@ SHA256sum: 78342bafbaa36c8305e21d264864bd22663ddf0cfc399c1712ed58f35e6dc5ff
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: git-20.166.62203-d0a2566
+Version: git-20.213.35577-5e79fc4
 Depends: libc, luci-compat, luci-mod-admin-full, https-dns-proxy
 Source: package/luci/applications/luci-app-https-dns-proxy
 SourceName: luci-app-https-dns-proxy
@@ -84,13 +84,13 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 6297
-Filename: luci-app-https-dns-proxy_git-20.166.62203-d0a2566_all.ipk
-Size: 7227
-SHA256sum: 4d121bebcc470853faa5a4d705c9b7581c82269061a9cbf39adc93f01204fd49
+Filename: luci-app-https-dns-proxy_git-20.213.35577-5e79fc4_all.ipk
+Size: 7228
+SHA256sum: 0640a6ee9c0ad9637c7130db82732ea61cea26a89ed9db7ed8b2af9908c3f3f5
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-simple-adblock
-Version: git-20.166.62203-d0a2566
+Version: git-20.213.35577-5e79fc4
 Depends: libc, luci-compat, luci-mod-admin-full, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 SourceName: luci-app-simple-adblock
@@ -99,13 +99,13 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 6368
-Filename: luci-app-simple-adblock_git-20.166.62203-d0a2566_all.ipk
-Size: 7311
-SHA256sum: f6a4b8b60a446911262cc0fab54bc418f6ccda548287788d4f515cde25d56e2c
+Filename: luci-app-simple-adblock_git-20.213.35577-5e79fc4_all.ipk
+Size: 7312
+SHA256sum: 01785d693ee7e876b4c3023abe46116f0517e770af84c3659c690656e2069b38
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-20.166.62203-d0a2566
+Version: git-20.213.35577-5e79fc4
 Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 SourceName: luci-app-vpn-policy-routing
@@ -113,14 +113,14 @@ License: GPL-3.0-or-later
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 7292
-Filename: luci-app-vpn-policy-routing_git-20.166.62203-d0a2566_all.ipk
-Size: 8216
-SHA256sum: 4a1dbdbd10bf6978f3a68001cac940b653f3e40b4b926916552fa657602c1275
+Installed-Size: 7289
+Filename: luci-app-vpn-policy-routing_git-20.213.35577-5e79fc4_all.ipk
+Size: 8214
+SHA256sum: dfb909c01211184ebb67fea3facf28ae5d5033268f173cb3d75d413740d4f443
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
-Version: git-20.166.62203-d0a2566
+Version: git-20.213.35577-5e79fc4
 Depends: libc, luci-compat, luci-mod-admin-full, vpnbypass
 Source: package/luci/applications/luci-app-vpnbypass
 SourceName: luci-app-vpnbypass
@@ -129,9 +129,9 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 3643
-Filename: luci-app-vpnbypass_git-20.166.62203-d0a2566_all.ipk
-Size: 4548
-SHA256sum: fdd7cdd9ddba8c04396090e1fb340ce960d0dab566ddf7c29376c576905eb593
+Filename: luci-app-vpnbypass_git-20.213.35577-5e79fc4_all.ipk
+Size: 4551
+SHA256sum: 943f1252d5d1b04712ef93b36af2c903019e3018965f6d3747fbee96f45632ca
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
@@ -240,10 +240,10 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 10157
+Installed-Size: 10146
 Filename: simple-adblock_1.8.3-13_all.ipk
-Size: 11340
-SHA256sum: 6eb7879743f7aae899f831eb7ee2cbe15fc3738cb9681f8215a64d61833f8d18
+Size: 11328
+SHA256sum: a2ff013894f4ec15f6ecfae1a13f83b1da1580cd70171d820b6cbad03e954b7f
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both black- and white-listing.
  Please see https://github.com/openwrt/packages/blob/master/net/simple-adblock/files/README.md for more information.
@@ -301,7 +301,7 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.2.1-21
+Version: 0.2.1-23
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Source: /home/stangri/development/Config/openwrt_packages/vpn-policy-routing
 SourceName: vpn-policy-routing
@@ -309,10 +309,10 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 12158
-Filename: vpn-policy-routing_0.2.1-21_all.ipk
-Size: 13331
-SHA256sum: 08135e320b574ba971f126a21280272ea2c192569f2ea7892a54a713a8e347b1
+Installed-Size: 12168
+Filename: vpn-policy-routing_0.2.1-23_all.ipk
+Size: 13343
+SHA256sum: 2563afff681c4364c14ee9076f4c5841550157c37c7766bce81d6d74c6238671
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
