@@ -83,10 +83,10 @@ License: GPL-3.0-or-later
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6297
+Installed-Size: 6390
 Filename: luci-app-https-dns-proxy_git-20.213.35577-5e79fc4_all.ipk
-Size: 7228
-SHA256sum: 0640a6ee9c0ad9637c7130db82732ea61cea26a89ed9db7ed8b2af9908c3f3f5
+Size: 7313
+SHA256sum: 851086a228d45ccaac57386f2baa36ec73e3dd6e7597412f4c6b4b20858bd72c
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-simple-adblock
@@ -250,7 +250,7 @@ Description:  Simple adblock script to block ad or abuse/malware domains with DN
  
 
 Package: slider-support-ar300m
-Version: 0.0.2-9
+Version: 0.0.2-10
 Depends: libc, relayd
 Source: /home/stangri/development/Config/openwrt_packages/slider-support
 SourceName: slider-support-ar300m
@@ -258,16 +258,16 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2472
-Filename: slider-support-ar300m_0.0.2-9_all.ipk
-Size: 3491
-SHA256sum: afa0d6bf5d90f454950df1398cf9133876aa69af5d6c5c1b830a8bc519daf825
+Installed-Size: 2548
+Filename: slider-support-ar300m_0.0.2-10_all.ipk
+Size: 3570
+SHA256sum: d107342a8699906d4868032dd4690f682066d65b96e1b42a0603190ae73711b3
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
 
 Package: slider-support-ar750
-Version: 0.0.2-9
+Version: 0.0.2-10
 Depends: libc, relayd
 Source: /home/stangri/development/Config/openwrt_packages/slider-support
 SourceName: slider-support-ar750
@@ -275,16 +275,16 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2474
-Filename: slider-support-ar750_0.0.2-9_all.ipk
-Size: 3492
-SHA256sum: 1889400f67b328bcee1efd20a4900d5ec9f7cfd7bd2f6f1b6885fa8af7eb911b
+Installed-Size: 2550
+Filename: slider-support-ar750_0.0.2-10_all.ipk
+Size: 3565
+SHA256sum: a2b9e3806a74980cc0066c7e1a481dfbb7bc5d9aedac0ac90d7254f76914d06e
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
 
 Package: slider-support-mt300n
-Version: 0.0.2-9
+Version: 0.0.2-10
 Depends: libc, relayd
 Source: /home/stangri/development/Config/openwrt_packages/slider-support
 SourceName: slider-support-mt300n
@@ -292,10 +292,10 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2469
-Filename: slider-support-mt300n_0.0.2-9_all.ipk
-Size: 3484
-SHA256sum: de419bd91c19159e4ad6d869701fe361262850c6a44c7a38c75a0418fbbb240b
+Installed-Size: 2545
+Filename: slider-support-mt300n_0.0.2-10_all.ipk
+Size: 3561
+SHA256sum: 061fb0c255d55343f86d770c9431f7131814a8e12e9791077bf7861104a8761e
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
