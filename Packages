@@ -209,10 +209,10 @@ Depends: libc, relayd
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 2544
+Installed-Size: 2549
 Filename: slider-support-ar150_0.0.3-1_all.ipk
-Size: 3563
-SHA256sum: 3a85cb49364fc3f98469fd408e65ae5b2e668c469f534c933346992ec0a7026f
+Size: 3565
+SHA256sum: 4b06e29d9c36b882bd0efda827aeff411f1549363743db3598216333ddd1740a
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -223,10 +223,10 @@ Depends: libc, relayd
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 2547
+Installed-Size: 2551
 Filename: slider-support-ar300m_0.0.3-1_all.ipk
-Size: 3568
-SHA256sum: 902b394813babdc25700f80b28b49c5b8fcf23488ced823f955a823350ab030f
+Size: 3573
+SHA256sum: 9d90843bd56d75e73c591de83a33907041ae54e8b72e354c0c79d62929ece446
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -237,10 +237,10 @@ Depends: libc, relayd
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 2549
+Installed-Size: 2552
 Filename: slider-support-ar750_0.0.3-1_all.ipk
-Size: 3570
-SHA256sum: 4db60a5767dcc8a2f424b9fde164e718a2bb3639f2405db3299b3379a9615c0c
+Size: 3574
+SHA256sum: 397dafff93074730792a072e316c8970351a9fcb9c0f7a192728e62b5c0c16fb
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -251,10 +251,10 @@ Depends: libc, relayd
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 2543
+Installed-Size: 2548
 Filename: slider-support-mt300n_0.0.3-1_all.ipk
-Size: 3563
-SHA256sum: d57f185e60a6d202ebbb41ce0c96d6e5231922429144de5d2fde2cfca2dcd452
+Size: 3572
+SHA256sum: 1cb8163f043c16b268bb096440a4900320298df44e480a997e6cf778bd9d0556
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
