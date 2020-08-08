@@ -211,8 +211,8 @@ Section: net
 Architecture: all
 Installed-Size: 2544
 Filename: slider-support-ar150_0.0.3-1_all.ipk
-Size: 3565
-SHA256sum: 8fd68cbab67e2cc8b55807eaa4d5f230fc287fa99e7af931fd8870b4aeb5f55c
+Size: 3563
+SHA256sum: 3a85cb49364fc3f98469fd408e65ae5b2e668c469f534c933346992ec0a7026f
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
