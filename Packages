@@ -189,15 +189,15 @@ SHA256sum: 5323cd3058c988e68859ea3f81b438928c89cfd96e9902022f6833196c93b8f6
 Description: A Luci module that uses wrtbwmon to track bandwidth usage.
 
 Package: simple-adblock
-Version: 1.8.3-13
+Version: 1.8.3-15
 Depends: libc, jshn, jsonfilter
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 10146
-Filename: simple-adblock_1.8.3-13_all.ipk
-Size: 11328
-SHA256sum: a2ff013894f4ec15f6ecfae1a13f83b1da1580cd70171d820b6cbad03e954b7f
+Installed-Size: 10150
+Filename: simple-adblock_1.8.3-15_all.ipk
+Size: 11334
+SHA256sum: 22468d5145e03b5ae798e322887bce044851e2f09306051c2679c14ae28ce350
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both black- and white-listing.
  Please see https://github.com/openwrt/packages/blob/master/net/simple-adblock/files/README.md for more information.
