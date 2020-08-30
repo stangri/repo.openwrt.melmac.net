@@ -113,10 +113,10 @@ License: GPL-3.0-or-later
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 7305
+Installed-Size: 7409
 Filename: luci-app-vpn-policy-routing_git-20.213.35577-5e79fc4_all.ipk
-Size: 8232
-SHA256sum: 9b077da19f508979bdf9957466bbe154d33ad981d240c0899105d8e0f06efe31
+Size: 8338
+SHA256sum: 34ae0d0826bb2afd28bead0e9104628530c5d54a923272c229e1930d8dd26079
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -128,10 +128,10 @@ License: GPL-3.0-or-later
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3678
+Installed-Size: 3780
 Filename: luci-app-vpnbypass_git-20.213.35577-5e79fc4_all.ipk
-Size: 4579
-SHA256sum: 226fb51e814327378de6d01a76747e2ce692cbae83c5ca410fe8328a1078f213
+Size: 4680
+SHA256sum: 49ddcd3888eae130f1f9c94e78d96ea48c1329ae880902fb511158e2fbe7c30a
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
@@ -143,10 +143,10 @@ License: GPL-3.0-or-later
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3760
+Installed-Size: 3875
 Filename: luci-app-wireshark-helper_unknown_all.ipk
-Size: 4633
-SHA256sum: 5328d31f24387e94759acf8e882b9ac08eb05a1c5b97e1c7c21521fffd5256aa
+Size: 4752
+SHA256sum: b791f2329865b91b969f4a03c41b5ef7df4592d010419299e1b113d537bd6568
 Description:  Provides Web UI for Wireshark-helper.
 
 Package: luci-app-wlanblinker
@@ -326,10 +326,10 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 12376
+Installed-Size: 12367
 Filename: vpn-policy-routing_0.2.1-29_all.ipk
-Size: 13549
-SHA256sum: 1429a51afdd51e981731e2790c14ecdf92aea5245f3b1cc1d392b6e2f9ee8a0f
+Size: 13545
+SHA256sum: 2a95055a0258ce72679ce450a3bf82b1642f29cc157b6134ed9a7b273582899f
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
@@ -342,10 +342,10 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2380
+Installed-Size: 2363
 Filename: vpnbypass_1.3.1-9_all.ipk
-Size: 3472
-SHA256sum: 10823ff17c2a719b40e5c324b6fd525b9ac8525ad7d35be1f9710ce3e77a57a3
+Size: 3457
+SHA256sum: b459564816baaa0189fb86cba42eb6ad6bcf162539874fc19471891e726155a2
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
@@ -361,10 +361,10 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1110
+Installed-Size: 1093
 Filename: wireshark-helper_0.0.1-5_all.ipk
-Size: 2109
-SHA256sum: 8328b7ad42c0e9b470ba8fc872028fd5bd20ce983d9e1e59aadfa16915709280
+Size: 2090
+SHA256sum: 6f375f13f20d945ea4ac1bb690ac05e151667461e41673efe8fc3026c366e090
 Description:  This service can be used to set up iptables rules required for WireShark.
 
 Package: wlanblinker
