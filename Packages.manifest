@@ -98,10 +98,10 @@ License: GPL-3.0-or-later
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6361
+Installed-Size: 6352
 Filename: luci-app-simple-adblock_git-20.213.35577-5e79fc4_all.ipk
-Size: 7296
-SHA256sum: d4b13bb2636e257d04485c4ddf4727b0ad39be2df993022a82231004e8cbefe7
+Size: 7294
+SHA256sum: b529ab1e20a2d4db1e37a751c9a64d9da18d580a70e814b551157f46f2741d99
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -113,10 +113,10 @@ License: GPL-3.0-or-later
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 7326
+Installed-Size: 7305
 Filename: luci-app-vpn-policy-routing_git-20.213.35577-5e79fc4_all.ipk
-Size: 8255
-SHA256sum: 69eab78e06cb0bcc7ead7fbb512aacbd2641bb0831b4ee3b208c08740f914d6a
+Size: 8232
+SHA256sum: 9b077da19f508979bdf9957466bbe154d33ad981d240c0899105d8e0f06efe31
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -128,10 +128,10 @@ License: GPL-3.0-or-later
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3685
+Installed-Size: 3678
 Filename: luci-app-vpnbypass_git-20.213.35577-5e79fc4_all.ipk
-Size: 4591
-SHA256sum: bd3d91dc7134044f19b12409f4496c2e2e7360caff3f45211357678a6a560273
+Size: 4579
+SHA256sum: 226fb51e814327378de6d01a76747e2ce692cbae83c5ca410fe8328a1078f213
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
@@ -143,10 +143,10 @@ License: GPL-3.0-or-later
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3775
+Installed-Size: 3760
 Filename: luci-app-wireshark-helper_unknown_all.ipk
-Size: 4651
-SHA256sum: 0bbd0534ba5f0d17a2a6cbdf6070cc66c1cc38c9f2c0a5711a412a957eaecd58
+Size: 4633
+SHA256sum: 5328d31f24387e94759acf8e882b9ac08eb05a1c5b97e1c7c21521fffd5256aa
 Description:  Provides Web UI for Wireshark-helper.
 
 Package: luci-app-wlanblinker
@@ -240,10 +240,10 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 10427
+Installed-Size: 10461
 Filename: simple-adblock_1.8.4-1_all.ipk
-Size: 11576
-SHA256sum: 6379aa0f1e625da5f84f7bf92974400387674641cc29363bec5a80618dc3064b
+Size: 11604
+SHA256sum: f078fbc19651ab5f80429f5fab18ba40dd3e40a840e4cb9544cd9a3c9796b8f8
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both black- and white-listing.
  Please see https://github.com/openwrt/packages/blob/master/net/simple-adblock/files/README.md for more information.
@@ -326,10 +326,10 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 12232
+Installed-Size: 12376
 Filename: vpn-policy-routing_0.2.1-29_all.ipk
-Size: 13405
-SHA256sum: 4e744ee6a74e8139dc38b00e09fbb63cca31a205c60d7cf82f16f3ec741e338d
+Size: 13549
+SHA256sum: 1429a51afdd51e981731e2790c14ecdf92aea5245f3b1cc1d392b6e2f9ee8a0f
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
@@ -342,10 +342,10 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2346
+Installed-Size: 2380
 Filename: vpnbypass_1.3.1-9_all.ipk
-Size: 3443
-SHA256sum: c805c272ca6d50deb6350c636e26cb19fc42a220d803d04e6a659168013ec600
+Size: 3472
+SHA256sum: 10823ff17c2a719b40e5c324b6fd525b9ac8525ad7d35be1f9710ce3e77a57a3
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
@@ -361,10 +361,10 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 1075
+Installed-Size: 1110
 Filename: wireshark-helper_0.0.1-5_all.ipk
-Size: 2073
-SHA256sum: b907e34531b86d2822b2b9b112ffe67c746b5782b2ede603553700db92ddc385
+Size: 2109
+SHA256sum: 8328b7ad42c0e9b470ba8fc872028fd5bd20ce983d9e1e59aadfa16915709280
 Description:  This service can be used to set up iptables rules required for WireShark.
 
 Package: wlanblinker
