@@ -65,10 +65,10 @@ Depends: libc, luci-compat, luci-mod-admin-full, https-dns-proxy
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 6468
+Installed-Size: 6451
 Filename: luci-app-https-dns-proxy_git-20.213.35577-5e79fc4_all.ipk
-Size: 7399
-SHA256sum: 79cbfc81f1dd1a0cd7e451d7eae8ec9f64a7fbf6fa1f19e24c0e9f4c9edf0c40
+Size: 7380
+SHA256sum: b1e366d0ced879e5c347063eb6c24c6c2841b10d1a3f2cf4c0f41bb18cc6fede
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-simple-adblock
@@ -77,10 +77,10 @@ Depends: libc, luci-compat, luci-mod-admin-full, simple-adblock
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 6447
+Installed-Size: 6459
 Filename: luci-app-simple-adblock_git-20.213.35577-5e79fc4_all.ipk
-Size: 7390
-SHA256sum: 2df0094002114051b7a87ac56240304a005346394c948a8451294a40a419b938
+Size: 7402
+SHA256sum: e682bf82b898bd28c748941471a18338db1174b6698786ae6c181e2b5b0069a8
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -101,10 +101,10 @@ Depends: libc, luci-compat, luci-mod-admin-full, vpnbypass
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 3780
+Installed-Size: 3795
 Filename: luci-app-vpnbypass_git-20.213.35577-5e79fc4_all.ipk
-Size: 4680
-SHA256sum: 49ddcd3888eae130f1f9c94e78d96ea48c1329ae880902fb511158e2fbe7c30a
+Size: 4694
+SHA256sum: 7d5e6dc3cfb8b0e6009c928d45e599160ef2dd4ca425f63f00faf79c9f4cf879
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
@@ -113,10 +113,10 @@ Depends: libc, luci-compat, luci-mod-admin-full, wireshark-helper
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 3875
+Installed-Size: 3895
 Filename: luci-app-wireshark-helper_unknown_all.ipk
-Size: 4752
-SHA256sum: b791f2329865b91b969f4a03c41b5ef7df4592d010419299e1b113d537bd6568
+Size: 4773
+SHA256sum: d7b40d3ced96513e1e0474b081b5000c1bca0f0303573e39cf78fd8a7384021a
 Description:  Provides Web UI for Wireshark-helper.
 
 Package: luci-app-wlanblinker
@@ -194,10 +194,10 @@ Depends: libc, jshn, jsonfilter
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 10449
+Installed-Size: 10410
 Filename: simple-adblock_1.8.4-1_all.ipk
-Size: 11596
-SHA256sum: 99a7a0325d0550065cd5159bc249fd79755f85d65ff1d72e49064e3e43601ad6
+Size: 11556
+SHA256sum: 0bf375f075a71afc7dbb816236d42844ff8e3f8f4b8e319a79a7ee2fc4ecadff
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both black- and white-listing.
  Please see https://github.com/openwrt/packages/blob/master/net/simple-adblock/files/README.md for more information.
@@ -278,10 +278,10 @@ Depends: libc, ipset, iptables
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 2363
+Installed-Size: 2305
 Filename: vpnbypass_1.3.1-9_all.ipk
-Size: 3457
-SHA256sum: b459564816baaa0189fb86cba42eb6ad6bcf162539874fc19471891e726155a2
+Size: 3399
+SHA256sum: 42944749cbd9b869f84c2af52c755748592384f0eaa8354cf0bffb769686deb8
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
@@ -294,10 +294,10 @@ Depends: libc, iptables-mod-tee
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 1093
+Installed-Size: 1033
 Filename: wireshark-helper_0.0.1-5_all.ipk
-Size: 2090
-SHA256sum: 6f375f13f20d945ea4ac1bb690ac05e151667461e41673efe8fc3026c366e090
+Size: 2030
+SHA256sum: 8f1beb62a8b561fef036553a5142b3aad81d4bea11fa5a9d924af654238a44d9
 Description:  This service can be used to set up iptables rules required for WireShark.
 
 Package: wlanblinker
