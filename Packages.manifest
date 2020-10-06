@@ -85,8 +85,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 6628
 Filename: luci-app-https-dns-proxy_git-20.267.56601-1da9df8_all.ipk
-Size: 7555
-SHA256sum: 1c8ddc6f3f5808f7d4aba3e3bd8783266f35eca5b276b08df3d465e110e18f8b
+Size: 7553
+SHA256sum: 574a01f09cb7e574fbd731e6249954696c7ca701218568cc93b512836c40b6ec
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-simple-adblock
