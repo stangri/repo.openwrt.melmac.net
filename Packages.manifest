@@ -105,7 +105,7 @@ SHA256sum: b7583427596d48fff308b3426a187fdfca4fe5f4c40e68e3286a760981cbc7c7
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-20.267.56601-1da9df8
+Version: git-20.299.49596-5a6037a
 Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 SourceName: luci-app-vpn-policy-routing
@@ -114,9 +114,9 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 7408
-Filename: luci-app-vpn-policy-routing_git-20.267.56601-1da9df8_all.ipk
-Size: 8333
-SHA256sum: 079ad5e861ecd6f07e9f667b5d3bd4a7acd6fab637b90b39d62d0e692cf5f581
+Filename: luci-app-vpn-policy-routing_git-20.299.49596-5a6037a_all.ipk
+Size: 8335
+SHA256sum: 46902fd115c4969c0752695d2ac96c4e00f9c5ff48de57eea3effa09fe593b2f
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -318,7 +318,7 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.2.2-1
+Version: 0.2.2-2
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Source: /home/stangri/development/Config/source.openwrt.melmac.net/vpn-policy-routing
 SourceName: vpn-policy-routing
@@ -326,10 +326,10 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 12442
-Filename: vpn-policy-routing_0.2.2-1_all.ipk
-Size: 13615
-SHA256sum: 7a4666e169bf0e8a6929b4f95e736806fa2e4e076dc439fa105348e2534e975a
+Installed-Size: 12483
+Filename: vpn-policy-routing_0.2.2-2_all.ipk
+Size: 13660
+SHA256sum: 485ab2c0d570db51f2cc8d415f411fb7fc600235cea74dc45c77510e9521ecf6
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
