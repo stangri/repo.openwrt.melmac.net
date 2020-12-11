@@ -278,10 +278,10 @@ Depends: libc, ipset, iptables
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 2422
+Installed-Size: 2436
 Filename: vpnbypass_1.3.1-9_all.ipk
-Size: 3512
-SHA256sum: 5b0104184f5bbdcff5152f77fcf4fa57db31383265aad5402ae07fb05625864e
+Size: 3526
+SHA256sum: 823402214d35531e04d21c7bc03fe0c5977e768929edbf879183d112f8823ef4
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
