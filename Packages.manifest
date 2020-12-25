@@ -337,7 +337,7 @@ Description:  This service can be used to enable simple VPN split tunnelling.
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.3.1-0
+Version: 0.3.1-1
 Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Source: /home/stangri/development/Config/source.openwrt.melmac.net/vpn-policy-routing
 SourceName: vpn-policy-routing
@@ -345,10 +345,10 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 12605
-Filename: vpn-policy-routing_0.3.1-0_all.ipk
-Size: 13784
-SHA256sum: 70d9a02aff10279e08bf7ee609a17f32117ea9f6ebcf95d8d8b85690100967b7
+Installed-Size: 12657
+Filename: vpn-policy-routing_0.3.1-1_all.ipk
+Size: 13839
+SHA256sum: 30744553edea8234a93dcd77ab0eabded0b5f0a3689a8bb394ae6299b3ae9ee1
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
