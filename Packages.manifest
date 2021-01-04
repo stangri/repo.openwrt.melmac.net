@@ -90,7 +90,7 @@ SHA256sum: 0cf9f72528b21798b680fc1e62b985c5b518f72ccefc36791041857737ed77c5
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-simple-adblock
-Version: git-20.347.59394-f8552af
+Version: git-20.358.64958-f3417f2
 Depends: libc, luci-compat, luci-mod-admin-full, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 SourceName: luci-app-simple-adblock
@@ -99,9 +99,9 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 6420
-Filename: luci-app-simple-adblock_git-20.347.59394-f8552af_all.ipk
-Size: 7364
-SHA256sum: 0d5e867629ed84908be089b48a7b185331965109d3396d814b23e52dfc2336f1
+Filename: luci-app-simple-adblock_git-20.358.64958-f3417f2_all.ipk
+Size: 7363
+SHA256sum: 8bc9e1d4fe5567412b27d99f609e46accd47b9b5173527a600dcce9890a7c231
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -232,18 +232,18 @@ Description: A Luci module that uses wrtbwmon to track bandwidth usage.
 Source: https://github.com/Kiougar/luci-wrtbwmon
 
 Package: simple-adblock
-Version: 1.8.4-4
-Depends: libc, jshn, jsonfilter
+Version: 1.8.4-6
+Depends: libc, jshn
 Source: /home/stangri/development/Config/source.openwrt.melmac.net/simple-adblock
 SourceName: simple-adblock
 License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 10556
-Filename: simple-adblock_1.8.4-4_all.ipk
-Size: 11674
-SHA256sum: 9f0dcf35d591d13f91e951d8e39b1292bcfdae300524354f8f2e11948e604756
+Installed-Size: 10504
+Filename: simple-adblock_1.8.4-6_all.ipk
+Size: 11611
+SHA256sum: 64db2b22ed91f59d5b5dcab4a96078032e105ad42893b678e6b82436c2436b7f
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
@@ -319,7 +319,7 @@ Description:  This service enables switching between Router, Access Point and Wi
 
 Package: vpn-policy-routing
 Version: 0.3.1-1
-Depends: libc, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
+Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Source: /home/stangri/development/Config/source.openwrt.melmac.net/vpn-policy-routing
 SourceName: vpn-policy-routing
 License: GPL-3.0-or-later
@@ -328,8 +328,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 12662
 Filename: vpn-policy-routing_0.3.1-1_all.ipk
-Size: 13842
-SHA256sum: eb6e63b9dcb994f5b5a0a85b91bb7db96c886e57026fda6732d3445090254aae
+Size: 13847
+SHA256sum: 762d0c1a97f787f5a9aacd526c1743f86113d9f863b6793d8393a590dfa6a398
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
