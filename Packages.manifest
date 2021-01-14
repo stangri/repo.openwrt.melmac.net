@@ -1,7 +1,7 @@
 Package: antminer-monitor
 Version: 0.4.0-6
 Depends: libc, python-light, python-pip
-Source: /home/stangri/development/Config/source.openwrt.melmac.net/antminer-monitor
+Source: package/antminer-monitor
 SourceName: antminer-monitor
 License: GPL-3.0
 Section: net
@@ -9,14 +9,14 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 529997
 Filename: antminer-monitor_0.4.0-6_all.ipk
-Size: 531211
-SHA256sum: 2157de3ebe88ace3f6208f4b4f2883d51bb6a995e887764f7ce78f844e2f4ed8
+Size: 531185
+SHA256sum: 9a8fa63ed6a23ec91db41dc6e20f81cbf154c739aa436b2760e8e85962871af4
 Description:  This service can be used to monitor Antminers on local network.
 
 Package: fakeinternet
 Version: 0.1.4-5
 Depends: libc, uhttpd, uhttpd-mod-ubus
-Source: /home/stangri/development/Config/source.openwrt.melmac.net/fakeinternet
+Source: package/fakeinternet
 SourceName: fakeinternet
 License: GPL-3.0-or-later
 Section: net
@@ -24,8 +24,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 2813
 Filename: fakeinternet_0.1.4-5_all.ipk
-Size: 3847
-SHA256sum: f834178c520f09aad6e353511727f75ee4849f345f1017496eb71f455d33bafe
+Size: 3828
+SHA256sum: 59e26a13425ee6c2982d29e342ff8c58aa6f90aeb6d809556a027928bd975363
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -38,10 +38,10 @@ License: GPL-3.0-or-later
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6828
+Installed-Size: 6831
 Filename: luci-app-advanced-reboot_git-20.358.64958-f3417f2_all.ipk
-Size: 7884
-SHA256sum: 4748d0a95af1fa5c61e010eb571ed03df120ea7e24219d2fca07c3308e48e89c
+Size: 7888
+SHA256sum: a82802b24f2ede78ed5f31a6655e50680b41e7a2efc1d369db4a836b96a41db6
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://docs.openwrt.melmac.net/luci-app-advanced-reboot/
 
 Package: luci-app-easyflash
@@ -120,7 +120,7 @@ SHA256sum: 54e9ae2439139a14718d5105cba4f6f1e4245d8fdf6ca5a3b8cfc1d84a17d0b3
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
-Version: git-20.347.59394-f8552af
+Version: git-20.358.64958-f3417f2
 Depends: libc, luci-compat, luci-mod-admin-full, vpnbypass
 Source: package/luci/applications/luci-app-vpnbypass
 SourceName: luci-app-vpnbypass
@@ -129,9 +129,9 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 3766
-Filename: luci-app-vpnbypass_git-20.347.59394-f8552af_all.ipk
-Size: 4672
-SHA256sum: 3c834c6c92da66117c82ffe3a0294e7baea05e086b029541d60d5d4fedae6a7a
+Filename: luci-app-vpnbypass_git-20.358.64958-f3417f2_all.ipk
+Size: 4667
+SHA256sum: 9a314a44b098c50f05fd3df6e8707352410267bdd28ffed090860a577167e55a
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
@@ -251,7 +251,7 @@ Description:  Simple adblock script to block ad or abuse/malware domains with DN
 Package: slider-support-ar150
 Version: 0.0.3-1
 Depends: libc, relayd
-Source: /home/stangri/development/Config/source.openwrt.melmac.net/slider-support
+Source: package/slider-support
 SourceName: slider-support-ar150
 License: GPL-3.0-or-later
 Section: net
@@ -259,8 +259,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 2550
 Filename: slider-support-ar150_0.0.3-1_all.ipk
-Size: 3568
-SHA256sum: f48350df77f1d6de5382ca51b4da5161dff2034c3eb3573ac0878b5b2e0c124a
+Size: 3539
+SHA256sum: 423db96a7a96b04c2247a39125ee32dbff6e712f4488d1b0b14263292e0ddc31
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -268,7 +268,7 @@ Description:  This service enables switching between Router, Access Point and Wi
 Package: slider-support-ar300m
 Version: 0.0.3-1
 Depends: libc, relayd
-Source: /home/stangri/development/Config/source.openwrt.melmac.net/slider-support
+Source: package/slider-support
 SourceName: slider-support-ar300m
 License: GPL-3.0-or-later
 Section: net
@@ -276,8 +276,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 2552
 Filename: slider-support-ar300m_0.0.3-1_all.ipk
-Size: 3570
-SHA256sum: ce5e45243504555417067584c22b5625e077e384e7901accd973537012829442
+Size: 3546
+SHA256sum: 532a345c1104b9e10c57580dda41cf51b1c5478179f8cba985ad26c3bc33e830
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -285,7 +285,7 @@ Description:  This service enables switching between Router, Access Point and Wi
 Package: slider-support-ar750
 Version: 0.0.3-1
 Depends: libc, relayd
-Source: /home/stangri/development/Config/source.openwrt.melmac.net/slider-support
+Source: package/slider-support
 SourceName: slider-support-ar750
 License: GPL-3.0-or-later
 Section: net
@@ -293,8 +293,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 2553
 Filename: slider-support-ar750_0.0.3-1_all.ipk
-Size: 3572
-SHA256sum: 1b5086e1228374f9669997b284382209d25f5588d7f2b7474145bf8c5972e9d0
+Size: 3544
+SHA256sum: f78207091729612a902626cfa6159a14db677691588ae4e7606a6bb15f50214f
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -302,7 +302,7 @@ Description:  This service enables switching between Router, Access Point and Wi
 Package: slider-support-mt300n
 Version: 0.0.3-1
 Depends: libc, relayd
-Source: /home/stangri/development/Config/source.openwrt.melmac.net/slider-support
+Source: package/slider-support
 SourceName: slider-support-mt300n
 License: GPL-3.0-or-later
 Section: net
@@ -310,8 +310,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 2549
 Filename: slider-support-mt300n_0.0.3-1_all.ipk
-Size: 3569
-SHA256sum: 56c3ccee847c2bf123d0bf4e97ef942d77c82c5209c94a491795893cfbc1b0af
+Size: 3540
+SHA256sum: 81240ff7bd5bb6ca8c443fdb0698b235779474d2f0f3c1aa2e29de90cb95159d
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -319,23 +319,23 @@ Description:  This service enables switching between Router, Access Point and Wi
 Package: vpn-policy-routing
 Version: 0.3.2-0
 Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
-Source: /home/stangri/development/Config/source.openwrt.melmac.net/vpn-policy-routing
+Source: package/vpn-policy-routing
 SourceName: vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 12746
+Installed-Size: 12725
 Filename: vpn-policy-routing_0.3.2-0_all.ipk
-Size: 13932
-SHA256sum: dc798a9f7108db657d4e6699eb520cf985cd0bb221c8884c3cf375b60c5c448e
+Size: 13883
+SHA256sum: 9ac37e8691ebfd5800b6adc927ac4473a40ccef74b9d5238011d554608602f6e
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
 Package: vpnbypass
 Version: 1.3.1-9
 Depends: libc, ipset, iptables
-Source: /home/stangri/development/Config/source.openwrt.melmac.net/vpnbypass
+Source: package/vpnbypass
 SourceName: vpnbypass
 License: GPL-3.0-or-later
 Section: net
@@ -343,8 +343,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 2435
 Filename: vpnbypass_1.3.1-9_all.ipk
-Size: 3529
-SHA256sum: b74efe25d1cdfb29c4f48e7bac037601c0e4a5281a8cd6cf906ddc19bdd05dad
+Size: 3498
+SHA256sum: 4c13fd7bccdfa872030eb9494799386ab0236bc7d3d212f42798261cdfdb534d
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
@@ -354,7 +354,7 @@ Description:  This service can be used to enable simple VPN split tunnelling.
 Package: wireshark-helper
 Version: 0.0.1-5
 Depends: libc, iptables-mod-tee
-Source: /home/stangri/development/Config/source.openwrt.melmac.net/wireshark-helper
+Source: package/wireshark-helper
 SourceName: wireshark-helper
 License: GPL-3.0-or-later
 Section: net
@@ -362,14 +362,14 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1051
 Filename: wireshark-helper_0.0.1-5_all.ipk
-Size: 2042
-SHA256sum: 0343e8ef2fab2b8234850355965e6eb846dae88111f6c326867c6720f3376731
+Size: 2021
+SHA256sum: 8217c7fd939f497cb0b715fb972800bcb94a9d97533937b2a5599163acf16c26
 Description:  This service can be used to set up iptables rules required for WireShark.
 
 Package: wlanblinker
 Version: 0.0.1-10
 Depends: libc, coreutils-sleep, iwinfo
-Source: /home/stangri/development/Config/source.openwrt.melmac.net/wlanblinker
+Source: package/wlanblinker
 SourceName: wlanblinker
 License: GPL-3.0-or-later
 Section: net
@@ -377,8 +377,8 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 1610
 Filename: wlanblinker_0.0.1-10_all.ipk
-Size: 2645
-SHA256sum: 872834e21c9921a312653aff52ea8a4faf7ca2b7a2f6d06ed00fccf1696e96b8
+Size: 2613
+SHA256sum: fb375af5700eb522ca0b2cbdacae3ca4f58a9be02a19464c25df45b287e8379e
 Description:  This service can be used to signal WLAN status by the unused LED.
  Please see the README for further information.
 
