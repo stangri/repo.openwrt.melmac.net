@@ -188,19 +188,6 @@ Size: 7338
 SHA256sum: 5323cd3058c988e68859ea3f81b438928c89cfd96e9902022f6833196c93b8f6
 Description: A Luci module that uses wrtbwmon to track bandwidth usage.
 
-Package: nebula
-Version: 1.3.0-1
-Depends: libc, kmod-tun
-License: MIT
-Section: net
-Architecture: mipsel_24kc
-Installed-Size: 10295021
-Filename: nebula_1.3.0-1_mipsel_24kc.ipk
-Size: 10275183
-SHA256sum: 61215b71fa82cddf44fade7c4bf1e1484d0dba23913d91bcd56b03c23f203016
-Description:  Nebula is a scalable overlay networking tool with a focus on performance,
- simplicity and security. It lets you seamlessly connect computers anywhere in the world.
-
 Package: simple-adblock
 Version: 1.8.4-6
 Depends: libc, jshn
@@ -209,12 +196,11 @@ Section: net
 Architecture: all
 Installed-Size: 10504
 Filename: simple-adblock_1.8.4-6_all.ipk
-Size: 11611
-SHA256sum: 64db2b22ed91f59d5b5dcab4a96078032e105ad42893b678e6b82436c2436b7f
+Size: 11594
+SHA256sum: 5a65612b5b230f3cd39525fcafa43b32c92cf6bb40f1309c18840694744056c2
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
- 
 
 Package: slider-support-ar150
 Version: 0.0.3-1
