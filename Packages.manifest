@@ -105,7 +105,7 @@ SHA256sum: a128b3bced4e357705483f23fa96133b0d86629d9baa587fab1fce7240f99b33
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: git-21.020.58907-c434b50
+Version: git-21.025.56469-7e07052
 Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 SourceName: luci-app-vpn-policy-routing
@@ -114,9 +114,9 @@ Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 7433
-Filename: luci-app-vpn-policy-routing_git-21.020.58907-c434b50_all.ipk
+Filename: luci-app-vpn-policy-routing_git-21.025.56469-7e07052_all.ipk
 Size: 8362
-SHA256sum: ea13239f241136134ba396ab84ca53166d21d05df6d08ad491d138f21a81a3a5
+SHA256sum: cd70471ab8efa4798dd8d60f4c061daa5e01c4bc3de65ec78a3b70baa6e3d81d
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -317,18 +317,18 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.3.2-2
+Version: 0.3.2-4
 Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
-Source: package/vpn-policy-routing
+Source: feeds/packages/stangri/vpn-policy-routing
 SourceName: vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 12706
-Filename: vpn-policy-routing_0.3.2-2_all.ipk
-Size: 13861
-SHA256sum: 85fe4259ad64359c8bebc72177a63aafedcac68f4d52284b73fd410568e3e190
+Installed-Size: 12895
+Filename: vpn-policy-routing_0.3.2-4_all.ipk
+Size: 14073
+SHA256sum: 2f5e1c9ae52ce7f044ab762a14fecb21aed961bd1aae7fcc3658695dfc08c5ee
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
