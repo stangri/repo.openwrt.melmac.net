@@ -264,10 +264,10 @@ Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ip
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 12910
+Installed-Size: 12978
 Filename: vpn-policy-routing_0.3.2-4_all.ipk
-Size: 14087
-SHA256sum: 2ecb75ead0180b4e96781e943fc473ffd0cf84e3b58b200997049e88414a2108
+Size: 14157
+SHA256sum: c4ed2a72c556f8869486705e3680fdff3a7e6ff2c33abab1c3c38b1f3f671321
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
