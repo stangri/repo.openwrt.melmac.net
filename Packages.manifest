@@ -75,7 +75,7 @@ SHA256sum: 59e9245c6ca98c74854d691f9de68e0d25615d4eb8095de5a9c6e9a10885890b
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: git-21.020.58907-c434b50
+Version: git-21.025.56469-7e07052
 Depends: libc, luci-compat, luci-mod-admin-full, https-dns-proxy
 Source: package/luci/applications/luci-app-https-dns-proxy
 SourceName: luci-app-https-dns-proxy
@@ -83,10 +83,10 @@ License: GPL-3.0-or-later
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6934
-Filename: luci-app-https-dns-proxy_git-21.020.58907-c434b50_all.ipk
-Size: 7868
-SHA256sum: 267a005c1286976e4a9ac7293775242f57248ee063e9c9c26f2c50f3863fe3fa
+Installed-Size: 7136
+Filename: luci-app-https-dns-proxy_git-21.025.56469-7e07052_all.ipk
+Size: 8067
+SHA256sum: e3ddd0a1f6eb4eab65c4655739bae7bd8a954f426d2211a1a7e618fbe29099f7
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-simple-adblock
