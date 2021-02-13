@@ -83,10 +83,10 @@ License: GPL-3.0-or-later
 Section: luci
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 7213
+Installed-Size: 7328
 Filename: luci-app-https-dns-proxy_git-21.025.56469-7e07052_all.ipk
-Size: 8154
-SHA256sum: 375560a1123ea453259ab3aa87e22e53c83c7d00b685c6317d09e578957999cf
+Size: 8240
+SHA256sum: 1035140204c3498d50ed9a0639f3c6d7ee5d9f5b470cca609e1f74bb41180231
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-simple-adblock
