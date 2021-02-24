@@ -317,7 +317,7 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.3.2-12
+Version: 0.3.2-14
 Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Source: feeds/packages/stangri/vpn-policy-routing
 SourceName: vpn-policy-routing
@@ -325,10 +325,10 @@ License: GPL-3.0-or-later
 Section: net
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 13026
-Filename: vpn-policy-routing_0.3.2-12_all.ipk
-Size: 14127
-SHA256sum: 2b5240617a3bc99924274ff23a91aaac753b4f9b359b41d5d1f3e9af18b76b6f
+Installed-Size: 13039
+Filename: vpn-policy-routing_0.3.2-14_all.ipk
+Size: 14145
+SHA256sum: e591eef61d338d474c01790fee0d02735f14592eda321da8f53e8ad31617fa67
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
