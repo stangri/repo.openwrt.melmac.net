@@ -97,14 +97,14 @@ Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass-js
 Version: unknown
-Depends: libc
+Depends: libc, luci-mod-admin-full, vpnbypass
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 2856
+Installed-Size: 2664
 Filename: luci-app-vpnbypass-js_unknown_all.ipk
-Size: 3714
-SHA256sum: 16d7a206e408f95915e0b7d0e6f211571eb749b246645edcae077b370b8bac6a
+Size: 3534
+SHA256sum: a9200a72bd7d879bce74f8cf1e8ea65f7e1633dbce23ceebd0de0b2ef15d598e
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpnbypass
