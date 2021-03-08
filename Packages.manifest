@@ -89,10 +89,10 @@ Section: luci
 SourceDateEpoch: 1615041922
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 7324
+Installed-Size: 7050
 Filename: luci-app-https-dns-proxy_git-21.063.64534-80fb8f1_all.ipk
-Size: 8256
-SHA256sum: 04a4f647888c9aa70b7a1cc52f031287a88168b5d814788b69e8c028563d4b19
+Size: 8002
+SHA256sum: 072c8ea3c320af3daaee73579066806917190850125949abf683c55e0a8fbf2b
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-simple-adblock
@@ -105,10 +105,10 @@ Section: luci
 SourceDateEpoch: 1615041922
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6418
+Installed-Size: 6186
 Filename: luci-app-simple-adblock_git-21.063.64534-80fb8f1_all.ipk
-Size: 7387
-SHA256sum: f64b3db44f3ca075fc90f0e726ead05cf89157c42a21d2f7d903a70be0e2ab73
+Size: 7141
+SHA256sum: dc9092ef0c4861ae66ad501fd7a42fbccd294cbf16fdef382d18eba701ed9f42
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -121,11 +121,27 @@ Section: luci
 SourceDateEpoch: 1614880534
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 7430
+Installed-Size: 7161
 Filename: luci-app-vpn-policy-routing_git-21.063.64534-80fb8f1_all.ipk
-Size: 8378
-SHA256sum: 83123c19958aede1f1c574c5e43577e23f5365a9a263ef114eb76711658a56a0
+Size: 8107
+SHA256sum: 7d27ff0ffd7d97594e53729c568472e5e3949d8ce65cdf01e5ddfe5d5e6acabb
 Description:  Provides Web UI for vpn-policy-routing service.
+
+Package: luci-app-vpnbypass-js
+Version: unknown
+Depends: libc
+Source: package/luci/applications/luci-app-vpnbypass-js
+SourceName: luci-app-vpnbypass-js
+License: GPL-3.0-or-later
+Section: luci
+SourceDateEpoch: 1614809005
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 2856
+Filename: luci-app-vpnbypass-js_unknown_all.ipk
+Size: 3714
+SHA256sum: 16d7a206e408f95915e0b7d0e6f211571eb749b246645edcae077b370b8bac6a
+Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-vpnbypass
 Version: git-21.063.64534-80fb8f1
@@ -137,10 +153,10 @@ Section: luci
 SourceDateEpoch: 1614880534
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3767
+Installed-Size: 3555
 Filename: luci-app-vpnbypass_git-21.063.64534-80fb8f1_all.ipk
-Size: 4684
-SHA256sum: 5bd8284814258dba37dd412e2c1193950a3719d99384b063eaef47b55413874c
+Size: 4461
+SHA256sum: 83f53af7f8553e44641d99b5678d6ca18a8c715b2f6349e3f3d4a647ff31a91a
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
@@ -153,10 +169,10 @@ Section: luci
 SourceDateEpoch: 1614809005
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3846
+Installed-Size: 3632
 Filename: luci-app-wireshark-helper_unknown_all.ipk
-Size: 4734
-SHA256sum: be2fb7a60f720fb40df9bfadc6ee6cf65644d5c588b83853853bacb3025ae39b
+Size: 4517
+SHA256sum: 0401c5dc087dded1638e992719efe46bbcfa418698cf16f2ee3685e4df860663
 Description:  Provides Web UI for Wireshark-helper.
 
 Package: luci-app-wlanblinker
