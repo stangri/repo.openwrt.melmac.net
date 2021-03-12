@@ -80,7 +80,7 @@ SHA256sum: 9d01715fd32cef7bfd0cccfd3738024f16f05b2912d2fe97181dd84c6b90ad56
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: 2021-01-17-2
+Version: 2021-01-17-3
 Depends: libc, luci-compat, luci-mod-admin-full, https-dns-proxy
 Source: package/luci/applications/luci-app-https-dns-proxy
 SourceName: luci-app-https-dns-proxy
@@ -90,9 +90,9 @@ SourceDateEpoch: 1615291703
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 7048
-Filename: luci-app-https-dns-proxy_2021-01-17-2_all.ipk
+Filename: luci-app-https-dns-proxy_2021-01-17-3_all.ipk
 Size: 7988
-SHA256sum: 11da85126c7c6f14274bdf802c9e0ea7eb54381dc800493737e7318c7874a1a4
+SHA256sum: 2e276480e34e94958e81de087c3b4d437e1ae1c32a3c9dbb52b4795f872e2f67
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-simple-adblock
@@ -185,10 +185,10 @@ Section: net
 SourceDateEpoch: 1614809005
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 10159
+Installed-Size: 10163
 Filename: simple-adblock_1.8.6-1_all.ipk
-Size: 11304
-SHA256sum: c3d0e435118b3eacd84e50f01776ef7100546fd1e14e8de26e1f89cf8c227eca
+Size: 11314
+SHA256sum: 138b2a185696a52a701f2b9d450ff43722b7656dad943c466f2bff0fde9d66e0
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
