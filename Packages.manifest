@@ -137,10 +137,10 @@ Section: luci
 SourceDateEpoch: 1615291703
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 3199
+Installed-Size: 3258
 Filename: luci-app-vpnbypass_1.3.1-9_all.ipk
-Size: 4090
-SHA256sum: 93313da3856e5e9a9aca517bc88646abb3c104c5f708797d9d1b3c16cf3cb79a
+Size: 4151
+SHA256sum: d9130f1c278e0e6b14480cb701875f8d5721d850361cd4621185aa83269f8ef8
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
