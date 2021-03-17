@@ -84,15 +84,15 @@ SHA256sum: 078fa39adc1b9956eca04944ac950c3c1720e9876f8b4bc187350d2d81f3596f
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: 0.3.2-20
+Version: 0.3.3-1
 Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 7160
-Filename: luci-app-vpn-policy-routing_0.3.2-20_all.ipk
+Filename: luci-app-vpn-policy-routing_0.3.3-1_all.ipk
 Size: 8089
-SHA256sum: 8bdddf22e98a00f6eacd0f579884f753c80ecd7a04e9be155127df57d93e8b97
+SHA256sum: 1ba2e8fa66b769f4d5ad9eaf24e0910212ab9df99c5fb181c13e610c98cd012f
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -137,10 +137,10 @@ Depends: libc, jshn
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 10268
+Installed-Size: 10259
 Filename: simple-adblock_1.8.7-1_all.ipk
-Size: 11418
-SHA256sum: cb1f5d5767be7ce37bc75f71f707f12bfa9a4948421680cdfe78e14718ab8bd7
+Size: 11411
+SHA256sum: f67bbdc42b49089fc5b1cf2c96e270232fe83e2ffccdbad09a7287581b39d668
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
@@ -202,15 +202,15 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.3.2-20
+Version: 0.3.3-1
 Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
 Installed-Size: 13312
-Filename: vpn-policy-routing_0.3.2-20_all.ipk
-Size: 14425
-SHA256sum: 755b79a3e637c059de9daa1baa6f6feeba87f9117a0f6c09cfa5a9d24c2f2668
+Filename: vpn-policy-routing_0.3.3-1_all.ipk
+Size: 14416
+SHA256sum: ac5e8483ebac5f2c9b991f2de9c5a411a4c1d0687ffce1d0b08e3236d3dd41bb
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
