@@ -137,10 +137,10 @@ Depends: libc, jshn
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 10259
+Installed-Size: 10222
 Filename: simple-adblock_1.8.7-1_all.ipk
-Size: 11411
-SHA256sum: f67bbdc42b49089fc5b1cf2c96e270232fe83e2ffccdbad09a7287581b39d668
+Size: 11364
+SHA256sum: 51206770c2113580fc474f3849acf00c7f8640f0b25f125d8d906aa5524dd7d5
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
@@ -207,10 +207,10 @@ Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ip
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 13312
+Installed-Size: 13335
 Filename: vpn-policy-routing_0.3.3-1_all.ipk
-Size: 14416
-SHA256sum: ac5e8483ebac5f2c9b991f2de9c5a411a4c1d0687ffce1d0b08e3236d3dd41bb
+Size: 14451
+SHA256sum: 8b62650f0932541060a5efcb27a356d1d8654f2eb25e2d1dee1d1c692927bad4
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
