@@ -185,10 +185,10 @@ Section: net
 SourceDateEpoch: 1614809005
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 10216
+Installed-Size: 10343
 Filename: simple-adblock_1.8.7-1_all.ipk
-Size: 11357
-SHA256sum: a26e602c318bbfbc99cf6d7927949c02e3743baf72b19b62b02021453aa6670d
+Size: 11486
+SHA256sum: ec66ac88949f687ce1ecc689b3c192fb025aa81d9d118fda13832faa71e39e2c
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
@@ -275,10 +275,10 @@ Section: net
 SourceDateEpoch: 1614809005
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 13335
+Installed-Size: 13355
 Filename: vpn-policy-routing_0.3.3-1_all.ipk
-Size: 14451
-SHA256sum: 8b62650f0932541060a5efcb27a356d1d8654f2eb25e2d1dee1d1c692927bad4
+Size: 14469
+SHA256sum: 790216884508580b80b0e7874d55fe307553846c296d6cc186867a834be5789d
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
