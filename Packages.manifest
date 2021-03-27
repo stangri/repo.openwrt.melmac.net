@@ -96,19 +96,19 @@ SHA256sum: 2e276480e34e94958e81de087c3b4d437e1ae1c32a3c9dbb52b4795f872e2f67
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-simple-adblock
-Version: 1.8.7-1
+Version: 1.8.7-3
 Depends: libc, luci-compat, luci-mod-admin-full, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 SourceName: luci-app-simple-adblock
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1615291703
+SourceDateEpoch: 1616513433
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 6187
-Filename: luci-app-simple-adblock_1.8.7-1_all.ipk
-Size: 7125
-SHA256sum: 078fa39adc1b9956eca04944ac950c3c1720e9876f8b4bc187350d2d81f3596f
+Installed-Size: 6188
+Filename: luci-app-simple-adblock_1.8.7-3_all.ipk
+Size: 7124
+SHA256sum: c03a1200f4f357fdb15f8f34be0449f5da1352ee510628db972060c815bf2bce
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -176,19 +176,19 @@ SHA256sum: af09747423e00e6585e36639a36bd6d034761bb2bce688038d07278c968add65
 Description:  Provides Web UI for WLAN Blinker service.
 
 Package: simple-adblock
-Version: 1.8.7-1
-Depends: libc, jshn
+Version: 1.8.7-3
+Depends: libc, jshn, wget
 Source: feeds/packages/stangri/simple-adblock
 SourceName: simple-adblock
 License: GPL-3.0-or-later
 Section: net
-SourceDateEpoch: 1614809005
+SourceDateEpoch: 1616539638
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 9967
-Filename: simple-adblock_1.8.7-1_all.ipk
-Size: 11104
-SHA256sum: 3415851013a51252a0f5f2cc93bf990ee17e7f2d064638b34004a05ebc7a431b
+Installed-Size: 9973
+Filename: simple-adblock_1.8.7-3_all.ipk
+Size: 11107
+SHA256sum: 9660cfbc05a880baec4cbb20607feca99c9c09152488434e6e04b32784b089f2
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
