@@ -275,10 +275,10 @@ Section: net
 SourceDateEpoch: 1616539638
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 13369
+Installed-Size: 13378
 Filename: vpn-policy-routing_0.3.4-0_all.ipk
-Size: 14491
-SHA256sum: 6c9b0090aec4d4ccb6a744ccf8b207baf57b0890d1da596858bf8478fd0656ff
+Size: 14494
+SHA256sum: f7f2ba143d1296bf74ba6242dfccd3640f0fafcf5ecefe8ab8a96acf91244ad3
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
