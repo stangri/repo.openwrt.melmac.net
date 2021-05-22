@@ -175,6 +175,22 @@ Size: 2683
 SHA256sum: 3843523e3b411bf1fbae158e8e5d6e97f58739379d0c5c04f22643d0adce2e5e
 Description:  Provides Web UI for WLAN Blinker service.
 
+Package: luci-proto-nebula
+Version: 1.4.0-1
+Depends: libc, nebula, nebula-proto
+Source: package/luci/applications/luci-proto-nebula
+SourceName: luci-proto-nebula
+License: GPL-3.0-or-later
+Section: luci
+SourceDateEpoch: 1618740417
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 630
+Filename: luci-proto-nebula_1.4.0-1_all.ipk
+Size: 1481
+SHA256sum: 2e008228807db0137498b4bb5b4323f4bf713dfff8582191c5fcbc55aad387e5
+Description:  Provides Web UI for Nebula protocol/interface.
+
 Package: simple-adblock
 Version: 1.8.7-5
 Depends: libc, jshn, wget
