@@ -80,19 +80,19 @@ SHA256sum: 472fede8e1cd9c840a0ecff5eeabf2872e985df52c09530be390c75957f3bbb2
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: 2021-01-17-5
+Version: 2021-05-14-1
 Depends: libc, luci-compat, luci-mod-admin-full, https-dns-proxy
 Source: package/luci/applications/luci-app-https-dns-proxy
 SourceName: luci-app-https-dns-proxy
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1619063239
+SourceDateEpoch: 1622454656
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 7053
-Filename: luci-app-https-dns-proxy_2021-01-17-5_all.ipk
-Size: 7994
-SHA256sum: fa40bde2ac5d2ed2ae58e7a15576dfb53c08fd3976a456d7339f487e401c30a3
+Installed-Size: 7047
+Filename: luci-app-https-dns-proxy_2021-05-14-1_all.ipk
+Size: 7986
+SHA256sum: 4a95463ec85aa7b7b8ae45561d6e4d98bcb11272828191d8f827c0dec441e2dd
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-simple-adblock
@@ -112,19 +112,19 @@ SHA256sum: 69322fec2ca5094e4984032365f8e286fdf4f55f909fc3b298b652209df0b394
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: 0.3.4-4
+Version: 0.3.4-6
 Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 SourceName: luci-app-vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1619366093
+SourceDateEpoch: 1622454656
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
 Installed-Size: 7127
-Filename: luci-app-vpn-policy-routing_0.3.4-4_all.ipk
-Size: 8052
-SHA256sum: c01f79ca34f23f93b44398fe623a71a994405e66aa84ebcaaa637e6b90780ddc
+Filename: luci-app-vpn-policy-routing_0.3.4-6_all.ipk
+Size: 8060
+SHA256sum: 594a8680640620e6d5805a8363b63ca86409083ec0f26533dc03bc49b808f511
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -282,19 +282,19 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.3.4-4
+Version: 0.3.4-6
 Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Source: feeds/packages/stangri/vpn-policy-routing
 SourceName: vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
-SourceDateEpoch: 1618740417
+SourceDateEpoch: 1622210644
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 13578
-Filename: vpn-policy-routing_0.3.4-4_all.ipk
-Size: 14659
-SHA256sum: 0ea71562bd7b4f3655a289bd0a93ad62be30a3c605492bb1ae2522361b23d501
+Installed-Size: 13592
+Filename: vpn-policy-routing_0.3.4-6_all.ipk
+Size: 14672
+SHA256sum: 4f9ddb5500107dc80a159f46bdfc6fdd1485cc226062d9be8054c529c553e136
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
