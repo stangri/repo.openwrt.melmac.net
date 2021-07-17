@@ -112,19 +112,19 @@ SHA256sum: 3533ffeec51e8cf52592be6ffcb75c18553290620fbe3ddaf56b4b554b653370
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: 0.3.4-8
+Version: 0.3.5-1
 Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 SourceName: luci-app-vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1624019306
+SourceDateEpoch: 1624990155
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 7146
-Filename: luci-app-vpn-policy-routing_0.3.4-8_all.ipk
-Size: 8038
-SHA256sum: 5d5d543bd52edb08926f29f09facc85faa2cf5010aac433bccf787017aed0065
+Installed-Size: 7141
+Filename: luci-app-vpn-policy-routing_0.3.5-1_all.ipk
+Size: 8033
+SHA256sum: 2329033bd1439605deb0e84f9bd0b3c59fceda974027e08417aba6959bb30d62
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -282,7 +282,7 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.3.4-8
+Version: 0.3.5-1
 Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Source: feeds/packages/stangri/vpn-policy-routing
 SourceName: vpn-policy-routing
@@ -291,10 +291,10 @@ Section: net
 SourceDateEpoch: 1623621739
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 13632
-Filename: vpn-policy-routing_0.3.4-8_all.ipk
-Size: 14721
-SHA256sum: f1162084656f223d62adc634731e8ee139afe21308d1fa089653994a7ba0ac77
+Installed-Size: 13713
+Filename: vpn-policy-routing_0.3.5-1_all.ipk
+Size: 14793
+SHA256sum: 69d23469841ba0436314ee68e4f05ce56c48723d028431d9a8539300144eadae
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
