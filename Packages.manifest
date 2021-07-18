@@ -128,19 +128,19 @@ SHA256sum: 2329033bd1439605deb0e84f9bd0b3c59fceda974027e08417aba6959bb30d62
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
-Version: 1.3.1-9
+Version: 1.3.2-1
 Depends: libc, luci-mod-admin-full, vpnbypass
 Source: package/luci/applications/luci-app-vpnbypass
 SourceName: luci-app-vpnbypass
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1624019306
+SourceDateEpoch: 1624207553
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3257
-Filename: luci-app-vpnbypass_1.3.1-9_all.ipk
-Size: 4117
-SHA256sum: 65f678b842045a00708ad5e1d101423d40863554bad4fcba6432695e1d3552ef
+Filename: luci-app-vpnbypass_1.3.2-1_all.ipk
+Size: 4111
+SHA256sum: 39ee89d8044bee143e35f492ac474b714af60045717787efc4d12cfff694babf
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
@@ -299,7 +299,7 @@ Description:  This service allows policy-based routing for L2TP, Openconnect, Op
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
 Package: vpnbypass
-Version: 1.3.1-9
+Version: 1.3.2-1
 Depends: libc, ipset, iptables
 Source: feeds/packages/stangri/vpnbypass
 SourceName: vpnbypass
@@ -308,10 +308,10 @@ Section: net
 SourceDateEpoch: 1623621739
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2436
-Filename: vpnbypass_1.3.1-9_all.ipk
-Size: 3525
-SHA256sum: 89d228dcb906b83c385a61613afb65988a55563e7507ec7030ada68b55e56fb5
+Installed-Size: 2465
+Filename: vpnbypass_1.3.2-1_all.ipk
+Size: 3553
+SHA256sum: 36acdbf43736b380cd594c1688a7c48d16505dc24b0c656cef5f8643eb14defd
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
