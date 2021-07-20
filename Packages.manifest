@@ -308,10 +308,10 @@ Section: net
 SourceDateEpoch: 1623621739
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 2465
+Installed-Size: 2462
 Filename: vpnbypass_1.3.2-1_all.ipk
-Size: 3553
-SHA256sum: 36acdbf43736b380cd594c1688a7c48d16505dc24b0c656cef5f8643eb14defd
+Size: 3542
+SHA256sum: c6313e3be283c78452104ac5a771d1a90168f186e0dd2153be5c9cc49eb0d077
 Description:  This service can be used to enable simple VPN split tunnelling.
  Supports accessing domains, IP ranges outside of your VPN tunnel.
  Also supports dedicating local ports/IP ranges for direct
