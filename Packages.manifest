@@ -112,19 +112,19 @@ SHA256sum: 64bca7e6784c606356f2d95740808ba977a8b30b541325314440adc14353c468
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: 0.3.5-1
+Version: 0.3.5-6
 Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 SourceName: luci-app-vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1624990155
+SourceDateEpoch: 1626902193
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 7141
-Filename: luci-app-vpn-policy-routing_0.3.5-1_all.ipk
-Size: 8033
-SHA256sum: 2329033bd1439605deb0e84f9bd0b3c59fceda974027e08417aba6959bb30d62
+Installed-Size: 7143
+Filename: luci-app-vpn-policy-routing_0.3.5-6_all.ipk
+Size: 8039
+SHA256sum: 372903677df78344ca1f619de8f60a095ae28009f4036fd40b0983a0372770e9
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -190,6 +190,23 @@ Filename: luci-proto-nebula_1.4.0-1_all.ipk
 Size: 1483
 SHA256sum: aef5c135fce637af83194dbf807aba7af3c5ee7dd67b36b80fcb91a1ec0e2112
 Description:  Provides Web UI for Nebula protocol/interface.
+
+Package: policy-routing
+Version: 0.9.1-1
+Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
+Conflicts: vpnbypass, vpn-policy-routing
+Source: feeds/packages/stangri/policy-routing
+SourceName: policy-routing
+License: GPL-3.0-or-later
+Section: net
+SourceDateEpoch: 1623621739
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 13404
+Filename: policy-routing_0.9.1-1_all.ipk
+Size: 14438
+SHA256sum: 22bfa50941923c0aed6b47b44adf899469154b998101910fd1b298319cf4ae6a
+Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: simple-adblock
 Version: 1.8.7-6
@@ -282,8 +299,9 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.3.5-1
+Version: 0.3.5-6
 Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
+Conflicts: vpnbypass
 Source: feeds/packages/stangri/vpn-policy-routing
 SourceName: vpn-policy-routing
 License: GPL-3.0-or-later
@@ -291,10 +309,10 @@ Section: net
 SourceDateEpoch: 1623621739
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 13710
-Filename: vpn-policy-routing_0.3.5-1_all.ipk
-Size: 14797
-SHA256sum: 57e805fa2a626763bb76836760268e1166c9b57564ecdea4499308f8f2f0b6e1
+Installed-Size: 13806
+Filename: vpn-policy-routing_0.3.5-6_all.ipk
+Size: 14906
+SHA256sum: f2324d64e56798c541335f2ac6c530504194d7515617233d17d593592cdaebd8
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
