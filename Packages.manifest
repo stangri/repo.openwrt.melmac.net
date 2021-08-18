@@ -96,7 +96,7 @@ SHA256sum: ed3da480db5d6e5f6eb792a644a6bcc26beb00c5160d955fec5930daa6a86b5b
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-simple-adblock
-Version: 1.8.7-6
+Version: 1.8.7-7
 Depends: libc, luci-compat, luci-mod-admin-full, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 SourceName: luci-app-simple-adblock
@@ -106,25 +106,25 @@ SourceDateEpoch: 1627252579
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 6202
-Filename: luci-app-simple-adblock_1.8.7-6_all.ipk
+Filename: luci-app-simple-adblock_1.8.7-7_all.ipk
 Size: 7116
-SHA256sum: e7152932ca1356b6ed4743f4ee02c205aed8d8b1483dc3a076310f82b5e980d3
+SHA256sum: 63158abc5c3d19ce81f66567a1ec18b9831c2bf2d1107d9ed1d5f40f5056c68c
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: 0.3.5-2
+Version: 0.3.5-3
 Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 SourceName: luci-app-vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1626902193
+SourceDateEpoch: 1627252579
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 7143
-Filename: luci-app-vpn-policy-routing_0.3.5-2_all.ipk
-Size: 8034
-SHA256sum: f2cca3c8252c34af25531d020bea72dc06548b17ef3d947e9748ded1462ed08a
+Installed-Size: 7144
+Filename: luci-app-vpn-policy-routing_0.3.5-3_all.ipk
+Size: 8035
+SHA256sum: 70757f96fbf97df4ac04b2289e7b00b83f6573c8b4fc4702249868a6a3a09b5e
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -209,7 +209,7 @@ SHA256sum: 22bfa50941923c0aed6b47b44adf899469154b998101910fd1b298319cf4ae6a
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: simple-adblock
-Version: 1.8.7-6
+Version: 1.8.7-7
 Depends: libc, jshn, wget
 Source: feeds/packages/stangri/simple-adblock
 SourceName: simple-adblock
@@ -218,10 +218,10 @@ Section: net
 SourceDateEpoch: 1627752061
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 10061
-Filename: simple-adblock_1.8.7-6_all.ipk
-Size: 11197
-SHA256sum: a572dc635dbde0a8215a2d87e09a33e5fbb1e9b42deda19fd621faf2240165a1
+Installed-Size: 10065
+Filename: simple-adblock_1.8.7-7_all.ipk
+Size: 11211
+SHA256sum: 5640c0b948d17b4537790a5219635ffa9000d72291fcbf4b6af5636ccb3fa613
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
@@ -299,20 +299,20 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.3.5-2
+Version: 0.3.5-3
 Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Conflicts: vpnbypass
 Source: feeds/packages/stangri/vpn-policy-routing
 SourceName: vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
-SourceDateEpoch: 1623621739
+SourceDateEpoch: 1627752061
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 13805
-Filename: vpn-policy-routing_0.3.5-2_all.ipk
-Size: 14909
-SHA256sum: 390f23632e0c2f7f9687af3ba2d31054bcdbef26903bb004eaca2bf274c5919f
+Installed-Size: 13804
+Filename: vpn-policy-routing_0.3.5-3_all.ipk
+Size: 14907
+SHA256sum: ddc8c49e86fc25b65100d312f2a430263ba5bf947e3ff78b4b00bbbdb67844af
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
