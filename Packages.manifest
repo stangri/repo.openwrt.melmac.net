@@ -112,7 +112,7 @@ SHA256sum: 63158abc5c3d19ce81f66567a1ec18b9831c2bf2d1107d9ed1d5f40f5056c68c
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: 0.3.5-3
+Version: 0.3.5-5
 Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 SourceName: luci-app-vpn-policy-routing
@@ -122,9 +122,9 @@ SourceDateEpoch: 1629308966
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 7144
-Filename: luci-app-vpn-policy-routing_0.3.5-3_all.ipk
-Size: 8035
-SHA256sum: 1bfd3b6531c8e4ac63a466cfa5346297402ef43f90f66a8259909180cc3c15e5
+Filename: luci-app-vpn-policy-routing_0.3.5-5_all.ipk
+Size: 8036
+SHA256sum: a2847ead6955d8852d54c2faf552030e8fee6b1034b9cb69e2a1e81cb0845a86
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -299,7 +299,7 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.3.5-3
+Version: 0.3.5-5
 Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Conflicts: vpnbypass
 Source: feeds/packages/stangri/vpn-policy-routing
@@ -309,10 +309,10 @@ Section: net
 SourceDateEpoch: 1627752061
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 13812
-Filename: vpn-policy-routing_0.3.5-3_all.ipk
-Size: 14911
-SHA256sum: aa56c33ee42b69694786a2d725299d5be915bbd5931bda58ffe66f96011c4b9a
+Installed-Size: 13817
+Filename: vpn-policy-routing_0.3.5-5_all.ipk
+Size: 14923
+SHA256sum: 9ee8f0d9a76fec6c4d55f88813841b78c4a3f76f861cdf3c66789f78dcc03974
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
