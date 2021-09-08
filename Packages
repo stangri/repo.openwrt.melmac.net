@@ -84,15 +84,15 @@ SHA256sum: 63158abc5c3d19ce81f66567a1ec18b9831c2bf2d1107d9ed1d5f40f5056c68c
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: 0.3.5-5
+Version: 0.3.5-7
 Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 7144
-Filename: luci-app-vpn-policy-routing_0.3.5-5_all.ipk
-Size: 8036
-SHA256sum: a2847ead6955d8852d54c2faf552030e8fee6b1034b9cb69e2a1e81cb0845a86
+Filename: luci-app-vpn-policy-routing_0.3.5-7_all.ipk
+Size: 8039
+SHA256sum: 3abb55a87181f55727bf971dc120fc8367b8ed7f6036c58922cb715ee42924ee
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -233,10 +233,10 @@ Conflicts: vpnbypass
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 13817
+Installed-Size: 13853
 Filename: vpn-policy-routing_0.3.5-5_all.ipk
-Size: 14923
-SHA256sum: 9ee8f0d9a76fec6c4d55f88813841b78c4a3f76f861cdf3c66789f78dcc03974
+Size: 14955
+SHA256sum: c11149f06f076f99271ac2a66934d9d7321b08d513b704a58738cec0b7f4f471
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
