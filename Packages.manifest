@@ -95,6 +95,22 @@ Size: 8195
 SHA256sum: ed3da480db5d6e5f6eb792a644a6bcc26beb00c5160d955fec5930daa6a86b5b
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
+Package: luci-app-pbr
+Version: 0.9.2-8
+Depends: libc, luci-compat, luci-mod-admin-full, pbr
+Source: package/luci/applications/luci-app-pbr
+SourceName: luci-app-pbr
+License: GPL-3.0-or-later
+Section: luci
+SourceDateEpoch: 1630448408
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 7048
+Filename: luci-app-pbr_0.9.2-8_all.ipk
+Size: 7967
+SHA256sum: fc042ed0670a1bbb3d0f4f9ea1621b6c7f09b5ca6e474c8f6c7a2e044580390d
+Description:  Provides Web UI for Policy Based Routing Service.
+
 Package: luci-app-simple-adblock
 Version: 1.8.8-1
 Depends: libc, luci-compat, luci-mod-admin-full, simple-adblock
@@ -112,19 +128,19 @@ SHA256sum: ff7174c6689416e501e33799b8a90663e341004592cf64d59d60fa63fbcae561
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
-Version: 0.3.5-3
+Version: 0.3.4-8
 Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing
 Source: package/luci/applications/luci-app-vpn-policy-routing
 SourceName: luci-app-vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1631038678
+SourceDateEpoch: 1634156663
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 7144
-Filename: luci-app-vpn-policy-routing_0.3.5-3_all.ipk
-Size: 8037
-SHA256sum: 2b0ac05d25bae6c08de71bf6c5cf15a0a49a89cbdce99f90e4067235c99beada
+Installed-Size: 7143
+Filename: luci-app-vpn-policy-routing_0.3.4-8_all.ipk
+Size: 8033
+SHA256sum: 7c6f9e07fdae2b0bf208a6ea465664b549825292a18119df135cb078ca5ce5ee
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -190,6 +206,23 @@ Filename: luci-proto-nebula_1.4.0-1_all.ipk
 Size: 1483
 SHA256sum: aef5c135fce637af83194dbf807aba7af3c5ee7dd67b36b80fcb91a1ec0e2112
 Description:  Provides Web UI for Nebula protocol/interface.
+
+Package: pbr
+Version: 0.9.2-8
+Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
+Conflicts: vpnbypass, vpn-policy-routing
+Source: feeds/packages/stangri/pbr
+SourceName: pbr
+License: GPL-3.0-or-later
+Section: net
+SourceDateEpoch: 1630448408
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 13848
+Filename: pbr_0.9.2-8_all.ipk
+Size: 14910
+SHA256sum: 4b180e5cde270a6ef38cbf7c15464d8b03db419c888b29d25564d08485e7e5d2
+Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: policy-routing
 Version: 0.9.1-1
@@ -299,9 +332,8 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: vpn-policy-routing
-Version: 0.3.5-3
+Version: 0.3.4-8
 Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
-Conflicts: vpnbypass
 Source: feeds/packages/stangri/vpn-policy-routing
 SourceName: vpn-policy-routing
 License: GPL-3.0-or-later
@@ -309,10 +341,10 @@ Section: net
 SourceDateEpoch: 1630448408
 Maintainer: Stan Grishin <stangri@melmac.net>
 Architecture: all
-Installed-Size: 13859
-Filename: vpn-policy-routing_0.3.5-3_all.ipk
-Size: 14967
-SHA256sum: db1aab90c707de63af3e690dbfd056d27734a407dc506f042a94289b2d91c436
+Installed-Size: 13634
+Filename: vpn-policy-routing_0.3.4-8_all.ipk
+Size: 14717
+SHA256sum: 3c13425bcdb4f10ca3abcbce422d315408e5e8c70a156ae224ab5ed19e8f311c
 Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
  Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
 
