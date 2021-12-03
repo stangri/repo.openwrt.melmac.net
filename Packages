@@ -72,15 +72,15 @@ SHA256sum: 3a211f9ef3783a4e3528a954bc7dab5f2f134aa1a12a32bfba65d06d566da848
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 0.9.2-10
+Version: 0.9.3-1
 Depends: libc, luci-compat, luci-mod-admin-full, pbr
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 7020
-Filename: luci-app-pbr_0.9.2-10_all.ipk
-Size: 7940
-SHA256sum: 08680d61392b12a4c2cab535156e8783e9caf163ea5934a5cc3bdfdeac5fa55b
+Installed-Size: 7044
+Filename: luci-app-pbr_0.9.3-1_all.ipk
+Size: 7961
+SHA256sum: 917334a486a266a369d09bb29bd979e1db8702843be8745b42ccdcd36e3b6223
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -156,16 +156,16 @@ SHA256sum: d10b69f3c9244ba74a888c87d9c173a8c68e04f6a9b627f79a9ecb18de59c201
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr
-Version: 0.9.2-10
+Version: 0.9.3-1
 Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Conflicts: vpnbypass, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 13868
-Filename: pbr_0.9.2-10_all.ipk
-Size: 14928
-SHA256sum: 135e5e476761c94bf4d0e1b4c3dc66c2a42b932e36799be1f37632f1d808d001
+Installed-Size: 13960
+Filename: pbr_0.9.3-1_all.ipk
+Size: 15008
+SHA256sum: e59ec4e5b5982bccf7175a08ba39285050dd91c0b1c2bef1e87aac915991c223
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: policy-routing
