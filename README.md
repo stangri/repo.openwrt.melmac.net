@@ -1,6 +1,6 @@
-# stangri's OpenWrt packages sources
+# stangri's OpenWrt packages
 
-This repo contains source code for the packages I'm maintaining for OpenWrt/LEDE Project routers. For more information check out [documentation](https://docs.openwrt.melmac.net) or [browse code at GitHub](https://github.com/stangri/source.openwrt.melmac.net).
+This repo contains binaries for the packages I'm maintaining for OpenWrt. For more information check out [documentation](https://docs.openwrt.melmac.net) or [browse code at GitHub](https://github.com/stangri/repo.openwrt.melmac.net).
 
 <!-- markdownlint-disable MD033 -->
 
