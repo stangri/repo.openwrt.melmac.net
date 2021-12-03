@@ -1,6 +1,7 @@
-# stangri's OpenWrt packages
+# stangri's OpenWrt packages sources
 
-This repo contains packages I've created for OpenWrt. For more information check out [documentation](https://docs.openwrt.melmac.net) or [browse packages at GitHub](https://github.com/stangri/repo.openwrt.melmac.net).
+This repo contains source code for the packages I'm maintaining for OpenWrt/LEDE Project routers. For more information check out [documentation](https://docs.openwrt.melmac.net) or [browse code at GitHub](https://github.com/stangri/source.openwrt.melmac.net).
 
 <!-- markdownlint-disable MD033 -->
-<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "db6c2f92595846458954b46cbce2bf84"}'></script>
+
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0604edb4340d43f7882211fe581bdfdd"}'></script>
