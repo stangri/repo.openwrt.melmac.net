@@ -162,10 +162,10 @@ Conflicts: vpnbypass, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 14003
+Installed-Size: 14004
 Filename: pbr_0.9.3-3_all.ipk
-Size: 15058
-SHA256sum: f0b638d1349e7658a24c41073667cd2d0606980a9cc6f804f5aa4015b7fec5e2
+Size: 15061
+SHA256sum: c2f8db5b676289577cecb60fc538dbf18a57107aa780c52c25239ba803e5dcb1
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: policy-routing
