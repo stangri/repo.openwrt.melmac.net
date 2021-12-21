@@ -86,13 +86,13 @@ Source: package/luci/applications/luci-app-https-dns-proxy
 SourceName: luci-app-https-dns-proxy
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1635864822
+SourceDateEpoch: 1639350624
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 7750
+Installed-Size: 8395
 Filename: luci-app-https-dns-proxy_2021-09-27-2_all.ipk
-Size: 8648
-SHA256sum: 3a211f9ef3783a4e3528a954bc7dab5f2f134aa1a12a32bfba65d06d566da848
+Size: 9257
+SHA256sum: 59cc76deaeace3c872d851788d27e3c158819901b187484a8d7d02ca9cd3025a
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
