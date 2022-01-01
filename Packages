@@ -89,10 +89,10 @@ Depends: libc, luci-compat, luci-mod-admin-full, simple-adblock
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 6232
+Installed-Size: 6280
 Filename: luci-app-simple-adblock_1.8.8-2_all.ipk
-Size: 7152
-SHA256sum: e3957eff5df90646b9b14d11609ce151bbc02be7e0a65091aa09abbbf2aca09b
+Size: 7189
+SHA256sum: 2286fb971289e20c70c0c53cf8423af8288a91b667973db148f74e47abe0bd7e
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -187,10 +187,10 @@ Depends: libc, jshn, wget
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 10059
+Installed-Size: 10164
 Filename: simple-adblock_1.8.8-2_all.ipk
-Size: 11203
-SHA256sum: 7014d94852ec1df1e603ced9962aec8789547cad8db9e0d874ca23bebd44d0fc
+Size: 11312
+SHA256sum: 5c2afe5e8a4f14dac5cd0ca975d47b522c28b2e4c255308af8e02d0ee674e1ae
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
