@@ -89,10 +89,10 @@ Section: luci
 SourceDateEpoch: 1639350624
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 10092
+Installed-Size: 10096
 Filename: luci-app-https-dns-proxy_2021-09-27-2_all.ipk
-Size: 10920
-SHA256sum: 89b2b4155fc8ac46e37aa87ebb02b790e784058fd022d2db864c526d0150353e
+Size: 10913
+SHA256sum: 0e8da4bf6f7de9fa16fa5996a3b06ef3ae56a39d36bca9a795f3ed5328bd1beb
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
