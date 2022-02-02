@@ -96,7 +96,7 @@ SHA256sum: 31062d0c29044d915658393b30a069b44671bbf7a49fd32c29cf870a8605bb83
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 0.9.3-9
+Version: 0.9.4-8
 Depends: libc, luci-compat, luci-mod-admin-full, pbr
 Source: package/luci/applications/luci-app-pbr
 SourceName: luci-app-pbr
@@ -106,9 +106,9 @@ SourceDateEpoch: 1635066095
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 7045
-Filename: luci-app-pbr_0.9.3-9_all.ipk
-Size: 7962
-SHA256sum: 254d6213961e61a7543c7c0e5634e107dc99b2c76b207ce32c704257f38feac0
+Filename: luci-app-pbr_0.9.4-8_all.ipk
+Size: 7963
+SHA256sum: d9b25cfd616edba4ca23dac0d3342110ddbbe4291066e3e8186ea6f8892efaf9
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -207,21 +207,40 @@ Size: 1486
 SHA256sum: d10b69f3c9244ba74a888c87d9c173a8c68e04f6a9b627f79a9ecb18de59c201
 Description:  Provides Web UI for Nebula protocol/interface.
 
-Package: pbr
-Version: 0.9.3-9
+Package: pbr-ipt
+Version: 0.9.4-8
 Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
 Conflicts: vpnbypass, vpn-policy-routing
+Provides: pbr
 Source: feeds/packages/stangri/pbr
-SourceName: pbr
+SourceName: pbr-ipt
 License: GPL-3.0-or-later
 Section: net
 SourceDateEpoch: 1635066095
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 14044
-Filename: pbr_0.9.3-9_all.ipk
-Size: 15092
-SHA256sum: 7045fe3180aae60653b7a56f2a4ed5a7063318fb26371803681968248f6e37aa
+Installed-Size: 14237
+Filename: pbr-ipt_0.9.4-8_all.ipk
+Size: 15328
+SHA256sum: af659b58023960ed77ce9c2df9e6cd688943737357657b57a4d370db2994e300
+Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
+
+Package: pbr-netifd
+Version: 0.9.4-8
+Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
+Conflicts: vpnbypass, vpn-policy-routing
+Provides: pbr
+Source: feeds/packages/stangri/pbr
+SourceName: pbr-netifd
+License: GPL-3.0-or-later
+Section: net
+SourceDateEpoch: 1635066095
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: all
+Installed-Size: 14729
+Filename: pbr-netifd_0.9.4-8_all.ipk
+Size: 15836
+SHA256sum: f759dabbbc85bd5afd6d7912455e3d06a7e7c835a9770eea6f77019075bfe4d2
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: policy-routing
