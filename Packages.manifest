@@ -38,13 +38,13 @@ Source: package/luci/applications/luci-app-advanced-reboot
 SourceName: luci-app-advanced-reboot
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1650666685
+SourceDateEpoch: 1651248414
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 6869
+Installed-Size: 6870
 Filename: luci-app-advanced-reboot_1.0.1-3_all.ipk
 Size: 7886
-SHA256sum: e095edcb9d68fe5101c5238881441900296996f2d279a827a1696f35e6fed1a8
+SHA256sum: ca3ee3831d7032ba65bd0f8e2a0eaab9d7775dc4e177f4168d36e937857edf40
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://docs.openwrt.melmac.net/luci-app-advanced-reboot/
 
 Package: luci-app-easyflash
@@ -86,13 +86,13 @@ Source: package/luci/applications/luci-app-https-dns-proxy
 SourceName: luci-app-https-dns-proxy
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1650666685
+SourceDateEpoch: 1651774546
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 10090
+Installed-Size: 10069
 Filename: luci-app-https-dns-proxy_2021-11-22-3_all.ipk
-Size: 10909
-SHA256sum: 43d145a28673907c2d32655a34b7a89be6d5300ac02a24af5b656b4d97162287
+Size: 10897
+SHA256sum: 946fd427a6499d2f264c50ca9d0ad3cb5f34ae4252cc4df46a29ee1cee90c2bd
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
@@ -105,10 +105,10 @@ Section: luci
 SourceDateEpoch: 1650113974
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 7044
+Installed-Size: 7028
 Filename: luci-app-pbr_0.9.4-10_all.ipk
-Size: 7958
-SHA256sum: 33d21a871da06aff0e1c32399fb730c82025147c4d05204c8a8aedd336a9d4cd
+Size: 7944
+SHA256sum: 56c0d252d9e7f42a77ea6aa3401890b15fff1920c566a0b1a0620dc9d1d7b500
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -118,13 +118,13 @@ Source: package/luci/applications/luci-app-simple-adblock
 SourceName: luci-app-simple-adblock
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1650666685
+SourceDateEpoch: 1652210244
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 6283
+Installed-Size: 6257
 Filename: luci-app-simple-adblock_1.8.8-2_all.ipk
-Size: 7187
-SHA256sum: 3c70dadd69e9cc653fb57ac41e8b35a93ebd3873da51502a94bc61967684ddec
+Size: 7165
+SHA256sum: 34d6ddee478b8421209954c45cdebb373717e7fefff7c34dd4118c40e9df14a8
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -134,13 +134,13 @@ Source: package/luci/applications/luci-app-vpn-policy-routing
 SourceName: luci-app-vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1650666685
+SourceDateEpoch: 1651774546
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 7159
+Installed-Size: 7144
 Filename: luci-app-vpn-policy-routing_0.3.4-8_all.ipk
-Size: 8049
-SHA256sum: 6a1f1853f2798d4907186f9f0832b7c06ec5b8324834bac17c6528377a8d82e0
+Size: 8039
+SHA256sum: 343644b91d60e82d14f4b2951d2ae9f72561a273188bfa61430423a51aac6c20
 Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-vpnbypass
@@ -150,13 +150,13 @@ Source: package/luci/applications/luci-app-vpnbypass
 SourceName: luci-app-vpnbypass
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1650666685
+SourceDateEpoch: 1651774546
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3273
+Installed-Size: 3270
 Filename: luci-app-vpnbypass_1.3.2-1_all.ipk
-Size: 4133
-SHA256sum: 91511b59de3abb15612f64b0b23fc34113e56a71e0dce1db85529e7aac16c532
+Size: 4120
+SHA256sum: 6e2b1d0b21023e651935d677173ba528d983f5f07c89c3f1d172ae6683d37847
 Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
@@ -169,10 +169,10 @@ Section: luci
 SourceDateEpoch: 1650113974
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3657
+Installed-Size: 3640
 Filename: luci-app-wireshark-helper_0.0.1-5_all.ipk
-Size: 4517
-SHA256sum: 1d24c1fdc325dbc059b06fdbd85e75c0c8f046e833886f6a5790a77a91c46269
+Size: 4495
+SHA256sum: 375d56aceaae6cabb573bb2c1d9764215b21330ac8feffd44f5bdc6b24884773
 Description:  Provides Web UI for Wireshark-helper.
 
 Package: luci-app-wlanblinker
