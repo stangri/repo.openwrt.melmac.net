@@ -270,10 +270,10 @@ Section: net
 SourceDateEpoch: 1650113974
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 10484
+Installed-Size: 10482
 Filename: simple-adblock_1.8.8-4_all.ipk
-Size: 11647
-SHA256sum: adaa28ce9f847a6bfb5d88a9f18d585acb10b8673a29128dac81a5ee9532b9cf
+Size: 11653
+SHA256sum: d74d9baf3a72c244af411c00e9f1d5acdb3d9abbf21df970f247d5ba51d1323c
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
