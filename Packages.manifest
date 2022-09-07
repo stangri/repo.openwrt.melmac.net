@@ -219,10 +219,10 @@ Section: net
 SourceDateEpoch: 1662173734
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 14436
+Installed-Size: 14433
 Filename: pbr-iptables_0.9.6-2_all.ipk
-Size: 15478
-SHA256sum: 6ac235ba2ab1ab0ef0ad8a15fadf79bfc95b4a04422d0c79f84db9fe78be00ac
+Size: 15479
+SHA256sum: 24b60c55bf2ceff39e0c987f46003424974c22a1471f2045af39eb10d6ced821
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: pbr-netifd
