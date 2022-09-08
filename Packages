@@ -77,10 +77,10 @@ Depends: libc, luci-compat, luci-mod-admin-full, pbr
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 7430
+Installed-Size: 7341
 Filename: luci-app-pbr_0.9.6-3_all.ipk
-Size: 8330
-SHA256sum: 787fdb6206796a855b48196909c81f7056df7358d0823dc61c856ffacdf2b4e1
+Size: 8229
+SHA256sum: 46cec5bcbc962b67f66f15941d0639adfad234e67bbca34237c8ba3efc7b2f6c
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -163,10 +163,10 @@ Provides: pbr
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 14509
+Installed-Size: 14508
 Filename: pbr-iptables_0.9.6-3_all.ipk
-Size: 15556
-SHA256sum: ce30fdae49ef370c465e6e3bab7cfc825e5f72a8caffa299662c1de156b2e196
+Size: 15563
+SHA256sum: e227537c78d077bbb8b07837d54e9dd37c90dc75db98bee047d1dc9205ece395
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: pbr-netifd
@@ -177,10 +177,10 @@ Provides: pbr
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 14829
+Installed-Size: 14830
 Filename: pbr-netifd_0.9.6-3_all.ipk
-Size: 15943
-SHA256sum: f7ac68ffe86fc6c6b0fa8c5d7aacfa76fd27c1fb581d78847d6e26e7d1e87cd1
+Size: 15946
+SHA256sum: e856e640005e0ca1cde5fdd8b4f5603b2e9d990b184cbfa8e00fc83dbf7e4b9c
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: pbr-nftables
@@ -191,10 +191,10 @@ Provides: pbr
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 14566
+Installed-Size: 14562
 Filename: pbr-nftables_0.9.6-3_all.ipk
-Size: 15625
-SHA256sum: 87f375950530b19891cfaec277141d672576078c1d8b45bcfbabe7debf4ffdbc
+Size: 15611
+SHA256sum: 4812b873fd3a084600f36896e9762bd86ae51b916c027f30ecc843b3600c90d0
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: policy-routing
