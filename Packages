@@ -79,8 +79,8 @@ Section: luci
 Architecture: all
 Installed-Size: 7341
 Filename: luci-app-pbr_0.9.6-3_all.ipk
-Size: 8229
-SHA256sum: 46cec5bcbc962b67f66f15941d0639adfad234e67bbca34237c8ba3efc7b2f6c
+Size: 8228
+SHA256sum: 8f4b8351f9b11df351c6d5f9220c02b89cb0edfad4f19ecf6d2a36a81b6db5d7
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
