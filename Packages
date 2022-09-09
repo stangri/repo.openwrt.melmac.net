@@ -191,10 +191,10 @@ Provides: pbr
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 14615
+Installed-Size: 14617
 Filename: pbr-nftables_0.9.6-3_all.ipk
-Size: 15669
-SHA256sum: 05a5688c75000a0fd0423d41c8d875c53689cb670f6a2f47e36e1ae83288b293
+Size: 15670
+SHA256sum: db8e4bd41eddc89a42532f8acb91af5b0dee684ff5aaf9837c80b26b64ad37fd
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: policy-routing
