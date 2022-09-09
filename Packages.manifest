@@ -255,10 +255,10 @@ Section: net
 SourceDateEpoch: 1662173734
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 14572
+Installed-Size: 14569
 Filename: pbr-nftables_0.9.6-3_all.ipk
-Size: 15630
-SHA256sum: 8f1540ddc3525ad2b23847f878e49247a0750baf6436d06c16803449054a3f27
+Size: 15636
+SHA256sum: 8f310d3b493d6e0b1976bd5dcd4fa07c9f74aa24cd1041d1b9d64adaca23fbb5
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: policy-routing
