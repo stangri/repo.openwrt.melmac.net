@@ -112,19 +112,19 @@ SHA256sum: 1973278b7f8666245e521ce8fdd4f882e5a0ba1c61fa4cf19311246371e2e2b4
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
-Version: 1.9.0-2
+Version: 1.9.0-3
 Depends: libc, luci-compat, luci-mod-admin-full, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 SourceName: luci-app-simple-adblock
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1662562155
+SourceDateEpoch: 1662914089
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 6341
-Filename: luci-app-simple-adblock_1.9.0-2_all.ipk
-Size: 7255
-SHA256sum: d922bbbd02f45bfd2946090dd4b68af6cfdda1b7968c6a48de952a9192fc5e16
+Installed-Size: 6344
+Filename: luci-app-simple-adblock_1.9.0-3_all.ipk
+Size: 7262
+SHA256sum: 24580b5a0831a41a53fd1558aee0368b724fb69d465bed7bf1749a9cde3bd29f
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -279,7 +279,7 @@ SHA256sum: 22bfa50941923c0aed6b47b44adf899469154b998101910fd1b298319cf4ae6a
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: simple-adblock
-Version: 1.9.0-2
+Version: 1.9.0-3
 Depends: libc, jshn, wget
 Source: feeds/packages/stangri/simple-adblock
 SourceName: simple-adblock
@@ -288,10 +288,10 @@ Section: net
 SourceDateEpoch: 1662173734
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 11055
-Filename: simple-adblock_1.9.0-2_all.ipk
-Size: 12170
-SHA256sum: 44595570269f852b423d774b955e24bb5470d7c81d82846637d76f2c97aec943
+Installed-Size: 11283
+Filename: simple-adblock_1.9.0-3_all.ipk
+Size: 12403
+SHA256sum: 2fbe4e526d58d5b7ceda8d07e8d79a1879831da4dbef45b80abd892852cea49e
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
