@@ -72,15 +72,15 @@ SHA256sum: 411b162f0306c6e3c59bf4c627febc7058e33c645488905396dcfe2c713c76bc
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 0.9.7-5
+Version: 0.9.7-6
 Depends: libc, luci-compat, luci-mod-admin-full, pbr
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 7341
-Filename: luci-app-pbr_0.9.7-5_all.ipk
+Filename: luci-app-pbr_0.9.7-6_all.ipk
 Size: 8228
-SHA256sum: e5ffab32a0ededb5bf7d88ee13d4bd0824e5da07d7d6838d8a0e214f0806320c
+SHA256sum: f028e4784d0b8c32953ae52e7725918c089b1b7773fffb7ead5b65becbefcce8
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -156,31 +156,31 @@ SHA256sum: 5a44858045fcf01952a7dfa58c2e3c135cfb8cc853759c20943aceb4ffb1c3cf
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr-iptables
-Version: 0.9.7-5
+Version: 0.9.7-6
 Depends: libc, jshn, resolveip, ip-full, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: pbr
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 17278
-Filename: pbr-iptables_0.9.7-5_all.ipk
-Size: 18386
-SHA256sum: 2ac589e2a57c641bfd6c2c06c5ff81645e11f34d9e250b47f3ebe0db27781d2a
+Installed-Size: 17289
+Filename: pbr-iptables_0.9.7-6_all.ipk
+Size: 18394
+SHA256sum: a8d4586a7c5fd0b1fcdb6fad8a962d3d79f4a13aaf76bbf0eeb1a56f5ceae903
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: pbr-nftables
-Version: 0.9.7-5
+Version: 0.9.7-6
 Depends: libc, jshn, resolveip, ip-full, kmod-nft-core, kmod-nft-nat, nftables-json
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: pbr
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 17706
-Filename: pbr-nftables_0.9.7-5_all.ipk
-Size: 18817
-SHA256sum: 2b78451f662251530623ef12846fce5847074a9347654714ae532df527c38ad3
+Installed-Size: 17717
+Filename: pbr-nftables_0.9.7-6_all.ipk
+Size: 18839
+SHA256sum: 6e2fdb4f16452a24873e7c60f862a9c45e71074437d9af12dcaf116f0bfc75df
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: policy-routing
