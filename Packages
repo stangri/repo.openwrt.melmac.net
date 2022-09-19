@@ -163,10 +163,10 @@ Provides: pbr
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 17272
+Installed-Size: 17278
 Filename: pbr-iptables_0.9.7-5_all.ipk
-Size: 18381
-SHA256sum: 18366462e47b3cdae7c35d68be039b542ba1a4d595f30929837ac7f545f64a39
+Size: 18386
+SHA256sum: 2ac589e2a57c641bfd6c2c06c5ff81645e11f34d9e250b47f3ebe0db27781d2a
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: pbr-nftables
@@ -177,10 +177,10 @@ Provides: pbr
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 17700
+Installed-Size: 17706
 Filename: pbr-nftables_0.9.7-5_all.ipk
-Size: 18816
-SHA256sum: 9d13a05151925af7b9e21dd682d56cd30c8dc8f3fa23d151a5a6c94537df5e88
+Size: 18817
+SHA256sum: 2b78451f662251530623ef12846fce5847074a9347654714ae532df527c38ad3
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: policy-routing
