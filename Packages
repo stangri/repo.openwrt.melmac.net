@@ -165,8 +165,8 @@ Section: net
 Architecture: all
 Installed-Size: 17243
 Filename: pbr-iptables_0.9.7-7_all.ipk
-Size: 18353
-SHA256sum: de847b934c7a6ce06ba217f4ed131937f1c187643be6b06dd2ce0968ba16f393
+Size: 18375
+SHA256sum: 5bbd3dc711f3453000f7db833ac77d431aab1edcc85b394f21e40f1bc7b31851
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: pbr-nftables
@@ -179,8 +179,8 @@ Section: net
 Architecture: all
 Installed-Size: 17695
 Filename: pbr-nftables_0.9.7-7_all.ipk
-Size: 18848
-SHA256sum: ad5bfba04ab8ab0ed76817c7626b22e0e34b2f371b1bfb98730c2244704ab527
+Size: 18833
+SHA256sum: e2642cc62cba113d383faa4d4066293b8f9fcc4553704a8ab048ba09301370e1
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: policy-routing
