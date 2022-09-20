@@ -163,10 +163,10 @@ Provides: pbr
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 17473
+Installed-Size: 17466
 Filename: pbr-iptables_0.9.8-4_all.ipk
-Size: 18656
-SHA256sum: 43ede17906bf5b60a39ec1569100ad57c530da33c587cb3226eff3acc007a6a5
+Size: 18645
+SHA256sum: ea7fb47f87c4ec0c01249198e6a1db9e117d3172385f250773010b28f31eb48a
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with fw3/ipset/iptables.
 
@@ -177,10 +177,10 @@ Conflicts: vpnbypass, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 17903
+Installed-Size: 17900
 Filename: pbr_0.9.8-4_all.ipk
-Size: 19137
-SHA256sum: d4073ef8654d91424c516773680abe7bbb7990013001f34a3ca7da1de2912434
+Size: 19136
+SHA256sum: 199a42993f0630af4f9f82333b6cf47cebd6d9ad93854db90e78ebc6ebf419e2
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both fw3/ipset/iptables and fw4/nft.
 
