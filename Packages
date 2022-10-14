@@ -163,10 +163,10 @@ Provides: pbr
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 17443
+Installed-Size: 17444
 Filename: pbr-iptables_0.9.8-16_all.ipk
-Size: 18598
-SHA256sum: be55660592106c9f133788377af382c08bbe975d04a61e033d09348c3ba24cd1
+Size: 18597
+SHA256sum: b74cc2fb1ab42ba18456214623d20371d12b8918f579901e3ba03bf5dff4eae8
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with fw3/ipset/iptables.
 
@@ -177,10 +177,10 @@ Conflicts: vpnbypass, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 17871
+Installed-Size: 17873
 Filename: pbr_0.9.8-16_all.ipk
-Size: 19064
-SHA256sum: dd68670b24a3502f12d02220078840a9c6b3f58ad2afbf6a27ea70c4ca4c9a87
+Size: 19060
+SHA256sum: 3034649d5d01e4273ca2930a21ad811dd3b2dfaa4844d3c45ae553f9dec6f778
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both fw3/ipset/iptables and fw4/nft.
 
@@ -203,10 +203,10 @@ Depends: libc, jshn, wget
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 11407
+Installed-Size: 11413
 Filename: simple-adblock_1.9.1-2_all.ipk
-Size: 12535
-SHA256sum: 0bca7a463a729991874f806fe1237eba77fb660265cc4c3b62a1f50777f3f10f
+Size: 12542
+SHA256sum: fd39f1c5664eb9d8f9d5787aeca236ae21d5cea57eac69efce956855c56935e1
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
