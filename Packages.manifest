@@ -80,7 +80,7 @@ SHA256sum: 53948ac2016e15e599e2c4c902edd44ffee6e51c7c801d6b8671b117ea6fa124
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: 2022-10-15-1
+Version: 2022-10-15-4
 Depends: libc, luci-compat, luci-mod-admin-full, https-dns-proxy
 Source: package/luci/applications/luci-app-https-dns-proxy
 SourceName: luci-app-https-dns-proxy
@@ -90,13 +90,13 @@ SourceDateEpoch: 1666109304
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 10236
-Filename: luci-app-https-dns-proxy_2022-10-15-1_all.ipk
+Filename: luci-app-https-dns-proxy_2022-10-15-4_all.ipk
 Size: 11080
-SHA256sum: ca25f0d8cb64e337c7b877cee114ae9ea3693cd8fb6c2fa5433de1844956a5df
+SHA256sum: c121418e8ee5b60237517364747ce6437d6cb2731c936d88c628c4174a61de11
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 0.9.8-18
+Version: 0.9.8-20
 Depends: libc, luci-compat, luci-mod-admin-full, pbr
 Source: package/luci/applications/luci-app-pbr
 SourceName: luci-app-pbr
@@ -106,13 +106,13 @@ SourceDateEpoch: 1665787481
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 7410
-Filename: luci-app-pbr_0.9.8-18_all.ipk
-Size: 8310
-SHA256sum: d71334ee35dcb5cd66bd41b20ce252e20d64d5663e4118a8fd977972b18fed9b
+Filename: luci-app-pbr_0.9.8-20_all.ipk
+Size: 8311
+SHA256sum: d59bc5ec320db599a76d945f9fe96d64910d590a1f97dd29cb8f3dab8a2a7985
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
-Version: 1.9.2-1
+Version: 1.9.2-2
 Depends: libc, luci-compat, luci-mod-admin-full, simple-adblock
 Source: package/luci/applications/luci-app-simple-adblock
 SourceName: luci-app-simple-adblock
@@ -122,9 +122,9 @@ SourceDateEpoch: 1666109304
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 6343
-Filename: luci-app-simple-adblock_1.9.2-1_all.ipk
-Size: 7258
-SHA256sum: 581fc8f94a31df288ced159327435e7a144c4e0f4ffbb2e1e74c9a68258d691d
+Filename: luci-app-simple-adblock_1.9.2-2_all.ipk
+Size: 7257
+SHA256sum: d27a29aac04cf7316942c636b6dd9868d01b88812f6affd0af582e8409663e5e
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -208,7 +208,7 @@ SHA256sum: a096049451016c154e96f79c27d82bea89b4f7fe9af801978aad4dca77445a86
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr-iptables
-Version: 0.9.8-18
+Version: 0.9.8-20
 Depends: libc, jshn, resolveip, ip-full, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: pbr
@@ -219,15 +219,15 @@ Section: net
 SourceDateEpoch: 1665787481
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 17416
-Filename: pbr-iptables_0.9.8-18_all.ipk
-Size: 18568
-SHA256sum: bab00a056f4988710f1cd7918e01e06a38fd274fe533c4dddde0f8c221a6a80c
+Installed-Size: 17381
+Filename: pbr-iptables_0.9.8-20_all.ipk
+Size: 18538
+SHA256sum: c48c8554bd68fc64158b6b638ba4c1f5290eb2fb80cd64b0412476bcbc1fe6cf
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with fw3/ipset/iptables.
 
 Package: pbr
-Version: 0.9.8-18
+Version: 0.9.8-20
 Depends: libc, jshn, resolveip, ip-full, kmod-nft-core, kmod-nft-nat, nftables-json
 Conflicts: vpnbypass, vpn-policy-routing
 Source: feeds/packages/stangri/pbr
@@ -237,10 +237,10 @@ Section: net
 SourceDateEpoch: 1665787481
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 17845
-Filename: pbr_0.9.8-18_all.ipk
-Size: 19048
-SHA256sum: 52056e2fedc641c237baac406bd3bedfe6ce2114c7e8cfb59dc6543e77806e7e
+Installed-Size: 17810
+Filename: pbr_0.9.8-20_all.ipk
+Size: 19011
+SHA256sum: d0063590f741718e70b0fe1497cec1fe8badbdd89de86bf1f82b3143c607eaf2
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both fw3/ipset/iptables and fw4/nft.
 
@@ -262,7 +262,7 @@ SHA256sum: 22bfa50941923c0aed6b47b44adf899469154b998101910fd1b298319cf4ae6a
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: simple-adblock
-Version: 1.9.2-1
+Version: 1.9.2-2
 Depends: libc, jshn, wget
 Source: feeds/packages/stangri/simple-adblock
 SourceName: simple-adblock
@@ -271,10 +271,10 @@ Section: net
 SourceDateEpoch: 1665787481
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 11367
-Filename: simple-adblock_1.9.2-1_all.ipk
-Size: 12500
-SHA256sum: 728d8f454ef35dc7ff4203eef755fee5e42d8fb2c8e5114f2515dcba1680b262
+Installed-Size: 11359
+Filename: simple-adblock_1.9.2-2_all.ipk
+Size: 12494
+SHA256sum: 78235830a54d0ebae3b35e0898df2df518038d68e26702262101635ac6c37171
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
