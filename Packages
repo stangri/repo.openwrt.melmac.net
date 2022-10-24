@@ -60,15 +60,15 @@ SHA256sum: 53948ac2016e15e599e2c4c902edd44ffee6e51c7c801d6b8671b117ea6fa124
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: 2022-10-15-4
+Version: 2022-10-15-6
 Depends: libc, luci-compat, luci-mod-admin-full, https-dns-proxy
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 10236
-Filename: luci-app-https-dns-proxy_2022-10-15-4_all.ipk
-Size: 11080
-SHA256sum: c121418e8ee5b60237517364747ce6437d6cb2731c936d88c628c4174a61de11
+Filename: luci-app-https-dns-proxy_2022-10-15-6_all.ipk
+Size: 11078
+SHA256sum: 91963ef5cffe4d4ece5c80afa6e4339350190b1953ade101e08c60f9148bd2be
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
@@ -84,15 +84,15 @@ SHA256sum: 15e16642c46e034d82cc7f21f918735167bb5682041233e602cf57c60fffb66c
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
-Version: 1.9.2-2
+Version: 1.9.2-3
 Depends: libc, luci-compat, luci-mod-admin-full, simple-adblock
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 6343
-Filename: luci-app-simple-adblock_1.9.2-2_all.ipk
-Size: 7257
-SHA256sum: d27a29aac04cf7316942c636b6dd9868d01b88812f6affd0af582e8409663e5e
+Filename: luci-app-simple-adblock_1.9.2-3_all.ipk
+Size: 7252
+SHA256sum: 0b170570c649e5df590229f71be482a58c8c9449983dd5a85831a605851e76fc
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -198,15 +198,15 @@ SHA256sum: 22bfa50941923c0aed6b47b44adf899469154b998101910fd1b298319cf4ae6a
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: simple-adblock
-Version: 1.9.2-2
+Version: 1.9.2-3
 Depends: libc, jshn, wget
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 11359
-Filename: simple-adblock_1.9.2-2_all.ipk
-Size: 12494
-SHA256sum: 78235830a54d0ebae3b35e0898df2df518038d68e26702262101635ac6c37171
+Installed-Size: 11363
+Filename: simple-adblock_1.9.2-3_all.ipk
+Size: 12492
+SHA256sum: 199dbb84f1bfe99a9cf20c854760eb58922691d9ecd761897afc79c5c4f82d11
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
