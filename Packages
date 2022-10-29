@@ -77,10 +77,10 @@ Depends: libc, luci-mod-admin-full, jsonfilter, pbr
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 7100
+Installed-Size: 7094
 Filename: luci-app-pbr_0.9.9-7_all.ipk
-Size: 8025
-SHA256sum: 1169f32b8a9ca83fb1f24b80fea9026ecae2c2e5f203ef10a209aea217918a83
+Size: 8020
+SHA256sum: fe3f825d26cd7abd27605949267b0c39fbbf745271f4f0d0514e7861ea7563bc
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
