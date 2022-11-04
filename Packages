@@ -89,10 +89,10 @@ Depends: libc, luci-mod-admin-full, simple-adblock, jsonfilter
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 6691
+Installed-Size: 6592
 Filename: luci-app-simple-adblock_1.9.2-4_all.ipk
-Size: 7613
-SHA256sum: 2bbbdd5501cc4e26eec1b2f2a433f928b8991429bb7affee052ae6c9fdf18104
+Size: 7502
+SHA256sum: c651631e72f73112473cda29e5419457cfb42544bacba2ed7b60c9d398ab0484
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
