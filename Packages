@@ -72,15 +72,15 @@ SHA256sum: 91963ef5cffe4d4ece5c80afa6e4339350190b1953ade101e08c60f9148bd2be
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 0.9.9-13
+Version: 0.9.9-14
 Depends: libc, luci-mod-admin-full, jsonfilter, pbr
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 7185
-Filename: luci-app-pbr_0.9.9-13_all.ipk
-Size: 8107
-SHA256sum: 01a521cc94babdb6624da7a36ec198fa445a71b88eadcf51baa2d35feba0f3a3
+Installed-Size: 7181
+Filename: luci-app-pbr_0.9.9-14_all.ipk
+Size: 8103
+SHA256sum: 09895ea5122fd0ab14023047bd9f52e6af68b88bd66589ddbbf503b79f4d4b72
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -156,31 +156,31 @@ SHA256sum: a096049451016c154e96f79c27d82bea89b4f7fe9af801978aad4dca77445a86
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr-iptables
-Version: 0.9.9-13
+Version: 0.9.9-14
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: pbr
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 17608
-Filename: pbr-iptables_0.9.9-13_all.ipk
-Size: 18779
-SHA256sum: 848e1adb4f7d6bf195d87aacdf824c6b0bf9dc35e5147e19372391565328fe1d
+Installed-Size: 17914
+Filename: pbr-iptables_0.9.9-14_all.ipk
+Size: 19103
+SHA256sum: 22a6f3bea6d9902fc7a0a0932dda9951fc064ea9a1fc51bb3fec9ca3c52f118a
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with fw3/ipset/iptables.
 
 Package: pbr
-Version: 0.9.9-13
+Version: 0.9.9-14
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, firewall4, kmod-nft-core, kmod-nft-nat, nftables-json
 Conflicts: vpnbypass, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 18033
-Filename: pbr_0.9.9-13_all.ipk
-Size: 19271
-SHA256sum: ec18cb6c15e0af059cba626e178800cf36c7196af8db12d45229d6a9b4a77dae
+Installed-Size: 18341
+Filename: pbr_0.9.9-14_all.ipk
+Size: 19586
+SHA256sum: 38a32f7726f7772711f700058bfaa707a4e8b306887ef362732049ea6402fe1e
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both fw3/ipset/iptables and fw4/nft.
 
