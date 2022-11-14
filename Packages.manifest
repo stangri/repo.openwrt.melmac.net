@@ -124,7 +124,7 @@ Architecture: all
 Installed-Size: 6840
 Filename: luci-app-simple-adblock_1.9.3-1_all.ipk
 Size: 7758
-SHA256sum: a3e95b847a67542475e2d831b942b94563edd49b7b00d6ac332513f0ad1b9437
+SHA256sum: 430f43981a2c8fa406122ecabe11790546eea7ac4adb74b9ea7bd8affaed008a
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -271,10 +271,10 @@ Section: net
 SourceDateEpoch: 1665787481
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 11868
+Installed-Size: 11861
 Filename: simple-adblock_1.9.3-1_all.ipk
-Size: 13007
-SHA256sum: ad9273801616d34ea2fde80e401b580b22f79c4a95947a60f069712c38a3a5db
+Size: 12994
+SHA256sum: 59ae3f4c709d4f39dcd7d62495e04ef98b00620ccf69f54ce1a7f3f7d6905113
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
