@@ -163,10 +163,10 @@ Provides: vpnbypass, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 18609
+Installed-Size: 18573
 Filename: pbr-iptables_0.9.9-25_all.ipk
-Size: 19759
-SHA256sum: 1207ace07e554ac2d308dee73e510382b1012d98c09a784afe5f20022eec4bb5
+Size: 19721
+SHA256sum: d6c95903f3e8de84b2bb0b35f5c3b8faf40d52687d4eeb99699c1698267f8cde
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with fw3/ipset/iptables.
 
@@ -178,10 +178,10 @@ Provides: vpnbypass, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 19066
+Installed-Size: 19033
 Filename: pbr-netifd_0.9.9-25_all.ipk
-Size: 20320
-SHA256sum: 703be5a5208597719029fc7d686d304cd3d1a63296c42aae08839c217b6a4cec
+Size: 20281
+SHA256sum: 1bf33dc2fe64aec122df1c2d756500cb72944a75c01a630b0f612f8ea8bd7c0d
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both fw3/ipset/iptables and fw4/nft.
  This version uses OpenWrt native netifd/tables to set up interfaces. This is WIP.
@@ -194,10 +194,10 @@ Provides: vpnbypass, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 19040
+Installed-Size: 19005
 Filename: pbr_0.9.9-25_all.ipk
-Size: 20262
-SHA256sum: b1edd86a19db746794947fde5de433af3a650b079b802aadf4a5e78628af80de
+Size: 20219
+SHA256sum: 15ba53c24b14b978aedfbde5e79bcf94c1de48f97cae08cfc5fbc9f288e48126
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both fw3/ipset/iptables and fw4/nft.
 
