@@ -72,15 +72,15 @@ SHA256sum: 91963ef5cffe4d4ece5c80afa6e4339350190b1953ade101e08c60f9148bd2be
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 0.9.9-44
+Version: 0.9.9-45
 Depends: libc, luci-mod-admin-full, jsonfilter, pbr
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 8298
-Filename: luci-app-pbr_0.9.9-44_all.ipk
-Size: 9196
-SHA256sum: f68bd2182e669d28d94f1d0a98f9634bdb741a56a5a20b2c9bb4b77316b45a3e
+Installed-Size: 8291
+Filename: luci-app-pbr_0.9.9-45_all.ipk
+Size: 9189
+SHA256sum: 7b975363f9d77cd06bd06c0b46861bfc0e2d8235f5c3dab99b693dccf4ad12f0
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -89,10 +89,10 @@ Depends: libc, luci-mod-admin-full, simple-adblock, jsonfilter
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 7310
+Installed-Size: 7328
 Filename: luci-app-simple-adblock_1.9.3-3_all.ipk
-Size: 8196
-SHA256sum: 2681d06509020b189d696a07b5d8c7e3e5f2b62189ad0d8081ab9b8224e50a16
+Size: 8219
+SHA256sum: cfefe91f8f2070e178f2888ca960605fd3844ab0dadff61d80e5ed807ca368ea
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -156,48 +156,48 @@ SHA256sum: a096049451016c154e96f79c27d82bea89b4f7fe9af801978aad4dca77445a86
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr-iptables
-Version: 0.9.9-44
+Version: 0.9.9-45
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: vpnbypass, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 19747
-Filename: pbr-iptables_0.9.9-44_all.ipk
-Size: 20938
-SHA256sum: 962389756a6f68cafc76f3a6f0e1afe1bc2b08f70626a4848f3797adaa95783a
+Installed-Size: 19780
+Filename: pbr-iptables_0.9.9-45_all.ipk
+Size: 20970
+SHA256sum: 4087a5a1a4589b99c2a46be386cb6b3c276f2a9838b9633e14ba4287932d6877
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with fw3/ipset/iptables.
 
 Package: pbr-netifd
-Version: 0.9.9-44
+Version: 0.9.9-45
 Depends: libc, ip-full, jshn, jsonfilter, resolveip
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: vpnbypass, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 20271
-Filename: pbr-netifd_0.9.9-44_all.ipk
-Size: 21485
-SHA256sum: b07d687261f41ec9e27e3b73955d370c921b237264c71f8a4430e4162e279611
+Installed-Size: 20306
+Filename: pbr-netifd_0.9.9-45_all.ipk
+Size: 21517
+SHA256sum: 97a4b97e0a41700d823b3f3854581f32e9cbe4fe1fe98148bc473209e05a9b9c
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both fw3/ipset/iptables and fw4/nft.
  This version uses OpenWrt native netifd/tables to set up interfaces. This is WIP.
 
 Package: pbr
-Version: 0.9.9-44
+Version: 0.9.9-45
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, firewall4, kmod-nft-core, kmod-nft-nat, nftables-json
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: vpnbypass, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 20177
-Filename: pbr_0.9.9-44_all.ipk
-Size: 21422
-SHA256sum: 94a9339790a59af3313a29967f05c607f804cf9ae8661d6fa879fb3a4076ac8f
+Installed-Size: 20212
+Filename: pbr_0.9.9-45_all.ipk
+Size: 21455
+SHA256sum: 9daee9a529fb665accf496136b005fe719f75dae100fa452b9ac63af5df45530
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both fw3/ipset/iptables and fw4/nft.
 
@@ -220,10 +220,10 @@ Depends: libc, jshn, wget
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 12104
+Installed-Size: 12091
 Filename: simple-adblock_1.9.3-3_all.ipk
-Size: 13246
-SHA256sum: 62fa3449eb7c27e7d35e4038a42d7fb8afe1c3e41e3d1a87ed42277667e2193a
+Size: 13241
+SHA256sum: 303e4f5a53a03defd75aa76826dcba61865bbb7c04655a3ce9054bce5bef4240
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
