@@ -112,8 +112,8 @@ SHA256sum: 38b3068aadbe794ae50e98681625bbe0f6e6774046385e643f88a55d087471e5
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
-Version: 1.9.3-3
-Depends: libc, luci-mod-admin-full, simple-adblock, jsonfilter
+Version: 1.9.3-4
+Depends: libc, luci-base, simple-adblock, jsonfilter
 Source: package/luci/applications/luci-app-simple-adblock
 SourceName: luci-app-simple-adblock
 License: GPL-3.0-or-later
@@ -122,9 +122,9 @@ SourceDateEpoch: 1666109304
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 7344
-Filename: luci-app-simple-adblock_1.9.3-3_all.ipk
-Size: 8228
-SHA256sum: 60c2dd4972ae1b38b5a8947ebc59f724a4e590869723395eeb4c872211d2c1e7
+Filename: luci-app-simple-adblock_1.9.3-4_all.ipk
+Size: 8225
+SHA256sum: aee18eb30ff30ef7f4488762af3a22c35ecd8f9033b5d4fcdda7c81d9d41fdde
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -283,7 +283,7 @@ SHA256sum: 22bfa50941923c0aed6b47b44adf899469154b998101910fd1b298319cf4ae6a
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: simple-adblock
-Version: 1.9.3-3
+Version: 1.9.3-4
 Depends: libc, jshn, wget
 Source: feeds/packages/stangri/simple-adblock
 SourceName: simple-adblock
@@ -292,10 +292,10 @@ Section: net
 SourceDateEpoch: 1665787481
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 12099
-Filename: simple-adblock_1.9.3-3_all.ipk
-Size: 13239
-SHA256sum: 940f429fb683842f80ae01802162c88076837014ed587b7b04903d3d9d8d11ae
+Installed-Size: 12097
+Filename: simple-adblock_1.9.3-4_all.ipk
+Size: 13242
+SHA256sum: c87cb0b6211e171c99ad3c36f0012bbc1d51505b9c99c5ca270a84d4420e2a54
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
