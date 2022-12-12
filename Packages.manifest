@@ -105,10 +105,10 @@ Section: luci
 SourceDateEpoch: 1665787481
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8303
+Installed-Size: 8341
 Filename: luci-app-pbr_1.0.0-2_all.ipk
-Size: 9194
-SHA256sum: 38b3068aadbe794ae50e98681625bbe0f6e6774046385e643f88a55d087471e5
+Size: 9229
+SHA256sum: af652662ccc220f76f3c86f0710a4289bff87a2087f57e0a9359ad665877faee
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -219,10 +219,10 @@ Section: net
 SourceDateEpoch: 1665787481
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 19806
+Installed-Size: 19843
 Filename: pbr-iptables_1.0.0-2_all.ipk
-Size: 20992
-SHA256sum: d280d026dcf81c02bad6463ad69ec894dff129e1cb23454e1513192b0e37232d
+Size: 21028
+SHA256sum: 7e1fb72115637524a49846f3cb830eef0b37ab200ce3464f48841e97903cfcaa
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with fw3/ipset/iptables.
 
@@ -238,10 +238,10 @@ Section: net
 SourceDateEpoch: 1665787481
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 20334
+Installed-Size: 20370
 Filename: pbr-netifd_1.0.0-2_all.ipk
-Size: 21541
-SHA256sum: f7520ac8c2404e1754e9a172d759a41a037d04e01efa9a8d2c76d10c1939fd46
+Size: 21574
+SHA256sum: 90f770fe243542b8a86aeb6e601a155ab7ed78dcae3f26706c6db5328634d4f3
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both fw3/ipset/iptables and fw4/nft.
  This version uses OpenWrt native netifd/tables to set up interfaces. This is WIP.
@@ -258,10 +258,10 @@ Section: net
 SourceDateEpoch: 1665787481
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 20238
+Installed-Size: 20275
 Filename: pbr_1.0.0-2_all.ipk
-Size: 21480
-SHA256sum: 2cb1da42734d35d47c58cc6607a4a6b8948f41d964958505681b64832b06e6d9
+Size: 21514
+SHA256sum: 7cdc3ce0c7eb663fa980ee2a6fd1fe7f0d138d7a4ffa77ca0006b4474bf24976
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both fw3/ipset/iptables and fw4/nft.
 
