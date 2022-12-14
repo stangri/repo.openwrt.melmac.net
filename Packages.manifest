@@ -105,10 +105,10 @@ Section: luci
 SourceDateEpoch: 1665787481
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8733
+Installed-Size: 8731
 Filename: luci-app-pbr_1.0.0-4_all.ipk
-Size: 9616
-SHA256sum: 3de4445162a8e1264f327043c98d1e0ab10e388896d0cb12ed58354d449b21f1
+Size: 9613
+SHA256sum: f0287f44a05ec6395aa08effc92784f33c0dbe04f5138b07103b332913dfb0df
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -219,10 +219,10 @@ Section: net
 SourceDateEpoch: 1665787481
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 20346
+Installed-Size: 20344
 Filename: pbr-iptables_1.0.0-4_all.ipk
-Size: 21476
-SHA256sum: 44a0295fbb1b4b8670801378fbfd01a82907f3e262e5f5f082e901b2771dc101
+Size: 21477
+SHA256sum: 2d91cd839efc4925230267b22788e7436ab45b329f1b95aa9ad4762389afd05a
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with fw3/ipset/iptables.
 
@@ -238,10 +238,10 @@ Section: net
 SourceDateEpoch: 1665787481
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 20803
+Installed-Size: 20802
 Filename: pbr-netifd_1.0.0-4_all.ipk
-Size: 22034
-SHA256sum: 731b596cb8ea1abdbbf610595af7bb38dc669ac47b3057144fb1e558d4640878
+Size: 22030
+SHA256sum: 889c3b73f74fad3ee9761411ce1ce8aa28ac16cb41c2bd592332995eac9c6c2c
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both fw3/ipset/iptables and fw4/nft.
  This version uses OpenWrt native netifd/tables to set up interfaces. This is WIP.
@@ -260,8 +260,8 @@ Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 20776
 Filename: pbr_1.0.0-4_all.ipk
-Size: 21983
-SHA256sum: 31aeb959f3fae887d11c481ca97f9cf9d2889badb60749d39495fb22a86adc3f
+Size: 21978
+SHA256sum: d0ab3ba450b0bf96f26d6e43657ebf1edf9fcf5df108fde78c09dfe153191d12
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both fw3/ipset/iptables and fw4/nft.
 
