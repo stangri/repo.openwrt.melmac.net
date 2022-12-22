@@ -159,14 +159,14 @@ Package: pbr-iptables
 Version: 1.0.1-3
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
 Conflicts: vpnbypass, vpn-policy-routing
-Provides: pbr, vpnbypass, vpn-policy-routing
+Provides: vpnbypass, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
 Installed-Size: 19864
 Filename: pbr-iptables_1.0.1-3_all.ipk
-Size: 21056
-SHA256sum: f88b369eccf76a7af7ae73c3ba002a317de82d36f180b0ac7cd0f044148b2a0e
+Size: 21052
+SHA256sum: 94714e2d4c178ef96927ff24e3509083d6b0ee0b36481e88c9e20df4c622dea4
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with fw3/ipset/iptables.
 
