@@ -121,14 +121,14 @@ Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
 Version: 0.0.1-5
-Depends: libc, luci-compat, luci-base, wireshark-helper
+Depends: libc, luci-compat, luci-base, wireshark-helper, luci-lua-runtime
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 3644
+Installed-Size: 3642
 Filename: luci-app-wireshark-helper_0.0.1-5_all.ipk
-Size: 4495
-SHA256sum: 3605a39c0761f66b5aa932cc1c6b73f1c2ccf552efd0d63d0cad707a10430927
+Size: 4499
+SHA256sum: e90a98bb518f4cfb2ce8cb2270721b5e78d361b3eba51ee14d71eca6ea6db493
 Description:  Provides Web UI for Wireshark-helper.
 
 Package: luci-app-wlanblinker
@@ -303,10 +303,10 @@ Depends: libc, iptables-mod-tee
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 1063
+Installed-Size: 1060
 Filename: wireshark-helper_0.0.1-5_all.ipk
 Size: 2055
-SHA256sum: ceb7196f91d4853403a63270b43aa41a5b337f035c6b283c76ccd5c5aedb946d
+SHA256sum: 21066e7988ae114bbb0f4ae763f7e3f9ba05d46be67264eda9436f8605fb0064
 Description:  This service can be used to set up iptables rules required for WireShark.
 
 Package: wlanblinker
