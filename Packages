@@ -178,10 +178,10 @@ Provides: vpnbypass, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 20726
+Installed-Size: 20691
 Filename: pbr_1.0.1-15_all.ipk
-Size: 21930
-SHA256sum: 1405bad3a9e5dd3c513cfd801933f05b166344e31a326e43da15a7d613df8905
+Size: 21891
+SHA256sum: 657238c55fa07f25f18896cccdfd82b1b18db27b8013175d70586f6686eaffdb
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
 
