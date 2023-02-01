@@ -10,6 +10,21 @@ Size: 531222
 SHA256sum: d223aeea4ac1695c7d2d959fa4bee3fbe885b656e0120568e5b0b539e475a8ae
 Description:  This service can be used to monitor Antminers on local network.
 
+Package: brickproof
+Version: 1.0.0-1
+Depends: libc
+License: GPL-3.0-or-later
+Section: Utilities
+Architecture: all
+Installed-Size: 798
+Filename: brickproof_1.0.0-1_all.ipk
+Size: 1660
+SHA256sum: 93438bb66ceb0bd8d22e509b0c0b6eea538ee2d5e98e2878ade1b620284d7781
+Description:  Package provides a shell script which allows to force Failesafe Mode at the next boot.
+ You can use `brickproof enable` enable Failesafe Mode at next boot.
+ You can use `brickproof enable` to disable Failesafe Mode at next boot.
+ Please see https://docs.openwrt.melmac.net/brickproof/ for more information.
+
 Package: fakeinternet
 Version: 0.1.4-5
 Depends: libc, uhttpd, uhttpd-mod-ubus
