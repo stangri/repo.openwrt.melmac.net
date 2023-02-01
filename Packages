@@ -16,10 +16,10 @@ Depends: libc
 License: GPL-3.0-or-later
 Section: Utilities
 Architecture: all
-Installed-Size: 798
+Installed-Size: 753
 Filename: brickproof_1.0.0-1_all.ipk
-Size: 1660
-SHA256sum: 93438bb66ceb0bd8d22e509b0c0b6eea538ee2d5e98e2878ade1b620284d7781
+Size: 1607
+SHA256sum: 010bb23653616a76435fda306ea787815bbe4bb8e63b6cde87643490e469b998
 Description:  Package provides a shell script which allows to force Failesafe Mode at the next boot.
  You can use `brickproof enable` enable Failesafe Mode at next boot.
  You can use `brickproof enable` to disable Failesafe Mode at next boot.
