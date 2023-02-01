@@ -15,7 +15,7 @@ SHA256sum: d223aeea4ac1695c7d2d959fa4bee3fbe885b656e0120568e5b0b539e475a8ae
 Description:  This service can be used to monitor Antminers on local network.
 
 Package: brickproof
-Version: 1.0.0-1
+Version: 0.0.1-1
 Depends: libc
 Source: feeds/packages/stangri/brickproof
 SourceName: brickproof
@@ -25,9 +25,9 @@ SourceDateEpoch: 1672705461
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 792
-Filename: brickproof_1.0.0-1_all.ipk
-Size: 1655
-SHA256sum: d33b8f0a55cb34a82aa2624777a7f3d928908e7df985858e8daab7088082f19e
+Filename: brickproof_0.0.1-1_all.ipk
+Size: 1659
+SHA256sum: ab641376fe5e749f10e3d7d13f26b3d38784cae47ff35b38830132076eca2c87
 Description:  Package provides a shell script which allows to force Failesafe Mode at the next boot.
  Use 'brickproof enable' to enable Failesafe Mode at next boot.
  Use 'brickproof disable' to disable Failesafe Mode at next boot.
