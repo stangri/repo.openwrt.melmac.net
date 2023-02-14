@@ -140,10 +140,10 @@ Section: luci
 SourceDateEpoch: 1674295186
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 7344
+Installed-Size: 7374
 Filename: luci-app-simple-adblock_1.9.3-11_all.ipk
-Size: 8226
-SHA256sum: fc4d10072c74406ced11f1a68e00635769def1f20b2f358010d2096afa335e19
+Size: 8259
+SHA256sum: 59e758b419a57cc56363597f69637e12ef67c7a8d15f7ceee7cea9ae9de7613e
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
