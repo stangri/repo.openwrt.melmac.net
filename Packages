@@ -89,14 +89,14 @@ Description:  Provides Web UI for DNS Over HTTPS Proxy
 Package: luci-app-pbr
 Version: 1.1.0-1
 Depends: libc, luci-base, jsonfilter, pbr
-Provides: +luci-app-vpnbypass, +luci-app-vpn-policy-routing
+Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 8781
 Filename: luci-app-pbr_1.1.0-1_all.ipk
-Size: 9692
-SHA256sum: eb424fda04b3075d9b8225ff7ab534f9439e9f8659b90cbc21b2721af715942d
+Size: 9695
+SHA256sum: 786b568958c94fc3e2f80e42e577f91c2f164bb4ef75dea628f8917ca03b3adc
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
