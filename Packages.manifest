@@ -115,7 +115,7 @@ SHA256sum: 15875d7311b5e4a0f629e02cda93c34d4c27eec066b848025d3ec30ca05ad787
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.1.0-18
+Version: 1.1.0-19
 Depends: libc, luci-base, jsonfilter, pbr
 Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 Source: package/luci/applications/luci-app-pbr
@@ -125,10 +125,10 @@ Section: luci
 SourceDateEpoch: 1674295186
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 9160
-Filename: luci-app-pbr_1.1.0-18_all.ipk
-Size: 10065
-SHA256sum: 3b04faabf6f5b67b2f51c7a2d39b2b8aa8061c66970242a8449fa067c7990b51
+Installed-Size: 9164
+Filename: luci-app-pbr_1.1.0-19_all.ipk
+Size: 10071
+SHA256sum: 3fd01cb936ce20e817a1bbf4f0abba78d51e006b7c521654368a248bc3805404
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -228,7 +228,7 @@ SHA256sum: 0f160665fa698e49a3916c9d2ab413ffb7a5d75de8d5f84322da5f87612e0de6
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr-iptables
-Version: 1.1.0-18
+Version: 1.1.0-19
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: pbr
@@ -239,15 +239,15 @@ Section: net
 SourceDateEpoch: 1672705461
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 20679
-Filename: pbr-iptables_1.1.0-18_all.ipk
-Size: 21824
-SHA256sum: 5d5e75683fd04a87f109062836e8e841c4d866049596bec49857f84248408560
+Installed-Size: 20641
+Filename: pbr-iptables_1.1.0-19_all.ipk
+Size: 21788
+SHA256sum: 08fdd717fb74432d07ee81c216034f4d3940c76e48ccef0ec73135b5ca3b5154
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with firewall3/ipset/iptables.
 
 Package: pbr
-Version: 1.1.0-18
+Version: 1.1.0-19
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: vpnbypass, vpn-policy-routing
@@ -258,10 +258,10 @@ Section: net
 SourceDateEpoch: 1672705461
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 21063
-Filename: pbr_1.1.0-18_all.ipk
-Size: 22271
-SHA256sum: 87e13149eb60a66522a5ec584c073048b5127d1b3317da1ee4d86b95ca85764a
+Installed-Size: 21024
+Filename: pbr_1.1.0-19_all.ipk
+Size: 22230
+SHA256sum: adfdabdfedf464f82c756f564c9092419af658ae905e7abf085e88fe9344acb8
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
 
