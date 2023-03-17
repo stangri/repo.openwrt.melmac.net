@@ -1,3 +1,20 @@
+Package: 3rd-party-dns
+Version: 0.0.1-1
+Depends: libc, jshn, wget
+Source: feeds/packages/stangri/3rd-party-dns
+SourceName: 3rd-party-dns
+License: GPL-3.0-or-later
+Section: net
+SourceDateEpoch: 1672705461
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: all
+Installed-Size: 1465
+Filename: 3rd-party-dns_0.0.1-1_all.ipk
+Size: 2524
+SHA256sum: 17924a53cf24c2257072d67d0ed27e0802560ee9fbc9953bd2ae7538f9350cbb
+Description:  Simple PROCD script to start/stop multiple services affecting DNS with one command.
+ Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
+
 Package: antminer-monitor
 Version: 0.4.0-6
 Depends: libc, python-light, python-pip
