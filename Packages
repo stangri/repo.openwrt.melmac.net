@@ -1,13 +1,13 @@
 Package: 3rd-party-dns
-Version: 0.0.1-2
+Version: 1.0.0-1
 Depends: libc, jshn, wget
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 1473
-Filename: 3rd-party-dns_0.0.1-2_all.ipk
-Size: 2533
-SHA256sum: dce36f5edb78a59b820b45ce242ae00c81f71ef2a73a2831f2c9173c42c41d21
+Installed-Size: 1455
+Filename: 3rd-party-dns_1.0.0-1_all.ipk
+Size: 2516
+SHA256sum: 7ac340cfac385a5058d15c303cffa33a5fbe8e5bb33a89ea6682cc0b97debc34
 Description:  Simple PROCD script to start/stop multiple services affecting DNS with one command.
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
