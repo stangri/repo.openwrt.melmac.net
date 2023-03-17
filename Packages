@@ -6,8 +6,8 @@ Section: net
 Architecture: all
 Installed-Size: 1455
 Filename: 3rd-party-dns_1.0.0-1_all.ipk
-Size: 2508
-SHA256sum: f9acb317eac3179c50d404cfd5bae8f2352bd97a1ebbbb7d7ca37b124733ea6a
+Size: 2465
+SHA256sum: e6905bd0bacb269687f8401441c14a5d149213108341e53691b851aab2829e01
 Description:  Simple PROCD script to start/stop multiple services affecting DNS with one command.
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
