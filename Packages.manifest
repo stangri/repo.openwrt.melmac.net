@@ -10,8 +10,8 @@ Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 1455
 Filename: 3rd-party-dns_1.0.0-1_all.ipk
-Size: 2516
-SHA256sum: 7ac340cfac385a5058d15c303cffa33a5fbe8e5bb33a89ea6682cc0b97debc34
+Size: 2508
+SHA256sum: f9acb317eac3179c50d404cfd5bae8f2352bd97a1ebbbb7d7ca37b124733ea6a
 Description:  Simple PROCD script to start/stop multiple services affecting DNS with one command.
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
