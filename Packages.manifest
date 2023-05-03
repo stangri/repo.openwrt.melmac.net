@@ -116,19 +116,19 @@ SHA256sum: 6124a239daa192afce4383a0f02f1c3de3f2ab3ecf39ac1c8114c1fcb2e581d4
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: 2022-10-15-11
+Version: 2022-10-15-12
 Depends: libc, luci-compat, luci-base, https-dns-proxy
 Source: package/luci/applications/luci-app-https-dns-proxy
 SourceName: luci-app-https-dns-proxy
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1681321057
+SourceDateEpoch: 1682991387
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 10237
-Filename: luci-app-https-dns-proxy_2022-10-15-11_all.ipk
-Size: 11046
-SHA256sum: 7ff0a68836fb683b63ebc3baf3858b11539a2273efec92bdfed3d01a225f15bf
+Installed-Size: 10233
+Filename: luci-app-https-dns-proxy_2022-10-15-12_all.ipk
+Size: 11048
+SHA256sum: cff1cba8712d7abf7a3b41991edc179aa40d4f5bbf2b72f41917015880a64e76
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
@@ -149,19 +149,19 @@ SHA256sum: c7d3e9e6d28be527ac5caaa6550dafd58badef7cd81cf660883c970be4c4395e
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
-Version: 1.9.5-1
+Version: 1.9.5-2
 Depends: libc, luci-base, simple-adblock, jsonfilter
 Source: package/luci/applications/luci-app-simple-adblock
 SourceName: luci-app-simple-adblock
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1681321057
+SourceDateEpoch: 1682991387
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 7542
-Filename: luci-app-simple-adblock_1.9.5-1_all.ipk
-Size: 8423
-SHA256sum: dfcf92f0b006530223f12a639abc2c8051dc1ce1142e47e247c368385b8972e9
+Installed-Size: 7545
+Filename: luci-app-simple-adblock_1.9.5-2_all.ipk
+Size: 8421
+SHA256sum: 10950c4a2fca711d7bfb2d3b5f96f8ff7248e519ec8b64af2ff8a253f49e0867
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
@@ -300,19 +300,19 @@ SHA256sum: 22bfa50941923c0aed6b47b44adf899469154b998101910fd1b298319cf4ae6a
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
 
 Package: simple-adblock
-Version: 1.9.5-1
+Version: 1.9.5-2
 Depends: libc, jshn, wget
 Source: feeds/packages/stangri/simple-adblock
 SourceName: simple-adblock
 License: GPL-3.0-or-later
 Section: net
-SourceDateEpoch: 1681043266
+SourceDateEpoch: 1682627295
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 13081
-Filename: simple-adblock_1.9.5-1_all.ipk
-Size: 14191
-SHA256sum: 8118854a967434216e57c6cecb78e65a898d4679267023a8143a092b51744a61
+Installed-Size: 13083
+Filename: simple-adblock_1.9.5-2_all.ipk
+Size: 14196
+SHA256sum: faa4780a0d98a94502fefa3701292327b1123d30e093748fa0d3dc8a0226c28b
 Description:  Simple adblock script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
