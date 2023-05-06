@@ -106,10 +106,10 @@ Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 9166
+Installed-Size: 9167
 Filename: luci-app-pbr_1.1.1-7_all.ipk
-Size: 10077
-SHA256sum: e5e52b52fd595aeca25c556b471112c02afd9aed0b3edca429a1f2b877b57ce5
+Size: 10076
+SHA256sum: d2df4c252befe4da25ad1ca8aba7154a93bbcb7478cba60bc013364fd0a384e0
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -192,10 +192,10 @@ Provides: pbr
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 20742
+Installed-Size: 20740
 Filename: pbr-iptables_1.1.1-7_all.ipk
-Size: 21897
-SHA256sum: b2ac0ffddf74d5640d34b338077d8fae06ab94ab10cb3540b05cfe9191076156
+Size: 21893
+SHA256sum: 2fbb8889eece12a81c75251a777507cf1f37ae38da707641433db03c8e6aa2b4
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with firewall3/ipset/iptables.
 
@@ -207,10 +207,10 @@ Provides: vpnbypass, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 21126
+Installed-Size: 21125
 Filename: pbr_1.1.1-7_all.ipk
-Size: 22330
-SHA256sum: 5a5c09f7290f7a7c1bcc4e3142732c8caf78454ac65938e2b74e3d3f55e44c0b
+Size: 22324
+SHA256sum: 678d6c09398f56bec775f2b104cc131e7cd91404826062b05f9e4f86c5190ea5
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
 
