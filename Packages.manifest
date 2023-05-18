@@ -128,7 +128,7 @@ Architecture: all
 Installed-Size: 10232
 Filename: luci-app-https-dns-proxy_2022-10-15-14_all.ipk
 Size: 11052
-SHA256sum: 84d60e33ce4c2ca4a4cff885683b4c08cd45a1f9885aecee3db93aae6406d015
+SHA256sum: 404935840357005dec78fab17edc133f3a388e89a7a2945b2e09591b4bfc0810
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
