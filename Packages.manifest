@@ -132,20 +132,20 @@ SHA256sum: 404935840357005dec78fab17edc133f3a388e89a7a2945b2e09591b4bfc0810
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.1.1-9
+Version: 1.1.1-11
 Depends: libc, luci-base, jsonfilter, pbr
 Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 Source: package/luci/applications/luci-app-pbr
 SourceName: luci-app-pbr
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1682991387
+SourceDateEpoch: 1687645407
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 9167
-Filename: luci-app-pbr_1.1.1-9_all.ipk
-Size: 10074
-SHA256sum: aebd71cd14997276916522b51e219d7fc4261b867f87051b7e3dab8e03988ce9
+Filename: luci-app-pbr_1.1.1-11_all.ipk
+Size: 10076
+SHA256sum: b3ecd71eae582cd9ac16f8a058d3799a8ef2821d5dede32926043a2b3b313312
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -245,7 +245,7 @@ SHA256sum: 8b025a2e007b6e0a1c379764ae6e4d2fb239fcf1a0a5cf7a5c24d19e749d75fc
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr-iptables
-Version: 1.1.1-9
+Version: 1.1.1-11
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: pbr
@@ -253,18 +253,18 @@ Source: feeds/packages/stangri/pbr
 SourceName: pbr-iptables
 License: GPL-3.0-or-later
 Section: net
-SourceDateEpoch: 1682627295
+SourceDateEpoch: 1685785320
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 21031
-Filename: pbr-iptables_1.1.1-9_all.ipk
-Size: 22189
-SHA256sum: ab15e94a972d0f8f0a5b376f51abd3b86a5be97f215b3a7234b11651ac273b99
+Installed-Size: 21062
+Filename: pbr-iptables_1.1.1-11_all.ipk
+Size: 22228
+SHA256sum: dc261c66e58437986489ed93a4cfc7be1b856adb3750b81ee6a7d96dfe029068
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with firewall3/ipset/iptables.
 
 Package: pbr
-Version: 1.1.1-9
+Version: 1.1.1-11
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: vpnbypass, vpn-policy-routing
@@ -272,13 +272,13 @@ Source: feeds/packages/stangri/pbr
 SourceName: pbr
 License: GPL-3.0-or-later
 Section: net
-SourceDateEpoch: 1682627295
+SourceDateEpoch: 1685785320
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 21420
-Filename: pbr_1.1.1-9_all.ipk
-Size: 22626
-SHA256sum: 41710562cbdfc6640690fee35295a4fc111a4eaca0248999d0615abcb36e26a0
+Installed-Size: 21461
+Filename: pbr_1.1.1-11_all.ipk
+Size: 22674
+SHA256sum: edbe397a8f135ad4798613d128c6f417effde63320d51f2d91b6332e0f9c7f44
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
 
