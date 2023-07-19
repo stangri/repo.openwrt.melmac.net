@@ -132,7 +132,7 @@ SHA256sum: 404935840357005dec78fab17edc133f3a388e89a7a2945b2e09591b4bfc0810
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.1.2-7
+Version: 1.1.2-8
 Depends: libc, luci-base, jsonfilter, pbr
 Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 Source: package/luci/applications/luci-app-pbr
@@ -143,9 +143,9 @@ SourceDateEpoch: 1687645407
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 9284
-Filename: luci-app-pbr_1.1.2-7_all.ipk
-Size: 10212
-SHA256sum: f67dbbc6610d6f5409809eaba3430afbc8c4b7a01b40ad7b7cb60f10da648f4c
+Filename: luci-app-pbr_1.1.2-8_all.ipk
+Size: 10209
+SHA256sum: 56d8cac2808495860556f77f08fcc040070d4f72842d5ca60bbb34912605d44e
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -245,7 +245,7 @@ SHA256sum: 8b025a2e007b6e0a1c379764ae6e4d2fb239fcf1a0a5cf7a5c24d19e749d75fc
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr-iptables
-Version: 1.1.2-7
+Version: 1.1.2-8
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: pbr
@@ -256,15 +256,15 @@ Section: net
 SourceDateEpoch: 1687778439
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 21444
-Filename: pbr-iptables_1.1.2-7_all.ipk
-Size: 22622
-SHA256sum: fe52bb274ddffd5c85f8021e0be588afcf4290780358c8ec1b5dba3006c30b7a
+Installed-Size: 21495
+Filename: pbr-iptables_1.1.2-8_all.ipk
+Size: 22680
+SHA256sum: 03660e528b9bc6d7738a08c12cc919e4123149cb89080f2ce9406ff62f137c84
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with firewall3/ipset/iptables.
 
 Package: pbr
-Version: 1.1.2-7
+Version: 1.1.2-8
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: vpnbypass, vpn-policy-routing
@@ -275,10 +275,10 @@ Section: net
 SourceDateEpoch: 1687778439
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 21796
-Filename: pbr_1.1.2-7_all.ipk
-Size: 23031
-SHA256sum: 73ec60969b6d0e20f315a9cb9f234cae56bd30abcf05ba31cf000cbf0507c33c
+Installed-Size: 21848
+Filename: pbr_1.1.2-8_all.ipk
+Size: 23088
+SHA256sum: 0ec8720e2ca9188655ebd354e34ef24a190a22c5837501fa8e7eaac56f2e9e5e
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
 
