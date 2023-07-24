@@ -120,8 +120,8 @@ Section: luci
 Architecture: all
 Installed-Size: 7547
 Filename: luci-app-simple-adblock_1.9.5-3_all.ipk
-Size: 8433
-SHA256sum: 8932ea80f55605ab1bbbd75e17b15d083e5c966921c68b8f7ec478eed694d01b
+Size: 8429
+SHA256sum: 7ab42446289b19870e43ce612def1388b8b5e9883ac73349b766866c6755f722
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
