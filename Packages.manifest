@@ -132,7 +132,7 @@ SHA256sum: f8101ae6e0802b4a512e82f9083d76b03b11ffeae4af5ba1f64642aeeb4b43a1
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.1.2-11
+Version: 1.1.2-12
 Depends: libc, luci-base, jsonfilter, pbr
 Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 Source: package/luci/applications/luci-app-pbr
@@ -143,9 +143,9 @@ SourceDateEpoch: 1688371082
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 9285
-Filename: luci-app-pbr_1.1.2-11_all.ipk
-Size: 10211
-SHA256sum: 51d94d4d3f47c2e584b29ce78a449a5cc6dc29f17af1266e0edd5f4517188cb8
+Filename: luci-app-pbr_1.1.2-12_all.ipk
+Size: 10213
+SHA256sum: f8ce37bacb3ddfa3cea77a8e2fc91aa981ba7dd4ff25da9f4abff4025758f4a7
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -245,7 +245,7 @@ SHA256sum: 8b025a2e007b6e0a1c379764ae6e4d2fb239fcf1a0a5cf7a5c24d19e749d75fc
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr-iptables
-Version: 1.1.2-11
+Version: 1.1.2-12
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: pbr
@@ -256,15 +256,15 @@ Section: net
 SourceDateEpoch: 1687778439
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 21549
-Filename: pbr-iptables_1.1.2-11_all.ipk
-Size: 22738
-SHA256sum: de66039253f1c831503fe202ba307e0c0c0276871d4d3b820ae14ae18fc8bdab
+Installed-Size: 21601
+Filename: pbr-iptables_1.1.2-12_all.ipk
+Size: 22785
+SHA256sum: 0df77e467f565f8df8fcbeae3bec4db3fdaa46c3fbbb410517441a72780211ae
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with firewall3/ipset/iptables.
 
 Package: pbr
-Version: 1.1.2-11
+Version: 1.1.2-12
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: vpnbypass, vpn-policy-routing
@@ -275,10 +275,10 @@ Section: net
 SourceDateEpoch: 1687778439
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 21922
-Filename: pbr_1.1.2-11_all.ipk
-Size: 23162
-SHA256sum: 9a5602f70bdffffed0e7b6bf4842ae0ae0d4a2379c91748931a2f4d324028b0f
+Installed-Size: 21977
+Filename: pbr_1.1.2-12_all.ipk
+Size: 23219
+SHA256sum: 578b95f9835d25142094154f28bb075366a0ed235be56b3ed876a0c77310ef8d
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
 
