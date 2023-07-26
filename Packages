@@ -93,10 +93,10 @@ Depends: libc, luci-base, https-dns-proxy
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 9301
+Installed-Size: 9306
 Filename: luci-app-https-dns-proxy_2023-05-25-3_all.ipk
-Size: 10178
-SHA256sum: 62fce6b54daa33482bea13add29644599809029b3b49b01c2197749ec49756c3
+Size: 10181
+SHA256sum: 79475797f31c3a0a7d78ee511fbe89cfe10ff94084862cbe116590244f17f198
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
