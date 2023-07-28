@@ -155,13 +155,13 @@ Source: package/luci/applications/luci-app-simple-adblock
 SourceName: luci-app-simple-adblock
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1688371082
+SourceDateEpoch: 1690456900
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 7548
+Installed-Size: 7544
 Filename: luci-app-simple-adblock_1.9.5-3_all.ipk
-Size: 8432
-SHA256sum: 8c47e201a253f38fac3e05e14dd4ae7d75a1fa04bfbb4326c6542c065e672e67
+Size: 8424
+SHA256sum: 37b30da64b7ee3f87c3ff59c33df0213e6d0f461f2874d74d4b1b12c9194363a
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-vpn-policy-routing
