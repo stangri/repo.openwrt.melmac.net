@@ -19,10 +19,10 @@ Provides: simple-adblock
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 14650
+Installed-Size: 14826
 Filename: adblock-fast_0.0.1-7_all.ipk
-Size: 15819
-SHA256sum: 8ec65fe598d98a9cb6d35e92e35e32056b12c4cd5b912f7dadd9a2a0e3ba11a6
+Size: 15950
+SHA256sum: cbc653371955224ec444f933c6d06a2a40123c119d775df020ffbe80089606cb
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
@@ -73,10 +73,10 @@ Depends: libc, luci-base, simple-adblock, jsonfilter
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 8268
+Installed-Size: 8277
 Filename: luci-app-adblock-fast_0.0.1-7_all.ipk
-Size: 9161
-SHA256sum: c3404ee4af23d01fdd4f358d611694e3bbe8a234c19041510b810bf0809a366a
+Size: 9167
+SHA256sum: e731ae44607ed6d5c358c3e83fb98edf017c67f5f950fad9090bf8d75fb707fc
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-advanced-reboot
