@@ -27,10 +27,10 @@ Section: net
 SourceDateEpoch: 1687778439
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 15040
+Installed-Size: 15042
 Filename: adblock-fast_0.0.1-13_all.ipk
-Size: 16171
-SHA256sum: 7267cbe41da6ce962ef39215d8f51e529f800c321f9c737d4759144c5e00a74e
+Size: 16168
+SHA256sum: 3a66a530a00ddaa0205e9a394e26439e3bb3a3e60b5b72031a3421134388c4d0
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
@@ -97,10 +97,10 @@ Section: luci
 SourceDateEpoch: 1687778439
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8508
+Installed-Size: 8623
 Filename: luci-app-adblock-fast_0.0.1-13_all.ipk
-Size: 9395
-SHA256sum: 9cc926ef8010713dbb3ab19fb88d3bf18241bd81716e12ed6e89555685d68e57
+Size: 9514
+SHA256sum: 50a46a451f4d35589afb65fb9d7d87fd17336ebbea9c8d369933250ca2937058
 Description:  Provides Web UI for simple-adblock service.
 
 Package: luci-app-advanced-reboot
@@ -168,7 +168,7 @@ SHA256sum: 9bd1e91d00e908eb556bfde1f3f4b113ff87798576e3e543cfe9175f540431ae
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.1.2-23
+Version: 1.1.2-24
 Depends: libc, luci-base, jsonfilter, pbr
 Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 Source: package/luci/applications/luci-app-pbr
@@ -179,9 +179,9 @@ SourceDateEpoch: 1690456900
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 9579
-Filename: luci-app-pbr_1.1.2-23_all.ipk
-Size: 10511
-SHA256sum: 16b771e57c0488f4217f9f2ad35ba7276984c1f778e94401ba23766000116e74
+Filename: luci-app-pbr_1.1.2-24_all.ipk
+Size: 10510
+SHA256sum: 8e6cbc8a7b6615150d9a664e355e45b13441947d2e35eecdeaed5f75060bdbdd
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -281,7 +281,7 @@ SHA256sum: 8b025a2e007b6e0a1c379764ae6e4d2fb239fcf1a0a5cf7a5c24d19e749d75fc
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr-iptables
-Version: 1.1.2-23
+Version: 1.1.2-24
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: pbr
@@ -292,15 +292,15 @@ Section: net
 SourceDateEpoch: 1687778439
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 23287
-Filename: pbr-iptables_1.1.2-23_all.ipk
-Size: 24435
-SHA256sum: eaf4321f54de43eba6103975ed1ecd4f6881c96904c1b0a85d598c812050ce49
+Installed-Size: 23296
+Filename: pbr-iptables_1.1.2-24_all.ipk
+Size: 24443
+SHA256sum: 36a275c28e6d05ec38155d9efb175e0ccb74e9af9d0bf180f7a8eb6b02273bee
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with firewall3/ipset/iptables.
 
 Package: pbr
-Version: 1.1.2-23
+Version: 1.1.2-24
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: vpnbypass, vpn-policy-routing
@@ -311,10 +311,10 @@ Section: net
 SourceDateEpoch: 1687778439
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 23647
-Filename: pbr_1.1.2-23_all.ipk
-Size: 24851
-SHA256sum: 8da2b02ebcc9207ca28b99c968a29f8620309aeee7511d8c8774411c28d0747b
+Installed-Size: 23664
+Filename: pbr_1.1.2-24_all.ipk
+Size: 24870
+SHA256sum: 64e9fc90849dbc65ddb9405354cf2d2ee6b2aa2e4558af385b85be0750aac3b3
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
 
