@@ -73,10 +73,10 @@ Depends: libc, luci-base, adblock-fast, jsonfilter
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 8470
+Installed-Size: 8468
 Filename: luci-app-adblock-fast_1.0.0-1_all.ipk
-Size: 9359
-SHA256sum: e69a1eb7967f6f7a5eea46a14f96164829eec3f944a6047aaeb361c900a393a9
+Size: 9352
+SHA256sum: 753c290f36d87222ff2393a10ae21920eb06c9d194fc3749faf49747ef8720cb
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
@@ -121,10 +121,10 @@ Depends: libc, luci-base, https-dns-proxy
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 10402
+Installed-Size: 10373
 Filename: luci-app-https-dns-proxy_2023-05-25-4_all.ipk
-Size: 11251
-SHA256sum: c4c0294a177495140d47981b574458179175211eedf3a01bc7fbfe1c361670c2
+Size: 11227
+SHA256sum: 3721d0f0981e6f569f2e602dd80dfb94d4a833bb80b17121d095b3b25fb4b8d8
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
