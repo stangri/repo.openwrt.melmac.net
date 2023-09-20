@@ -13,16 +13,16 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
 
 Package: adblock-fast
 Version: 1.0.0-2
-Depends: libc, jshn, curl
+Depends: libc, jshn, curl, gawk, grep, sed, coreutils-sort
 Conflicts: simple-adblock
 Provides: simple-adblock
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 15055
+Installed-Size: 15058
 Filename: adblock-fast_1.0.0-2_all.ipk
-Size: 16180
-SHA256sum: 4c7b9047c941d21d5ab9cf8f8d899884a6353485cb57901757a6990c20df85bb
+Size: 16206
+SHA256sum: d8fdcbaaad7d1345f64874ba900b62051b7384227bacdce48d3d7e71d46e3d39
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
@@ -33,10 +33,10 @@ Depends: libc, python-light, python-pip
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 530019
+Installed-Size: 530049
 Filename: antminer-monitor_0.4.0-6_all.ipk
-Size: 531232
-SHA256sum: 9f8c86ca0c47c69283ae9b2311a7ceb0a3b84f635da3b1aa8b1f9a88c7ee1d0c
+Size: 531275
+SHA256sum: ecba48fc777883479d15a9f2a11d1b85c0439c9927bd3f32615c585c23542352
 Description:  This service can be used to monitor Antminers on local network.
 
 Package: brickproof
@@ -56,14 +56,14 @@ Description:  Package provides a shell script which allows to force Failesafe Mo
 
 Package: fakeinternet
 Version: 0.1.4-5
-Depends: libc, uhttpd, uhttpd-mod-ubus
+Depends: libc, uhttpd, uhttpd-mod-ubus, grep
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 2830
+Installed-Size: 2828
 Filename: fakeinternet_0.1.4-5_all.ipk
-Size: 3858
-SHA256sum: 89f2717f2fadf55035a1968dae810259e3dfb77064a9f03a162e25b1bc0efe52
+Size: 3872
+SHA256sum: 70eec20ac4edbb2e4d3d38d05d1f98a797774d637cbf7b6210a9cea33548adf9
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -73,10 +73,10 @@ Depends: libc, luci-base, adblock-fast, jsonfilter
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 8450
+Installed-Size: 8445
 Filename: luci-app-adblock-fast_1.0.0-2_all.ipk
-Size: 9341
-SHA256sum: 140300793d41d51b9124878c0a1708cb752024b1eecace8d3464fb0d5c54d832
+Size: 9337
+SHA256sum: 95a87321849253a4d6a88956459fac20c9075598fbd1365e5c3f2ba128ec957a
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
@@ -85,10 +85,10 @@ Depends: libc, luci-mod-admin-full, jshn
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 7485
+Installed-Size: 7478
 Filename: luci-app-advanced-reboot_1.0.1-9_all.ipk
-Size: 8481
-SHA256sum: 51d0b0190d57d8f382559c3d6230244b60348e4cca24695b49a741647faa0e8f
+Size: 8484
+SHA256sum: 47aa4c75576e50a6058180d4282f35e11dd795b900a9b085a6b15c4637e53c50
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://docs.openwrt.melmac.net/luci-app-advanced-reboot/
 
 Package: luci-app-easyflash
@@ -105,26 +105,26 @@ Description:  Easy Flash Web UI
 
 Package: luci-app-fakeinternet
 Version: 0.1.4-5
-Depends: libc, luci-compat, luci-base, fakeinternet
+Depends: libc, luci-compat, luci-base, fakeinternet, luci-lua-runtime
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 1641
+Installed-Size: 1640
 Filename: luci-app-fakeinternet_0.1.4-5_all.ipk
-Size: 2489
-SHA256sum: 6124a239daa192afce4383a0f02f1c3de3f2ab3ecf39ac1c8114c1fcb2e581d4
+Size: 2503
+SHA256sum: 4278a73bedf9c37adfc460dd28759e1b3f47655256d10dd78eacab1f56b9250d
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: 2023-05-25-4
+Version: 2023-05-25-5
 Depends: libc, luci-base, https-dns-proxy
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 10402
-Filename: luci-app-https-dns-proxy_2023-05-25-4_all.ipk
-Size: 11254
-SHA256sum: f2beaa2d16536340c40db7ba6830cdfb908e7ad3b0737f8fae49e89e59cc6e70
+Installed-Size: 10393
+Filename: luci-app-https-dns-proxy_2023-05-25-5_all.ipk
+Size: 11247
+SHA256sum: d90be2397bcc11a0ceadd9af184a5f737f31739200d27c95ec515a60ab3a613e
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
@@ -134,10 +134,10 @@ Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 9552
+Installed-Size: 9537
 Filename: luci-app-pbr_1.1.3-2_all.ipk
-Size: 10483
-SHA256sum: 18124e056079ebde68d8b0652a873b060d165a3f28efedbb575f6d99e1318243
+Size: 10466
+SHA256sum: 35fabd07510c9a34f6988c7031a902340316f8a556dc5deb3cd1ea1f3182ebb2
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -178,43 +178,43 @@ Description:  Provides Web UI for VPNBypass service.
 
 Package: luci-app-wireshark-helper
 Version: 0.0.1-5
-Depends: libc, luci-compat, luci-base, wireshark-helper
+Depends: libc, luci-compat, luci-base, wireshark-helper, luci-lua-runtime
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 3643
+Installed-Size: 3644
 Filename: luci-app-wireshark-helper_0.0.1-5_all.ipk
-Size: 4493
-SHA256sum: 7e40befc4d9c570be9f73e65ff9fe523878226c1f73ce069d0b73a0f0479b0f9
+Size: 4505
+SHA256sum: a1589fe2052fbea8b3ad8190d670f85b79932502f91f88e08d36488f543d728b
 Description:  Provides Web UI for Wireshark-helper.
 
 Package: luci-app-wlanblinker
 Version: 0.0.1-10
-Depends: libc, luci-compat, luci-base, wlanblinker
+Depends: libc, luci-compat, luci-base, wlanblinker, luci-lua-runtime
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 1814
+Installed-Size: 1812
 Filename: luci-app-wlanblinker_0.0.1-10_all.ipk
-Size: 2676
-SHA256sum: 0667bbf02b6f8485ad39de0ed3b4e2810bba4841b563e6739db9521f888cc3eb
+Size: 2684
+SHA256sum: edc154251a018ceaa55e3a3301271531265d1b12b354850249febeefc8e8cc88
 Description:  Provides Web UI for WLAN Blinker service.
 
 Package: luci-proto-nebula
-Version: 1.6.1-1
+Version: 1.7.2-2
 Depends: libc, nebula, nebula-proto
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 634
-Filename: luci-proto-nebula_1.6.1-1_all.ipk
-Size: 1491
-SHA256sum: 8b025a2e007b6e0a1c379764ae6e4d2fb239fcf1a0a5cf7a5c24d19e749d75fc
+Installed-Size: 636
+Filename: luci-proto-nebula_1.7.2-2_all.ipk
+Size: 1500
+SHA256sum: d47b23deb2f63422f7d112591dc2cd8ef76f83c3203fcf11edb9f25c2e7016b4
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr-iptables
 Version: 1.1.3-2
-Depends: libc, ip-full, jshn, jsonfilter, resolveip, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
+Depends: libc, ip-full, jshn, jsonfilter, resolveip, gawk, grep, sed, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: pbr
 License: GPL-3.0-or-later
@@ -222,14 +222,14 @@ Section: net
 Architecture: all
 Installed-Size: 23814
 Filename: pbr-iptables_1.1.3-2_all.ipk
-Size: 24977
-SHA256sum: d5af99b89d37ba05ee94a962ddec39c1d491cf8eb0edcde3ae07c4a026ad184f
+Size: 24989
+SHA256sum: 3a2011569683a4c835fabae25dee77dd93a12a76c017e51063bc05d580529d77
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with firewall3/ipset/iptables.
 
 Package: pbr
 Version: 1.1.3-2
-Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
+Depends: libc, ip-full, jshn, jsonfilter, resolveip, gawk, grep, sed, kmod-nft-core, kmod-nft-nat, nftables-json
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: vpnbypass, vpn-policy-routing
 License: GPL-3.0-or-later
@@ -237,8 +237,8 @@ Section: net
 Architecture: all
 Installed-Size: 24188
 Filename: pbr_1.1.3-2_all.ipk
-Size: 25401
-SHA256sum: eaf4d2cf547877df6b76a6c64ac911da15f075c7750ba605a0812de2065c0808
+Size: 25411
+SHA256sum: cca6b04a1a6cbe7879756d116fdfd030bf88733a716896c89b793c6b9234d50f
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
 
@@ -271,56 +271,56 @@ Description:  Simple adblock script to block ad or abuse/malware domains with DN
 
 Package: slider-support-ar150
 Version: 0.0.3-1
-Depends: libc, relayd
+Depends: libc, relayd, grep, sed
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 2576
+Installed-Size: 2571
 Filename: slider-support-ar150_0.0.3-1_all.ipk
-Size: 3593
-SHA256sum: fda1fa772608d1d6d5e1c2a04c91866a9aa2620f135794ed7a69847e88152f93
+Size: 3607
+SHA256sum: c10902b820b7d120a1f3b4cc6601db4590a89c26a58fb299bdf05c8554380e3c
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
 
 Package: slider-support-ar300m
 Version: 0.0.3-1
-Depends: libc, relayd
+Depends: libc, relayd, grep, sed
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 2577
+Installed-Size: 2573
 Filename: slider-support-ar300m_0.0.3-1_all.ipk
-Size: 3593
-SHA256sum: 79e258889ff9d91ae4d64dc2da98d167da4150959a58cceef7ee4d7ad3d22b07
+Size: 3607
+SHA256sum: 43acc5e12f565e80f393290524d86937685ce41fa22bb2351201c4c25a13bfec
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
 
 Package: slider-support-ar750
 Version: 0.0.3-1
-Depends: libc, relayd
+Depends: libc, relayd, grep, sed
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 2579
+Installed-Size: 2575
 Filename: slider-support-ar750_0.0.3-1_all.ipk
-Size: 3601
-SHA256sum: d24fe00dacc57c3b35e93d5ca729237e5439291265d4d4f43d8e68d06ca9eb1c
+Size: 3608
+SHA256sum: ad9f7b46b2277de77b9ffc9cd0e33399b124d1ba0c07ec719d933f932ac027b1
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
 
 Package: slider-support-mt300n
 Version: 0.0.3-1
-Depends: libc, relayd
+Depends: libc, relayd, grep, sed
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 2574
+Installed-Size: 2570
 Filename: slider-support-mt300n_0.0.3-1_all.ipk
-Size: 3591
-SHA256sum: 2bb59c083aeaa63114a8907bbbd077b2884bb8de3bc3c0840d183776b04c4387
+Size: 3605
+SHA256sum: acc9cbfd1683f78696fcca63a62126f2c218634b5b8dd35bfb8ff131266e9b14
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -362,20 +362,20 @@ Section: net
 Architecture: all
 Installed-Size: 1062
 Filename: wireshark-helper_0.0.1-5_all.ipk
-Size: 2060
-SHA256sum: fccbabbae5ea1a1fff6f2e7012b90034b359c6e873567e2a8c27d2a7805ea808
+Size: 2065
+SHA256sum: 60fc130011b108751a64fb35868c6f731c60e5bd12dbc430cdba25ec6899e674
 Description:  This service can be used to set up iptables rules required for WireShark.
 
 Package: wlanblinker
 Version: 0.0.1-10
-Depends: libc, coreutils-sleep, iwinfo
+Depends: libc, coreutils-sleep, iwinfo, gawk, grep
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 1620
+Installed-Size: 1621
 Filename: wlanblinker_0.0.1-10_all.ipk
-Size: 2655
-SHA256sum: 051fe770359566dab581a6d9dba584c13b6e826864ac5d10f266ba51f6e76a12
+Size: 2668
+SHA256sum: b36f2071375728d70a9e554b1c54bc2bb05b5d7e0be202c4169ff6bfa47368f5
 Description:  This service can be used to signal WLAN status by the unused LED.
  Please see the README for further information.
 
