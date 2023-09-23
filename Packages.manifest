@@ -17,7 +17,7 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
 
 Package: adblock-fast
 Version: 1.0.0-2
-Depends: libc, jshn, curl, gawk, grep, sed, coreutils-sort
+Depends: libc, jshn, curl
 Conflicts: simple-adblock
 Provides: simple-adblock
 Source: feeds/packages/stangri/adblock-fast
@@ -29,8 +29,8 @@ Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 15058
 Filename: adblock-fast_1.0.0-2_all.ipk
-Size: 16206
-SHA256sum: d8fdcbaaad7d1345f64874ba900b62051b7384227bacdce48d3d7e71d46e3d39
+Size: 16183
+SHA256sum: 921543f86f11910f6569819a970267172e1723997b9029bc53b9d7078b29449f
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
@@ -72,7 +72,7 @@ Description:  Package provides a shell script which allows to force Failesafe Mo
 
 Package: fakeinternet
 Version: 0.1.4-5
-Depends: libc, uhttpd, uhttpd-mod-ubus, grep
+Depends: libc, uhttpd, uhttpd-mod-ubus
 Source: feeds/packages/stangri/fakeinternet
 SourceName: fakeinternet
 License: GPL-3.0-or-later
@@ -82,8 +82,8 @@ Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 2828
 Filename: fakeinternet_0.1.4-5_all.ipk
-Size: 3872
-SHA256sum: 70eec20ac4edbb2e4d3d38d05d1f98a797774d637cbf7b6210a9cea33548adf9
+Size: 3862
+SHA256sum: c3c3bdd9839bf96f9afdfc583269e820dd44605d15d07e5bca0759cf675fa15c
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -265,7 +265,7 @@ SHA256sum: edc154251a018ceaa55e3a3301271531265d1b12b354850249febeefc8e8cc88
 Description:  Provides Web UI for WLAN Blinker service.
 
 Package: luci-proto-nebula
-Version: 1.7.2-2
+Version: 1.7.2-3
 Depends: libc, nebula, nebula-proto
 Source: package/luci/applications/luci-proto-nebula
 SourceName: luci-proto-nebula
@@ -275,14 +275,14 @@ SourceDateEpoch: 1692453666
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 636
-Filename: luci-proto-nebula_1.7.2-2_all.ipk
-Size: 1500
-SHA256sum: d47b23deb2f63422f7d112591dc2cd8ef76f83c3203fcf11edb9f25c2e7016b4
+Filename: luci-proto-nebula_1.7.2-3_all.ipk
+Size: 1499
+SHA256sum: f4fbaee89fc6b27cbdf696bd715529431c394196cb73ca7d71573d4fd956ff58
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr-iptables
 Version: 1.1.3-3
-Depends: libc, ip-full, jshn, jsonfilter, resolveip, gawk, grep, sed, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
+Depends: libc, ip-full, jshn, jsonfilter, resolveip, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: pbr
 Source: feeds/packages/stangri/pbr
@@ -292,16 +292,16 @@ Section: net
 SourceDateEpoch: 1692453666
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 23820
+Installed-Size: 23817
 Filename: pbr-iptables_1.1.3-3_all.ipk
-Size: 24995
-SHA256sum: e440c31acc1324242d0a1d9175546ba4b4cc2719e8b4754c0dc6523e35f9659c
+Size: 24986
+SHA256sum: 565f3b5e961fd4bee56448a6c9ff85cdbb6774655cf53044eb546d924cca0813
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with firewall3/ipset/iptables.
 
 Package: pbr
 Version: 1.1.3-3
-Depends: libc, ip-full, jshn, jsonfilter, resolveip, gawk, grep, sed, kmod-nft-core, kmod-nft-nat, nftables-json
+Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: vpnbypass, vpn-policy-routing
 Source: feeds/packages/stangri/pbr
@@ -311,10 +311,10 @@ Section: net
 SourceDateEpoch: 1692453666
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 24193
+Installed-Size: 24192
 Filename: pbr_1.1.3-3_all.ipk
-Size: 25421
-SHA256sum: 29f96601ba882de3260de66a5cbd5a4eff787e8d675ae65f485097fd36033d4d
+Size: 25410
+SHA256sum: ad1d64f41c8b2842672a8c4334c8db438cc546518be38954758f7f36a0f72696
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
 
@@ -355,7 +355,7 @@ Description:  Simple adblock script to block ad or abuse/malware domains with DN
 
 Package: slider-support-ar150
 Version: 0.0.3-1
-Depends: libc, relayd, grep, sed
+Depends: libc, relayd
 Source: feeds/packages/stangri/slider-support
 SourceName: slider-support-ar150
 License: GPL-3.0-or-later
@@ -365,15 +365,15 @@ Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 2571
 Filename: slider-support-ar150_0.0.3-1_all.ipk
-Size: 3607
-SHA256sum: c10902b820b7d120a1f3b4cc6601db4590a89c26a58fb299bdf05c8554380e3c
+Size: 3596
+SHA256sum: 59476bbac880dc4d3eea7911c3552c9062867cd931e8782485d9d7b129544927
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
 
 Package: slider-support-ar300m
 Version: 0.0.3-1
-Depends: libc, relayd, grep, sed
+Depends: libc, relayd
 Source: feeds/packages/stangri/slider-support
 SourceName: slider-support-ar300m
 License: GPL-3.0-or-later
@@ -383,15 +383,15 @@ Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 2573
 Filename: slider-support-ar300m_0.0.3-1_all.ipk
-Size: 3607
-SHA256sum: 43acc5e12f565e80f393290524d86937685ce41fa22bb2351201c4c25a13bfec
+Size: 3601
+SHA256sum: d9054876723334910a92217effca365ba57ade0a37f37a19eadbd6c00e13ee6d
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
 
 Package: slider-support-ar750
 Version: 0.0.3-1
-Depends: libc, relayd, grep, sed
+Depends: libc, relayd
 Source: feeds/packages/stangri/slider-support
 SourceName: slider-support-ar750
 License: GPL-3.0-or-later
@@ -401,15 +401,15 @@ Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 2575
 Filename: slider-support-ar750_0.0.3-1_all.ipk
-Size: 3608
-SHA256sum: ad9f7b46b2277de77b9ffc9cd0e33399b124d1ba0c07ec719d933f932ac027b1
+Size: 3601
+SHA256sum: 78c4c360f09c0efb4c4b15023d1fec37575ca2c310c6d50d3c4f4c400bdce30c
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
 
 Package: slider-support-mt300n
 Version: 0.0.3-1
-Depends: libc, relayd, grep, sed
+Depends: libc, relayd
 Source: feeds/packages/stangri/slider-support
 SourceName: slider-support-mt300n
 License: GPL-3.0-or-later
@@ -419,8 +419,8 @@ Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 2570
 Filename: slider-support-mt300n_0.0.3-1_all.ipk
-Size: 3605
-SHA256sum: acc9cbfd1683f78696fcca63a62126f2c218634b5b8dd35bfb8ff131266e9b14
+Size: 3595
+SHA256sum: 52df446cf5bf740ab0e43924e53afcdbb9d2124e844ed94d1e448fef9d1524c6
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -480,7 +480,7 @@ Description:  This service can be used to set up iptables rules required for Wir
 
 Package: wlanblinker
 Version: 0.0.1-10
-Depends: libc, coreutils-sleep, iwinfo, gawk, grep
+Depends: libc, coreutils-sleep, iwinfo
 Source: feeds/packages/stangri/wlanblinker
 SourceName: wlanblinker
 License: GPL-3.0-or-later
@@ -490,8 +490,8 @@ Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 1621
 Filename: wlanblinker_0.0.1-10_all.ipk
-Size: 2668
-SHA256sum: b36f2071375728d70a9e554b1c54bc2bb05b5d7e0be202c4169ff6bfa47368f5
+Size: 2656
+SHA256sum: 7324d1720f1f8289c36f2083e87d7f3443b3c5282be2cdc9964f46ac12497213
 Description:  This service can be used to signal WLAN status by the unused LED.
  Please see the README for further information.
 
