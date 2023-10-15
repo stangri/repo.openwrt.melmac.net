@@ -24,13 +24,13 @@ Source: feeds/packages/stangri/adblock-fast
 SourceName: adblock-fast
 License: GPL-3.0-or-later
 Section: net
-SourceDateEpoch: 1695979776
+SourceDateEpoch: 1696887935
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 15318
+Installed-Size: 15317
 Filename: adblock-fast_1.0.0-6_all.ipk
-Size: 16443
-SHA256sum: eae2de607c5682179767b5e9293740b4a1b2c99781f61a2867a67386a96d34df
+Size: 16439
+SHA256sum: fd9f5159f1d020a9311bb1e506f272a37c6a352233be7ac3545988c419cabbcf
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with DNSMASQ or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
@@ -94,13 +94,13 @@ Source: package/luci/applications/luci-app-adblock-fast
 SourceName: luci-app-adblock-fast
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1696010424
+SourceDateEpoch: 1697096491
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8503
+Installed-Size: 8540
 Filename: luci-app-adblock-fast_1.0.0-6_all.ipk
-Size: 9395
-SHA256sum: a3ebf2bb63b189556e2bd71c4c4431e87b0dcebf5bf5e5873fff201919c3fed9
+Size: 9432
+SHA256sum: f9d7990fa31fcfdcd7402bd63113eaa65274a6cfe5528effd3bc7545c5f185ad
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
