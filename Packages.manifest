@@ -97,10 +97,10 @@ Section: luci
 SourceDateEpoch: 1697096491
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8538
+Installed-Size: 8838
 Filename: luci-app-adblock-fast_1.0.0-7_all.ipk
-Size: 9433
-SHA256sum: 8fbfc2701cc577bdeb7e9ceff9b554ab89c0567b0dc463cc0a34b6eb08aab0f2
+Size: 9741
+SHA256sum: 34fa29854ef60d965ae561cabf04b27968464ce35d140cf448346937e747a341
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
@@ -152,7 +152,7 @@ SHA256sum: 4278a73bedf9c37adfc460dd28759e1b3f47655256d10dd78eacab1f56b9250d
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: 2023-05-25-7
+Version: 2023-05-25-8
 Depends: libc, luci-base, https-dns-proxy
 Source: package/luci/applications/luci-app-https-dns-proxy
 SourceName: luci-app-https-dns-proxy
@@ -161,10 +161,10 @@ Section: luci
 SourceDateEpoch: 1697096491
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 10397
-Filename: luci-app-https-dns-proxy_2023-05-25-7_all.ipk
-Size: 11252
-SHA256sum: 42fd9cbaf73e42ce01e8f505a7462c35faf2b363bf6ba0244d89807228473906
+Installed-Size: 10688
+Filename: luci-app-https-dns-proxy_2023-05-25-8_all.ipk
+Size: 11558
+SHA256sum: 2983ce111ad5695af7ad8f43095bebe0f2ce69c88952e683f2832d67c44093c4
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
@@ -178,10 +178,10 @@ Section: luci
 SourceDateEpoch: 1697096491
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8145
+Installed-Size: 8431
 Filename: luci-app-pbr_1.1.3-12_all.ipk
-Size: 9060
-SHA256sum: ca6f6795e2a9890ea8794fe876a604157ab05cb2f865868737d640a9e40a3001
+Size: 9353
+SHA256sum: 1cb512c88b6c95af6b330e5aa933c8142261eefacf981408f2b0b7cbe6a81e1d
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
