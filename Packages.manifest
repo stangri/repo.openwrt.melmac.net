@@ -94,13 +94,13 @@ Source: package/luci/applications/luci-app-adblock-fast
 SourceName: luci-app-adblock-fast
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1697096491
+SourceDateEpoch: 1697878884
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8830
+Installed-Size: 8862
 Filename: luci-app-adblock-fast_1.0.0-7_all.ipk
-Size: 9731
-SHA256sum: 4c052de34c3b8c7c872f306e6f8b90fb1e3cbd6395971ef4d570295dad75fac7
+Size: 9771
+SHA256sum: 1b42cdf7c49f6d2313637a2c18974814e63036c12f3129982e6031659cfc6083
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
