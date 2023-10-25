@@ -73,10 +73,10 @@ Depends: libc, luci-base, adblock-fast, jsonfilter
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 8838
+Installed-Size: 8830
 Filename: luci-app-adblock-fast_1.0.0-7_all.ipk
-Size: 9741
-SHA256sum: 34fa29854ef60d965ae561cabf04b27968464ce35d140cf448346937e747a341
+Size: 9731
+SHA256sum: 4c052de34c3b8c7c872f306e6f8b90fb1e3cbd6395971ef4d570295dad75fac7
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
