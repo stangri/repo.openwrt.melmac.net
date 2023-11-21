@@ -73,10 +73,10 @@ Depends: libc, luci-base, adblock-fast, jsonfilter
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 8026
+Installed-Size: 8033
 Filename: luci-app-adblock-fast_1.0.1-3_all.ipk
-Size: 8917
-SHA256sum: a10b1d5a28cdce9c2f0ee0d66c10aff68034ba53e7f607f1170af5abd038cd60
+Size: 8930
+SHA256sum: 08e193cca939a0cc8d10ef2749fa0a62c058378ee4a5fbaadc77faba69a090e6
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
@@ -116,15 +116,15 @@ SHA256sum: 4278a73bedf9c37adfc460dd28759e1b3f47655256d10dd78eacab1f56b9250d
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: 2023-05-25-8
+Version: 2023-10-25-2
 Depends: libc, luci-base, https-dns-proxy
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 10687
-Filename: luci-app-https-dns-proxy_2023-05-25-8_all.ipk
-Size: 11562
-SHA256sum: cb279738f6a915d2db8c7118de30d21a001b7b6300b38d6dd90aa97ad3bdd168
+Installed-Size: 10683
+Filename: luci-app-https-dns-proxy_2023-10-25-2_all.ipk
+Size: 11541
+SHA256sum: 4c1e472600cc0233b2d816a3d96808742d35e23e194116cae207fa5db7512fcd
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
@@ -134,10 +134,10 @@ Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 8434
+Installed-Size: 8433
 Filename: luci-app-pbr_1.1.3-21_all.ipk
-Size: 9349
-SHA256sum: 47716e03010e1cafcffaf7448a905539d434dbd25554e960b7750751f7c87cc4
+Size: 9350
+SHA256sum: 3bf2ef3aef2357640b050027f1ff52dde605ae0ee52fcb284b603e9362cb316a
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
