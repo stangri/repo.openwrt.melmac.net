@@ -30,7 +30,7 @@ Architecture: all
 Installed-Size: 17006
 Filename: adblock-fast_1.1.0-3_all.ipk
 Size: 18180
-SHA256sum: 3e51169a3960070b37ae860c7d7542a88c28641a5db13c6c1515a6ee247e565e
+SHA256sum: 71d3a7e9f3c6a55c11023b6688e754b6dceddc592cf4df1badea5ef205cefca0
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
