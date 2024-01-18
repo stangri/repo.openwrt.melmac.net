@@ -16,7 +16,7 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
 Package: adblock-fast
-Version: 1.1.1-2
+Version: 1.1.1-3
 Depends: libc, jshn, curl
 Conflicts: simple-adblock
 Provides: simple-adblock
@@ -27,10 +27,10 @@ Section: net
 SourceDateEpoch: 1699969091
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 17384
-Filename: adblock-fast_1.1.1-2_all.ipk
-Size: 18559
-SHA256sum: 43825a4fb7f7d6eef2f8ae09e8fb7085a9e8fa3162a25fd28fe68bda57a37a35
+Installed-Size: 17387
+Filename: adblock-fast_1.1.1-3_all.ipk
+Size: 18560
+SHA256sum: 2dc0c08cfd9f24e4c5ee04deb08882200c4cf676ce66915dc636c14a58958f82
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
@@ -88,19 +88,19 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-adblock-fast
-Version: 1.1.1-2
+Version: 1.1.1-3
 Depends: libc, luci-base, adblock-fast, jsonfilter
 Source: package/luci/applications/luci-app-adblock-fast
 SourceName: luci-app-adblock-fast
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1703347618
+SourceDateEpoch: 1704568510
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8353
-Filename: luci-app-adblock-fast_1.1.1-2_all.ipk
+Installed-Size: 8356
+Filename: luci-app-adblock-fast_1.1.1-3_all.ipk
 Size: 9252
-SHA256sum: 878d43c4c462fe33076d4961e4b405e79df116e669e8c3099ad0d24aadc3f17b
+SHA256sum: 701dad167de301c1a5a0d6dab82fe744e8672fff9736f294ace4830a7a022016
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
