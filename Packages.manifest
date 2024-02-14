@@ -178,10 +178,10 @@ Section: luci
 SourceDateEpoch: 1704568510
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8434
+Installed-Size: 8435
 Filename: luci-app-pbr_1.1.4-1_all.ipk
-Size: 9350
-SHA256sum: aadff3f96e46b0bf5e9991ee4222da9e8bff0c8f0177adc5a8abde99060e03ff
+Size: 9353
+SHA256sum: c0dcbe0e3a4336f905fed224a3cf9a39f1b92dd7c84ef0538986fe4f74e86205
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -299,22 +299,22 @@ SHA256sum: 0c5567388a962a7fdb4b682e8ad2f1760bc29f95122c9716666e5c49e4ed8d80
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with firewall3/ipset/iptables.
 
-Package: pbr
+Package: pbr-nft
 Version: 1.1.4-1
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 Conflicts: vpnbypass, vpn-policy-routing
-Provides: vpnbypass, vpn-policy-routing
+Provides: pbr, vpnbypass, vpn-policy-routing
 Source: feeds/packages/stangri/pbr
-SourceName: pbr
+SourceName: pbr-nft
 License: GPL-3.0-or-later
 Section: net
 SourceDateEpoch: 1699969091
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 25358
-Filename: pbr_1.1.4-1_all.ipk
-Size: 26549
-SHA256sum: 822d5dbb5352b8635cfcce6e74ac449519c50e98a56c0df61a2eae5106781eb3
+Filename: pbr-nft_1.1.4-1_all.ipk
+Size: 26554
+SHA256sum: 36e18149c5256dc584055fd97db0da70750d4be887e3b72abd7e2397376c0bde
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
 
