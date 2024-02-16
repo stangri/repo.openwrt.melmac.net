@@ -292,10 +292,10 @@ Section: net
 SourceDateEpoch: 1699969091
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 24699
+Installed-Size: 24735
 Filename: pbr-iptables_1.1.4-5_all.ipk
-Size: 25813
-SHA256sum: 90bb94481a0c776b571e514dfab4a4bdbf552de70c48d223dba7241270b03c3c
+Size: 25844
+SHA256sum: 0e1e523df0d65ba805f9c6de77697114ed32c9cf352cac896e07cea160ba3d22
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with firewall3/ipset/iptables.
 
@@ -311,10 +311,10 @@ Section: net
 SourceDateEpoch: 1699969091
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 25044
+Installed-Size: 25081
 Filename: pbr_1.1.4-5_all.ipk
-Size: 26259
-SHA256sum: af6ac767edbcef63511120051e9899b1647eb6239d706833ac9679d93d7e6fc5
+Size: 26306
+SHA256sum: 19c6ee45a8daa190cfc2759acfb76fea1911c76c297a32623d49f38e4dafd0c0
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
 
