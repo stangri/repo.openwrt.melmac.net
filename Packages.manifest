@@ -16,7 +16,7 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
 Package: adblock-fast
-Version: 1.1.1-5
+Version: 1.1.1-6
 Depends: libc, jshn, curl
 Conflicts: simple-adblock
 Provides: simple-adblock
@@ -27,10 +27,10 @@ Section: net
 SourceDateEpoch: 1699969091
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 17453
-Filename: adblock-fast_1.1.1-5_all.ipk
-Size: 18640
-SHA256sum: c54ab9c38cd7a815c61568d50d763b596fb36f5ef66def97b06d632b02f0eaa5
+Installed-Size: 17487
+Filename: adblock-fast_1.1.1-6_all.ipk
+Size: 18677
+SHA256sum: 928d066b0d2617e3dd78eafc44dedf70483803d1c2da3ad409e915fc66e34722
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
@@ -88,19 +88,19 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-adblock-fast
-Version: 1.1.1-5
+Version: 1.1.1-6
 Depends: libc, luci-base, adblock-fast, jsonfilter
 Source: package/luci/applications/luci-app-adblock-fast
 SourceName: luci-app-adblock-fast
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1704568510
+SourceDateEpoch: 1710274899
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8395
-Filename: luci-app-adblock-fast_1.1.1-5_all.ipk
-Size: 9299
-SHA256sum: 8f0fc4e231a4353435871f751d72d8d927720996e063d5b528136902f439cc4e
+Installed-Size: 8396
+Filename: luci-app-adblock-fast_1.1.1-6_all.ipk
+Size: 9292
+SHA256sum: fa42349ca9edc0996cecc1da185f15a8d45914ed00d1aeba7720fa28288dd3ac
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
