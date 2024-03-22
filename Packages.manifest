@@ -16,7 +16,7 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
 Package: adblock-fast
-Version: 1.1.1-6
+Version: 1.1.1-r7
 Depends: libc, jshn, curl
 Conflicts: simple-adblock
 Provides: simple-adblock
@@ -27,10 +27,10 @@ Section: net
 SourceDateEpoch: 1699969091
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 17487
-Filename: adblock-fast_1.1.1-6_all.ipk
-Size: 18677
-SHA256sum: 928d066b0d2617e3dd78eafc44dedf70483803d1c2da3ad409e915fc66e34722
+Installed-Size: 17417
+Filename: adblock-fast_1.1.1-r7_all.ipk
+Size: 18602
+SHA256sum: ebb5d4f57180211285f54815995ec1d160f892a3b2f7cb9745748587cd7796a6
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
@@ -88,35 +88,35 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-adblock-fast
-Version: 1.1.1-6
+Version: 1.1.1-r7
 Depends: libc, luci-base, adblock-fast, jsonfilter
 Source: package/luci/applications/luci-app-adblock-fast
 SourceName: luci-app-adblock-fast
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1710274899
+SourceDateEpoch: 1710964510
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8396
-Filename: luci-app-adblock-fast_1.1.1-6_all.ipk
-Size: 9292
-SHA256sum: fa42349ca9edc0996cecc1da185f15a8d45914ed00d1aeba7720fa28288dd3ac
+Installed-Size: 8402
+Filename: luci-app-adblock-fast_1.1.1-r7_all.ipk
+Size: 9300
+SHA256sum: bf7fe547dc8adf8925e7e799747e13e182416099e38ee7fa9aa332c06f11ea35
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
-Version: 1.0.1-10
+Version: 1.0.1-r10
 Depends: libc, luci-base, jshn
 Source: package/luci/applications/luci-app-advanced-reboot
 SourceName: luci-app-advanced-reboot
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1699956526
+SourceDateEpoch: 1710964510
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 7871
-Filename: luci-app-advanced-reboot_1.0.1-10_all.ipk
-Size: 8867
-SHA256sum: 0b17aaf99999b25e2dd8859990f444f28118ef46afc1fead93fb4e6d209f9f78
+Installed-Size: 7872
+Filename: luci-app-advanced-reboot_1.0.1-r10_all.ipk
+Size: 8868
+SHA256sum: 39e6cb551165ad0b53a53e2b4f7de699ad07d347c6700d6390512aa88213851f
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://docs.openwrt.melmac.net/luci-app-advanced-reboot/
 
 Package: luci-app-easyflash
@@ -152,36 +152,36 @@ SHA256sum: 4278a73bedf9c37adfc460dd28759e1b3f47655256d10dd78eacab1f56b9250d
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: 2023-11-19-1
+Version: 2023.11.19-r1
 Depends: libc, luci-base, https-dns-proxy
 Source: package/luci/applications/luci-app-https-dns-proxy
 SourceName: luci-app-https-dns-proxy
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1704568510
+SourceDateEpoch: 1710964510
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 10783
-Filename: luci-app-https-dns-proxy_2023-11-19-1_all.ipk
-Size: 11648
-SHA256sum: dc5380d53b9c4c165ccac0ca4b7166a3f2e954a32ce9d9d24203af5c16092312
+Installed-Size: 10737
+Filename: luci-app-https-dns-proxy_2023.11.19-r1_all.ipk
+Size: 11619
+SHA256sum: e0380bb7c1ab221a5ccd9bdbf968571d41580a2e7464bbba6d2d03f1f6b4b4d8
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.1.4-7
+Version: 1.1.4-r7
 Depends: libc, luci-base, jsonfilter, pbr-service
 Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 Source: package/luci/applications/luci-app-pbr
 SourceName: luci-app-pbr
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1710274899
+SourceDateEpoch: 1710964510
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8434
-Filename: luci-app-pbr_1.1.4-7_all.ipk
-Size: 9354
-SHA256sum: 6a4677a96c14985574452c5dc83e54665d0f8160f139ec0450d8062458ac7667
+Installed-Size: 8420
+Filename: luci-app-pbr_1.1.4-r7_all.ipk
+Size: 9346
+SHA256sum: aa562ff76254a9fc657c3229533f19f16e6c17070dce70b51283e7b37cc0572d
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -265,23 +265,23 @@ SHA256sum: edc154251a018ceaa55e3a3301271531265d1b12b354850249febeefc8e8cc88
 Description:  Provides Web UI for WLAN Blinker service.
 
 Package: luci-proto-nebula
-Version: 1.7.2-3
+Version: 1.8.2-r2
 Depends: libc, nebula, nebula-proto
 Source: package/luci/applications/luci-proto-nebula
 SourceName: luci-proto-nebula
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1692453666
+SourceDateEpoch: 1699969091
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 636
-Filename: luci-proto-nebula_1.7.2-3_all.ipk
-Size: 1499
-SHA256sum: f4fbaee89fc6b27cbdf696bd715529431c394196cb73ca7d71573d4fd956ff58
+Installed-Size: 623
+Filename: luci-proto-nebula_1.8.2-r2_all.ipk
+Size: 1485
+SHA256sum: 50b1e55c80ddbc8ef26a5069ab298ffc41fa393d45516f0e345050a85db15293
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr-iptables
-Version: 1.1.4-7
+Version: 1.1.4-r7
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: pbr-service
@@ -292,15 +292,15 @@ Section: net
 SourceDateEpoch: 1699969091
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 24539
-Filename: pbr-iptables_1.1.4-7_all.ipk
-Size: 25700
-SHA256sum: 7f332f4e2d7dbfd74cb8cc45cb436ca7ad35d7db68af8002b92b1288c23b6ca8
+Installed-Size: 24445
+Filename: pbr-iptables_1.1.4-r7_all.ipk
+Size: 25612
+SHA256sum: 62cf725f27fb18a0eda73fbf29ff49469227c17f057e5996273b93e7d4d55b87
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with firewall3/ipset/iptables.
 
 Package: pbr
-Version: 1.1.4-7
+Version: 1.1.4-r7
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 Conflicts: vpnbypass, vpn-policy-routing
 Provides: pbr-service, vpnbypass, vpn-policy-routing
@@ -311,10 +311,10 @@ Section: net
 SourceDateEpoch: 1699969091
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 24960
-Filename: pbr_1.1.4-7_all.ipk
-Size: 26188
-SHA256sum: 430474d2aae7ce9e2963972b36997366c41410073bea3601a017e2805e6a2691
+Installed-Size: 24866
+Filename: pbr_1.1.4-r7_all.ipk
+Size: 26095
+SHA256sum: 21249355017f1291b35925586417bc31851b38aadb4fd613c1dd0bd2c9d0705a
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
 
