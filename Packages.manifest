@@ -152,19 +152,19 @@ SHA256sum: 4278a73bedf9c37adfc460dd28759e1b3f47655256d10dd78eacab1f56b9250d
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: 2023.11.19-r1
+Version: 2023.11.19
 Depends: libc, luci-base, https-dns-proxy
 Source: package/luci/applications/luci-app-https-dns-proxy
 SourceName: luci-app-https-dns-proxy
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1710964510
+SourceDateEpoch: 1711725917
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 10737
-Filename: luci-app-https-dns-proxy_2023.11.19-r1_all.ipk
-Size: 11619
-SHA256sum: e0380bb7c1ab221a5ccd9bdbf968571d41580a2e7464bbba6d2d03f1f6b4b4d8
+Installed-Size: 10764
+Filename: luci-app-https-dns-proxy_2023.11.19_all.ipk
+Size: 11638
+SHA256sum: a84c62232715b2e2f72af9002eeaafac868425b607631455b5e94ffa5cc787f3
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
