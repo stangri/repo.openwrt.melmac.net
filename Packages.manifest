@@ -36,7 +36,7 @@ Description:  Fast AdBlocking script to block ad or abuse/malware domains with D
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
 
 Package: antminer-monitor
-Version: 0.4.0-6
+Version: 0.4.0-r6
 Depends: libc, python-light, python-pip
 Source: feeds/packages/stangri/antminer-monitor
 SourceName: antminer-monitor
@@ -46,9 +46,9 @@ SourceDateEpoch: 1711145382
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 530008
-Filename: antminer-monitor_0.4.0-6_all.ipk
-Size: 531224
-SHA256sum: 096a5a5f5b4d6ebdbff74c0293f7d79440d6eaed2607240749444356caaba3d7
+Filename: antminer-monitor_0.4.0-r6_all.ipk
+Size: 531219
+SHA256sum: 8a7109588dc48d0415d1bfed2b01d2a4949a7d5765aedba68f2fd7d7c90da9ce
 Description:  This service can be used to monitor Antminers on local network.
 
 Package: brickproof
@@ -71,7 +71,7 @@ Description:  Package provides a shell script which allows to force Failesafe Mo
  Please see https://docs.openwrt.melmac.net/brickproof/ for more information.
 
 Package: fakeinternet
-Version: 0.1.4-5
+Version: 0.1.4-r5
 Depends: libc, uhttpd, uhttpd-mod-ubus
 Source: feeds/packages/stangri/fakeinternet
 SourceName: fakeinternet
@@ -80,10 +80,10 @@ Section: net
 SourceDateEpoch: 1711145382
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 2828
-Filename: fakeinternet_0.1.4-5_all.ipk
-Size: 3855
-SHA256sum: 6aa57acaa7f40bb9b20596f24dfcfee99ab4e2ffc0f0e6eafdf24b5adb09aea8
+Installed-Size: 2829
+Filename: fakeinternet_0.1.4-r5_all.ipk
+Size: 3860
+SHA256sum: 18429a646a4737b46a794db7843d8b38c63166f81e2a2ef9355719449d7dacae
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -136,7 +136,7 @@ SHA256sum: 3a00259a9cc5824af273091e67c33d8ba9398e31ec94e52715627a46a6967fd3
 Description:  Easy Flash Web UI
 
 Package: luci-app-fakeinternet
-Version: 0.1.4-5
+Version: 0.1.4-r5
 Depends: libc, luci-compat, luci-base, fakeinternet, luci-lua-runtime
 Source: package/luci/applications/luci-app-fakeinternet
 SourceName: luci-app-fakeinternet
@@ -146,9 +146,9 @@ SourceDateEpoch: 1711145382
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1641
-Filename: luci-app-fakeinternet_0.1.4-5_all.ipk
-Size: 2506
-SHA256sum: 997d17245ad8d6f3ad12007e83a6ebca60bd5223a5f0d02f982fe77bb8d5cc9d
+Filename: luci-app-fakeinternet_0.1.4-r5_all.ipk
+Size: 2508
+SHA256sum: 25aabefe2682c98be9cefe86f3c276d6581be0e66323e07c4ddf0eaf3bc1f0d5
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
@@ -249,7 +249,7 @@ SHA256sum: a1589fe2052fbea8b3ad8190d670f85b79932502f91f88e08d36488f543d728b
 Description:  Provides Web UI for Wireshark-helper.
 
 Package: luci-app-wlanblinker
-Version: 0.0.1-10
+Version: 0.0.1-r10
 Depends: libc, luci-compat, luci-base, wlanblinker, luci-lua-runtime
 Source: package/luci/applications/luci-app-wlanblinker
 SourceName: luci-app-wlanblinker
@@ -259,9 +259,9 @@ SourceDateEpoch: 1711145382
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1812
-Filename: luci-app-wlanblinker_0.0.1-10_all.ipk
-Size: 2688
-SHA256sum: f85b17e13fc7028c8d471d1d5aeec2b9a6b9755baee52f64e540a56ef63b768b
+Filename: luci-app-wlanblinker_0.0.1-r10_all.ipk
+Size: 2681
+SHA256sum: 0ad3059fb8dc5dac49791069529702574ebb8dce99c93391010265fca7316fee
 Description:  Provides Web UI for WLAN Blinker service.
 
 Package: luci-proto-nebula
@@ -354,7 +354,7 @@ Description:  Simple adblock script to block ad or abuse/malware domains with DN
  Please see https://docs.openwrt.melmac.net/simple-adblock/ for more information.
 
 Package: slider-support-ar150
-Version: 0.0.3-1
+Version: 0.0.3-r1
 Depends: libc, relayd
 Source: feeds/packages/stangri/slider-support
 SourceName: slider-support-ar150
@@ -363,16 +363,16 @@ Section: net
 SourceDateEpoch: 1711145382
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 2573
-Filename: slider-support-ar150_0.0.3-1_all.ipk
-Size: 3588
-SHA256sum: 62b25ba4c2eaa186c443b267775c9ebf505dc02dd4c580cbedb828bd389cd786
+Installed-Size: 2571
+Filename: slider-support-ar150_0.0.3-r1_all.ipk
+Size: 3586
+SHA256sum: 418c4b63514ff49410f883aaff286f0e56cdc464eba3ba5f61a6b0a9c553b35e
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
 
 Package: slider-support-ar300m
-Version: 0.0.3-1
+Version: 0.0.3-r1
 Depends: libc, relayd
 Source: feeds/packages/stangri/slider-support
 SourceName: slider-support-ar300m
@@ -382,15 +382,15 @@ SourceDateEpoch: 1711145382
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 2574
-Filename: slider-support-ar300m_0.0.3-1_all.ipk
-Size: 3589
-SHA256sum: 473ec2eae78077e2c734b88362b88666e5ee41d4682e5c1cdaff251646138577
+Filename: slider-support-ar300m_0.0.3-r1_all.ipk
+Size: 3590
+SHA256sum: 55712e1af40b59ea4127ec6a74297025e834d660583e5e3a004d71b4ee1305b8
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
 
 Package: slider-support-ar750
-Version: 0.0.3-1
+Version: 0.0.3-r1
 Depends: libc, relayd
 Source: feeds/packages/stangri/slider-support
 SourceName: slider-support-ar750
@@ -399,16 +399,16 @@ Section: net
 SourceDateEpoch: 1711145382
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 2577
-Filename: slider-support-ar750_0.0.3-1_all.ipk
+Installed-Size: 2576
+Filename: slider-support-ar750_0.0.3-r1_all.ipk
 Size: 3592
-SHA256sum: 32a06653ab5aa46a57f833df0906efe7743843ea922944486dd948f09c772f80
+SHA256sum: c2373cc67c4b03f2d3c13cb97be06a3e069129d9e2ba8f1a6e4017d70bf42ae5
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
 
 Package: slider-support-mt300n
-Version: 0.0.3-1
+Version: 0.0.3-r1
 Depends: libc, relayd
 Source: feeds/packages/stangri/slider-support
 SourceName: slider-support-mt300n
@@ -417,10 +417,10 @@ Section: net
 SourceDateEpoch: 1711145382
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 2571
-Filename: slider-support-mt300n_0.0.3-1_all.ipk
-Size: 3583
-SHA256sum: 14e1505baa2fd95a9314cfbbac149930fdb757c5a219103bec17a215b0ba43c2
+Installed-Size: 2570
+Filename: slider-support-mt300n_0.0.3-r1_all.ipk
+Size: 3582
+SHA256sum: 10365efb4820612a2c0c63ff4ccb59a8de64bce4c9305dfdbebfcc6e493a2c94
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
@@ -479,7 +479,7 @@ SHA256sum: 60fc130011b108751a64fb35868c6f731c60e5bd12dbc430cdba25ec6899e674
 Description:  This service can be used to set up iptables rules required for WireShark.
 
 Package: wlanblinker
-Version: 0.0.1-10
+Version: 0.0.1-r10
 Depends: libc, coreutils-sleep, iwinfo
 Source: feeds/packages/stangri/wlanblinker
 SourceName: wlanblinker
@@ -488,10 +488,10 @@ Section: net
 SourceDateEpoch: 1711145382
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 1620
-Filename: wlanblinker_0.0.1-10_all.ipk
-Size: 2653
-SHA256sum: 0d2d6ff0cd0f05f97bc5f6a7a07a7212165a2a9485e33f8eacc49b12b3311a25
+Installed-Size: 1618
+Filename: wlanblinker_0.0.1-r10_all.ipk
+Size: 2658
+SHA256sum: 0d8d0bd54b758f64e190ddbfa6edf52581b086b4d55358898a1cb68c252cf560
 Description:  This service can be used to signal WLAN status by the unused LED.
  Please see the README for further information.
 
