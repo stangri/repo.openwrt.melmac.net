@@ -291,12 +291,31 @@ Section: net
 SourceDateEpoch: 1711145382
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 24703
+Installed-Size: 24754
 Filename: pbr-iptables_1.1.4-r11_all.ipk
-Size: 25825
-SHA256sum: 0bffbacb93e1e3cacf6ab63edd140b1bb9d20e570adbd3f80eb01ec160398519
+Size: 25881
+SHA256sum: 2878835f0131b53b7b66d697e47e362fc586f3ac2c71fba9e655684085438e6c
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with firewall3/ipset/iptables.
+
+Package: pbr-netifd
+Version: 1.1.4-r11
+Depends: libc, ip-full, jshn, jsonfilter, resolveip
+Conflicts: vpnbypass, vpn-policy-routing
+Source: feeds/packages/stangri/pbr
+SourceName: pbr-netifd
+License: GPL-3.0-or-later
+Section: net
+SourceDateEpoch: 1711145382
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: all
+Installed-Size: 24826
+Filename: pbr-netifd_1.1.4-r11_all.ipk
+Size: 25967
+SHA256sum: 1d3429cb251a5a730aa5ae3e866a47ec90871eef70e4bd9a50967d90b17258c9
+Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
+ This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
+ This version uses OpenWrt native netifd/tables to set up interfaces. This is WIP.
 
 Package: pbr
 Version: 1.1.4-r11
@@ -310,10 +329,10 @@ Section: net
 SourceDateEpoch: 1711145382
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 25112
+Installed-Size: 25164
 Filename: pbr_1.1.4-r11_all.ipk
-Size: 26296
-SHA256sum: b46170f650205b1fdb72e23b79423acaaca9900f5d9a561fd8cf0b729eac066d
+Size: 26356
+SHA256sum: 67fd1185d338e9e932b3965ad6a060d678fab035c9b626cf5aee5aa00c29df66
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
 
