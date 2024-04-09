@@ -128,16 +128,16 @@ SHA256sum: 9d3fd61546b575059703a0ed2208754c7cfd59cb9568bb0e0f5da7aa6a8c2b5c
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.1.4-r12
+Version: 1.1.4-r13
 Depends: libc, luci-base, jsonfilter, pbr-service
 Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 8491
-Filename: luci-app-pbr_1.1.4-r12_all.ipk
-Size: 9415
-SHA256sum: a4b442a3d8d0215b9fdd242408ab740184d5bd9935c2886d18233484dad4acc8
+Filename: luci-app-pbr_1.1.4-r13_all.ipk
+Size: 9414
+SHA256sum: 1c293d714454e60f0e67cc00011180d91ccc853a7344c3ceb78ce1c141367386
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -213,46 +213,48 @@ SHA256sum: 31657ff714467c6f57743376bfa845e31158cbd881f285da3f2d83b66ba11db8
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr-iptables
-Version: 1.1.4-r12
+Version: 1.1.4-r13
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
 Conflicts: vpnbypass, vpn-policy-routing
+Provides: pbr-service
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 24852
-Filename: pbr-iptables_1.1.4-r12_all.ipk
-Size: 25982
-SHA256sum: e4b6fa0daa778cb19b6f2bb946405c9fc64d938b832eb8dcb7be3cebc248c3f7
+Installed-Size: 24850
+Filename: pbr-iptables_1.1.4-r13_all.ipk
+Size: 25990
+SHA256sum: a107a3e22d2edb767d2897437fabaf2e2977f4fd5f23878294f747d4dc0d1a52
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with firewall3/ipset/iptables.
 
 Package: pbr-netifd
-Version: 1.1.4-r12
+Version: 1.1.4-r13
 Depends: libc, ip-full, jshn, jsonfilter, resolveip
 Conflicts: vpnbypass, vpn-policy-routing
+Provides: pbr-service
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 24925
-Filename: pbr-netifd_1.1.4-r12_all.ipk
-Size: 26070
-SHA256sum: c0b49931787669fd9fed1352302216fe2ec31d742d190f7dd9884fca99ede923
+Installed-Size: 24924
+Filename: pbr-netifd_1.1.4-r13_all.ipk
+Size: 26077
+SHA256sum: 2959146b60c260a69731bd0e1bdab02f5f7df8d606ae38bf1990afc63c7bc5c6
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
  This version uses OpenWrt native netifd/tables to set up interfaces. This is WIP.
 
 Package: pbr
-Version: 1.1.4-r12
+Version: 1.1.4-r13
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 Conflicts: vpnbypass, vpn-policy-routing
-Provides: vpnbypass, vpn-policy-routing
+Provides: pbr-service, vpnbypass, vpn-policy-routing
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
 Installed-Size: 25261
-Filename: pbr_1.1.4-r12_all.ipk
-Size: 26447
-SHA256sum: a2b7e934141394dd85cbfc4e8e4dfce8af7747cef2481af08c84e7ead7db50f1
+Filename: pbr_1.1.4-r13_all.ipk
+Size: 26459
+SHA256sum: 33aa28fe166e4ad9206cccb0982069da4b5018494eb7217931917fd01b073260
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
 
