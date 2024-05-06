@@ -12,17 +12,17 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
 Package: adblock-fast
-Version: 1.1.1-11
+Version: 1.1.2-1
 Depends: libc, jshn, curl
 Conflicts: simple-adblock
 Provides: simple-adblock
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 17463
-Filename: adblock-fast_1.1.1-11_all.ipk
-Size: 18694
-SHA256sum: 4b10897d8080a70a272cbbc13c20670f8cf0ac0cc6bbb74fed826833d64a0e95
+Installed-Size: 17564
+Filename: adblock-fast_1.1.2-1_all.ipk
+Size: 18808
+SHA256sum: ce969971c7b8bbd2c087ff0e725d9ca14fa3335ef4045b69cee976f11da86e3d
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
@@ -68,15 +68,15 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-adblock-fast
-Version: 1.1.1-11
+Version: 1.1.2-1
 Depends: libc, luci-base, adblock-fast, jsonfilter
 License: AGPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 8397
-Filename: luci-app-adblock-fast_1.1.1-11_all.ipk
-Size: 9297
-SHA256sum: b1c051b34f11d3967966116a1065a942bd5b1fde790865e21a6329fe10040997
+Installed-Size: 8524
+Filename: luci-app-adblock-fast_1.1.2-1_all.ipk
+Size: 9422
+SHA256sum: 3c85c00588625ab6d303b6ea4da2ce0b14ccdcd604eb5fcd4a55575146b81e05
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
@@ -134,10 +134,10 @@ Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 License: AGPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 8518
+Installed-Size: 8516
 Filename: luci-app-pbr_1.1.5-1_all.ipk
-Size: 9436
-SHA256sum: d6f25f6286b5e86bc24dd94f1699d585d06f921cc522a6637b947705a01c1b32
+Size: 9430
+SHA256sum: 3bde095f83cb190f250872a7c0f400b1389893216a8c58ac9fa1cbf2fb510546
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -220,10 +220,10 @@ Provides: pbr
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 24981
+Installed-Size: 24977
 Filename: pbr-iptables_1.1.5-1_all.ipk
 Size: 26127
-SHA256sum: ba8b23852678a35120e7e9bb38548bf90675ad30b1a73391e4a2dde8df16c1f0
+SHA256sum: 78e8865c5bcf1f63d4dfb1aa915924bb7d26f0fb0598fabd8f85e32e55f3eda1
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with firewall3/ipset/iptables.
 
@@ -235,10 +235,10 @@ Provides: vpnbypass, vpn-policy-routing
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 25387
+Installed-Size: 25382
 Filename: pbr_1.1.5-1_all.ipk
-Size: 26589
-SHA256sum: fbf97850de167314f4382d4da24417d8bdfea3e80177c698c45bfc591a03843e
+Size: 26580
+SHA256sum: 786771ecb031a0b10318da8639b07e964c66200123cabcb63a827dccd60d23b9
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
 
