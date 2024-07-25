@@ -134,10 +134,10 @@ Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 License: AGPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 9002
+Installed-Size: 9000
 Filename: luci-app-pbr_1.1.6-14_all.ipk
-Size: 9933
-SHA256sum: c6f0faba59699a0e56c6c3d55706302271d673a335772cc2d01de30a2e99ab05
+Size: 9932
+SHA256sum: 9ba3b8522a83aa86a18050f66779d3646e3820a368200f58be49d488fa294aab
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
