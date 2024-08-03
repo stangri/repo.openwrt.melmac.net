@@ -128,16 +128,16 @@ SHA256sum: 8f91b2ae82be5db1b621dda5a2efeab43c7178888f8f1c86262313b114620953
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.1.6-19
+Version: 1.1.6-20
 Depends: libc, luci-base, jsonfilter, pbr
 Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 License: AGPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 9000
-Filename: luci-app-pbr_1.1.6-19_all.ipk
-Size: 9935
-SHA256sum: d360020d1bb478cf61db5048ca621858c11884f66b57011d4d95b48a1fe0effb
+Filename: luci-app-pbr_1.1.6-20_all.ipk
+Size: 9934
+SHA256sum: 016e569350fbe7b067277a920faba92c40e118b93eabb8336dc4f1a0659a029c
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -213,29 +213,29 @@ SHA256sum: 9b224642b8e560fd414b02d70c8c3c283fe6084ad067d8496afab0a8de8d9235
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr-iptables
-Version: 1.1.6-19
+Version: 1.1.6-20
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
 Provides: pbr
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
 Installed-Size: 25937
-Filename: pbr-iptables_1.1.6-19_all.ipk
+Filename: pbr-iptables_1.1.6-20_all.ipk
 Size: 27085
-SHA256sum: 7f38ec041093770c20fbfb9bd54d3cfd8ff8a599c8e5dce5e5d249a2c8547f27
+SHA256sum: 296e31b1383976c0d05bd4f79938fcdb6a7d893fe872964d71460752ae6546ec
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (22.03 and older) with firewall3/ipset/iptables.
 
 Package: pbr
-Version: 1.1.6-19
+Version: 1.1.6-20
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 23100
-Filename: pbr_1.1.6-19_all.ipk
+Installed-Size: 23104
+Filename: pbr_1.1.6-20_all.ipk
 Size: 24297
-SHA256sum: b8c5ebf836adc306301fa73abbd433a0e6af46d7a1775b1cc073eaec170e53c5
+SHA256sum: acd0648e8fa015812b553f3a522f300d67d8992f6b55d2fc5d5cbe3b66d4f621
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
