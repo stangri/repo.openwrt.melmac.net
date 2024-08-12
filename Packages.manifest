@@ -180,8 +180,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 9000
 Filename: luci-app-pbr_1.1.7-1_all.ipk
-Size: 9933
-SHA256sum: 320a4d1583c28e059ee88b236524219de18fa2709bced36d72e80502cc555545
+Size: 9929
+SHA256sum: 203b63a6196ca2af2cfa489137c9a76e34537bf804a5ff9e415f636b9dd37c7f
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -292,8 +292,8 @@ Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 23005
 Filename: pbr_1.1.7-1_all.ipk
-Size: 24199
-SHA256sum: 4b8aa4f9f5df80e939ae4044365bf7ef1068c2caae1fa97449dadbca069342a0
+Size: 24202
+SHA256sum: f9e9386295a6e7cfb7daeb6a852677ed2fe98ebc3ec7afa79bc382431978a49f
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
