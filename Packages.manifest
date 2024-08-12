@@ -308,10 +308,10 @@ Section: net
 SourceDateEpoch: 1721081658
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 23239
+Installed-Size: 23241
 Filename: pbr_1.1.6-21_all.ipk
-Size: 24434
-SHA256sum: a291eea3df79ac020db6a13304d30f52789430d15895a38b9742aa964b91d951
+Size: 24433
+SHA256sum: 0b94fa9c6e7efbb2f38976758eebf1b7cb558e04ae73c1155f654227935a05f6
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
