@@ -128,16 +128,16 @@ SHA256sum: 8f91b2ae82be5db1b621dda5a2efeab43c7178888f8f1c86262313b114620953
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.1.6-21
+Version: 1.1.7-1
 Depends: libc, luci-base, jsonfilter, pbr
 Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 License: AGPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 9000
-Filename: luci-app-pbr_1.1.6-21_all.ipk
-Size: 9935
-SHA256sum: 12741009ec70a2080b7eacae9cd518ad9db66cd41595d8d74554caefb43a1654
+Filename: luci-app-pbr_1.1.7-1_all.ipk
+Size: 9933
+SHA256sum: 320a4d1583c28e059ee88b236524219de18fa2709bced36d72e80502cc555545
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -212,30 +212,16 @@ Size: 1479
 SHA256sum: 9b224642b8e560fd414b02d70c8c3c283fe6084ad067d8496afab0a8de8d9235
 Description:  Provides Web UI for Nebula protocol/interface.
 
-Package: pbr-iptables
-Version: 1.1.6-21
-Depends: libc, ip-full, jshn, jsonfilter, resolveip, ipset, iptables, kmod-ipt-ipset, iptables-mod-ipopt
-Provides: pbr
-License: AGPL-3.0-or-later
-Section: net
-Architecture: all
-Installed-Size: 25937
-Filename: pbr-iptables_1.1.6-21_all.ipk
-Size: 27085
-SHA256sum: b800f654183199ee530bb5d55f1f1ed9f514082e922e1f67bcdffbf3069e68c5
-Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
- This version supports OpenWrt (22.03 and older) with firewall3/ipset/iptables.
-
 Package: pbr
-Version: 1.1.6-21
+Version: 1.1.7-1
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 23241
-Filename: pbr_1.1.6-21_all.ipk
-Size: 24433
-SHA256sum: 0b94fa9c6e7efbb2f38976758eebf1b7cb558e04ae73c1155f654227935a05f6
+Installed-Size: 23005
+Filename: pbr_1.1.7-1_all.ipk
+Size: 24199
+SHA256sum: 4b8aa4f9f5df80e939ae4044365bf7ef1068c2caae1fa97449dadbca069342a0
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
