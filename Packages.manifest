@@ -280,6 +280,25 @@ Size: 1479
 SHA256sum: 9b224642b8e560fd414b02d70c8c3c283fe6084ad067d8496afab0a8de8d9235
 Description:  Provides Web UI for Nebula protocol/interface.
 
+Package: pbr-netifd
+Version: 1.1.7-3
+Depends: libc, ip-full, jshn, jsonfilter, resolveip
+Provides: pbr
+Source: feeds/packages/stangri/pbr
+SourceName: pbr-netifd
+License: AGPL-3.0-or-later
+Section: net
+SourceDateEpoch: 1721081658
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: all
+Installed-Size: 22750
+Filename: pbr-netifd_1.1.7-3_all.ipk
+Size: 24052
+SHA256sum: 529324b08c85497edef47cb8d9525dc2437b5f7cab1506ad481949356b8736ff
+Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
+ This version supports OpenWrt with (23.05 and newer) firewall4/nft.
+ This version uses OpenWrt native netifd/tables to set up interfaces. This is a WIP.
+
 Package: pbr
 Version: 1.1.7-3
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
