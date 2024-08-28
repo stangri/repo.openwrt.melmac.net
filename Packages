@@ -128,16 +128,16 @@ SHA256sum: 8f91b2ae82be5db1b621dda5a2efeab43c7178888f8f1c86262313b114620953
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.1.7-4
+Version: 1.1.7-5
 Depends: libc, luci-base, jsonfilter, pbr
 Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 License: AGPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 9000
-Filename: luci-app-pbr_1.1.7-4_all.ipk
+Filename: luci-app-pbr_1.1.7-5_all.ipk
 Size: 9929
-SHA256sum: 7354ccdc29bdfcb717d24c1e9abd127952c353269c521a1ea13de8b8716c345b
+SHA256sum: b344e6486a63e09aea716d0ee571c0f0669e3c815c4b1ba6b38684f4263caa74
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -213,30 +213,30 @@ SHA256sum: 9b224642b8e560fd414b02d70c8c3c283fe6084ad067d8496afab0a8de8d9235
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr-netifd
-Version: 1.1.7-4
+Version: 1.1.7-5
 Depends: libc, ip-full, jshn, jsonfilter, resolveip
 Provides: pbr
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 22778
-Filename: pbr-netifd_1.1.7-4_all.ipk
-Size: 24085
-SHA256sum: 257a460f54af3ea6223bc64b770a93d5f46e239a3658ca5e71cc233003668675
+Installed-Size: 22646
+Filename: pbr-netifd_1.1.7-5_all.ipk
+Size: 23944
+SHA256sum: 435a5ef27cb5df172cd1132edfe77eea7d902416b28eb3e817639aa6114961cd
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with (23.05 and newer) firewall4/nft.
  This version uses OpenWrt native netifd/tables to set up interfaces. This is a WIP.
 
 Package: pbr
-Version: 1.1.7-4
+Version: 1.1.7-5
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 22715
-Filename: pbr_1.1.7-4_all.ipk
-Size: 23899
-SHA256sum: 653b01383a9d94c34919ce1f7731dfec00af33614bf1a61e8a2c151e1b67d8fd
+Installed-Size: 22581
+Filename: pbr_1.1.7-5_all.ipk
+Size: 23762
+SHA256sum: 54ebd7cf29dfb88a7024613e4e03547dbcb08ce7754190fbca910e53e821484a
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
