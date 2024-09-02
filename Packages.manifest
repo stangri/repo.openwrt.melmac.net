@@ -178,10 +178,10 @@ Section: luci
 SourceDateEpoch: 1721081658
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 9000
+Installed-Size: 9006
 Filename: luci-app-pbr_1.1.7-5_all.ipk
-Size: 9929
-SHA256sum: b344e6486a63e09aea716d0ee571c0f0669e3c815c4b1ba6b38684f4263caa74
+Size: 9939
+SHA256sum: 75f78a251369d2f86b7f415af9f15223ffc419aab5c0f1bc047b15a5f8fc7ad9
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -291,10 +291,10 @@ Section: net
 SourceDateEpoch: 1721081658
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 22646
+Installed-Size: 22570
 Filename: pbr-netifd_1.1.7-5_all.ipk
-Size: 23944
-SHA256sum: 435a5ef27cb5df172cd1132edfe77eea7d902416b28eb3e817639aa6114961cd
+Size: 23868
+SHA256sum: 35de193c372d2d3e818bac91611eb94ebf10fd609daa1d6c4ced39b2b60997fa
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with (23.05 and newer) firewall4/nft.
  This version uses OpenWrt native netifd/tables to set up interfaces. This is a WIP.
@@ -309,10 +309,10 @@ Section: net
 SourceDateEpoch: 1721081658
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 22581
+Installed-Size: 22507
 Filename: pbr_1.1.7-5_all.ipk
-Size: 23762
-SHA256sum: 54ebd7cf29dfb88a7024613e4e03547dbcb08ce7754190fbca910e53e821484a
+Size: 23680
+SHA256sum: 29c2addc2db0f098add7fb7253d1bad88ade14bc168c6f6a2d6ed20ada3b8ede
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
