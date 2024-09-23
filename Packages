@@ -128,16 +128,16 @@ SHA256sum: 8f91b2ae82be5db1b621dda5a2efeab43c7178888f8f1c86262313b114620953
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.1.7-10
+Version: 1.1.7-11
 Depends: libc, luci-base, jsonfilter, pbr
 Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 License: AGPL-3.0-or-later
 Section: luci
 Architecture: all
 Installed-Size: 9007
-Filename: luci-app-pbr_1.1.7-10_all.ipk
-Size: 9941
-SHA256sum: 0ce268caa06d56d8a35ed3f58972d853e7ed22f6fec7243d217a923036ed20ea
+Filename: luci-app-pbr_1.1.7-11_all.ipk
+Size: 9942
+SHA256sum: f37ebd381ce2ef552b67ba530753aa03ae0bea855153a39c5f7751646d6f797f
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -213,15 +213,15 @@ SHA256sum: 9b224642b8e560fd414b02d70c8c3c283fe6084ad067d8496afab0a8de8d9235
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr
-Version: 1.1.7-10
+Version: 1.1.7-11
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 22557
-Filename: pbr_1.1.7-10_all.ipk
-Size: 23730
-SHA256sum: ab11a9f08b7b85b1a604f48387f3468b105df50c5bdd0e51050cb90d0ccd70e7
+Installed-Size: 22561
+Filename: pbr_1.1.7-11_all.ipk
+Size: 23732
+SHA256sum: c97a15987bed74c2ac427cb90a6c5957d209a272186514086d64f0c2da8646d9
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
