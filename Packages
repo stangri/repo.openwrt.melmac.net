@@ -19,10 +19,10 @@ Provides: simple-adblock
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 17789
+Installed-Size: 17784
 Filename: adblock-fast_1.1.2-5_all.ipk
-Size: 19002
-SHA256sum: b98570ca1f9c91f404844909065079517e05760530fb1e3a60bd826664c2f554
+Size: 18993
+SHA256sum: f776226defad436e7302cad5b37acd9bcdaa733c313606d9f950430090a9ab6e
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
@@ -60,10 +60,10 @@ Depends: libc, uhttpd, uhttpd-mod-ubus
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 2828
+Installed-Size: 2825
 Filename: fakeinternet_0.1.4-5_all.ipk
-Size: 3854
-SHA256sum: 381cd77d4fbba9c139c65236b01111a3c51765996d863b6d33d14889ecce767d
+Size: 3848
+SHA256sum: 53082b0b55a972d2a7f101706b20fb943d1b024f0fd3b59ec13305876c7e4205
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
@@ -73,10 +73,10 @@ Depends: libc, luci-base, adblock-fast, jsonfilter
 License: AGPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 8629
+Installed-Size: 8624
 Filename: luci-app-adblock-fast_1.1.2-5_all.ipk
-Size: 9535
-SHA256sum: 1d263c835b799c8ddaf7ca8ae59df9432caf65065c7c16bac553a611beac4fe1
+Size: 9530
+SHA256sum: 060d4e72965d15ca1d06311c1e3252ea8b3028de54b9321657b327ad08220d89
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
@@ -87,8 +87,8 @@ Section: luci
 Architecture: all
 Installed-Size: 7975
 Filename: luci-app-advanced-reboot_1.0.1-13_all.ipk
-Size: 8987
-SHA256sum: 1543c0e86c8a8c6534dd36cc4a79763b8ba8cca5e33767495a0cd6845d10fe27
+Size: 8966
+SHA256sum: 463b10e103778be168875a5b80fa17760b6f3588673d2b68c761c39daeb7001c
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://docs.openwrt.melmac.net/luci-app-advanced-reboot/
 
 Package: luci-app-easyflash
@@ -109,10 +109,10 @@ Depends: libc, luci-compat, luci-base, fakeinternet, luci-lua-runtime
 License: AGPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 1639
+Installed-Size: 1638
 Filename: luci-app-fakeinternet_0.1.4-5_all.ipk
-Size: 2502
-SHA256sum: 6efd1febeb2afe32fa0b68992d1ec045577a22a0551a27abde1b3c03f48c81cc
+Size: 2499
+SHA256sum: e5fd0bae0131a45d4764fd21e88a71203998587758c9d1ff560a40da2d8fdea0
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
@@ -121,23 +121,23 @@ Depends: libc, luci-base, https-dns-proxy
 License: AGPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 10840
+Installed-Size: 11308
 Filename: luci-app-https-dns-proxy_2023.12.26-1_all.ipk
-Size: 11718
-SHA256sum: ffe1ff03b9d0ffb4fde96c7260d0715601a32b07d0d1d477137b6374ac4ab846
+Size: 12138
+SHA256sum: e9c6b5df0e20355862b28b0c763510d6edb267ddc6e86197197f344bda7ce2c4
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.1.7-15
+Version: 1.1.7-17
 Depends: libc, luci-base, jsonfilter, pbr
 Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 License: AGPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 9045
-Filename: luci-app-pbr_1.1.7-15_all.ipk
-Size: 9976
-SHA256sum: 8aa20c8c59910eff405cfa2b43e382c845287726d058431bbe6f6c96b630fba5
+Installed-Size: 9043
+Filename: luci-app-pbr_1.1.7-17_all.ipk
+Size: 9981
+SHA256sum: 04b7e13513bf5882d16aa92eff096e13e0b6d17b9ef61df442222f8460a9520c
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -213,15 +213,15 @@ SHA256sum: 9b224642b8e560fd414b02d70c8c3c283fe6084ad067d8496afab0a8de8d9235
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr
-Version: 1.1.7-15
+Version: 1.1.7-17
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 22692
-Filename: pbr_1.1.7-15_all.ipk
-Size: 23878
-SHA256sum: d963b18b5f24e90e447811ce5b98731dc644f54375770e2962481de0f917dbe9
+Installed-Size: 22723
+Filename: pbr_1.1.7-17_all.ipk
+Size: 23905
+SHA256sum: fb5db24c6ad154431ddc5f02787973f2ad5b873dbbee3640d3036983a12feb0b
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
