@@ -27,10 +27,10 @@ Section: net
 SourceDateEpoch: 1727094886
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 17784
+Installed-Size: 17760
 Filename: adblock-fast_1.1.2-5_all.ipk
-Size: 18993
-SHA256sum: f776226defad436e7302cad5b37acd9bcdaa733c313606d9f950430090a9ab6e
+Size: 18964
+SHA256sum: 98a92e73ce4731a6d61fad7e839f7b32890c980c335583f6a00afe65f8e85945
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
@@ -290,10 +290,10 @@ Section: net
 SourceDateEpoch: 1727094886
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 22894
+Installed-Size: 22846
 Filename: pbr_1.1.7-21_all.ipk
-Size: 24076
-SHA256sum: 893f9e7808d0672a8105dc07c76b06a5794d534869001a3d46f6deb5ef7ea1d9
+Size: 24019
+SHA256sum: fdc7c2eccfe1a4b56aafde910b5217f45f3e5f816b7e0fb120546a4a8216ceca
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
