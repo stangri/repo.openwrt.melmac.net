@@ -220,8 +220,8 @@ Section: net
 Architecture: all
 Installed-Size: 22894
 Filename: pbr_1.1.7-25_all.ipk
-Size: 24071
-SHA256sum: 170d526fab6da2ce1acfd5229f2977fcf8c3006810449bcf9af19b0d316313b6
+Size: 24078
+SHA256sum: 1e03c1dfdc6710884f32dccc3719ee53d57d2c4cad6463411d19d0a517597566
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
