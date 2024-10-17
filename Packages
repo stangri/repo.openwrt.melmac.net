@@ -218,10 +218,10 @@ Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 22922
+Installed-Size: 22919
 Filename: pbr_1.1.7-25_all.ipk
-Size: 24102
-SHA256sum: 9c0e4f38904cb67fa35884f3d0171df16a080d97de258ae21c1f518572c574fe
+Size: 24101
+SHA256sum: f3786d43b1289ee671712b01e3ce54132b0b1912a06bcd26fe8a864cb1712bb9
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
