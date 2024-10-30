@@ -221,8 +221,8 @@ Section: net
 Architecture: all
 Installed-Size: 23164
 Filename: pbr-netifd_1.1.7-47_all.ipk
-Size: 24512
-SHA256sum: 48eaccc8b05fa16de2a1d6cc1b860e6b2d109347456676e40af05d3cc9c9417d
+Size: 24513
+SHA256sum: 9c5d47682803ba8f450e185e5591dc52992c2bb82a5a36e1c6d9334074f0558e
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with (23.05 and newer) firewall4/nft.
  This version uses OpenWrt native netifd/tables to set up interfaces. This is a WIP.
