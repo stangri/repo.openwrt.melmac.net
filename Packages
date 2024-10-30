@@ -219,10 +219,10 @@ Provides: pbr
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 23189
+Installed-Size: 23191
 Filename: pbr-netifd_1.1.7-47_all.ipk
-Size: 24539
-SHA256sum: 749df758fb77fdd60dd4568b1bc4726b32ed8d833f98b44c7120b66573189a01
+Size: 24540
+SHA256sum: 498a0e0f17220f6cc1b1642fc844d696e006e07f5377a2797da84f88bc2112ef
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with (23.05 and newer) firewall4/nft.
  This version uses OpenWrt native netifd/tables to set up interfaces. This is a WIP.
@@ -233,10 +233,10 @@ Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 22906
+Installed-Size: 22907
 Filename: pbr_1.1.7-47_all.ipk
-Size: 24079
-SHA256sum: 410e886b3730b0094d2636eac8a4e24f029168db1abe980d99a129a3d0809b1f
+Size: 24073
+SHA256sum: b2b522d57a06252e15fa317bf341994009836a2e0ba3a656f3e013096d8aa23a
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
