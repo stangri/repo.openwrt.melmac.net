@@ -19,10 +19,10 @@ Provides: simple-adblock
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 18303
+Installed-Size: 18312
 Filename: adblock-fast_1.1.2-10_all.ipk
-Size: 19527
-SHA256sum: d0f8f9628878334d76cca3668848b067a58fe3f3f65a0c5ccd00b26b161adbf4
+Size: 19530
+SHA256sum: 41dbf74aa9dfa4154bc2e64fad87d92150ccf7bee0d98f41995f235e6f924769
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
@@ -219,10 +219,10 @@ Provides: pbr
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 23161
+Installed-Size: 23166
 Filename: pbr-netifd_1.1.7-53_all.ipk
-Size: 24507
-SHA256sum: 9d604ae5021dd044ef0d423168b5c9c73dd1c8248d4bf10cd7a25af0de508fda
+Size: 24513
+SHA256sum: 0bf717c6e2756aa33f310b5fec538ae22489f71dad1331b652276e54ef77f31e
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with (23.05 and newer) firewall4/nft.
  This version uses OpenWrt native netifd/tables to set up interfaces. This is a WIP.
@@ -233,10 +233,10 @@ Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat
 License: AGPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 23244
+Installed-Size: 23249
 Filename: pbr_1.1.7-53_all.ipk
-Size: 24424
-SHA256sum: 5f8dafb1bdcaee22f479ace3fd6ec50e4077806d8b392748b079f1f3b6813629
+Size: 24429
+SHA256sum: a46259bcf68916d007f3cc7fe2933cc637a9acaf8e532a3ef81ee194e484c59a
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
