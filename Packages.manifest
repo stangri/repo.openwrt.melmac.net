@@ -16,7 +16,7 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
 Package: adblock-fast
-Version: 1.1.2-16
+Version: 1.1.2-18
 Depends: libc, jshn, curl
 Conflicts: simple-adblock
 Provides: simple-adblock
@@ -27,10 +27,10 @@ Section: net
 SourceDateEpoch: 1727094886
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 18602
-Filename: adblock-fast_1.1.2-16_all.ipk
-Size: 19775
-SHA256sum: d31f8aebb738c391662fb696955599c8a31ffe45d5056b5d722386264db5964b
+Installed-Size: 18658
+Filename: adblock-fast_1.1.2-18_all.ipk
+Size: 19834
+SHA256sum: d092726b5c345ff3fc44b1caedb99cab5f1b6c5c1358798e7628f6b4e237c5b2
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
@@ -88,7 +88,7 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-adblock-fast
-Version: 1.1.2-16
+Version: 1.1.2-18
 Depends: libc, luci-base, adblock-fast, jsonfilter
 Source: feeds/base/luci/applications/luci-app-adblock-fast
 SourceName: luci-app-adblock-fast
@@ -98,9 +98,9 @@ SourceDateEpoch: 1727094886
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 8672
-Filename: luci-app-adblock-fast_1.1.2-16_all.ipk
-Size: 9571
-SHA256sum: 70b63547dc88709486efae757d19873db6f671cc583e233bb4ab55b57cacf36d
+Filename: luci-app-adblock-fast_1.1.2-18_all.ipk
+Size: 9569
+SHA256sum: 867144771a4f2bad0b82a6948fadd2b8b66cc21b3d36b639945597d27b3739d5
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
@@ -168,7 +168,7 @@ SHA256sum: e9c6b5df0e20355862b28b0c763510d6edb267ddc6e86197197f344bda7ce2c4
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.1.7-61
+Version: 1.1.7-63
 Depends: libc, luci-base, jsonfilter, pbr
 Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 Source: feeds/base/luci/applications/luci-app-pbr
@@ -179,9 +179,9 @@ SourceDateEpoch: 1727094886
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 9157
-Filename: luci-app-pbr_1.1.7-61_all.ipk
-Size: 10089
-SHA256sum: 1ad29730d117936e732bb9de5f518589a57403a4a6f26dbc192383652ded7d55
+Filename: luci-app-pbr_1.1.7-63_all.ipk
+Size: 10088
+SHA256sum: 7dc5aaa95b020b944e0c30778fdef0400d68d434103b23ce3d2e95a63d728647
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -281,7 +281,7 @@ SHA256sum: 9b224642b8e560fd414b02d70c8c3c283fe6084ad067d8496afab0a8de8d9235
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr
-Version: 1.1.7-61
+Version: 1.1.7-63
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 Source: feeds/packages/stangri/pbr
 SourceName: pbr
@@ -290,10 +290,10 @@ Section: net
 SourceDateEpoch: 1727094886
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 23300
-Filename: pbr_1.1.7-61_all.ipk
-Size: 24492
-SHA256sum: 5916aa72834889f4f0414483f2a9f32dc6e3d53000d051dd34009dcc7cf8fd6f
+Installed-Size: 23351
+Filename: pbr_1.1.7-63_all.ipk
+Size: 24539
+SHA256sum: 1468428c6281b2818710a6a880688d4867e38e06c403a9883092657024fe7e2a
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
