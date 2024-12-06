@@ -16,7 +16,7 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
 Package: adblock-fast
-Version: 1.1.2-18
+Version: 1.1.2-r18
 Depends: libc, jshn, curl
 Conflicts: simple-adblock
 Provides: simple-adblock
@@ -24,13 +24,14 @@ Source: feeds/packages/stangri/adblock-fast
 SourceName: adblock-fast
 License: AGPL-3.0-or-later
 Section: net
-SourceDateEpoch: 1727094886
+SourceDateEpoch: 1733261076
+URL: https://github.com/stangri/adblock-fast/
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 18658
-Filename: adblock-fast_1.1.2-18_all.ipk
-Size: 19834
-SHA256sum: d092726b5c345ff3fc44b1caedb99cab5f1b6c5c1358798e7628f6b4e237c5b2
+Installed-Size: 102400
+Filename: adblock-fast_1.1.2-r18_all.ipk
+Size: 19857
+SHA256sum: 680f810dea3c277ee1d4759a7d77bdcc7a6db09bc671919c2bcf2053619ac691
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
@@ -88,35 +89,37 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-adblock-fast
-Version: 1.1.2-18
+Version: 1.1.2-r18
 Depends: libc, luci-base, adblock-fast, jsonfilter
 Source: feeds/base/luci/applications/luci-app-adblock-fast
 SourceName: luci-app-adblock-fast
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1727094886
+SourceDateEpoch: 1733261076
+URL: https://github.com/stangri/luci-app-adblock-fast/
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8672
-Filename: luci-app-adblock-fast_1.1.2-18_all.ipk
-Size: 9569
-SHA256sum: 867144771a4f2bad0b82a6948fadd2b8b66cc21b3d36b639945597d27b3739d5
+Installed-Size: 51200
+Filename: luci-app-adblock-fast_1.1.2-r18_all.ipk
+Size: 9622
+SHA256sum: c0bfddf55bedb597b4390466cdc2fca3278d869aa06ba0642ce53191b56aecba
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
-Version: 1.0.1-15
+Version: 1.0.1-r15
 Depends: libc, luci-base, jshn
 Source: feeds/base/luci/applications/luci-app-advanced-reboot
 SourceName: luci-app-advanced-reboot
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1727094886
+SourceDateEpoch: 1733261076
+URL: https://github.com/stangri/luci-app-advanced-reboot/
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8008
-Filename: luci-app-advanced-reboot_1.0.1-15_all.ipk
-Size: 9024
-SHA256sum: a3bf2ed9f994bea3081a5ba910be43c2148d5c7e435b1be0dfbb759afbf40af9
+Installed-Size: 71680
+Filename: luci-app-advanced-reboot_1.0.1-r15_all.ipk
+Size: 9039
+SHA256sum: 608fcdfe21682f40cb24756961609366a77785d64d8d9472854a8bd4bc46d1d0
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://docs.openwrt.melmac.net/luci-app-advanced-reboot/
 
 Package: luci-app-easyflash
@@ -152,36 +155,38 @@ SHA256sum: e5fd0bae0131a45d4764fd21e88a71203998587758c9d1ff560a40da2d8fdea0
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: 2023.12.26-1
+Version: 2023.12.26-r1
 Depends: libc, luci-base, https-dns-proxy
 Source: feeds/base/luci/applications/luci-app-https-dns-proxy
 SourceName: luci-app-https-dns-proxy
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1727094886
+SourceDateEpoch: 1733261076
+URL: https://github.com/stangri/luci-app-https-dns-proxy/
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 11308
-Filename: luci-app-https-dns-proxy_2023.12.26-1_all.ipk
-Size: 12138
-SHA256sum: e9c6b5df0e20355862b28b0c763510d6edb267ddc6e86197197f344bda7ce2c4
+Installed-Size: 102400
+Filename: luci-app-https-dns-proxy_2023.12.26-r1_all.ipk
+Size: 12193
+SHA256sum: ed421c897c24adb5f2431351a6b1f49c14d5a0063b21ee3ee0adfb10343e6023
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.1.7-63
+Version: 1.1.7-r65
 Depends: libc, luci-base, jsonfilter, pbr
 Provides: luci-app-vpnbypass, luci-app-vpn-policy-routing
 Source: feeds/base/luci/applications/luci-app-pbr
 SourceName: luci-app-pbr
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1727094886
+SourceDateEpoch: 1733261076
+URL: https://github.com/stangri/luci-app-pbr/
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 9157
-Filename: luci-app-pbr_1.1.7-63_all.ipk
-Size: 10088
-SHA256sum: 7dc5aaa95b020b944e0c30778fdef0400d68d434103b23ce3d2e95a63d728647
+Installed-Size: 51200
+Filename: luci-app-pbr_1.1.7-r65_all.ipk
+Size: 10127
+SHA256sum: 3a23d5fcedea5214bef98e11eaa03a70c87c400dc4ef6c4cc19b139e5f8545a7
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -281,19 +286,20 @@ SHA256sum: 9b224642b8e560fd414b02d70c8c3c283fe6084ad067d8496afab0a8de8d9235
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr
-Version: 1.1.7-63
+Version: 1.1.7-r65
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 Source: feeds/packages/stangri/pbr
 SourceName: pbr
 License: AGPL-3.0-or-later
 Section: net
-SourceDateEpoch: 1727094886
+SourceDateEpoch: 1733261076
+URL: https://github.com/stangri/pbr/
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 23351
-Filename: pbr_1.1.7-63_all.ipk
-Size: 24539
-SHA256sum: 1468428c6281b2818710a6a880688d4867e38e06c403a9883092657024fe7e2a
+Installed-Size: 133120
+Filename: pbr_1.1.7-r65_all.ipk
+Size: 24567
+SHA256sum: a6477b3295c7d9f25246f622387d6eb93cb062c2ac05d4bb4111d23aff8cdeea
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
