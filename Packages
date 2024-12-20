@@ -125,10 +125,10 @@ License: AGPL-3.0-or-later
 Section: luci
 URL: https://github.com/stangri/luci-app-https-dns-proxy/
 Architecture: all
-Installed-Size: 102400
+Installed-Size: 92160
 Filename: luci-app-https-dns-proxy_2023.12.26-r1_all.ipk
-Size: 12154
-SHA256sum: 78f753f02dca40d157df225ea87288db91238cd8817f984c1cc396f311cbad93
+Size: 11826
+SHA256sum: 0208592f29b56c143418a7ea78984b79b554d5a63e4fdbafb935a185523c4f6a
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
