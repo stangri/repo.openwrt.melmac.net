@@ -127,8 +127,8 @@ URL: https://github.com/stangri/luci-app-https-dns-proxy/
 Architecture: all
 Installed-Size: 92160
 Filename: luci-app-https-dns-proxy_2023.12.26-r1_all.ipk
-Size: 11915
-SHA256sum: bc79ca999a3515c57f9c5b0d622c5ab6b34c718e7e879649e7b9706282d16680
+Size: 11923
+SHA256sum: a41c6008201fd70883152d12292624cfc70d8cfd113fb73d4b279c132cc71de8
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
