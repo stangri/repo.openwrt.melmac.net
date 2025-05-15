@@ -22,8 +22,8 @@ URL: https://github.com/stangri/adblock-fast/
 Architecture: all
 Installed-Size: 102400
 Filename: adblock-fast_1.1.3-r11_all.ipk
-Size: 20322
-SHA256sum: 4696c444ed51b04861a341a13832b7245767af1f6b5a5d42020721e27bc22feb
+Size: 20312
+SHA256sum: 5998ec1b66f0e315a0ee594ca86979f84a73b637010fff84a8915a6b88ccbcd3
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
@@ -77,8 +77,8 @@ URL: https://github.com/stangri/luci-app-adblock-fast/
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-adblock-fast_1.1.3-r11_all.ipk
-Size: 9615
-SHA256sum: 080fb6a0f76c21a9a604f8f86a51b49a49d59fc1e0f800735210204b3e15095b
+Size: 9618
+SHA256sum: 22e8e096622c685dbe593f2d124b11888dd1820e2dd49c7702ecedd197ebaac1
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
@@ -90,8 +90,8 @@ URL: https://github.com/stangri/luci-app-advanced-reboot/
 Architecture: all
 Installed-Size: 81920
 Filename: luci-app-advanced-reboot_1.0.1-r21_all.ipk
-Size: 9277
-SHA256sum: 256d98bc4fb1e23fed336300298ebe092aa87d5ae1eab86c5ad6379a17bec6d8
+Size: 9257
+SHA256sum: c9c47d559c8be10cdef1d2e9ba68d1a8d87af1937f51d2005c2daf3b903b9e5c
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://docs.openwrt.melmac.net/luci-app-advanced-reboot/
 
 Package: luci-app-easyflash
@@ -119,16 +119,16 @@ SHA256sum: e5fd0bae0131a45d4764fd21e88a71203998587758c9d1ff560a40da2d8fdea0
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: 2023.12.26-r5
+Version: 2025.05.11-r1
 Depends: libc, luci-base, https-dns-proxy
 License: AGPL-3.0-or-later
 Section: luci
 URL: https://github.com/stangri/luci-app-https-dns-proxy/
 Architecture: all
 Installed-Size: 92160
-Filename: luci-app-https-dns-proxy_2023.12.26-r5_all.ipk
-Size: 11980
-SHA256sum: fce6349ffa6b0e6579fd70d9a89171adc23cd85b2bbed94f8b8a72f589f60343
+Filename: luci-app-https-dns-proxy_2025.05.11-r1_all.ipk
+Size: 12037
+SHA256sum: cfb345a9396f2882362b5cb01de0f6d3983ec390c40a6a9cfeb52d80d52d87b7
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
@@ -141,8 +141,8 @@ URL: https://github.com/stangri/luci-app-pbr/
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-pbr_1.1.8-r16_all.ipk
-Size: 10218
-SHA256sum: 34150798e5f612b53c734744e88d4cadda792f5a7d5c112f3293c528782e64b2
+Size: 10212
+SHA256sum: 70a522287795fd26543b7ba8dbc278e60d288a277bcac8d1cccbba49cbb25cbc
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -226,8 +226,8 @@ URL: https://github.com/stangri/pbr/
 Architecture: all
 Installed-Size: 133120
 Filename: pbr_1.1.8-r16_all.ipk
-Size: 24490
-SHA256sum: 8ae3deb0ed07a5bf985282586f1a93d7a565819f6d6ebb44c17f431450123537
+Size: 24486
+SHA256sum: 2f598cf84cfa80d256f0dc18d8123b5fbae6862426b96b7ef24cce6f4e3d7393
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
