@@ -1,8 +1,8 @@
 # stangri's OpenWrt packages repo (for opkg/ipk binaries)
 
-This is the packages repo for the packages I'm maintaining for OpenWrt devices with opkg. For more information check out [documentation](https://docs.openwrt.melmac.net) or [browse packages' ipk binaries at GitHub](https://github.com/stangri/repo.openwrt.melmac.net).
+This is the packages repo for the packages I'm maintaining for OpenWrt devices with opkg. For more information check out [documentation](https://docs.openwrt.melmac.ca) or [browse packages' ipk binaries at GitHub](https://github.com/stangri/repo.openwrt.melmac.ca).
 
-You can also visit the apk binaries repository at [https://apk.openwrt.melmac.net](https://apk.openwrt.melmac.net).
+You can also visit the apk binaries repository at [https://apk.openwrt.melmac.ca](https://apk.openwrt.melmac.ca).
 
 <!-- markdownlint-disable MD033 -->
 
